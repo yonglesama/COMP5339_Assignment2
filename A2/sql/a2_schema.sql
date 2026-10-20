@@ -1,0 +1,12 @@
+-- Member C TODO: define the Assignment 2 DuckDB extension here.
+--
+-- Required logical areas are documented in A2/docs/team_contracts.md:
+--   1. immutable receipt of every MQTT event;
+--   2. price history;
+--   3. charging-session current/history state;
+--   4. meter telemetry for live curves;
+--   5. at least one current and one historical analytical query/view;
+--   6. relationships to the Assignment 1 station data.
+--
+-- Keep the A1 database unchanged and document C's keys, constraints, indexes and
+-- physical-design decisions. This file intentionally contains no solution SQL.

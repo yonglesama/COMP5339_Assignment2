@@ -1,0 +1,29 @@
+{
+  "start": "2026-10-01",
+  "days": 14,
+  "region": "NSW1",
+  "seed": 5339,
+  "meter_every_minutes": 1,
+  "static_prices": false,
+  "station_scope": "all_dc_stations",
+  "max_stations": null,
+  "urban_sa4_regions": [
+    "Central Coast",
+    "Illawarra",
+    "Newcastle and Lake Macquarie",
+    "Sydney - Baulkham Hills and Hawkesbury",
+    "Sydney - Blacktown",
+    "Sydney - City and Inner South",
+    "Sydney - Eastern Suburbs",
+    "Sydney - Inner South West",
+    "Sydney - Inner West",
+    "Sydney - North Sydney and Hornsby",
+    "Sydney - Northern Beaches",
+    "Sydney - Outer South West",
+    "Sydney - Outer West and Blue Mountains",
+    "Sydney - Parramatta",
+    "Sydney - Ryde",
+    "Sydney - South West",
+    "Sydney - Sutherland"
+  ]
+}

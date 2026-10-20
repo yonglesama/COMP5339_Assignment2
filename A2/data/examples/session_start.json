@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "event_id": "evt_example_start_001",
+  "sequence_number": 2,
+  "event_type": "session_start",
+  "event_time": "2026-10-01T10:05:00",
+  "event_timezone": "Australia/Sydney",
+  "station_id": "ST0129AC3933",
+  "payload": {
+    "session_id": "ST0129AC3933-1-202610011005",
+    "connector_id": 1,
+    "site_type": "regional",
+    "vehicle_model": "Test EV",
+    "price_per_kwh": 0.55
+  }
+}
