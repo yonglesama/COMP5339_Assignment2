@@ -1,0 +1,28 @@
+section,metric,value,note
+input,dc_charger_records,419,Rows in dc_candidates.parquet
+input,unique_dc_locations,414,Coverage denominator: unique station_id
+target,target_percent,50.0,Assignment target for DC fast charging locations
+target,target_location_count,207,Ceiling of 50% of unique DC locations
+target,target_record_count,210,"50% of DC charger rows, rounded up"
+external,osm_charging_station_elements,692,OSM objects in the query bounding box
+external,osm_data_timestamp_utc,2026-09-20T06:31:36Z,Timestamp returned by Overpass
+matching,matched_locations,244,Accepted OSM matches
+matching,matched_location_percent,58.94,Matched unique DC locations
+matching,unmatched_locations,170,Kept with empty new fields
+augmentation,augmented_locations,214,At least one of the three new fields
+augmentation,augmented_location_percent,51.69,Primary coverage measure
+augmentation,location_target_met,True,Must be true
+augmentation,augmented_charger_records,218,Rows with at least one new field
+augmentation,augmented_record_percent,52.03,Secondary coverage measure
+augmentation,record_target_met,True,Secondary check
+augmentation,distinct_osm_objects_for_augmented_locations,210,Shared OSM objects counted once
+augmentation,conservative_distinct_object_percent,50.72,Robustness check
+augmentation,conservative_distinct_object_target_met,True,Must still meet 50%
+matching,shared_osm_objects,4,OSM objects used by multiple station_id values
+matching,locations_using_shared_osm_objects,8,Locations flagged in matching_review.csv
+attribute,locations_with_plug_types,166,Non-null plug_types
+attribute,locations_with_charging_bays,169,Non-null charging_bays
+attribute,locations_with_pricing_information,89,Non-null pricing_information
+matching,high_confidence_matches,198,
+matching,medium_confidence_matches,44,
+matching,low_confidence_matches,2,

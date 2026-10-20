@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "nsw_ev_20251216",
+      "publisher": "Transport for NSW",
+      "version": "2025-12-16",
+      "landing_page": "https://opendata.transport.nsw.gov.au/data/dataset/ev-charging-locations",
+      "metadata_url": "https://data.gov.au/data/api/3/action/package_show?id=nsw-2-ev-charging-locations",
+      "metadata_path": "data/raw/metadata/nsw_ev_catalogue.json",
+      "url": "https://opendata.transport.nsw.gov.au/data/dataset/be1c4de4-4517-4bd0-8a09-2965ddfc7179/resource/7bbb6461-e52d-4fe7-ace4-a15c30198de0/download/ev_20251216.csv",
+      "path": "data/raw/nsw/ev_20251216.csv",
+      "format": "csv",
+      "sha256": "43970e7751b951ab459a1be7bfd6141756c60ff8aa797debf11c5a597109865a",
+      "max_bytes": 20000000
+    },
+    {
+      "id": "abs_sa4_2026",
+      "publisher": "Australian Bureau of Statistics",
+      "version": "ASGS Edition 4 2026 GDA2020",
+      "landing_page": "https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs/edition-4-july-2026-june-2031/access-and-downloads/digital-boundary-files",
+      "metadata_url": "https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs/edition-4-july-2026-june-2031/access-and-downloads/digital-boundary-files",
+      "metadata_path": "data/raw/metadata/abs_edition4_boundaries.html",
+      "url": "https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs/edition-4-july-2026-june-2031/access-and-downloads/digital-boundary-files/SA4_2026_AUST_SHP_GDA2020.zip",
+      "path": "data/raw/abs/SA4_2026_AUST_SHP_GDA2020.zip",
+      "extract_dir": "data/raw/abs/SA4_2026_AUST_SHP_GDA2020",
+      "format": "zip",
+      "sha256": "d2df15ee57dac089457fd6ff27e342d4f6286ab0dbc587fff20cf05664657323",
+      "max_bytes": 150000000
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+section,metric,value,note
+raw,rows,1958,data rows in ev_20251216.csv
+raw,columns,12,
+raw,rows_type_AC,1427,
+raw,rows_type_DC,433,
+raw,rows_type_Upcoming,98,
+raw,missing_OBJECTID,1837,93.8% blank
+raw,missing_Station_name,1438,73.4% blank
+raw,missing_Station_address,0,0.0% blank
+raw,missing_Operator,0,0.0% blank
+raw,missing_Number_of_plugs,0,0.0% blank
+raw,missing_Charger_Type,0,0.0% blank
+raw,missing_Charger_rating,0,0.0% blank
+raw,missing_Latitude,0,0.0% blank
+raw,missing_Longitude,0,0.0% blank
+raw,missing_LGANAME,121,6.2% blank
+raw,missing_PCODE,121,6.2% blank
+raw,missing_Source,121,6.2% blank
+raw,distinct_operator_spellings,50,
+exclusion,upcoming_not_installed,98,rule R1: planned chargers are not part of the network yet
+exclusion,invalid_coordinates,0,"rule R2: null / zero / swapped / outside NSW box (-37.6, -28.0, 140.9, 153.7)"
+transform,address_reformatted,927,counted over the raw rows examined (incl. upcoming rows)
+transform,address_whitespace_or_newline,733,counted over the raw rows examined (incl. upcoming rows)
+transform,operator_trailing_space,55,counted over the raw rows examined (incl. upcoming rows)
+transform,operator_remapped_rows,153,counted over the raw rows examined (incl. upcoming rows)
+transform,operator_truncation_repaired_rows,28,counted over the raw rows examined (incl. upcoming rows)
+transform,rating_placeholder_or_missing,522,counted over the raw rows examined (incl. upcoming rows)
+transform,rating_unit_added,18,counted over the raw rows examined (incl. upcoming rows)
+transform,rating_mixed_text_rows,5,counted over the raw rows examined (incl. upcoming rows)
+transform,postcode_prefix_stripped,10,counted over the raw rows examined (incl. upcoming rows)
+transform,postcode_overridden_by_address,24,counted over the raw rows examined (incl. upcoming rows)
+transform,postcode_filled_from_address,22,counted over the raw rows examined (incl. upcoming rows)
+transform,station_name_trimmed,20,counted over the raw rows examined (incl. upcoming rows)
+transform,station_name_equals_operator,8,counted over the raw rows examined (incl. upcoming rows)
+transform,distinct_operator_after_mapping,39,rule T3 operator mapping (see OPERATOR_MAP)
+duplicates,candidate_pairs_within_review_distance,110,
+duplicates,pairs_merged,64,
+duplicates,pairs_kept_separate_for_review,46,
+duplicates,sensitivity_records_removed_at_5m,31,how many records rule D1-D3 would remove for this distance threshold
+duplicates,sensitivity_records_removed_at_10m,33,how many records rule D1-D3 would remove for this distance threshold
+duplicates,sensitivity_records_removed_at_30m,51,how many records rule D1-D3 would remove for this distance threshold
+duplicates,sensitivity_records_removed_at_50m,62,how many records rule D1-D3 would remove for this distance threshold
+duplicates,sensitivity_records_removed_at_100m,80,how many records rule D1-D3 would remove for this distance threshold
+duplicates,records_removed_as_duplicates,57,rule D1-D3 at 30 m
+duplicates,groups_with_more_than_one_record,50,
+duplicates,largest_group_size,3,
+reconciliation,raw_rows,1958,
+reconciliation,excluded_rows,155,upcoming + invalid + duplicates
+reconciliation,clean_rows,1803,raw = excluded + clean (checked)
+clean,rows,1803,
+clean,rows_AC,1384,
+clean,rows_DC,419,
+clean,distinct_stations,1772,charger records within 30 m
+clean,stations_with_DC,414,
+clean,largest_station_diameter_m,29.3,check for chaining; should be small
+clean,plugs_total,4933,
+clean,station_name_missing,1304,blank or operator-only names remain missing; no label is invented
+clean,rating_kw_missing,495,rating was the placeholder 'AC' and no duplicate had a value
+clean,postcode_missing,0,
+clean,lga_name_missing,5,LGA is only filled for the main programmes
+clean,rows_with_quality_flags,1803,
+flags,station_name_missing,1304,
+flags,rating_missing,495,
+flags,merged_duplicates,50,
+flags,postcode_overridden_by_address,24,
+flags,merge_conflict_plugs,6,
+flags,merge_conflict_rating,6,
+flags,merge_conflict_name,5,
+flags,postcode_filled_from_address,5,
+flags,source_program_missing,5,
+flags,merge_conflict_operator,2,
+flags,postcode_not_2xxx,2,
+flags,plugs_very_high_check,2,
+flags,address_no_street,1,
+flags,rating_text_plugs_differ,1,
+dc_candidates,dc_charger_records,419,denominator if coverage is counted per charger record
+dc_candidates,dc_stations,414,denominator if coverage is counted per station (recommended)
+dc_candidates,min_records_for_50pct,210,
+dc_candidates,min_stations_for_50pct,207,
+dc_candidates,operator_Evie,97,DC records per operator (top 8)
+dc_candidates,operator_NRMA,67,DC records per operator (top 8)
+dc_candidates,operator_Tesla,55,DC records per operator (top 8)
+dc_candidates,operator_JOLT,49,DC records per operator (top 8)
+dc_candidates,operator_Chargefox,48,DC records per operator (top 8)
+dc_candidates,operator_BP,32,DC records per operator (top 8)
+dc_candidates,operator_Ampol,31,DC records per operator (top 8)
+dc_candidates,operator_Exploren,23,DC records per operator (top 8)
+spatial_join,input_chargers,1803,cleaned charger records
+spatial_join,matched_chargers,1803,point-in-polygon match or documented coastal fallback
+spatial_join,unmatched_chargers,0,retained with null sa4_region
+spatial_join,nearest_fallback_chargers,1,unmatched coastal points assigned to the nearest SA4 within 100 m
+spatial_join,distinct_sa4_regions,28,SA4_NAME26 values

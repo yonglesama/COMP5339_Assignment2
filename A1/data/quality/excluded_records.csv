@@ -1,0 +1,156 @@
+source_row,source_program,operator_raw,address,latitude,longitude,raw_type,raw_rating,raw_plugs,reason,detail
+20,Existing Destination Chargers,Chargefox,"1 Golf Club Rd, Deniliquin, 2710",-35.53652657,144.9742282,AC,22 kW,4,duplicate_merged,kept_source_row=1820
+159,Existing Destination Chargers,Chargefox,"14-16 Darling St, Wentworth, 2648",-34.10961266,141.9201061,AC,22 kW,2,duplicate_merged,kept_source_row=1919
+223,Existing Destination Chargers,Exploren,"179 Gillards Rd, Pokolbin, 2320",-32.7640561,151.2915996,AC,22 kW,1,duplicate_merged,kept_source_row=1308
+244,Existing Destination Chargers,Exploren,"19 Buchanan Drive, South West Rocks, 2431",-30.88653058,153.037958,AC,22 kW,2,duplicate_merged,kept_source_row=817
+254,Existing Destination Chargers,Exploren,"193 George St, Quirindi, 2343",-31.50737342,150.6804785,AC,22 kW,2,duplicate_merged,kept_source_row=1336
+373,Kerbside Charging R1,EVX,"251 Edgecliff Rd, Woollahra NSW 2025",-33.8885736,151.2444096,AC,22 kW,2,duplicate_merged,kept_source_row=46
+407,Existing Destination Chargers,ChargeHub,"291 King St, Newcastle, 2300",-32.92882087,151.76801,AC,22 kW,4,duplicate_merged,kept_source_row=1457
+557,Kerbside Charging R1,Chargefox,"44 Station St, Wickham NSW 2293",-32.9230228,151.7572335,AC,22 kW,2,duplicate_merged,kept_source_row=548
+558,Existing Destination Chargers,Exploren,"446 Dean St, Albury, 2640",-36.08063568,146.9216096,AC,22 kW,4,duplicate_merged,kept_source_row=606
+599,Existing Destination Chargers,Exploren,"51 Bathurst St, Condobolin, 2877",-33.08860065,147.1494875,AC,22 kW,2,duplicate_merged,kept_source_row=1590
+603,Kerbside Charging R1,EVE Australia,"52 Pembroke St, Ashfield NSW 2131",-33.8853908,151.1322384,AC,22 kW,2,duplicate_merged,kept_source_row=596
+605,Existing Destination Chargers,Exploren,"52 Taylor Rd, Albion Park, 2527",-34.57038143,150.7687437,AC,22 kW,4,duplicate_merged,kept_source_row=1306
+657,Kerbside Charging R1,EVX,"60 Frenchs Rd, Willoughby NSW 2068",-33.8073934,151.200067,AC,22 kW,2,duplicate_merged,kept_source_row=630
+680,Existing Destination Chargers,Exploren,"69 Roxy Lane, Kyogle, 2474",-28.62146551,153.0030681,AC,22 kW,2,duplicate_merged,kept_source_row=1328
+689,Existing Destination Chargers,Exploren,"70 Maitland St, Bingara, 2404",-29.86907512,150.5712432,AC,22 kW,2,duplicate_merged,kept_source_row=702
+776,Kerbside Charging R1,Evie Networks,"92 Houston Rd, Kingsford NSW 2032",-33.9242319,151.2266791,DC,50 kW,2,duplicate_merged,kept_source_row=755
+826,Existing Fast Chargers,Ampol,"Castlereagh Rd, Sydney, 2750",-33.74298103,150.69296,DC,150 kW,2,duplicate_merged,kept_source_row=188
+866,Existing Destination Chargers,Chargefox,"Griffith St, Tweed Heads, 2485",-28.16872577,153.5430551,AC,22 kW,2,duplicate_merged,kept_source_row=1413
+894,Existing Destination Chargers,Everty,"Larkin Ln, Lismore, 2480",-28.80843648,153.2793393,AC,11 kW,3,duplicate_merged,kept_source_row=1752
+906,Existing Destination Chargers,Exploren,"Merry Beach Rd, Kioloa, 2539",-35.56540945,150.371977,AC,6 kW,4,duplicate_merged,kept_source_row=1562
+937,Existing Destination Chargers,Exploren,"Princes Hwy, Ulladulla, 2539",-35.36842147,150.4706086,AC,22 kW,4,duplicate_merged,kept_source_row=1398
+964,Existing Destination Chargers,Chargefox,"Tathra Bermagui Rd, Tathra, 2550",-36.71254459,149.976018,AC,22 kW,2,duplicate_merged,kept_source_row=1809
+983,Existing Destination Chargers,Non-networked,"33 Gugandi Rd, Narara NSW 2250",-33.3931163,151.3286306,AC,AC,1,duplicate_merged,kept_source_row=1495
+984,Existing Destination Chargers,Non-networked,"53 Railway St, Griffith NSW 2680",-34.2866312,146.0445254,AC,AC,2,duplicate_merged,kept_source_row=1604
+985,,BP Australia,"422 Pacific Hwy, Artarmon NSW 2064",-33.8114193,151.1756084,UPCOMING,2x350kW & 2x175kW,4,upcoming_not_installed,
+986,,NRMA Electric,129 Pacific Hwy Ourimbah NSW 2258,-33.3531977,151.3690265,UPCOMING,2x350kW & 2x175kW,4,upcoming_not_installed,
+987,,Viva Energy A,"4974 Pacific Hwy, Halfway Creek NSW 2460",-29.9348834,153.0947952,UPCOMING,2x350kW & 2x175kW,4,upcoming_not_installed,
+988,,Fast Cities A,"Stoney Creek Road Car Park, 497 Forest Rd, Bexley, 2207, NSW",-33.9493369,151.1163356,UPCOMING,2x350kW & 2x175kW,4,upcoming_not_installed,
+989,,Tesla Motors,"491 Masonite Rd, Heatherbrae NSW 2324",-32.7830573,151.737598,UPCOMING,2x350kW & 6x175kW,10,upcoming_not_installed,
+990,,Tesla Motors,Ross Smith Ave Mascot NSW 2020,-33.9380083,151.1924793,UPCOMING,2x350kW & 2x175kW,6,upcoming_not_installed,
+991,,NRMA Electric,88 Smithfield Rd Smithfield NSW 2164,-33.8556807,150.9371884,UPCOMING,2x350kW & 2x175kW,4,upcoming_not_installed,
+992,,BP Australia,"3 Carlton Cres, Summer Hill, NSW, 2130",-33.8923484,151.1431188,UPCOMING,2x350kW & 2x175kW,4,upcoming_not_installed,
+993,,Fast Cities A,"135 Fairfield Rd, Guildford West 2161, NSW",-33.8509905,150.9597807,UPCOMING,2x350kW & 6x175kW,8,upcoming_not_installed,
+994,,Fast Cities A,"Campbell Pde, Bondi Beach NSW 2026",-33.8897295,151.2797592,UPCOMING,2x350kW & 6x175kW,8,upcoming_not_installed,
+995,,Tesla Motors,"Ewingsdale Rd, Byron Bay NSW 2481",-28.6380154,153.5859269,UPCOMING,2x350kW & 2x175kW,10,upcoming_not_installed,
+996,,NRMA Electric,16 Cooper St Macksville NSW 2447,-30.7084608,152.9200674,UPCOMING,2x350kW & 2x175kW,4,upcoming_not_installed,
+997,,BP Australia,100 Pacific Hwy Tuggerah NSW 2259,-33.3058764,151.419746,UPCOMING,2x350kW & 2x175kW,6,upcoming_not_installed,
+998,,NRMA Electric,50 Pitt St Singleton NSW 2330,-32.5651168,151.1744586,UPCOMING,2x350kW & 2x175kW,4,upcoming_not_installed,
+999,,BP Australia,"Charter Hall Lake Macquarie, 46 Wilson Road, Mount Hutton NSW 2290",-32.9847608,151.6724345,UPCOMING,2x350kW & 2x175kW,8,upcoming_not_installed,
+1000,,NRMA Electric,"37-39 Bong Bong Street, Dapto NSW 2023",-34.4940356,150.7915413,UPCOMING,2x350kW & 2x175kW,4,upcoming_not_installed,
+1001,,EVE Australia,"52 Pembroke St, Ashfield NSW 2131",-33.8853908,151.1322384,AC,22,2,duplicate_merged,kept_source_row=596
+1002,,Tesla Motors,19-21 Tennyson Rd Breakfast Point NSW 2137,-33.8421503,151.1081903,UPCOMING,2x350kW & 2x175kW,6,upcoming_not_installed,
+1003,,NRMA,"82 Mulgoa Rd, Jamisontown NSW 2750",-33.7650763,150.6816643,UPCOMING,2x350kW & 2x175kW,4,upcoming_not_installed,
+1004,,NRMA Electric,3A Cowell Cowell St Gladesville NSW 2111,-33.8325832,151.1280159,UPCOMING,2x350kW & 2x175kW,4,upcoming_not_installed,
+1005,,BP Australia,107 Erskine St Dubbo NSW 2830,-32.2444498,148.6113542,UPCOMING,2x350kW & 2x175kW,6,upcoming_not_installed,
+1006,,BP Australia,478 Pacific Hwy Killara NSW 2071,-33.7719283,151.1613759,UPCOMING,2x350kW & 2x175kW,12,upcoming_not_installed,
+1007,,Tesla Motors,1/3 Brady St Mosman NSW 2088,-33.823985,151.2403914,UPCOMING,2x350kW & 6x175kW,8,upcoming_not_installed,
+1008,,BP Australia,"214 Sydney Rd, Kelso NSW 2795",-33.4191251,149.6220049,UPCOMING,2x350kW & 2x175kW,6,upcoming_not_installed,
+1009,,Fast Cities A,"89 Darley St, Mona Vale, NSW, 2103",-33.6753877,151.3048385,UPCOMING,2x350kW & 2x175kW,4,upcoming_not_installed,
+1010,,BP Australia,"Bp Young, Cnr Zouch and Edward Streets, Young NSW 2594",-34.3134008,148.2979356,UPCOMING,2x350kW & 2x175kW,4,upcoming_not_installed,
+1011,,NRMA Electric,57 Manchester Rd Gymea NSW 2227,-34.032498,151.0881117,UPCOMING,2x350kW & 2x175kW,4,upcoming_not_installed,
+1012,,Exploren,"Buchanan Dr, South West Rocks NSW 2431",-30.88653,153.0379572,AC,22,2,duplicate_merged,kept_source_row=817
+1013,,Fast Cities A,"16 Terminus St, Castle Hill, 2154, NSW",-33.7331773,151.0058503,UPCOMING,2x350kW & 2x175kW,4,upcoming_not_installed,
+1014,,Energy Austra,"180 Stacey Street & Stanley Street, Bankstown, NSW 2200",-33.9209876,151.0389481,UPCOMING,2x350kW & 2x175kW,4,upcoming_not_installed,
+1015,,Fast Cities A,"28 Blue Gum Rd, Jesmond NSW 2299",-32.9024593,151.6897872,UPCOMING,2x350kW & 2x175kW,4,upcoming_not_installed,
+1016,,PLUS ES Manag,4 Carter St Lidcombe NSW 2141,-33.8534728,151.0615424,UPCOMING,2x350kW & 2x175kW,5,upcoming_not_installed,
+1017,,Viva Energy A,"2 Macquarie Pl, Haywards Bay NSW 2530",-34.5412251,150.7855766,UPCOMING,2x350kW & 2x175kW,4,upcoming_not_installed,
+1018,,Fast Cities A,"West Ryde Marketplace, 14 Anthony Rd, West Ryde NSW 2114",-33.8064638,151.0883017,UPCOMING,2x350kW & 2x175kW,4,upcoming_not_installed,
+1019,,Fast Cities A,"273 Fowler Rd, Illawong NSW 2234",-33.9971362,151.042223,UPCOMING,2x350kW & 2x175kW,4,upcoming_not_installed,
+1021,,Tesla Motors,3-5 Underwood Rd Homebush NSW 2140,-33.8556219,151.0767955,UPCOMING,2x350kW & 6x175kW,8,upcoming_not_installed,
+1022,,Tesla Motors,"Ozone St, Chinderah NSW 2487",-28.2444054,153.5574467,UPCOMING,2x350kW & 2x175kW,10,upcoming_not_installed,
+1023,,BP Australia,131 Monaro St Queanbeyan NSW 2620,-35.3519519,149.2350132,UPCOMING,2x350kW & 2x175kW,8,upcoming_not_installed,
+1024,,BP Australia,Butler Rd Mascot NSW 2020,-33.9440348,151.1855682,UPCOMING,2x350kW & 2x175kW,6,upcoming_not_installed,
+1025,,Tesla Motors,13 Boundary St Macksville NSW 2447,-30.7126435,152.9218789,UPCOMING,2x350kW & 2x175kW,6,upcoming_not_installed,
+1026,,Non-Networked,"351 Pacific Hwy, Coffs Harbour NSW 2450",-30.2746956,153.1338197,UPCOMING,22,4,upcoming_not_installed,
+1027,,Viva Energy A,"9-11 Roberts Rd, Greenacre NSW 2190",-33.8944869,151.0666959,UPCOMING,2x350kW & 2x175kW,4,upcoming_not_installed,
+1028,,Fast Cities A,"238-262 Bunnerong Rd, Hillsdale NSW 2036",-33.9519798,151.231009,UPCOMING,2x350kW & 2x175kW,4,upcoming_not_installed,
+1029,,NRMA Electric,203 Holt Rd Taren Point NSW 2229,-34.0202686,151.1170958,UPCOMING,2x350kW & 2x175kW,4,upcoming_not_installed,
+1030,,Tesla Motors,6 Ferdinand Ln Jerrabomberra NSW 2619,-35.3806357,149.1966832,UPCOMING,2x350kW & 2x175kW,6,upcoming_not_installed,
+1031,,Viva Energy A,"797 Pacific Hwy, Belmont South NSW 2280",-33.0509619,151.6552182,UPCOMING,2x350kW & 2x175kW,4,upcoming_not_installed,
+1032,,NRMA Electric,"Alexander St, Crows Nest NSW 2065",-33.8254711,151.2024328,UPCOMING,2x350kW & 6x175kW,8,upcoming_not_installed,
+1033,,BP Australia,"450 Quakers Hill Pkwy, Quakers Hill NSW 2763",-33.7299642,150.9022838,UPCOMING,2x350kW & 2x175kW,4,upcoming_not_installed,
+1034,,Fast Cities A,"205 Old Hume Hwy, Mittagong NSW 2575",-34.4470632,150.4368729,UPCOMING,2x350kW & 2x175kW,4,upcoming_not_installed,
+1036,,Viva Energy A,"52–58 Gardeners Rd, Kingsford NSW 2032",-33.9250367,151.2257445,UPCOMING,2x350kW & 2x175kW,4,upcoming_not_installed,
+1037,,Evie Networks,"92 Houston Rd, Kingsford NSW 2032",-33.9242319,151.2266791,DC,50,2,duplicate_merged,kept_source_row=755
+1038,,Tesla Motors,260A Liverpool Rd Ashfield NSW 2131,-33.8894371,151.1241176,UPCOMING,2x350kW & 6x175kW,8,upcoming_not_installed,
+1039,,Tesla Motors,79/113 Sailors Bay Rd Northbridge NSW 2063,-33.8101145,151.2088161,UPCOMING,2x350kW & 2x175kW,6,upcoming_not_installed,
+1040,,NRMA Electric,"29 Church St, Maitland NSW 2320",-32.732981,151.5535599,UPCOMING,2x350kW & 2x175kW,4,upcoming_not_installed,
+1041,,Tesla Motors,15 Crawford St Jindabyne NSW 2627,-36.4372503,148.6013552,UPCOMING,2x350kW & 2x175kW,6,upcoming_not_installed,
+1042,,BP Australia,King St Warrawong NSW 2502,-34.4881789,150.8880738,UPCOMING,2x350kW & 2x175kW,8,upcoming_not_installed,
+1043,,Tesla Motors,528 Kent St Sydney NSW 2000,-33.8758825,151.2057916,UPCOMING,2x350kW & 2x175kW,6,upcoming_not_installed,
+1044,,Non-Networked,"3 Government Rd, Nelson Bay NSW 2315",-32.7211118,152.1728405,UPCOMING,7,2,upcoming_not_installed,
+1045,,Fast Cities A,"658 Terrigal Dr, Erina NSW 2250",-33.4366058,151.3925412,UPCOMING,2x350kW & 2x175kW,4,upcoming_not_installed,
+1046,,BP Australia,"712 Pennant Hills Rd, Carlingford NSW 2118",-33.7636448,151.0474084,UPCOMING,2x350kW & 2x175kW,4,upcoming_not_installed,
+1047,,BP Australia,"Bp Kennedy Drive, CNR KENNEDY DVE & DUCAT ST, Tweed Heads NSW 2485",-28.1859,153.5259866,UPCOMING,2x350kW & 2x175kW,4,upcoming_not_installed,
+1048,,Fast Cities A,1 Kiaora Lane Double Bay NSW 2028,-33.878037,151.2439559,UPCOMING,2x350kW & 2x175kW,4,upcoming_not_installed,
+1049,,Fast Cities A,"1 Frederick St, Artarmon, NSW, 2064",-33.817079,151.1889358,UPCOMING,2x350kW & 6x175kW,8,upcoming_not_installed,
+1050,,Non-Networked,"Mitchell Ave, Khancoban NSW 2642",-36.2140735,148.1324093,UPCOMING,22,4,upcoming_not_installed,
+1051,,Tesla Motors,197-215 Condamine St Balgowlah NSW 2093,-33.7929122,151.2645298,DC,2x350kW & 2x175kW,6,duplicate_merged,kept_source_row=255
+1052,,EVX,"60 Frenchs Rd, Willoughby NSW 2068",-33.8073934,151.200067,AC,22,2,duplicate_merged,kept_source_row=630
+1053,,Tesla Motors,"190 Princes Hwy, South Nowra, NSW, 2541",-34.9158556,150.6042297,UPCOMING,2x350kW & 6x175kW,10,upcoming_not_installed,
+1054,,BP Australia,"Bp Rozelle, Cnr VIC Rd & Evans St, Rozelle NSW 2039",-33.8653,151.1716,UPCOMING,2x350kW & 2x175kW,4,upcoming_not_installed,
+1055,,BP Australia,"Bp Marsden Park, 851 Richmond Road, Marsden Park NSW 2765",-33.7195232,150.8449177,UPCOMING,2x350kW & 2x175kW,4,upcoming_not_installed,
+1056,,Tesla Motors,16/20 New England Hwy Willow Tree NSW 2339,-31.6491378,150.7266298,UPCOMING,2x350kW & 2x175kW,6,upcoming_not_installed,
+1057,,EVE Australia,1A Keith St Dulwich Hill NSW,-33.9098594,151.141688,AC,22,2,duplicate_merged,kept_source_row=262
+1058,,Tesla Motors,88 Mortimer St Mudgee NSW 2850,-32.5926744,149.5869726,UPCOMING,2x350kW & 2x175kW,6,upcoming_not_installed,
+1059,,NRMA Electric,33 Village Cct Gregory Hills NSW 2557,-34.0262581,150.777729,UPCOMING,2x350kW & 2x175kW,4,upcoming_not_installed,
+1060,,BP Australia,"Bp Dundas, 256 Kissing Point Rd, Dundas Valley NSW 2117",-33.7989253,151.0543765,UPCOMING,2x350kW & 2x175kW,4,upcoming_not_installed,
+1061,,EVX,"3 Hilltop Cres, Fairlight NSW 2094",-33.7964448,151.2754491,AC,22,2,duplicate_merged,kept_source_row=426
+1062,,BP Australia,"Charter Hall Rutherford Marketplace, 1 Hillview St, Rutherford NSW 2320",-32.7156085,151.5265817,UPCOMING,2x350kW & 2x175kW,8,upcoming_not_installed,
+1063,,University of,"University of Wollongong, Northfields Avenue, Wollongong NSW 2522",-34.4079569,150.877135,DC,2x350kW & 2x175kW,6,duplicate_merged,kept_source_row=969
+1064,,NRMA Electric,25 Anglo Rd Campsie NSW 2194,-33.9112009,151.1014558,UPCOMING,2x350kW & 2x175kW,4,upcoming_not_installed,
+1065,,Fast Cities A,"Cnr Swallow & Peppertree Drive, Erskine Park NSW 2759",-33.8041175,150.7988975,UPCOMING,2x350kW & 2x175kW,4,upcoming_not_installed,
+1066,,Non-Networked,"7-11 Lawrence Hargrave Dr, Helensburgh NSW 2508",-34.2055705,150.9689186,AC,22,4,duplicate_merged,kept_source_row=693
+1067,,NRMA Electric,1-5 Hill Rd Sydney Olympic Park NSW 2127,-33.846599,151.0567307,UPCOMING,2x350kW & 6x175kW,8,upcoming_not_installed,
+1068,,Non-Networked,"14 Macauley St, Denman NSW 2328",-32.3941764,150.6844874,AC,7,2,duplicate_merged,kept_source_row=154
+1069,,BP Australia,Hill St Picton NSW 2571,-34.1880903,150.6070342,UPCOMING,2x350kW & 2x175kW,6,upcoming_not_installed,
+1070,,BP Australia,"Bp Mortdale, 21 Boundary Rd, Mortdale NSW 2223",-33.970669,151.073689,UPCOMING,2x350kW & 2x175kW,4,upcoming_not_installed,
+1071,,Non-Networked,"74 Maitland St, Bingara NSW 2404",-29.869128,150.5714344,AC,22,2,duplicate_merged,kept_source_row=702
+1072,,Tesla Motors,4/6 Niangala Clos Belrose NSW 2085,-33.7034771,151.2131487,UPCOMING,2x350kW & 2x175kW,6,upcoming_not_installed,
+1073,,Tesla Motors,Auckland St Bega NSW 2550,-36.6784759,149.8397774,UPCOMING,2x350kW & 2x175kW,6,upcoming_not_installed,
+1074,,Tesla Motors,"Grafton St, Coffs Harbour NSW 2450",-30.2955876,153.1146281,UPCOMING,2x350kW & 2x175kW,15,upcoming_not_installed,
+1075,,Exploren,"406 Moppett St, Hay NSW 2711",-34.5089561,144.8428431,AC,22,2,duplicate_merged,kept_source_row=532
+1076,,EVX,"251 Edgecliff Rd, Woollahra NSW 2025",-33.8885736,151.2444096,AC,22,2,duplicate_merged,kept_source_row=46
+1079,,BP Australia,347 Great Western Hwy South Wentworthville NSW 2145,-33.8158382,150.9687572,UPCOMING,2x350kW & 2x175kW,6,upcoming_not_installed,
+1080,,Tesla Motors,11 The Boulevarde Strathfield NSW 2135,-33.8732249,151.0931072,UPCOMING,2x350kW & 6x175kW,8,upcoming_not_installed,
+1081,,BP Australia,"Bp Rydalmere, 265 Victoria Rd, Rydalmere, NSW, 2116",-33.8118926,151.0947271,UPCOMING,2x350kW & 2x175kW,4,upcoming_not_installed,
+1082,,BP Australia,"Charter Hall Carnes Hill Marketplace, Corner Cowpasture & Kurrajong Roads, Horningsea Park NSW 2171",-33.9360579,150.8450408,UPCOMING,2x350kW & 2x175kW,8,upcoming_not_installed,
+1083,,Non-Networked,"East St, Harden NSW 2587",-34.5624066,148.3641064,UPCOMING,22,4,upcoming_not_installed,
+1084,,BP Australia,"Bp Bonnyrigg, CNR COWPASTURE & NTH LIVERPOOL RDS, Bonnyrigg NSW 2177",-33.8942808,150.8579509,UPCOMING,2x350kW & 2x175kW,4,upcoming_not_installed,
+1085,,BP Australia,"Bp Moorebank, 226/228 Newbridge Rd, Moorebank NSW 2170",-33.9293332,150.9532015,UPCOMING,2x350kW & 2x175kW,4,upcoming_not_installed,
+1086,,BP Australia,"Bp Potts Hill Truckstop, 155-157 Rockwood Road, Yagoona NSW 2199",-33.8933986,151.0389026,UPCOMING,2x350kW & 2x175kW,4,upcoming_not_installed,
+1087,,NRMA Electric,2 Macquarie St Parramatta NSW 2150,-33.8138396,150.9995065,UPCOMING,2x350kW & 2x175kW,4,upcoming_not_installed,
+1088,,Viva Energy A,"241 Waterworth Dr, Mount Annan NSW 2567",-34.0495366,150.7601125,DC,2x350kW & 2x175kW,4,duplicate_merged,kept_source_row=361
+1090,,Tesla Motors,"19 Princes Hwy, Figtree NSW 2525",-34.4366153,150.8632982,DC,2x350kW & 2x175kW,6,duplicate_merged,kept_source_row=247
+1091,,PLUS ES Manag,2 Orchard Ave Singleton NSW 2330,-32.56947,151.179984,UPCOMING,2x350kW & 2x175kW,5,upcoming_not_installed,
+1092,,Fast Cities A,"245/259 Pittwater Rd, Manly NSW 2095",-33.787031,151.2812746,UPCOMING,2x350kW & 2x175kW,4,upcoming_not_installed,
+1093,,BP Australia,"Bp Normanhurst, 155 Pennant Hills Rd, Normanhurst NSW 2076",-33.7245,151.0901,UPCOMING,2x350kW & 2x175kW,4,upcoming_not_installed,
+1094,,Fast Cities A,"Avenue of Europe, Newington NSW 2127",-33.8342986,151.0564365,UPCOMING,2x350kW & 2x175kW,4,upcoming_not_installed,
+1095,,Tesla Motors,55 Norton St Leichhardt NSW 2040,-33.8859319,151.1579799,UPCOMING,2x350kW & 6x175kW,8,upcoming_not_installed,
+1096,,PLUS ES,"180 Darling St, Balmain NSW 2041",-33.8584276,151.186886,AC,7,1,duplicate_merged,kept_source_row=1317
+1097,,Fast Cities A,"240 Hillsborough Rd, Warners Bay NSW 2282",-32.9637983,151.662073,UPCOMING,2x350kW & 2x175kW,4,upcoming_not_installed,
+1098,,Viva Energy A,"386 Pennant Hills Rd, Pennant Hills NSW 2120",-33.7393138,151.0679697,UPCOMING,2x350kW & 2x175kW,4,upcoming_not_installed,
+1099,,Tesla Motors,"14 Anzac Ave, Fairfield NSW 2165",-33.8729153,150.9587919,UPCOMING,2x350kW & 6x175kW,12,upcoming_not_installed,
+1100,,NRMA Electric,"Clarence St, Moss Vale NSW 2577",-34.5484218,150.3735673,UPCOMING,2x350kW & 2x175kW,4,upcoming_not_installed,
+1101,,Chargefox,"44 Station St, Wickham NSW 2293",-32.9230228,151.7572335,AC,22,2,duplicate_merged,kept_source_row=548
+1102,,BP Australia,"134 Seven Hills Rd, Baulkham Hills NSW 2153",-33.7615731,150.9737579,UPCOMING,2x350kW & 2x175kW,4,upcoming_not_installed,
+1103,,EVUp,"119 Borella Rd, East Albury NSW 2640",-36.0777139,146.9437845,AC,22,4,duplicate_merged,kept_source_row=102
+1104,,Tesla Motors,19A Evans Evans Ave Eastlakes NSW 2018,-33.9243791,151.2103938,UPCOMING,2x350kW & 6x175kW,8,upcoming_not_installed,
+1105,,Tesla Motors,215 Anzac Pde Kensington NSW 2033,-33.9168297,151.2253621,UPCOMING,2x350kW & 2x175kW,6,upcoming_not_installed,
+1166,Existing Destination Chargers,Non-networked,"29 Lake St, Lake Albert NSW 2650",-35.1711683,147.3792851,AC,AC,2,duplicate_merged,kept_source_row=1553
+1348,Kerbside Charging R1,Evie Networks,"2 Coast Hospital Rd, Little Bay NSW 2036",-33.9808158,151.2498636,DC,75 kW,2,duplicate_merged,kept_source_row=265
+1432,Kerbside Charging R1,EVX,"26 Terry St, Balmain NSW 2041",-33.857791,151.1713403,AC,22 kW,2,duplicate_merged,kept_source_row=381
+1447,Kerbside Charging R1,Evie Networks,"2-8 Turramurra Ave, Turramurra NSW 2074",-33.732342,151.1304142,DC,75 kW,4,duplicate_merged,kept_source_row=399
+1476,Kerbside Charging R1,EVX,"30 Military Road, North Bondi NSW 2026",-33.8857701,151.2842064,AC,22 kW,2,duplicate_merged,kept_source_row=455
+1514,Kerbside Charging R1,EVX,"36 Napier St, Paddington NSW 2021",-33.8831409,151.2199952,AC,22 kW,2,duplicate_merged,kept_source_row=917
+1528,Kerbside Charging R1,Evie Networks,"3A Cowell St, Gladesville NSW 2111",-33.8329216,151.1276887,DC,75 kW,2,duplicate_merged,kept_source_row=512
+1547,Destination Charging R2,Non-networked,"42 Lake Canobolas Rd, Nashdale NSW 2800",-33.2990773,149.0193866,AC,AC,2,duplicate_merged,kept_source_row=545
+1565,Kerbside Charging R1,Chargefox,"47-49A Cleary St, Hamilton NSW 2303",-32.9212044,151.7479743,DC,60 kW,2,duplicate_merged,kept_source_row=575
+1629,Kerbside Charging R1,Evie Networks,"60-62 Amherst St, Cammeray NSW 2062",-33.8227718,151.2109254,DC,50 kW,4,duplicate_merged,kept_source_row=663
+1655,Destination Charging R2,Non-networked,"67-71 Bulahdelah Way, Bulahdelah NSW 2423",-32.4092056,152.2106639,AC,AC,2,duplicate_merged,kept_source_row=691
+1690,Destination Charging R2,Non-networked,"771 Hermitage Rd, Pokolbin NSW 2320",-32.7165581,151.2572876,AC,AC,2,duplicate_merged,kept_source_row=982
+1703,Kerbside Charging R1,Chargefox,"801-899R Bunnerong Rd, Chifley NSW 2036",-33.9729613,151.2365649,DC,50 kW,2,duplicate_merged,kept_source_row=818
+1803,Destination Charging R2,Non-networked,"Victoria Hill Rd, Adelong NSW 2729",-35.3062556,148.0642927,AC,AC,4,duplicate_merged,kept_source_row=972
+1861,Kerbside Charging R1,Evie Networks,"106 Parraween St, Cremorne NSW 2090",-33.8272794,151.2301624,DC,75 kW,4,duplicate_merged,kept_source_row=69

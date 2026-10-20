@@ -1,0 +1,1804 @@
+charger_id,station_id,source_rows,merged_record_count,operator_raw,station_name,rating_kw,quality_flags
+EV1FD6B5D300,ST1FD6B5D300,2,1,EVUp,,22.0,address_no_street;station_name_missing
+EV6DA75D652D,ST6DA75D652D,3,1,BP,,150.0,station_name_missing
+EV6ECFCAA9F1,ST6ECFCAA9F1,4,1,NRMA,,50.0,postcode_overridden_by_address;station_name_missing
+EV5F7E8E3923,ST5F7E8E3923,5,1,Chargefox,,22.0,station_name_missing
+EV2CB846A670,ST2CB846A670,6,1,Tesla,,19.0,station_name_missing
+EV1ADFE5BC87,ST1ADFE5BC87,7,1,Tesla,,130.0,station_name_missing
+EV6C37C346B8,ST6C37C346B8,8,1,Evie,,75.0,station_name_missing
+EV96E7629B54,ST96E7629B54,9,1,Chargefox,,22.0,station_name_missing
+EV86A6BDC54E,ST86A6BDC54E,10,1,Chargefox,,22.0,station_name_missing
+EV05F4B34F95,ST05F4B34F95,11,1,AXCharge,,22.0,station_name_missing
+EV24B5B26B4A,ST24B5B26B4A,12,1,Tesla,,22.0,station_name_missing
+EV2FA62D8119,ST2FA62D8119,13,1,Tesla,,250.0,station_name_missing
+EVE8FE483A22,STE8FE483A22,14,1,Everty,,22.0,station_name_missing
+EV0527A5B1E7,ST0527A5B1E7,15,1,Tesla,,8.0,station_name_missing
+EV20CA6C7DA5,ST20CA6C7DA5,16,1,Tesla,,22.0,station_name_missing
+EVC72526E8D1,STC72526E8D1,17,1,Tesla,,22.0,station_name_missing
+EV4EDD8F0852,ST4EDD8F0852,18,1,Evie,,150.0,station_name_missing
+EV08C0690EAD,ST08C0690EAD,19,1,Exploren,,22.0,station_name_missing
+EV4187EB42B9,ST4187EB42B9,21,1,Chargefox,,160.0,station_name_missing
+EVED94092E70,STED94092E70,22,1,Exploren,,22.0,station_name_missing
+EVBDA643642C,STBDA643642C,23,1,Tesla,,22.0,station_name_missing
+EVBA54F49659,STBA54F49659,24,1,Chargefox,,22.0,station_name_missing
+EVAE840FC90E,STAE840FC90E,25,1,Evie,,50.0,station_name_missing
+EVFF57E882D0,STFF57E882D0,26,1,Tesla,,22.0,station_name_missing
+EV960A8226AA,ST960A8226AA,27,1,Chargefox,,22.0,station_name_missing
+EVAC8DA5CC89,STAC8DA5CC89,28,1,Chargefox,,22.0,station_name_missing
+EV41399DAECC,ST41399DAECC,29,1,NRMA,,50.0,postcode_overridden_by_address;station_name_missing
+EV3234D510A1,ST3234D510A1,30,1,Exploren,,22.0,station_name_missing
+EV2040D5F530,ST2040D5F530,31,1,Tesla,,6.0,station_name_missing
+EV657A46A761,ST657A46A761,32,1,Everty,,22.0,station_name_missing
+EV4BB20F02B2,ST4BB20F02B2,33,1,Chargestar,,22.0,station_name_missing
+EV0E1E2EC22F,ST0E1E2EC22F,34,1,Chargefox,,6.0,station_name_missing
+EV1163DADB1F,ST1163DADB1F,35,1,Tesla,,22.0,station_name_missing
+EV99B16167C0,ST99B16167C0,36,1,Tesla,,22.0,station_name_missing
+EV05DAAC80F8,ST05DAAC80F8,37,1,JOLT,,25.0,station_name_missing
+EV6DD39E9838,ST6DD39E9838,38,1,Evie,,75.0,station_name_missing
+EVEB7F15F4AE,STEB7F15F4AE,39,1,Exploren,,50.0,station_name_missing
+EV110C74E854,ST110C74E854,40,1,Chargefox,,22.0,station_name_missing
+EVBCB75E7EEA,STBCB75E7EEA,41,1,Tesla,,6.0,station_name_missing
+EV759A52A1E8,ST759A52A1E8,42,1,Exploren,,22.0,station_name_missing
+EVBEBA6CE3D5,STBEBA6CE3D5,43,1,Tesla,,22.0,station_name_missing
+EV1D5CCD5318,ST1D5CCD5318,44,1,Tesla,,6.0,station_name_missing
+EVCDF8B911AE,STCDF8B911AE,45,1,Chargefox,,6.0,station_name_missing
+EVCB2C84DA7F,STCB2C84DA7F,46;373;1076,3,EVX,,22.0,station_name_missing;merged_duplicates
+EVD8423C6CD6,STD8423C6CD6,47,1,Saascharge,,22.0,station_name_missing
+EVBDD82903ED,STBDD82903ED,48,1,Exploren,,22.0,station_name_missing
+EV0346CC2CBD,ST0346CC2CBD,49,1,Tesla,,250.0,station_name_missing
+EV41DCAEA49A,ST41DCAEA49A,50,1,Chargefox,,22.0,station_name_missing
+EV7632174270,ST7632174270,51,1,Evie,,150.0,station_name_missing
+EV3BA6AAB9AA,ST3BA6AAB9AA,52,1,Evie,,75.0,station_name_missing
+EV805E3E92EC,ST805E3E92EC,53,1,Exploren,,22.0,postcode_not_2xxx;station_name_missing
+EVD5621948F6,STD5621948F6,54,1,Chargefox,,22.0,station_name_missing
+EV894BA5FCFD,ST894BA5FCFD,55,1,Evie,,150.0,station_name_missing
+EV5A14F71F5E,ST5A14F71F5E,56,1,Tesla,,22.0,station_name_missing
+EV5F67FA73F3,ST5F67FA73F3,57,1,Exploren,,22.0,station_name_missing
+EV1D0A35025E,ST1D0A35025E,58,1,Chargefox,,22.0,station_name_missing
+EV0C44E3E76D,ST0C44E3E76D,59,1,Exploren,,6.0,station_name_missing
+EV61A8255A7F,ST61A8255A7F,60,1,EVX,,22.0,station_name_missing
+EV8F40DAC0DA,ST8F40DAC0DA,61,1,Tesla,,130.0,station_name_missing
+EV8A42A0E050,ST8A42A0E050,62,1,Exploren,,22.0,station_name_missing
+EVD11CDB8EA0,STD11CDB8EA0,63,1,Chargefox,,6.0,station_name_missing
+EVCFDD76FDB6,STCFDD76FDB6,64,1,Tesla,,22.0,station_name_missing
+EV548FF2494F,ST548FF2494F,65,1,Exploren,,22.0,station_name_missing
+EVFFAF849796,STFFAF849796,66,1,Tesla,,22.0,station_name_missing
+EV555A765506,ST555A765506,67,1,Tesla,,22.0,station_name_missing
+EV922648E675,ST922648E675,68,1,Ampol,,150.0,station_name_missing
+EV5EA74026B6,ST5EA74026B6,69;1861,2,Evie|Evie Networks,,75.0,station_name_missing;merged_duplicates
+EV26607DE450,ST26607DE450,70,1,Chargefox,,180.0,station_name_missing
+EVAC47FEBF4D,STAC47FEBF4D,71,1,JOLT,,25.0,station_name_missing
+EV14B815E966,ST14B815E966,72,1,Exploren,,22.0,station_name_missing
+EV2CA76D33B3,ST2CA76D33B3,73,1,Chargefox,,6.0,station_name_missing
+EV55F427F37D,ST55F427F37D,74,1,JOLT,,25.0,station_name_missing
+EV19E62FCF9B,ST19E62FCF9B,75,1,Tesla,,14.0,station_name_missing
+EVB9BD2189D9,STB9BD2189D9,76,1,Tesla,,22.0,station_name_missing
+EVFDDCC8EDF8,STFDDCC8EDF8,77,1,Exploren,,6.0,station_name_missing
+EV6BA4831DAC,ST6BA4831DAC,78,1,NRMA,,50.0,postcode_overridden_by_address;station_name_missing
+EV1D3B923818,ST1D3B923818,79,1,EVUp,,22.0,station_name_missing
+EVC267C3B664,STC267C3B664,80,1,Tesla,,6.0,station_name_missing
+EV7ED876DF72,ST7ED876DF72,81,1,NRMA,,75.0,station_name_missing
+EVBCBC3F8047,STBCBC3F8047,82,1,Tesla,,22.0,station_name_missing
+EVBB753F2DB1,STBB753F2DB1,83,1,Tesla,,22.0,station_name_missing
+EVD7221768CD,STD7221768CD,84,1,Tesla,,19.0,station_name_missing
+EV194D86CC10,ST194D86CC10,85,1,JOLT,,25.0,station_name_missing
+EV19978CB8DB,ST19978CB8DB,86,1,EVUp,,23.0,station_name_missing
+EVF47DE7313E,STF47DE7313E,87,1,EVX,,22.0,station_name_missing
+EVAE3032338F,STAE3032338F,88,1,JOLT,,25.0,station_name_missing
+EVFF5D23CEDA,STFF5D23CEDA,89,1,JOLT,,25.0,station_name_missing
+EV5E6E8B322F,ST5E6E8B322F,90,1,ChargePoint,,6.0,station_name_missing
+EV0683FC4E47,ST0683FC4E47,91,1,Tesla,,6.0,station_name_missing
+EV1A4AA623D0,ST1A4AA623D0,92,1,Tesla,,22.0,station_name_missing
+EV87CD8DF1D7,ST87CD8DF1D7,93,1,JOLT,,25.0,station_name_missing
+EVE5E2F517D4,STE5E2F517D4,94,1,Tesla,,19.0,station_name_missing
+EVBA30BEF6DA,STBA30BEF6DA,95,1,Exploren,,22.0,station_name_missing
+EV5F44EBDB6F,ST5F44EBDB6F,96,1,NRMA,,50.0,postcode_overridden_by_address;station_name_missing
+EV315E2966B4,ST315E2966B4,97,1,Chargefox,,6.0,station_name_missing
+EVC90AE9041A,STC90AE9041A,98,1,Tesla,,22.0,station_name_missing
+EV7624FB1800,ST7624FB1800,99,1,Exploren,,22.0,station_name_missing
+EV4B6A748109,ST4B6A748109,100,1,Chargefox,,150.0,station_name_missing
+EV52605703AF,ST52605703AF,101,1,Engie,,150.0,station_name_missing
+EV288F7575E3,ST288F7575E3,102;1103,2,EVUp,D.G BENYON & D.M BENYON & The Trustee for Benyon Family Trust,22.0,merged_duplicates
+EV0272356F42,ST0272356F42,103,1,Everty,,22.0,station_name_missing
+EV406D79B91A,ST406D79B91A,104,1,Evie,,350.0,station_name_missing
+EVB44E568207,STB44E568207,105,1,Exploren,,22.0,station_name_missing
+EV7A97F3CC33,ST7A97F3CC33,106,1,Tesla,,22.0,station_name_missing
+EV55AF92FE4D,ST55AF92FE4D,107,1,Chargefox,,6.0,station_name_missing
+EVE72102017B,STE72102017B,108,1,Ampol,,150.0,station_name_missing
+EVBB524D323C,STBB524D323C,109,1,Ampol,,150.0,station_name_missing
+EV606313899E,ST606313899E,110,1,Chargefox,,22.0,station_name_missing
+EV71DF6FCE09,ST71DF6FCE09,111,1,Engie,,150.0,station_name_missing
+EV5E04D8F310,ST5E04D8F310,112,1,Evie,,75.0,station_name_missing
+EV56DA21A9B2,ST56DA21A9B2,113,1,Exploren,,22.0,station_name_missing
+EV2DD8974750,ST2DD8974750,114,1,EVX,,22.0,station_name_missing
+EV9A5F27D13F,ST9A5F27D13F,115,1,Exploren,,22.0,station_name_missing
+EV36BFA0939D,ST36BFA0939D,116,1,Tesla,,6.0,station_name_missing
+EV258CA84FCF,ST258CA84FCF,117,1,Chargefox,,22.0,station_name_missing
+EV2699B5C579,ST2699B5C579,118,1,Tesla,,6.0,station_name_missing
+EV759E885DBD,ST759E885DBD,119,1,Exploren,,60.0,station_name_missing
+EV876541EE8B,ST876541EE8B,120,1,Non-networked,Reflections Coffs Harbour,,rating_missing
+EV2D6219B182,ST2D6219B182,121,1,Tesla,,14.0,station_name_missing
+EV043CDC3E1A,ST043CDC3E1A,122,1,Exploren,,22.0,station_name_missing
+EVAF73EFADD2,STAF73EFADD2,123,1,Exploren,,22.0,station_name_missing
+EV7822B4D396,ST7822B4D396,124,1,Exploren,,20.0,station_name_missing
+EV427A13A788,ST427A13A788,125,1,Chargefox,,24.0,station_name_missing
+EV66728066D0,ST66728066D0,126,1,Chargefox,,47.0,station_name_missing
+EV26C3CE0630,ST26C3CE0630,127,1,Tesla,,22.0,station_name_missing
+EVDEFBEC4935,STDEFBEC4935,128,1,Evie,,75.0,station_name_missing
+EV3B5AFE0068,ST3B5AFE0068,129,1,Evie,,50.0,station_name_missing
+EVB597D56235,STB597D56235,130,1,Exploren,,22.0,station_name_missing
+EV7BCCFD95AB,ST7BCCFD95AB,131,1,Tesla,,22.0,station_name_missing
+EV8CC7219925,ST8CC7219925,132,1,Everty,,22.0,station_name_missing
+EV8BB015F6CC,ST8BB015F6CC,133,1,Exploren,,22.0,station_name_missing
+EVC76740490B,ST315E2966B4,134,1,Chargefox,,6.0,station_name_missing
+EVF7EB857CDE,STF7EB857CDE,135,1,Evie,,350.0,station_name_missing
+EV8FD80C0849,ST8FD80C0849,136,1,Chargefox,,22.0,station_name_missing
+EVFFE05F9F25,STFFE05F9F25,137,1,Evie,,50.0,station_name_missing
+EVB8AFB44DB8,STB8AFB44DB8,138,1,NRMA,,50.0,station_name_missing
+EVA4D84F39E5,STA4D84F39E5,139,1,JOLT,,25.0,station_name_missing
+EV515B7D5BB4,ST515B7D5BB4,140,1,Chargefox,,22.0,station_name_missing
+EV44D47C6BFF,ST44D47C6BFF,141,1,Ampol,,150.0,station_name_missing
+EV48C1384A87,ST48C1384A87,142,1,NRMA,,180.0,station_name_missing
+EV8D123E6622,ST8D123E6622,143,1,NRMA,,50.0,station_name_missing
+EV8F3DB4A275,ST4F8DE0C5C7,144,1,Tesla,,14.0,station_name_missing
+EV44A618EC0B,ST44A618EC0B,145,1,BP,,75.0,station_name_missing
+EV6AAB67E866,ST6AAB67E866,146,1,Chargefox,,22.0,station_name_missing
+EVA8C6F2789E,STA8C6F2789E,147,1,Tesla,,22.0,station_name_missing
+EVD999EEBE81,STD999EEBE81,148,1,Exploren,,6.0,station_name_missing
+EV7E641F3DDD,ST7E641F3DDD,149,1,Exploren,,22.0,station_name_missing
+EV2F94E8BE5D,ST2F94E8BE5D,150,1,EVX,,22.0,station_name_missing
+EV47C4F875ED,ST47C4F875ED,151,1,Tesla,,22.0,station_name_missing
+EV507E8DCD73,ST507E8DCD73,152,1,JOLT,,25.0,station_name_missing
+EV08828D3017,ST08828D3017,153,1,EVX,,22.0,station_name_missing
+EV5BA9768160,ST5BA9768160,154;1068,2,Non-Networked|Non-networked,Denman Van Village,7.0,merge_conflict_name;merged_duplicates
+EV628FC82CDD,ST628FC82CDD,155,1,Exploren,,120.0,station_name_missing
+EV73A79DE21F,ST73A79DE21F,156,1,NRMA,,50.0,station_name_missing
+EVF732D3E23F,STF732D3E23F,157,1,JOLT,,25.0,station_name_missing
+EVBCF712867F,STBCF712867F,158,1,Engie,,120.0,station_name_missing
+EV558EE5877D,ST558EE5877D,160,1,Everty,,6.0,station_name_missing
+EVF2846E0CD0,STF2846E0CD0,161,1,Chargefox,,6.0,station_name_missing
+EV6879F5CE7B,ST6879F5CE7B,162,1,EVUp,,22.0,station_name_missing
+EV0E91A770F7,ST0E91A770F7,163,1,Chargefox,,6.0,station_name_missing
+EVEE1697A8CC,STEE1697A8CC,164,1,Tesla,,22.0,station_name_missing
+EV48245B4A13,ST48245B4A13,165,1,Tesla,,22.0,station_name_missing
+EVCE19A559AD,STCE19A559AD,166,1,ChargePoint,,22.0,station_name_missing
+EV990F864EE4,ST990F864EE4,167,1,Tesla,,14.0,station_name_missing
+EV238C4CA02C,ST238C4CA02C,168,1,JOLT,,50.0,station_name_missing
+EV89A49ADD75,ST89A49ADD75,169,1,Exploren,,22.0,station_name_missing
+EV39C64C081F,ST39C64C081F,170,1,Exploren,,6.0,station_name_missing
+EV6DD9EE766F,ST6DD9EE766F,171,1,Tesla,,22.0,station_name_missing
+EV52E8250F8D,ST52E8250F8D,172,1,Tesla,,250.0,station_name_missing
+EVAFDB93D9BF,STAFDB93D9BF,173,1,Tesla,,22.0,station_name_missing
+EV74D4B8191A,ST74D4B8191A,174,1,EVX,,22.0,station_name_missing
+EVDD63DF2C15,STDD63DF2C15,175,1,Exploren,,22.0,station_name_missing
+EVB2FD60D387,ST8CC50B04E4,176,1,JOLT,,25.0,station_name_missing
+EV8CC50B04E4,ST8CC50B04E4,177,1,JOLT,,25.0,station_name_missing
+EV1AF0EB9643,ST1AF0EB9643,178,1,Tesla,,22.0,station_name_missing
+EV2C709357C9,ST2C709357C9,179,1,Evie,,75.0,station_name_missing
+EV7029CBE54B,ST7029CBE54B,180,1,Exploren,,22.0,station_name_missing
+EV5A3B8A6816,ST5A3B8A6816,181,1,NRMA,,50.0,postcode_overridden_by_address;station_name_missing
+EVC3FCDB11CA,STC3FCDB11CA,182,1,Ampol,,150.0,station_name_missing
+EV126B06D309,ST126B06D309,183,1,JOLT,,25.0,station_name_missing
+EV66B22C7337,ST66B22C7337,184,1,EVUp,,22.0,station_name_missing
+EV2293C84B7B,ST2293C84B7B,185,1,Tesla,,22.0,station_name_missing
+EV787217E059,ST787217E059,186,1,Exploren,,22.0,station_name_missing
+EV2A57160C78,ST2A57160C78,187,1,Evie,,50.0,station_name_missing
+EVA462A8D42D,STA462A8D42D,188;826,2,Ampol,,125.0,merge_conflict_rating;station_name_missing;merged_duplicates
+EV1E9E05464B,ST1E9E05464B,189,1,Tesla,,8.0,station_name_missing
+EV3C42EB0D70,ST3C42EB0D70,190,1,EVX,,22.0,station_name_missing
+EV45FE9A992C,ST45FE9A992C,191,1,Tesla,,22.0,station_name_missing
+EV1DEA9B7C9A,ST1DEA9B7C9A,192,1,Wevolt,,80.0,station_name_missing
+EV8D6EEA7B8D,ST8D6EEA7B8D,193,1,BP,,75.0,station_name_missing
+EVAB60418D77,STAB60418D77,194,1,BP,,75.0,station_name_missing
+EV7CAA1FF981,ST7CAA1FF981,195,1,NRMA,,50.0,postcode_overridden_by_address;station_name_missing
+EVA194C6DED7,STA194C6DED7,196,1,Tesla,,22.0,station_name_missing
+EVA2F35B872B,STA2F35B872B,197,1,NRMA,,75.0,postcode_overridden_by_address;station_name_missing
+EVD41BCA03F7,STD41BCA03F7,198,1,Chargefox,,11.0,station_name_missing
+EVCC53985EFE,STCC53985EFE,199,1,NRMA,,160.0,station_name_missing
+EVDEC438E6CA,STDEC438E6CA,200,1,Tesla,,6.0,station_name_missing
+EV40698696FA,ST40698696FA,201,1,EVX,,22.0,station_name_missing
+EVEBFA18F113,STEBFA18F113,202,1,Tesla,,22.0,station_name_missing
+EV9E5160F1DA,ST9E5160F1DA,203,1,JOLT,,25.0,station_name_missing
+EV5842E70654,ST5842E70654,204,1,Tesla,,22.0,station_name_missing
+EVEDC0564CB1,STEDC0564CB1,205,1,Exploren,,22.0,station_name_missing
+EV5B7E788037,ST5B7E788037,206,1,Chargefox,,30.0,station_name_missing
+EV961316DB1E,ST961316DB1E,207,1,Chargefox,,22.0,station_name_missing
+EV03B93084A5,ST03B93084A5,208,1,Ampol,,125.0,station_name_missing
+EVA7447BBE70,STA7447BBE70,209,1,Exploren,,22.0,station_name_missing
+EV4346A1144F,ST4346A1144F,210,1,Chargefox,,22.0,station_name_missing
+EV2B1FB0313A,ST2B1FB0313A,211,1,Chargefox,,22.0,station_name_missing
+EV421D761C16,ST421D761C16,212,1,BP,,75.0,station_name_missing
+EV761205380B,ST761205380B,213,1,Tesla,,22.0,station_name_missing
+EV717D2ECC49,ST717D2ECC49,214,1,Exploren,,22.0,station_name_missing
+EV38D58B1A24,ST38D58B1A24,215,1,Chargefox,,47.0,station_name_missing
+EVEF6006A520,STEF6006A520,216,1,JOLT,,25.0,station_name_missing
+EV9EE7207D71,ST9EE7207D71,217,1,NRMA,,75.0,postcode_overridden_by_address;station_name_missing
+EV5509467D2B,ST5509467D2B,218,1,Tesla,,22.0,station_name_missing
+EVCCAB4C89A4,STCCAB4C89A4,219,1,Exploren,,60.0,station_name_missing
+EV23F296838C,ST23F296838C,220,1,Exploren,,22.0,station_name_missing
+EV8D819957D6,ST8D819957D6,221,1,Tesla,,22.0,station_name_missing
+EV5B15989E9F,ST5B15989E9F,222,1,Chargefox,,6.0,station_name_missing
+EVFDE13DAA25,STFDE13DAA25,224,1,Tesla,,22.0,station_name_missing
+EV4F6A33A98A,ST4F6A33A98A,225,1,Chargefox,,22.0,station_name_missing
+EV34E4FDB9DD,ST34E4FDB9DD,226,1,NRMA,,75.0,postcode_overridden_by_address;station_name_missing
+EV213CF94856,ST213CF94856,227,1,Tesla,,6.0,station_name_missing
+EVFCBB2670E1,STFCBB2670E1,228,1,Chargefox,,42.0,station_name_missing
+EV0E37FC6B3D,ST0E37FC6B3D,229,1,Chargefox,,6.0,station_name_missing
+EV23CAA632A9,ST23CAA632A9,230,1,Evie,,50.0,station_name_missing
+EVEDD15D4D23,STEDD15D4D23,231,1,Exploren,,6.0,station_name_missing
+EVD32A1A55AE,STD32A1A55AE,232,1,Tesla,,22.0,station_name_missing
+EV9CC9EFF1C1,ST9CC9EFF1C1,233,1,Chargefox,,6.0,station_name_missing
+EVCB8E2B103D,STCB8E2B103D,234,1,Saascharge,,22.0,station_name_missing
+EVB8D0FC58C8,STB8D0FC58C8,235,1,Tesla,,22.0,station_name_missing
+EV14A08B6846,ST14A08B6846,236,1,Exploren,,6.0,station_name_missing
+EV740497A957,ST740497A957,237,1,Tesla,,130.0,station_name_missing
+EV86DA5B0F54,ST86DA5B0F54,238,1,Chargefox,,6.0,station_name_missing
+EV76E5E95FE6,ST76E5E95FE6,239,1,Tesla,,22.0,station_name_missing
+EVF470191248,STF470191248,240,1,Evie,,50.0,station_name_missing
+EV3DCB37F716,ST3DCB37F716,241,1,ChargeHub,,22.0,station_name_missing
+EV1008DD9F67,ST1008DD9F67,242,1,Exploren,,6.0,station_name_missing
+EVC4010C21C5,STC4010C21C5,243,1,Tesla,,22.0,station_name_missing
+EV64B62FDF9E,ST64B62FDF9E,245,1,Exploren,,22.0,station_name_missing
+EVAA92C24DA3,STAA92C24DA3,246,1,Saascharge,,11.0,station_name_missing
+EV26F5780F5F,ST26F5780F5F,247;1090,2,Tesla|Tesla Motors,,175.0,merge_conflict_rating;station_name_missing;merged_duplicates
+EV95EF40360A,ST95EF40360A,248,1,Evie,,150.0,station_name_missing
+EV923F43E950,ST923F43E950,249,1,JOLT,,25.0,station_name_missing
+EV9F6F91A6F8,ST9F6F91A6F8,250,1,BP,,75.0,station_name_missing
+EV1F7F954BD4,ST1F7F954BD4,251,1,Exploren,,22.0,station_name_missing
+EV1D16ECCD34,ST1D16ECCD34,252,1,Chargefox,,6.0,station_name_missing
+EV5657B75982,ST5657B75982,253,1,Tesla,,22.0,station_name_missing
+EVB2C5360357,STB2C5360357,255;1051,2,Tesla|Tesla Motors,,175.0,merge_conflict_rating;station_name_missing;merged_duplicates
+EVD7F3794222,STB2C5360357,256,1,Tesla,,22.0,station_name_missing
+EV15E1EBCF84,ST15E1EBCF84,257,1,Ampol,,125.0,station_name_missing
+EV699EF8AD73,ST699EF8AD73,258,1,Evie,,150.0,station_name_missing
+EVB35BD5247C,STB35BD5247C,259,1,Exploren,,22.0,station_name_missing
+EV7FD1A27DD2,ST7FD1A27DD2,260,1,Exploren,,6.0,station_name_missing
+EV880D284C74,ST880D284C74,261,1,Tesla,,22.0,station_name_missing
+EV5DD93E3A9C,ST5DD93E3A9C,262;1057,2,EVE Australia,,22.0,station_name_missing;merged_duplicates
+EVE796D680B8,STE796D680B8,263,1,Exploren,,22.0,station_name_missing
+EV2000B65632,ST2000B65632,264,1,Tesla,,22.0,station_name_missing
+EVB0DC397E74,STB0DC397E74,265;1348,2,Evie|Evie Networks,,75.0,station_name_missing;merged_duplicates
+EV4DE140AB05,ST4DE140AB05,266,1,BP,,75.0,station_name_missing
+EV4AE18E8496,ST4AE18E8496,267,1,Exploren,,22.0,station_name_missing
+EV6D671281D1,ST6D671281D1,268,1,EVUp,,22.0,station_name_missing
+EVBB668B3ADB,STBB668B3ADB,269,1,Exploren,,60.0,station_name_missing
+EV6448DB75CE,ST6448DB75CE,270,1,Chargefox,,6.0,station_name_missing
+EV3380B85F95,ST3380B85F95,271,1,Evie,,50.0,station_name_missing
+EV9FFA916F91,ST9FFA916F91,272,1,EVX,,22.0,station_name_missing
+EV9CF6362850,ST9CF6362850,273,1,Chargefox,,6.0,station_name_missing
+EVDF2167148E,STDF2167148E,274,1,Non-networked,,22.0,station_name_missing
+EVC094712616,STC094712616,275,1,Tesla,,22.0,station_name_missing
+EVFA12D42889,STFA12D42889,276,1,Exploren,,22.0,station_name_missing
+EVBCFF8F04C3,STBCFF8F04C3,277,1,Tesla,,22.0,station_name_missing
+EVD1AB3918BE,STD1AB3918BE,278,1,Tesla,,250.0,station_name_missing
+EVD982975CB0,STD982975CB0,279,1,NRMA,,22.0,station_name_missing
+EV8A599550F3,ST8A599550F3,280,1,JOLT,,25.0,station_name_missing
+EV12547FDE71,ST12547FDE71,281,1,Tesla,,19.0,station_name_missing
+EV45098AF930,ST45098AF930,282,1,Chargefox,,40.0,station_name_missing
+EV6AC3ED0517,ST6AC3ED0517,283,1,Chargefox,,22.0,station_name_missing
+EV652673210E,ST56DA21A9B2,284,1,Evie,,50.0,station_name_missing
+EV113DA5AD47,ST113DA5AD47,285,1,Tesla,,19.0,station_name_missing
+EVEFB97C08B3,STEFB97C08B3,286,1,Tesla,,22.0,station_name_missing
+EVE3E8F66CFC,STE3E8F66CFC,287,1,Chargefox,,40.0,station_name_missing
+EVFF56BAC501,STFF56BAC501,288,1,Tesla,,22.0,station_name_missing
+EV37CAEFEDCA,ST37CAEFEDCA,289,1,Evie,,150.0,station_name_missing
+EV6DE8ED6BDC,ST6DE8ED6BDC,290,1,Chargefox,,22.0,station_name_missing
+EV111E4BCEBB,ST111E4BCEBB,291,1,Tesla,,22.0,station_name_missing
+EV19D3890227,ST19D3890227,292,1,Tesla,,17.0,station_name_missing
+EVB000C32AAF,STB000C32AAF,293,1,Tesla,,6.0,station_name_missing
+EVE13272E7DA,STE13272E7DA,294,1,Chargefox,,6.0,station_name_missing
+EVD7BDF8F1AD,STD7BDF8F1AD,295,1,EVX,,11.0,station_name_missing
+EV0B814D19E3,ST0B814D19E3,296,1,Chargefox,,47.0,station_name_missing
+EVFEB26B3699,STFEB26B3699,297,1,Tesla,,22.0,station_name_missing
+EV1993771160,ST1993771160,298,1,Exploren,,22.0,station_name_missing
+EVCA9D9505C4,STCA9D9505C4,299,1,Evie,,50.0,station_name_missing
+EV021C8E08AA,ST021C8E08AA,300,1,Tesla,,19.0,station_name_missing
+EV31B3DC9F63,ST31B3DC9F63,301,1,Evie,,50.0,station_name_missing
+EVA9090FEC4C,STA9090FEC4C,302,1,Tesla,,22.0,station_name_missing
+EV791307E169,ST791307E169,303,1,Tesla,,8.0,station_name_missing
+EVA357E9487F,STA357E9487F,304,1,Evie,,150.0,station_name_missing
+EVF9E22D5C31,STF9E22D5C31,305,1,Tesla,,130.0,station_name_missing
+EV7A9F0C6EAC,ST7A9F0C6EAC,306,1,Chargefox,,22.0,station_name_missing
+EVB05F4FBF34,STB05F4FBF34,307,1,Tesla,,175.0,station_name_missing
+EV03FDF03E33,ST03FDF03E33,308,1,Tesla,,6.0,station_name_missing
+EV2910837F25,ST2910837F25,309,1,Exploren,,22.0,station_name_missing
+EV628CA94453,ST628CA94453,310,1,Tesla,,22.0,station_name_missing
+EVCEABBDFD60,STCEABBDFD60,311,1,Evie,,150.0,station_name_missing
+EVA4543EFE2E,STA4543EFE2E,312,1,Tesla,,22.0,station_name_missing
+EVF07AE9B289,STF07AE9B289,313,1,Ampol,,125.0,station_name_missing
+EV9CDFC9F835,ST9CDFC9F835,314,1,NRMA,,75.0,station_name_missing
+EV052FDED324,ST052FDED324,315,1,Tesla,,19.0,station_name_missing
+EV04CC4A008A,ST04CC4A008A,316,1,EVUp,,23.0,station_name_missing
+EV48906BE667,ST48906BE667,317,1,Exploren,,22.0,station_name_missing
+EV30BCF31E52,ST30BCF31E52,318,1,Exploren,,22.0,station_name_missing
+EV0C98DB2F19,ST0C98DB2F19,319,1,Exploren,,22.0,station_name_missing
+EV8990A25412,ST8990A25412,320,1,EVX,,22.0,station_name_missing
+EV7C6BA0E720,ST7C6BA0E720,321,1,Exploren,,22.0,station_name_missing
+EV23A4BF9CD0,ST23A4BF9CD0,322,1,Exploren,,22.0,station_name_missing
+EVAE4D08FB78,STAE4D08FB78,323,1,Tesla,,6.0,station_name_missing
+EV281414F2A1,ST281414F2A1,324,1,Ampol,,150.0,station_name_missing
+EV759D18459D,ST759D18459D,325,1,Exploren,,22.0,station_name_missing
+EV37C34E9D3A,ST37C34E9D3A,326,1,Tesla,,22.0,station_name_missing
+EVCCBC5E77F4,STCCBC5E77F4,327,1,Tesla,,22.0,station_name_missing
+EVE2763E843D,STE2763E843D,328,1,Tesla,,22.0,station_name_missing
+EV5613C149C2,ST5613C149C2,329,1,EVX,,22.0,station_name_missing
+EV0F1781CBCE,ST0F1781CBCE,330,1,JOLT,,25.0,station_name_missing
+EVC050AAF131,STC050AAF131,331,1,Exploren,,22.0,station_name_missing
+EV147087C3AD,ST147087C3AD,332,1,Evie,,75.0,station_name_missing
+EVCF02773DB5,STCF02773DB5,333,1,Evie,,350.0,postcode_overridden_by_address;station_name_missing
+EV594664C6A4,ST594664C6A4,334,1,JOLT,,25.0,station_name_missing
+EV311BBB92B4,ST311BBB92B4,335,1,BP,,75.0,station_name_missing
+EV21DEA7FEDF,ST21DEA7FEDF,336,1,Evie,,150.0,station_name_missing
+EV5425724B7E,ST5425724B7E,337,1,Tesla,,19.0,station_name_missing
+EV4A4C14998A,ST4A4C14998A,338,1,Chargestar,,22.0,station_name_missing
+EVEB6269B4C2,STEB6269B4C2,339,1,Saascharge,,22.0,station_name_missing
+EV685DDF291E,ST685DDF291E,340,1,JOLT,,25.0,station_name_missing
+EVF3E4AA9C49,ST685DDF291E,341,1,JOLT,,25.0,station_name_missing
+EVF8CB7C7A97,STF8CB7C7A97,342,1,Evie,,50.0,station_name_missing
+EV633332EA35,ST633332EA35,343,1,Everty,,25.0,station_name_missing
+EVEB0232696E,STEB0232696E,344,1,Tesla,,130.0,station_name_missing
+EV040A8510FC,ST040A8510FC,345,1,Exploren,,22.0,station_name_missing
+EV6B65B80FF3,ST6B65B80FF3,346,1,Exploren,,6.0,station_name_missing
+EVEFFCDA871F,STEFFCDA871F,347,1,Exploren,,22.0,station_name_missing
+EV7016B11482,ST7016B11482,348,1,JOLT,,50.0,station_name_missing
+EV8C812FE928,ST8C812FE928,349,1,Tesla,,22.0,station_name_missing
+EVF0D828E92D,STF0D828E92D,350,1,Chargefox,,22.0,station_name_missing
+EV809EE2F95E,ST809EE2F95E,351,1,Tesla,,22.0,station_name_missing
+EVF34FA4BF95,STF34FA4BF95,352,1,Exploren,,6.0,station_name_missing
+EV6B45B2EB69,ST6B45B2EB69,353,1,BP,,75.0,station_name_missing
+EV4D1A8787DE,ST4D1A8787DE,354,1,Exploren,,22.0,station_name_missing
+EVAA98D80E77,STAA98D80E77,355,1,Evie,,350.0,station_name_missing
+EV482859B3CF,ST482859B3CF,356,1,Exploren,,22.0,station_name_missing
+EV0645AEBE2B,ST0645AEBE2B,357,1,Tesla,,17.0,station_name_missing
+EV58E43CE0FF,ST58E43CE0FF,358,1,Tesla,,250.0,station_name_missing
+EV153A2910C0,ST153A2910C0,359,1,Evie,,150.0,station_name_missing
+EV1A8FB7777F,ST1A8FB7777F,360,1,Tesla,,11.0,station_name_missing
+EVF1BEA87DB0,STF1BEA87DB0,361;1088,2,Viva Energy A|Viva Energy Australia,,175.0,merge_conflict_rating;station_name_missing;merged_duplicates
+EV37E0C68088,ST37E0C68088,362,1,Tesla,,22.0,station_name_missing
+EV5AA2DA83D9,ST5AA2DA83D9,363,1,Exploren,,6.0,station_name_missing
+EVC70666DC04,STC70666DC04,364,1,Saascharge,,11.0,station_name_missing
+EVE46B351903,STE46B351903,365,1,BP,,75.0,station_name_missing
+EVA5BA3EDFCC,STA5BA3EDFCC,366,1,Tesla,,22.0,station_name_missing
+EV4AC67AD159,ST4AC67AD159,367,1,Evie,,75.0,station_name_missing
+EV4EEDAA8375,ST4EEDAA8375,368,1,Exploren,,22.0,station_name_missing
+EVB441C1F08A,STB441C1F08A,369,1,EVX,,22.0,station_name_missing
+EV25EDD43F2F,ST25EDD43F2F,370,1,Evie,,150.0,station_name_missing
+EVE0D3BD1DA6,STE0D3BD1DA6,371,1,Chargefox,,47.0,station_name_missing
+EV1FCFF71B3A,ST1FCFF71B3A,372,1,Tesla,,22.0,station_name_missing
+EV8FEB432E7F,ST8FEB432E7F,374,1,Tesla,,6.0,station_name_missing
+EV3FDB7CEDB2,ST3FDB7CEDB2,375,1,Tesla,,130.0,station_name_missing
+EV6898B70F57,ST6898B70F57,376,1,JOLT,,25.0,station_name_missing
+EV4BACD4BE8A,ST4BACD4BE8A,377,1,Tesla,,22.0,station_name_missing
+EV86D07ACAD4,ST86D07ACAD4,378,1,Tesla,,60.0,station_name_missing
+EV2896DB38AD,ST2896DB38AD,379,1,Evie,,75.0,station_name_missing
+EV237C1D7C02,ST237C1D7C02,380,1,NRMA,,75.0,postcode_overridden_by_address;station_name_missing
+EV2512D1536F,ST2512D1536F,381;1432,2,EVX,,22.0,station_name_missing;merged_duplicates
+EV62817D90F3,ST62817D90F3,382,1,Tesla,,22.0,station_name_missing
+EVF4FA3A6769,STF4FA3A6769,383,1,Tesla,,6.0,station_name_missing
+EVC600F82B3D,STC600F82B3D,384,1,Evie,,75.0,station_name_missing
+EV1EAC0EA57C,ST1EAC0EA57C,385,1,Evie,,50.0,station_name_missing
+EV3E5BA6B7BE,ST3E5BA6B7BE,386,1,Exploren,,22.0,station_name_missing
+EV3537B60E21,ST3537B60E21,387,1,Exploren,,6.0,station_name_missing
+EV4EEFFED77C,ST4EEFFED77C,388,1,Tesla,,6.0,station_name_missing
+EV85DC2FAAA4,ST85DC2FAAA4,389,1,Exploren,,22.0,station_name_missing
+EV0FD4478CAF,ST0FD4478CAF,390,1,Tesla,,22.0,station_name_missing
+EV9487346AF4,ST9487346AF4,391,1,Chargefox,,6.0,station_name_missing
+EV4D465EDDC9,ST4D465EDDC9,392,1,Exploren,,22.0,station_name_missing
+EVDA899137BA,STDA899137BA,393,1,Evie,,150.0,station_name_missing
+EV41D8CC577C,ST41D8CC577C,394,1,Exploren,,6.0,station_name_missing
+EV9B814C7A4F,ST9B814C7A4F,395,1,NRMA,,50.0,postcode_overridden_by_address;station_name_missing
+EV9EF4F5E4E6,ST9EF4F5E4E6,396,1,Tesla,,6.0,station_name_missing
+EV5BFD44E20B,ST5BFD44E20B,397,1,EVUp,,100.0,station_name_missing
+EV03260C25E4,ST03260C25E4,398,1,Tesla,,3.0,station_name_missing
+EVBD24A2FCE4,STBD24A2FCE4,399;1447,2,Evie|Evie Networks,,75.0,station_name_missing;merged_duplicates
+EV00DBB841AE,ST00DBB841AE,400,1,Exploren,,22.0,station_name_missing
+EV02BE5C7D4F,ST02BE5C7D4F,401,1,Chargefox,,22.0,station_name_missing
+EVF16C67DAE4,STF16C67DAE4,402,1,Evie,,350.0,station_name_missing
+EV2822B3D4C3,ST2822B3D4C3,403,1,Chargefox,,6.0,station_name_missing
+EV2E5FF8D98D,ST2E5FF8D98D,404,1,Tesla,,22.0,station_name_missing
+EVAC43335E86,STAC43335E86,405,1,JOLT,,25.0,station_name_missing
+EV34760FE021,ST34760FE021,406,1,Tesla,,6.0,station_name_missing
+EVBD97902CC5,STBD97902CC5,408,1,JOLT,,25.0,station_name_missing
+EV69335ED76A,ST69335ED76A,409,1,NRMA,,180.0,station_name_missing
+EV0E61D239C8,ST0E61D239C8,410,1,NRMA,,50.0,station_name_missing
+EVE265ACC4AE,STE265ACC4AE,411,1,Tesla,,22.0,station_name_missing
+EVBE3DC7D069,STBE3DC7D069,412,1,Tesla,,22.0,station_name_missing
+EV691EBEF695,ST691EBEF695,413,1,NRMA,,50.0,station_name_missing
+EV8F4FA9C62D,ST8F4FA9C62D,414,1,Chargefox,,22.0,station_name_missing
+EVD43E72E36C,STD43E72E36C,415,1,Tesla,,22.0,station_name_missing
+EV95BF512BC5,ST95BF512BC5,416,1,Non-networked,Thynk Beresfield,,rating_missing
+EV49AD4B1877,ST49AD4B1877,417,1,NRMA,,50.0,postcode_overridden_by_address;station_name_missing
+EV7AC3FEACF6,ST7AC3FEACF6,418,1,EVX,,22.0,station_name_missing
+EV27B3008466,ST27B3008466,419,1,Evie,,75.0,station_name_missing
+EV50F28F27F4,ST50F28F27F4,420,1,Tesla,,6.0,station_name_missing
+EV0595E88D78,ST0595E88D78,421,1,Exploren,,22.0,station_name_missing
+EVCC7340E6AD,STCC7340E6AD,422,1,Chargefox,,42.0,station_name_missing
+EV6944A87D56,ST6944A87D56,423,1,Exploren,,6.0,station_name_missing
+EVFBDBD7D489,STFBDBD7D489,424,1,Evie,,75.0,station_name_missing
+EVF47A808761,STF47A808761,425,1,Tesla,,6.0,station_name_missing
+EV9A4ABEA1C2,ST9A4ABEA1C2,426;1061,2,EVX,,22.0,station_name_missing;merged_duplicates
+EVA666F45F83,STA666F45F83,427,1,Evie,,75.0,station_name_missing
+EV560FA49971,ST560FA49971,428,1,ChargePoint,,22.0,station_name_missing
+EVC261D3E259,STC261D3E259,429,1,Exploren,,6.0,station_name_missing
+EVF932C1DB45,STF932C1DB45,430,1,Chargefox,,22.0,station_name_missing
+EVDB2465EC68,STDB2465EC68,431,1,EVX,,22.0,station_name_missing
+EVA1298CA726,STA1298CA726,432,1,Exploren,,6.0,station_name_missing
+EV20A5B9BB55,ST20A5B9BB55,433,1,JOLT,,25.0,station_name_missing
+EV0F8E0C2765,ST0F8E0C2765,434,1,Tesla,,22.0,station_name_missing
+EV32BCAB2956,ST32BCAB2956,435,1,JOLT,,25.0,station_name_missing
+EVA973FD186A,STA973FD186A,436,1,Chargefox,,60.0,station_name_missing
+EV9382B4235D,ST9382B4235D,437,1,Chargefox,,22.0,station_name_missing
+EV36FA242C5D,ST36FA242C5D,438,1,Tesla,,6.0,station_name_missing
+EVE10186EFEF,STE10186EFEF,439,1,Tesla,,250.0,station_name_missing
+EV2D84136368,ST2D84136368,440,1,Tesla,,6.0,station_name_missing
+EV85FA1907F5,ST85FA1907F5,441,1,Exploren,,120.0,station_name_missing
+EV18FC7C30A3,ST18FC7C30A3,442,1,Tesla,,22.0,station_name_missing
+EV113917E863,ST113917E863,443,1,Tesla,,22.0,station_name_missing
+EV5ED4D3B79C,ST5ED4D3B79C,444,1,Tesla,,22.0,station_name_missing
+EVC3823FB2B8,STC3823FB2B8,445,1,JOLT,,25.0,station_name_missing
+EVFED86B8B50,STFED86B8B50,446,1,Tesla,,22.0,station_name_missing
+EV14E966A8E7,ST14E966A8E7,447,1,Chargefox,,22.0,station_name_missing
+EV99F4EE8793,ST99F4EE8793,448,1,Tesla,,6.0,station_name_missing
+EV75276C96E6,ST75276C96E6,449,1,ChargePoint,,3.0,station_name_missing
+EVAE316D25F3,STAE316D25F3,450,1,ChargePoint,,3.0,station_name_missing
+EV043091F31D,ST043091F31D,451,1,Tesla,,22.0,station_name_missing
+EV1A14ED4000,ST1A14ED4000,452,1,Exploren,,120.0,station_name_missing
+EV69B427C7B5,ST69B427C7B5,453,1,EVX,,22.0,station_name_missing
+EV222C726B28,ST222C726B28,454,1,Tesla,,22.0,station_name_missing
+EV8C108E6B4D,ST8C108E6B4D,455;1476,2,EVX,,22.0,station_name_missing;merged_duplicates
+EVFF252B736A,STFF252B736A,456,1,Evie,,350.0,station_name_missing
+EVBA37DB2A0D,STBA37DB2A0D,457,1,Chargefox,,47.0,station_name_missing
+EVCD4D841029,STCD4D841029,458,1,Evie,,50.0,station_name_missing
+EV16FE9E441C,ST16FE9E441C,459,1,Tesla,,22.0,station_name_missing
+EV3617E15282,ST3617E15282,460,1,BP,,150.0,station_name_missing
+EVAA808E7F49,STAA808E7F49,461,1,Tesla,,22.0,station_name_missing
+EVC2CB47E918,STC2CB47E918,462,1,BP,,75.0,station_name_missing
+EV712464E50B,ST712464E50B,463,1,Porsche Smart Mobility,,11.0,station_name_missing
+EV02E616F33C,ST02E616F33C,464,1,Chargefox,,60.0,station_name_missing
+EV5DE85D7CF6,ST5DE85D7CF6,465,1,Exploren,,22.0,station_name_missing
+EV01576D9759,ST01576D9759,466,1,Exploren,,22.0,station_name_missing
+EV184BA5FD12,ST184BA5FD12,467,1,Evie,,50.0,station_name_missing
+EV913B9A56A7,ST913B9A56A7,468,1,Tesla,,6.0,station_name_missing
+EV159F4DC54B,ST159F4DC54B,469,1,Tesla,,22.0,station_name_missing
+EV9157BDA81D,ST9157BDA81D,470,1,Tesla,,8.0,station_name_missing
+EVA5A2CFCA2A,STA5A2CFCA2A,471,1,Tesla,,130.0,station_name_missing
+EVF0460DAE71,STF0460DAE71,472,1,Everty,,22.0,station_name_missing
+EVC18697225A,STC18697225A,473,1,Tesla,,22.0,station_name_missing
+EVAF5A592A13,STAF5A592A13,474,1,Exploren,,22.0,station_name_missing
+EVD61969AAA3,STD61969AAA3,475,1,EVX,,22.0,station_name_missing
+EV65EECD34BB,ST65EECD34BB,476,1,Tesla,,17.0,station_name_missing
+EVA2B59F3892,STA2B59F3892,477,1,Ampol,,125.0,station_name_missing
+EV3569E2FA87,ST3569E2FA87,478,1,Tesla,,6.0,station_name_missing
+EV7BDA48BD66,ST7BDA48BD66,479,1,EVX,,22.0,station_name_missing
+EV29CB19C736,ST29CB19C736,480,1,Engie,,150.0,station_name_missing
+EV8189488931,ST29CB19C736,481,1,Chargefox,,6.0,station_name_missing
+EV08C6285772,ST08C6285772,482,1,Chargefox,,150.0,station_name_missing
+EV93CD350F61,ST93CD350F61,483,1,Tesla,,130.0,station_name_missing
+EV82674592FF,ST82674592FF,484,1,ChargeHub,,22.0,station_name_missing
+EV5A47541FB2,ST05DDA2CD4C,485,1,Engie,,150.0,station_name_missing
+EV05DDA2CD4C,ST05DDA2CD4C,486,1,Chargefox,,22.0,station_name_missing
+EVBCF3894038,STBCF3894038,487,1,EVX,,22.0,station_name_missing
+EV8192287884,ST8192287884,488,1,Tesla,,22.0,station_name_missing
+EV566A6838C1,ST566A6838C1,489,1,Exploren,,22.0,station_name_missing
+EV98DCE758D6,ST98DCE758D6,490,1,Chargefox,,22.0,station_name_missing
+EV1022E298B8,ST1022E298B8,491,1,Chargefox,,22.0,station_name_missing
+EVC9F2868C08,STC9F2868C08,492,1,Tesla,,22.0,station_name_missing
+EV3E8B39AAEA,ST3E8B39AAEA,493,1,Tesla,,6.0,station_name_missing
+EV81BA6AFA49,ST81BA6AFA49,494,1,Chargefox,,22.0,station_name_missing
+EVE10766A140,STE10766A140,495,1,Exploren,,22.0,station_name_missing
+EVECFD19C1CA,STECFD19C1CA,496,1,BP,,75.0,station_name_missing
+EVE3DEB08A19,STE3DEB08A19,497,1,NRMA,,50.0,station_name_missing
+EV17A1D2DB6B,ST17A1D2DB6B,498,1,Chargefox,,22.0,station_name_missing
+EVCEC82331AD,STCEC82331AD,499,1,Exploren,,22.0,station_name_missing
+EVE76CF7CB10,STE76CF7CB10,500,1,Tesla,,22.0,station_name_missing
+EV52538EA518,ST52538EA518,501,1,Tesla,,250.0,station_name_missing
+EV2FBE2B5437,ST2FBE2B5437,502,1,Ampol,,125.0,station_name_missing
+EVCDA04DF557,STCDA04DF557,503,1,Chargefox,,47.0,station_name_missing
+EV3EB896E10F,ST3EB896E10F,504,1,Tesla,,250.0,station_name_missing
+EV9649C0EE9B,ST9649C0EE9B,505,1,Tesla,,22.0,station_name_missing
+EVDCFD310B26,STDCFD310B26,506,1,Chargefox,,6.0,station_name_missing
+EV72F7B902A0,ST72F7B902A0,507,1,Exploren,,22.0,station_name_missing
+EV94461F8CA4,ST94461F8CA4,508,1,Exploren,,6.0,station_name_missing
+EV3DEC46044F,ST3DEC46044F,509,1,Exploren,,22.0,station_name_missing
+EV2BC3F7472E,ST2BC3F7472E,510,1,Gentari,,11.0,station_name_missing
+EVDFB6D7BDE8,STDFB6D7BDE8,511,1,Tesla,,22.0,station_name_missing
+EV24FEB1BEA0,ST24FEB1BEA0,512;1528,2,Evie|Evie Networks,,75.0,station_name_missing;merged_duplicates
+EVF229B9A133,STF229B9A133,513,1,Tesla,,22.0,station_name_missing
+EVDFB6A2B4F8,STDFB6A2B4F8,514,1,Ampol,,150.0,station_name_missing
+EVA5B8A67348,STA5B8A67348,515,1,Chargefox,,22.0,station_name_missing
+EVBBCD4F1104,STBBCD4F1104,516,1,Chargefox,,22.0,station_name_missing
+EV575C0B1451,ST575C0B1451,517,1,Exploren,,22.0,station_name_missing
+EVB5D6BF3132,STB5D6BF3132,518,1,Evie,,150.0,station_name_missing
+EV5FE2D59066,ST5FE2D59066,519,1,Exploren,,22.0,station_name_missing
+EVB556A64C71,STB556A64C71,520,1,Evie,,75.0,station_name_missing
+EVB7CCE43BC0,STB7CCE43BC0,521,1,Chargefox,,160.0,station_name_missing
+EV014788E9DA,ST014788E9DA,522,1,Tesla,,22.0,station_name_missing
+EV29362FF475,ST29362FF475,523,1,Saascharge,,22.0,station_name_missing
+EV8C2BECA7E5,ST8C2BECA7E5,524,1,Exploren,,22.0,station_name_missing
+EV24720CA35E,ST24720CA35E,525,1,JOLT,,25.0,station_name_missing
+EV89F8E83598,ST89F8E83598,526,1,Chargefox,,6.0,station_name_missing
+EV7521332FF5,ST7521332FF5,527,1,Tesla,,6.0,station_name_missing
+EVA92DAB4309,STA92DAB4309,528,1,Exploren,,20.0,station_name_missing
+EVC8B2BB7995,STC8B2BB7995,529,1,Evie,,50.0,station_name_missing
+EV656E1B24EC,ST656E1B24EC,530,1,Chargefox,,185.0,station_name_missing
+EV2334E92A11,ST2334E92A11,531,1,Chargefox,,50.0,station_name_missing
+EV889491003F,ST48C1384A87,532;1075,2,Exploren,Hay Shire Council,22.0,merge_conflict_plugs;merged_duplicates
+EVF8E46ED9EC,STF8E46ED9EC,533,1,BP,,75.0,station_name_missing
+EVDABBF92ADE,STDABBF92ADE,534,1,Chargefox,,22.0,station_name_missing
+EV18F95173BA,ST18F95173BA,535,1,Exploren,,22.0,station_name_missing
+EV1D57223034,ST1D57223034,536,1,Exploren,,22.0,station_name_missing
+EVAD345ECD63,STAD345ECD63,537,1,Exploren,,180.0,station_name_missing
+EV88456D1EB4,ST88456D1EB4,538,1,Exploren,,11.0,station_name_missing
+EV46A2F6CB42,ST46A2F6CB42,539,1,Tesla,,22.0,station_name_missing
+EVEF43D9B412,STEF43D9B412,540,1,ChargePoint,,3.0,station_name_missing
+EV4FB48F70CF,ST4FB48F70CF,541,1,Chargefox,,25.0,station_name_missing
+EVF5F93C4B8E,STF5F93C4B8E,542,1,Tesla,,3.0,station_name_missing
+EVE161FD0F3F,STE161FD0F3F,543,1,Chargefox,,200.0,station_name_missing
+EV1CB56E44E0,ST1CB56E44E0,544,1,Chargefox,,22.0,station_name_missing
+EVB6626D01C6,STB6626D01C6,545;1547,2,Exploren|Non-networked,Cellar Door,22.0,merge_conflict_plugs;merged_duplicates
+EV8BA872D0C0,ST8BA872D0C0,546,1,Exploren,,22.0,station_name_missing
+EVB93B12E3E4,STB93B12E3E4,547,1,Tesla,,22.0,station_name_missing
+EVE749130182,STE749130182,548;557;1101,3,Chargefox,,22.0,station_name_missing;merged_duplicates
+EV36B60A7A15,ST36B60A7A15,549,1,Chargefox,,22.0,station_name_missing
+EV0D0B1A20E3,ST0D0B1A20E3,550,1,Exploren,,22.0,station_name_missing
+EVBFC602E900,STBFC602E900,551,1,Tesla,,22.0,station_name_missing
+EV3C711314F7,ST3C711314F7,552,1,Chargefox,,120.0,station_name_missing
+EV89220F5ABB,ST89220F5ABB,553,1,JOLT,,25.0,station_name_missing
+EV44D10E8B51,ST44D10E8B51,554,1,EVX,,22.0,station_name_missing
+EV583DC12143,ST583DC12143,555,1,Exploren,,6.0,station_name_missing
+EV98372D29E5,ST98372D29E5,556,1,Chargefox,,75.0,station_name_missing
+EVE85A3E1288,STE85A3E1288,559,1,Exploren,,22.0,station_name_missing
+EVEDC409C8D5,STEDC409C8D5,560,1,Chargefox,,6.0,station_name_missing
+EV29CE62410A,ST29CE62410A,561,1,Exploren,,22.0,station_name_missing
+EV8DEAB8F441,ST8DEAB8F441,562,1,Tesla,,22.0,station_name_missing
+EVD4B7F6FC78,STD4B7F6FC78,563,1,Exploren,,60.0,station_name_missing
+EV2CBDDCFDFB,ST2CBDDCFDFB,564,1,Exploren,,22.0,station_name_missing
+EVDC2F3570A0,STDC2F3570A0,565,1,EV Meter,,11.0,station_name_missing
+EVDE8D93E558,STDE8D93E558,566,1,Evie,,50.0,station_name_missing
+EV0BF1AE849C,ST0BF1AE849C,567,1,Evie,,50.0,station_name_missing
+EVC19423A1AB,STC19423A1AB,568,1,Chargefox,,22.0,station_name_missing
+EV87AD7451AA,ST87AD7451AA,569,1,Tesla,,5.0,station_name_missing
+EVC26AEC031B,STC26AEC031B,570,1,Exploren,,120.0,station_name_missing
+EV9E935C454A,ST9E935C454A,571,1,Tesla,,22.0,station_name_missing
+EVDF2B454E25,STDF2B454E25,572,1,Tesla,,19.0,station_name_missing
+EV2A9B366F85,ST2A9B366F85,573,1,ChargeHub,,22.0,station_name_missing
+EV97D8570F95,ST97D8570F95,574,1,JOLT,,25.0,station_name_missing
+EV3AE02278A2,ST3AE02278A2,575;1565,2,Chargefox,,60.0,station_name_missing;merged_duplicates
+EV797B9956F1,ST797B9956F1,576,1,Ampol,,150.0,station_name_missing
+EV4AFD859BA3,ST4AFD859BA3,577,1,BP,,75.0,station_name_missing
+EV85E7ACAECB,ST85E7ACAECB,578,1,Exploren,,22.0,station_name_missing
+EV27669D765C,ST27669D765C,579,1,ChargeHub,,22.0,station_name_missing
+EVDAB9DA2596,STDAB9DA2596,580,1,Tesla,,22.0,station_name_missing
+EV7B8AA4E8B9,ST7B8AA4E8B9,581,1,Chargefox,,22.0,station_name_missing
+EVEBE9D1B6EE,STEBE9D1B6EE,582,1,Exploren,,22.0,station_name_missing
+EV54150593CC,ST54150593CC,583,1,Tesla,,17.0,station_name_missing
+EV3E3BB50724,ST3E3BB50724,584,1,Chargefox,,22.0,station_name_missing
+EV82D23A492E,ST39C11D40F1,585,1,EVX,,6.0,station_name_missing
+EV5EC31210F6,ST5EC31210F6,586,1,Tesla,,22.0,station_name_missing
+EVE3B8F70E38,STE3B8F70E38,587,1,Tesla,,22.0,station_name_missing
+EV564D301FF7,ST564D301FF7,588,1,Tesla,,6.0,station_name_missing
+EVAF1068D081,STAF1068D081,589,1,Exploren,,40.0,station_name_missing
+EV469A8F724C,ST469A8F724C,590,1,Chargefox,,22.0,station_name_missing
+EVCB847B7B02,STCB847B7B02,591,1,Tesla,,22.0,station_name_missing
+EV3B1FB45CAB,ST3B1FB45CAB,592,1,Evie,,75.0,station_name_missing
+EVFA5E08A129,STFA5E08A129,593,1,NRMA,,75.0,postcode_overridden_by_address;station_name_missing
+EVA3F3937B44,STA3F3937B44,594,1,NRMA,,22.0,station_name_missing
+EV9AF2AA69DE,ST9AF2AA69DE,595,1,Chargefox,,40.0,station_name_missing
+EV035B2B0127,ST035B2B0127,596;603;1001,3,EVE Australia|Exploren,,22.0,merge_conflict_operator;station_name_missing;merged_duplicates
+EV6D297DFAFC,ST6D297DFAFC,597,1,Exploren,,22.0,station_name_missing
+EV855E3CB12B,ST855E3CB12B,598,1,Tesla,,19.0,station_name_missing
+EV137DB0E715,ST137DB0E715,600,1,Chargefox,,22.0,station_name_missing
+EV4FAAECEF85,ST4FAAECEF85,601,1,Ampol,,125.0,station_name_missing
+EV8072BFBA3A,ST8072BFBA3A,602,1,Chargefox,,7.0,station_name_missing
+EV5A2EF5DA89,ST5A2EF5DA89,604,1,Tesla,,6.0,station_name_missing
+EVB0CC860756,ST808EB187F5,558;606,2,Exploren,Albury City Council,22.0,merged_duplicates
+EV43906AD776,ST43906AD776,607,1,NRMA,,50.0,station_name_missing
+EV8310103ACA,ST8310103ACA,608,1,Tesla,,19.0,station_name_missing
+EVBE8E7A0E88,STBE8E7A0E88,609,1,Exploren,,22.0,station_name_missing
+EVEFC07A96DF,STEFC07A96DF,610,1,Chargefox,,50.0,station_name_missing
+EVC4E3B7E190,STC4E3B7E190,611,1,Chargefox,,6.0,station_name_missing
+EV76B094F71B,ST76B094F71B,612,1,Exploren,,22.0,station_name_missing
+EVEADAADE97F,STEADAADE97F,613,1,Evie,,50.0,station_name_missing
+EVF3E460DB8D,STF3E460DB8D,614,1,JOLT,,25.0,station_name_missing
+EV68913CAD4F,ST68913CAD4F,615,1,EVX,,22.0,station_name_missing
+EV7CAF98856D,ST7CAF98856D,616,1,Tesla,,22.0,station_name_missing
+EVBE13BFF9C9,STBE13BFF9C9,617,1,Evie,,150.0,station_name_missing
+EV4EFEA94180,ST4EFEA94180,618,1,Evie,,75.0,station_name_missing
+EV9AD98D4815,ST9AD98D4815,619,1,Exploren,,6.0,station_name_missing
+EV2BE1871EF3,ST2BE1871EF3,620,1,Tesla,,22.0,station_name_missing
+EVD1ADA64261,STD1ADA64261,621,1,EVX,,22.0,station_name_missing
+EVB2207AE8ED,STB2207AE8ED,622,1,EVUp,,22.0,station_name_missing
+EVF4018F1A79,STF4018F1A79,623,1,JOLT,,25.0,station_name_missing
+EV1D33C894FD,ST1D33C894FD,624,1,Exploren,,22.0,station_name_missing
+EVCB4F85B8A3,STCB4F85B8A3,625,1,Tesla,,11.0,station_name_missing
+EV19DEB09F33,ST19DEB09F33,626,1,Chargefox,,22.0,station_name_missing
+EV6E26C795BB,ST6E26C795BB,627,1,Non-networked,,22.0,station_name_missing
+EV236C542E7F,ST236C542E7F,628,1,Tesla,,130.0,station_name_missing
+EVB127E38766,STB127E38766,629,1,Tesla,,22.0,station_name_missing
+EV7512CEB45F,ST7512CEB45F,630;657;1052,3,EVX,,22.0,station_name_missing;merged_duplicates
+EV62B6DF3F97,ST62B6DF3F97,631,1,EVX,,22.0,station_name_missing
+EV49AAD5C28D,ST49AAD5C28D,632,1,Tesla,,19.0,station_name_missing
+EVE8EA8FE8CB,STE8EA8FE8CB,633,1,Porsche Smart Mobility,,11.0,station_name_missing
+EVC10D4996D3,STC10D4996D3,634,1,Tesla,,22.0,station_name_missing
+EVDE55F27227,STDE55F27227,635,1,Tesla,,6.0,station_name_missing
+EV8C7EE8CC36,ST8C7EE8CC36,636,1,Tesla,,22.0,station_name_missing
+EV729D0ACA9E,ST729D0ACA9E,637,1,Tesla,,130.0,station_name_missing
+EV7347BE403F,ST7347BE403F,638,1,BP,,75.0,station_name_missing
+EVFE3406DA6C,STFE3406DA6C,639,1,Tesla,,250.0,station_name_missing
+EV377C18A85F,ST377C18A85F,640,1,Exploren,,22.0,station_name_missing
+EVB16013B798,STB16013B798,641,1,JOLT,,25.0,station_name_missing
+EV1C3F27A416,ST1C3F27A416,642,1,Tesla,,22.0,station_name_missing
+EV54D7155177,ST54D7155177,643,1,Evie,,75.0,station_name_missing
+EV473298901F,ST473298901F,644,1,Ampol,,125.0,station_name_missing
+EV343E630AD9,ST343E630AD9,645,1,Exploren,,6.0,station_name_missing
+EV48C6F3703E,ST48C6F3703E,646,1,Chargefox,,22.0,station_name_missing
+EVB6BF6494A6,STB6BF6494A6,647,1,Tesla,,8.0,station_name_missing
+EVB400F1DD37,STB400F1DD37,648,1,Chargefox,,75.0,station_name_missing
+EVCFBF26E2B5,STCFBF26E2B5,649,1,Exploren,,6.0,station_name_missing
+EV5B5788BA2A,ST5B5788BA2A,650,1,NRMA,,75.0,postcode_overridden_by_address;station_name_missing
+EV154B8B6DBC,ST154B8B6DBC,651,1,Exploren,,22.0,station_name_missing
+EV3A6C6A45AA,ST3A6C6A45AA,652,1,Tesla,,6.0,station_name_missing
+EV671284E9B3,ST671284E9B3,653,1,Everty,,22.0,station_name_missing
+EVE7FCB77453,STE7FCB77453,654,1,Evie,,50.0,station_name_missing
+EV02B19F462F,ST02B19F462F,655,1,Tesla,,22.0,station_name_missing
+EV2E2C79726E,ST2E2C79726E,656,1,Tesla,,19.0,station_name_missing
+EV4198F08050,ST4198F08050,658,1,Evie,,75.0,station_name_missing
+EVBC4F3007DA,STBC4F3007DA,659,1,ChargeHub,,22.0,station_name_missing
+EVDA93178703,STDA93178703,660,1,Exploren,,22.0,station_name_missing
+EV0F903507F9,ST0F903507F9,661,1,Tesla,,22.0,station_name_missing
+EV36B2CAB93E,ST36B2CAB93E,662,1,Tesla,,19.0,station_name_missing
+EVE2E309A143,STE2E309A143,663;1629,2,Evie|Evie Networks,,50.0,station_name_missing;merged_duplicates
+EVDB921490B7,STDB921490B7,664,1,Tesla,,6.0,station_name_missing
+EVA6003D3264,STA6003D3264,665,1,ChargeHub,,7.0,station_name_missing
+EV12C7CA9995,ST12C7CA9995,666,1,Evie,,75.0,station_name_missing
+EV7B9529EFF1,ST7B9529EFF1,667,1,Saascharge,,22.0,station_name_missing
+EV8BF1D54610,ST8BF1D54610,668,1,Exploren,,22.0,station_name_missing
+EV1C7DA2F941,ST1C7DA2F941,669,1,Chargefox,,22.0,station_name_missing
+EV898D6EBFE7,ST898D6EBFE7,670,1,Evie,,150.0,station_name_missing
+EV2A9AF992DD,ST2A9AF992DD,671,1,EVX,,22.0,station_name_missing
+EVDED0C00FE7,STDED0C00FE7,672,1,Tesla,,11.0,station_name_missing
+EV0B606275AB,ST0B606275AB,673,1,Chargefox,,47.0,station_name_missing
+EV944D4A8A9E,ST944D4A8A9E,674,1,Exploren,,22.0,station_name_missing
+EV7052DEC7E9,ST7052DEC7E9,675,1,Exploren,,120.0,station_name_missing
+EV9B7803AB35,ST9B7803AB35,676,1,Tesla,,6.0,station_name_missing
+EVEA4DE8EEB4,ST74AA89D590,677,1,Everty,,22.0,station_name_missing
+EVC93DF6DDE8,STC93DF6DDE8,678,1,JOLT,,25.0,station_name_missing
+EV3384CD4C1B,ST3384CD4C1B,679,1,BMW,,6.0,station_name_missing
+EV537C2F64D2,ST537C2F64D2,681,1,Ampol,,125.0,station_name_missing
+EVCD63A0154F,STCD63A0154F,682,1,JOLT,,25.0,station_name_missing
+EV9992E7CC30,ST9992E7CC30,683,1,Exploren,,22.0,station_name_missing
+EVD495F6B36E,STD495F6B36E,684,1,Tesla,,6.0,station_name_missing
+EV2DEA00E902,ST2DEA00E902,685,1,Exploren,,22.0,station_name_missing
+EV388857D7BC,ST388857D7BC,686,1,Exploren,,40.0,station_name_missing
+EV585C1D8951,ST585C1D8951,687,1,Exploren,,22.0,station_name_missing
+EVAFAB6880ED,STAFAB6880ED,688,1,NRMA,,50.0,station_name_missing
+EVBA24786E5A,STBA24786E5A,690,1,Exploren,,22.0,station_name_missing
+EVFDA1EF3A4B,STFDA1EF3A4B,691;1655,2,Exploren|Non-networked,Bulahdelah Motor Lodge,22.0,merged_duplicates
+EVE7A17E7E0D,STE7A17E7E0D,692,1,Tesla,,22.0,station_name_missing
+EV00BCD5F2A5,ST00BCD5F2A5,693;1066,2,360 EV Charge|Non-Networked,Symbio Wildlife Park,22.0,merge_conflict_name;merged_duplicates
+EV3DF8BDBB1B,ST3DF8BDBB1B,694,1,Exploren,,22.0,station_name_missing
+EV5C7F534797,ST5C7F534797,695,1,Exploren,,22.0,station_name_missing
+EV13E2C3C074,ST13E2C3C074,696,1,Tesla,,22.0,station_name_missing
+EVBFB2A74DA3,STBFB2A74DA3,697,1,JOLT,,25.0,station_name_missing
+EV91A34C957A,ST91A34C957A,698,1,EVUp,,23.0,station_name_missing
+EV4D056616A3,ST4D056616A3,699,1,Evie,,50.0,station_name_missing
+EV4E2EAB789C,ST4E2EAB789C,700,1,Chargefox,,47.0,station_name_missing
+EV1982E82FDA,ST1982E82FDA,701,1,Tesla,,22.0,station_name_missing
+EVE67BED1248,STE67BED1248,689;702;1071,3,Exploren|Non-Networked,Roxy Theatre,22.0,merge_conflict_name;merged_duplicates
+EV55CB9A0257,ST55CB9A0257,703,1,Ampol,,150.0,station_name_missing
+EVA7DF930DD6,STA7DF930DD6,704,1,EVX,,22.0,station_name_missing
+EVC2CC8738AE,STC2CC8738AE,705,1,NRMA,,50.0,station_name_missing
+EV2F6641A4F1,ST2F6641A4F1,706,1,Chargefox,,22.0,station_name_missing
+EV0B6A93FE61,ST0B6A93FE61,707,1,Tesla,,130.0,station_name_missing
+EV7CEC986F91,ST7CEC986F91,708,1,Exploren,,22.0,station_name_missing
+EVA4F76FC2EE,STA4F76FC2EE,709,1,NRMA,,50.0,station_name_missing
+EVBEB7A6C16C,STBEB7A6C16C,710,1,Tesla,,22.0,station_name_missing
+EV609F1AE79B,ST609F1AE79B,711,1,Evie,,75.0,station_name_missing
+EV096AF2A793,ST096AF2A793,712,1,Chargefox,,40.0,station_name_missing
+EVBA1E354E0D,STBA1E354E0D,713,1,Tesla,,22.0,station_name_missing
+EVDA59F51173,STDA59F51173,714,1,Ampol,,125.0,station_name_missing
+EV6FE71959F0,ST6FE71959F0,715,1,Chargefox,,125.0,station_name_missing
+EV3C67DB3C22,ST3C67DB3C22,716,1,Chargefox,,22.0,station_name_missing
+EV0492848265,ST0492848265,717,1,Tesla,,22.0,station_name_missing
+EVBBC75750B8,STBBC75750B8,718,1,Exploren,,120.0,station_name_missing
+EVD7565099B8,STD7565099B8,719,1,Exploren,,50.0,station_name_missing
+EV6A377B18FE,ST6A377B18FE,720,1,Exploren,,22.0,station_name_missing
+EVE5D90D4AF1,STE5D90D4AF1,721,1,Tesla,,6.0,station_name_missing
+EV22B590B1E8,ST22B590B1E8,722,1,BP,,75.0,station_name_missing
+EVB9F3DF090B,STB9F3DF090B,723,1,Tesla,,22.0,station_name_missing
+EV58DC80E99B,ST58DC80E99B,724,1,Exploren,,22.0,station_name_missing
+EVD5F34F3665,STD5F34F3665,725,1,NRMA,,22.0,station_name_missing
+EVA1282ED8AC,STA1282ED8AC,726,1,Tesla,,13.0,station_name_missing
+EVE292E37379,STE292E37379,727,1,NRMA,,50.0,postcode_overridden_by_address;station_name_missing
+EVF19B1989CD,STF19B1989CD,728,1,NRMA,,50.0,station_name_missing
+EV362FD2B97A,ST362FD2B97A,729,1,Exploren,,22.0,station_name_missing
+EVFFC92E5896,STFFC92E5896,730,1,NRMA,,75.0,postcode_overridden_by_address;station_name_missing
+EVDA74736E22,STDA74736E22,731,1,NRMA,,50.0,postcode_overridden_by_address;station_name_missing
+EVBD5C44D258,STBD5C44D258,732,1,Exploren,,22.0,station_name_missing
+EV9DE57AD130,ST9DE57AD130,733,1,Chargefox,,6.0,station_name_missing
+EVDE88898807,STDE88898807,734,1,Exploren,,6.0,station_name_missing
+EVDBD6A40C82,STDBD6A40C82,735,1,JOLT,,25.0,station_name_missing
+EVDBC66AB66D,STDBC66AB66D,736,1,NRMA,,50.0,postcode_overridden_by_address;station_name_missing
+EV1E28E30049,ST1E28E30049,737,1,Evie,,50.0,station_name_missing
+EV7BECD930A5,ST7BECD930A5,738,1,Exploren,,22.0,station_name_missing
+EV7A0164EAD1,ST7A0164EAD1,739,1,Tesla,,22.0,station_name_missing
+EV1AA44679AD,ST1AA44679AD,740,1,Tesla,,150.0,station_name_missing
+EV8BB65101EC,ST8BB65101EC,741,1,Exploren,,22.0,station_name_missing
+EV7E7922086E,ST7E7922086E,742,1,Tesla,,22.0,station_name_missing
+EVAD7ED229D6,STAD7ED229D6,743,1,Exploren,,22.0,station_name_missing
+EV19556D56EB,ST19556D56EB,744,1,Chargefox,,22.0,station_name_missing
+EV9DA7DF4D67,ST9DA7DF4D67,745,1,Tesla,,22.0,station_name_missing
+EVFA4A7E9689,STFA4A7E9689,746,1,JOLT,,25.0,station_name_missing
+EVBA143AB749,STBA143AB749,747,1,Evie,,75.0,station_name_missing
+EV5AD90DFA56,ST5AD90DFA56,748,1,Ampol,,125.0,station_name_missing
+EVB52976209C,STB52976209C,749,1,Ampol,,125.0,station_name_missing
+EVF039605BC4,STF039605BC4,750,1,Tesla,,9.0,station_name_missing
+EVCA407A51E2,STCA407A51E2,751,1,Evie,,50.0,station_name_missing
+EVFB1DAECA55,STFB1DAECA55,752,1,ChargeHub,,22.0,station_name_missing
+EV05D5B7D351,ST05D5B7D351,753,1,Exploren,,22.0,station_name_missing
+EV7D034B6ACF,ST7D034B6ACF,754,1,Tesla,,250.0,station_name_missing
+EV3ECB13B36C,ST3ECB13B36C,755;776;1037,3,Evie|Evie Networks,,50.0,station_name_missing;merged_duplicates
+EV4AA0905265,ST4AA0905265,756,1,NRMA,,50.0,station_name_missing
+EVE8EF313748,STE8EF313748,757,1,NRMA,,50.0,station_name_missing
+EVD838C2FAAC,STD838C2FAAC,758,1,BP,,150.0,station_name_missing
+EV5DB5D2FC2F,ST5DB5D2FC2F,759,1,Tesla,,22.0,station_name_missing
+EVDC1859D647,STDC1859D647,760,1,Chargefox,,165.0,station_name_missing
+EV91B9DED865,ST91B9DED865,761,1,Exploren,,22.0,station_name_missing
+EVB4EC011FFC,STB4EC011FFC,762,1,Exploren,,22.0,station_name_missing
+EVD3820C215A,STD3820C215A,763,1,Chargefox,,22.0,station_name_missing
+EV2D63964C28,ST2D63964C28,764,1,Exploren,,22.0,station_name_missing
+EV867E2DD7AE,ST867E2DD7AE,765,1,Evie,,50.0,station_name_missing
+EVD965419BEF,STD965419BEF,766,1,Ampol,,125.0,station_name_missing
+EV49C715CE1C,ST49C715CE1C,767,1,JOLT,,25.0,station_name_missing
+EV09EA8C6F64,ST09EA8C6F64,768,1,Wevolt,,13.0,station_name_missing
+EVDDE58E70AE,STDDE58E70AE,769,1,Chargefox,,22.0,station_name_missing
+EVB0B999DD28,STB0B999DD28,770,1,Evie,,75.0,station_name_missing
+EVAF62CAE0D2,STAF62CAE0D2,771,1,Chargefox,,22.0,station_name_missing
+EVAF0F027CD2,STAF0F027CD2,772,1,Tesla,,22.0,station_name_missing
+EVAD6EF94B5E,STAD6EF94B5E,773,1,Evie,,75.0,station_name_missing
+EV75F3F3D6D1,ST75F3F3D6D1,774,1,Chargefox,,22.0,station_name_missing
+EV09E1E11D17,ST09E1E11D17,775,1,Ampol,,125.0,station_name_missing
+EV0B28B3A325,ST0B28B3A325,777,1,Non-networked,Reflections Bonny Hills,,rating_missing
+EVBBA5430900,STBBA5430900,778,1,Evie,,50.0,station_name_missing
+EVD2F0CC8139,STD2F0CC8139,779,1,ChargeHub,,25.0,station_name_missing
+EV90F77BEB8D,ST90F77BEB8D,780,1,Evie,,75.0,station_name_missing
+EVD4B6847027,STD4B6847027,781,1,EVX,,22.0,station_name_missing
+EV9D1B4C5BAF,ST9D1B4C5BAF,782,1,Chargefox,,6.0,station_name_missing
+EV005C8FADCE,ST005C8FADCE,783,1,Exploren,,6.0,station_name_missing
+EV29FCB18170,ST29FCB18170,784,1,Evie,,50.0,station_name_missing
+EVBF8FDA1627,STBF8FDA1627,785,1,Chargefox,,6.0,station_name_missing
+EV4999DF92EC,ST4999DF92EC,786,1,Chargefox,,50.0,station_name_missing
+EVB2164FA989,STB2164FA989,787,1,Exploren,,22.0,station_name_missing
+EV720BEEA18B,ST5206925281,788,1,Chargefox,,80.0,station_name_missing
+EVF42DA8A32C,STF42DA8A32C,789,1,Tesla,,22.0,station_name_missing
+EV1F4B796289,ST1F4B796289,790,1,Chargefox,,6.0,station_name_missing
+EV0ADB52F45C,ST0ADB52F45C,791,1,Exploren,,22.0,station_name_missing
+EVEE68D6E5F3,STEE68D6E5F3,792,1,Chargefox,,42.0,station_name_missing
+EVC6D04204E2,STC6D04204E2,793,1,Ampol,,125.0,station_name_missing
+EVED9CAA7FE8,STED9CAA7FE8,794,1,Tesla,,22.0,station_name_missing
+EVB88AC020E4,STB88AC020E4,795,1,Tesla,,22.0,station_name_missing
+EV3F37B75E1D,ST3F37B75E1D,796,1,Chargefox,,6.0,station_name_missing
+EV31E189F287,ST31E189F287,797,1,Exploren,,22.0,station_name_missing
+EV282731C79C,ST282731C79C,798,1,Exploren,,22.0,station_name_missing
+EV347E1CD09C,ST347E1CD09C,799,1,Exploren,,22.0,station_name_missing
+EV7649C6EC68,ST7649C6EC68,800,1,EVUp,,22.0,station_name_missing
+EV5C964FB691,ST5C964FB691,801,1,Exploren,,6.0,station_name_missing
+EV8271A137E1,ST8271A137E1,802,1,Exploren,,50.0,station_name_missing
+EV6BAB7858FA,ST6BAB7858FA,803,1,Porsche Smart Mobility,,11.0,station_name_missing
+EVE41F74551F,STE41F74551F,804,1,Exploren,,22.0,station_name_missing
+EVCA7FBEF86B,STCA7FBEF86B,805,1,BP,,75.0,station_name_missing
+EVD2628264DA,STD2628264DA,806,1,Tesla,,130.0,station_name_missing
+EV3F1367EA80,ST3F1367EA80,807,1,Tesla,,22.0,station_name_missing
+EV8DE04D998B,ST8DE04D998B,808,1,Chargefox,,22.0,station_name_missing
+EVC00C3C5097,STC00C3C5097,809,1,Tesla,,22.0,station_name_missing
+EVA9B1239FF9,STA9B1239FF9,810,1,Porsche Smart Mobility,,11.0,station_name_missing
+EV2FB2CF3D1C,ST2FB2CF3D1C,811,1,Exploren,,120.0,station_name_missing
+EVA8049C662A,STA8049C662A,812,1,JOLT,,25.0,station_name_missing
+EV6E989E5FD3,ST6E989E5FD3,813,1,Chargefox,,22.0,station_name_missing
+EV86918BD9B4,ST86918BD9B4,814,1,Chargefox,,6.0,station_name_missing
+EVDDE15E966D,STDDE15E966D,815,1,Tesla,,6.0,station_name_missing
+EVCE0F79F5FF,STCE0F79F5FF,816,1,Tesla,,130.0,station_name_missing
+EV7656C41CB1,ST7656C41CB1,244;817;1012,3,Exploren,Kempsey Shire Council,22.0,merged_duplicates
+EVBAD1290551,STBAD1290551,818;1703,2,Chargefox,,40.0,merge_conflict_rating;station_name_missing;merged_duplicates
+EV1D6D4B1C94,ST1D6D4B1C94,819,1,NRMA,,22.0,station_name_missing
+EV5C9105D3E2,ST5C9105D3E2,820,1,Evie,,150.0,postcode_overridden_by_address;station_name_missing
+EV48850E2100,ST48850E2100,821,1,EVUp,,22.0,station_name_missing
+EVBAE0EC5E9D,STBAE0EC5E9D,822,1,NRMA,,50.0,station_name_missing
+EVB44E4DAF27,STB44E4DAF27,823,1,NRMA,,75.0,postcode_overridden_by_address;station_name_missing
+EV31469F0755,ST31469F0755,824,1,NRMA,,50.0,postcode_overridden_by_address;station_name_missing
+EVFBCE5B9ABF,STFBCE5B9ABF,825,1,EVUp,,22.0,station_name_missing
+EVB9B1184AFD,STB9B1184AFD,827,1,Ampol,,150.0,station_name_missing
+EVCD07E3B34F,STCD07E3B34F,828,1,EVUp,,22.0,station_name_missing
+EV77673A0149,ST77673A0149,829,1,EVX,,22.0,station_name_missing
+EV4975BD9DB1,ST4975BD9DB1,830,1,ChargePoint,,6.0,station_name_missing
+EV8458C811D2,ST8458C811D2,831,1,Chargefox,,6.0,station_name_missing
+EVB7C90BC47A,STB7C90BC47A,832,1,Tesla,,22.0,station_name_missing
+EVFA6F72CACD,STFA6F72CACD,833,1,Ampol,,125.0,station_name_missing
+EV4A2D210D5E,ST4A2D210D5E,834,1,Evie,,150.0,station_name_missing
+EV7AE87BBA07,ST7AE87BBA07,835,1,Evie,,50.0,station_name_missing
+EVFEDC079D0B,STFEDC079D0B,836,1,Tesla,,130.0,station_name_missing
+EV53D82CCAB3,ST53D82CCAB3,837,1,Evie,,75.0,station_name_missing
+EVF13A7F36DC,STF13A7F36DC,838,1,Chargefox,,50.0,station_name_missing
+EV0156324F85,ST0156324F85,839,1,NRMA,,22.0,station_name_missing
+EV5EB2B30B8C,ST5EB2B30B8C,840,1,NRMA,,50.0,station_name_missing
+EV227CD919BC,ST227CD919BC,841,1,EVUp,,22.0,station_name_missing
+EVB7424BCC1F,STB7424BCC1F,842,1,JOLT,,25.0,station_name_missing
+EV5CB2720DE8,ST5CB2720DE8,843,1,Tesla,,6.0,station_name_missing
+EVA25BAF9356,STA25BAF9356,844,1,NRMA,,75.0,station_name_missing
+EVF52589AE22,STF52589AE22,845,1,Non-networked,,22.0,station_name_missing
+EV7D2F3DA525,ST7D2F3DA525,846,1,NRMA,,22.0,station_name_missing
+EV9AA4AE0ED2,ST9AA4AE0ED2,847,1,NRMA,,22.0,station_name_missing
+EV41BF7579D8,ST41BF7579D8,848,1,Everty,,6.0,station_name_missing
+EV4E7DF08040,ST4E7DF08040,849,1,Chargefox,,22.0,station_name_missing
+EVC472DE3BE6,STC472DE3BE6,850,1,Tesla,,22.0,station_name_missing
+EVE15F2A1CB5,STE15F2A1CB5,851,1,Evie,,75.0,station_name_missing
+EV9CCF44C5FB,ST9CCF44C5FB,852,1,Tesla,,22.0,station_name_missing
+EVCB57DAE0F9,STCB57DAE0F9,853,1,NRMA,,180.0,station_name_missing
+EV5FDEDD1FC0,ST5FDEDD1FC0,854,1,Tesla,,130.0,station_name_missing
+EV1B2B4FC39D,ST1B2B4FC39D,855,1,Porsche Smart Mobility,,11.0,station_name_missing
+EV1A84A4984B,ST1A84A4984B,856,1,Porsche Smart Mobility,,11.0,station_name_missing
+EVD9B7E22C79,STD9B7E22C79,857,1,Evie,,75.0,station_name_missing
+EV3940F77618,ST3940F77618,858,1,Chargefox,,22.0,station_name_missing
+EVEB6BAF2B52,STEB6BAF2B52,859,1,JOLT,,25.0,station_name_missing
+EV8A6A5CC51F,ST8A6A5CC51F,860,1,JOLT,,25.0,station_name_missing
+EV4BA92AD366,ST4BA92AD366,861,1,NRMA,,22.0,station_name_missing
+EV39F1026210,ST39F1026210,862,1,NRMA,,50.0,station_name_missing
+EV27BBB74AD5,ST27BBB74AD5,863,1,Chargefox,,22.0,station_name_missing
+EVC72367C56C,STC72367C56C,864,1,Porsche Destination Charging,,11.0,station_name_missing
+EV950D6A8658,ST950D6A8658,865,1,Porsche Smart Mobility,,11.0,station_name_missing
+EV45772C0381,ST45772C0381,867,1,Porsche Smart Mobility,,11.0,station_name_missing
+EV4612BCD466,ST4612BCD466,868,1,Chargefox,,350.0,station_name_missing
+EVEC05AA6210,ST1FFFFA6C9C,869,1,BP,,150.0,station_name_missing
+EV1FFFFA6C9C,ST1FFFFA6C9C,870,1,BP,,150.0,station_name_missing
+EV9057426A6A,ST9057426A6A,871,1,NRMA,,60.0,station_name_missing
+EVD5793AE734,STD5793AE734,872,1,EVUp,,23.0,station_name_missing
+EV29252D775B,ST29252D775B,873,1,EVX,,22.0,station_name_missing
+EVDB8F2394AB,STDB8F2394AB,874,1,Chargefox,,6.0,station_name_missing
+EVBEDCA12577,STBEDCA12577,875,1,Non-networked,,22.0,station_name_missing
+EV0398CB63D5,ST0398CB63D5,876,1,Tesla,,17.0,station_name_missing
+EVE1E7D4C423,STE1E7D4C423,877,1,Porsche Smart Mobility,,11.0,station_name_missing
+EVB94A05E3D2,STB94A05E3D2,878,1,Exploren,,150.0,station_name_missing
+EV96C56AB0BC,ST96C56AB0BC,879,1,Porsche Smart Mobility,,11.0,station_name_missing
+EVD7A5F1885A,STD7A5F1885A,880,1,Chargefox,,180.0,station_name_missing
+EV6E3EFC6CEC,ST6E3EFC6CEC,881,1,Chargefox,,22.0,station_name_missing
+EV8BC3F1DF4D,ST8BC3F1DF4D,882,1,BP,,75.0,station_name_missing
+EVC2C57A90D3,STC2C57A90D3,883,1,NRMA,,22.0,station_name_missing
+EV2E553C08A5,ST2E553C08A5,884,1,BP,,75.0,station_name_missing
+EV0727EE2757,ST0727EE2757,885,1,NRMA,,50.0,station_name_missing
+EVF6B270B87C,STF6B270B87C,886,1,NRMA,,50.0,station_name_missing
+EVFE3AF99AE2,STFE3AF99AE2,887,1,Porsche Smart Mobility,,11.0,station_name_missing
+EVCDF03ABCDD,STCDF03ABCDD,888,1,NRMA,,50.0,postcode_overridden_by_address;station_name_missing
+EVD8FBD3FD9F,STD8FBD3FD9F,889,1,Tesla,,22.0,station_name_missing
+EV1FDC8AF4B0,ST1FDC8AF4B0,890,1,Exploren,,50.0,station_name_missing
+EV62A59FC81D,ST62A59FC81D,891,1,EVUp,,22.0,station_name_missing
+EV07C7D547AC,ST07C7D547AC,892,1,Engie,,150.0,station_name_missing
+EVB9DA6D2567,STB9DA6D2567,893,1,Chargefox,,22.0,station_name_missing
+EV73E4AD34E6,ST73E4AD34E6,895,1,Chargefox,,100.0,station_name_missing
+EV008BB530D1,ST008BB530D1,896,1,Exploren,,22.0,station_name_missing
+EV47312D2DDD,ST47312D2DDD,897,1,Chargefox,,6.0,station_name_missing
+EVD07866E595,STD07866E595,898,1,Chargefox,,22.0,station_name_missing
+EV8D0BBDD91B,ST8D0BBDD91B,899,1,Porsche Smart Mobility,,11.0,station_name_missing
+EV0A20B81CC9,ST0A20B81CC9,900,1,Ampol,,400.0,station_name_missing
+EV71D6046D84,ST71D6046D84,901,1,Tesla,,6.0,station_name_missing
+EVD6EC3E9586,STD6EC3E9586,902,1,Tesla,,22.0,station_name_missing
+EVBFD4388AA8,STBFD4388AA8,903,1,Chargefox,,22.0,station_name_missing
+EVFDC2C39177,STFDC2C39177,904,1,Exploren,,22.0,station_name_missing
+EVA721B5FC44,STA721B5FC44,905,1,Tesla,,6.0,station_name_missing
+EV2C1822CE53,ST2C1822CE53,907,1,Exploren,,22.0,station_name_missing
+EV99AB36C626,ST99AB36C626,908,1,ChargeHub,,22.0,station_name_missing
+EV11F54CC833,ST11F54CC833,909,1,Porsche Smart Mobility,,11.0,station_name_missing
+EV76E6DAA028,ST76E6DAA028,910,1,EVUp,,22.0,station_name_missing
+EV1AFAD07D9C,ST1AFAD07D9C,911,1,NRMA,,50.0,station_name_missing
+EV00EFF9D5EB,ST00EFF9D5EB,912,1,Tesla,,6.0,station_name_missing
+EV5379FF3D1E,ST5379FF3D1E,913,1,Tesla,,22.0,station_name_missing
+EV783BCE93F5,ST783BCE93F5,914,1,Chargefox,,6.0,station_name_missing
+EV0AED3D6F1B,ST0AED3D6F1B,915,1,Tesla,,22.0,station_name_missing
+EV459B6F0957,ST459B6F0957,916,1,NRMA,,50.0,station_name_missing
+EVE843F2A81E,STE843F2A81E,917;1514,2,EVX,,22.0,station_name_missing;merged_duplicates
+EV5FE92EAD38,ST5FE92EAD38,918,1,Ampol,,150.0,station_name_missing
+EVDFBA56FDA6,STDFBA56FDA6,919,1,Ampol,,150.0,station_name_missing
+EV7B11F34D93,ST7B11F34D93,920,1,Chargefox,,200.0,station_name_missing
+EV63CD6C55DC,ST63CD6C55DC,921,1,Porsche Smart Mobility,,11.0,station_name_missing
+EVB042D04EE5,STB042D04EE5,922,1,JOLT,,25.0,station_name_missing
+EV0AE0D71ED7,ST0AE0D71ED7,923,1,ChargeHub,,22.0,station_name_missing
+EV747FB0A233,ST747FB0A233,924,1,Chargefox,,22.0,station_name_missing
+EV9AA00FB00A,ST9AA00FB00A,925,1,Exploren,,120.0,station_name_missing
+EVDB3FFB0652,STDB3FFB0652,926,1,Chargefox,,22.0,station_name_missing
+EVE2CB846A43,STE2CB846A43,927,1,Ampol,,125.0,station_name_missing
+EV98A247C6AD,ST98A247C6AD,928,1,Chargefox,,270.0,station_name_missing
+EV745C80FB4A,ST745C80FB4A,929,1,Everty,,60.0,station_name_missing
+EV231C036628,ST231C036628,930,1,JOLT,,25.0,station_name_missing
+EVB9F287178D,STB9F287178D,931,1,Tesla,,22.0,station_name_missing
+EV340A7C7F4E,ST340A7C7F4E,932,1,JOLT,,25.0,station_name_missing
+EV44767FE73B,ST44767FE73B,933,1,Evie,,75.0,station_name_missing
+EVCF22594A3D,STCF22594A3D,934,1,Everty,,6.0,station_name_missing
+EVEBD978554C,STEBD978554C,935,1,Exploren,,60.0,station_name_missing
+EV790703C112,ST790703C112,936,1,Porsche Smart Mobility,,11.0,station_name_missing
+EV41296F1E08,ST41296F1E08,938,1,EVUp,,22.0,station_name_missing
+EV897F6AF8BD,ST897F6AF8BD,939,1,NRMA,,50.0,station_name_missing
+EV883C75B4C4,ST883C75B4C4,940,1,Chargefox,,6.0,station_name_missing
+EVD67328E489,STD67328E489,941,1,Chargefox,,6.0,station_name_missing
+EV237705ADCD,ST237705ADCD,942,1,EVX,,22.0,station_name_missing
+EV12625E682E,ST12625E682E,943,1,Chargefox,,22.0,station_name_missing
+EV7E41D2E648,ST7E41D2E648,944,1,NRMA,,50.0,station_name_missing
+EVDEB0E2BDF5,STDEB0E2BDF5,945,1,Chargefox,,7.0,station_name_missing
+EV1159AFFB78,ST1159AFFB78,946,1,Tesla,,6.0,station_name_missing
+EV4139F106EA,ST4139F106EA,947,1,NRMA,,50.0,station_name_missing
+EV627FAD958F,ST627FAD958F,948,1,JOLT,,25.0,station_name_missing
+EV308E498044,ST308E498044,949,1,ChargePoint,,3.0,station_name_missing
+EV55C426F0F0,ST55C426F0F0,950,1,Porsche Smart Mobility,,11.0,station_name_missing
+EVB9EDCDB547,STB9EDCDB547,951,1,Chargefox,,22.0,station_name_missing
+EV25532A1B6D,ST25532A1B6D,952,1,Tesla,,6.0,station_name_missing
+EV386FF29FC7,ST386FF29FC7,953,1,NRMA,,50.0,station_name_missing
+EV9AE676140F,ST9AE676140F,954,1,Exploren,,60.0,station_name_missing
+EV45A6737D86,ST45A6737D86,955,1,NRMA,,125.0,station_name_missing
+EVC822A1C496,STC822A1C496,956,1,NRMA,,50.0,postcode_overridden_by_address;station_name_missing
+EV58D3FFF332,ST58D3FFF332,957,1,Chargefox,,22.0,station_name_missing
+EV4FCEB7F488,ST4FCEB7F488,958,1,Chargefox,,22.0,station_name_missing
+EV81DAB74055,ST81DAB74055,959,1,Porsche Smart Mobility,,11.0,station_name_missing
+EV9AF47B90A6,ST9AF47B90A6,960,1,NRMA,,50.0,station_name_missing
+EV25463274E7,ST25463274E7,961,1,Everty,,25.0,station_name_missing
+EV1AECE38B2F,ST1AECE38B2F,962,1,Chargefox,,24.0,station_name_missing
+EV88402B6FBF,ST88402B6FBF,963,1,Everty,,22.0,station_name_missing
+EVF220A395CC,STF220A395CC,965,1,Exploren,,22.0,station_name_missing
+EV0809E08D5B,ST0809E08D5B,966,1,Chargefox,,22.0,station_name_missing
+EV8226D899CF,ST8226D899CF,967,1,Tesla,,6.0,station_name_missing
+EV60EAA3ADA2,ST60EAA3ADA2,968,1,Chargefox,,22.0,station_name_missing
+EV5D1C92E011,ST5D1C92E011,969;1063,2,Chargefox|University of,,175.0,merge_conflict_operator;merge_conflict_rating;station_name_missing;merged_duplicates
+EVED42EAAC51,STED42EAAC51,970,1,Exploren,,120.0,station_name_missing
+EV563BE2AB76,ST563BE2AB76,971,1,NRMA,,75.0,station_name_missing
+EV81B90611A6,ST81B90611A6,972;1803,2,Chargefox|Non-networked,Adelong Golden Gully Carpark,22.0,merge_conflict_plugs;merged_duplicates
+EV12DA6FDB70,ST12DA6FDB70,973,1,Everty,,50.0,station_name_missing
+EV4F8DE0C5C7,ST4F8DE0C5C7,974,1,Porsche Smart Mobility,,11.0,station_name_missing
+EV9214319BCE,ST9214319BCE,975,1,NRMA,,50.0,station_name_missing
+EV78D4CD10FA,ST78D4CD10FA,976,1,Ampol,,240.0,station_name_missing
+EV5D0828355A,ST5D0828355A,977,1,Evie,,75.0,station_name_missing
+EV9CACBAC518,ST9CACBAC518,978,1,NRMA,,50.0,station_name_missing
+EVE57A044FFA,STE57A044FFA,979,1,Porsche Destination Charging,,11.0,station_name_missing
+EVD3906437B6,STD3906437B6,980,1,EVX,,22.0,station_name_missing
+EV0DD26F6F07,ST0DD26F6F07,981,1,BP,,75.0,station_name_missing
+EVBC8A7A856C,STBC8A7A856C,982;1690,2,Non-networked,Jac & Jones Wines Hunter Valley,,rating_missing;merge_conflict_name;merge_conflict_plugs;merged_duplicates
+EVB3D87E1C57,STB3D87E1C57,1020,1,Exploren,Albury City Council,7.0,postcode_filled_from_address;source_program_missing
+EV35CA543E98,ST35CA543E98,1035,1,Non-networked,Bells at Killcare,22.0,postcode_filled_from_address;source_program_missing
+EV7256A41F77,ST7256A41F77,1077,1,Tesla Motors,,350.0,postcode_filled_from_address;rating_text_plugs_differ;source_program_missing;station_name_missing
+EVE83E99C53B,STE83E99C53B,1078,1,Elanga,Boorowa Ex-services and Citizens Club Ltd,22.0,postcode_filled_from_address;source_program_missing
+EV808EB187F5,ST808EB187F5,1089,1,Exploren,Albury City Council,7.0,postcode_filled_from_address;source_program_missing
+EVC0C8235D93,STC0C8235D93,1106,1,Non-networked,Tropical Fruit World,,rating_missing
+EV21DDAAC6D3,ST21DDAAC6D3,1107,1,Non-networked,Pacific Garage,,rating_missing
+EVAAF5936953,STAAF5936953,1108,1,Non-networked,Daleys Fruit Tree Nursery,,rating_missing
+EV12EB1D28AF,ST12EB1D28AF,1109,1,Non-networked,Rainbow Power Company,,rating_missing
+EV4D2AB8C121,ST4D2AB8C121,1110,1,Non-networked,Elements of Byron,,rating_missing
+EVB7BDE47237,STB7BDE47237,1111,1,Non-networked,Big 4 Holiday Park,,rating_missing
+EVA98653F8D0,STA98653F8D0,1112,1,Non-networked,Barrons Tyre & Mechanical,,rating_missing
+EVC3318BDA36,STC3318BDA36,1113,1,Non-networked,Narrabri & District Citizens Boys Club,,rating_missing
+EV7D812196CD,ST7D812196CD,1114,1,Non-networked,Quest Tamworth,,rating_missing
+EV9DD1BF9748,ST9DD1BF9748,1115,1,Non-networked,Forster Community Charger,,rating_missing
+EV02D67353E9,ST02D67353E9,1116,1,Non-networked,Mid Coast Council,,rating_missing
+EV0033EA4EDC,ST0033EA4EDC,1117,1,Non-networked,Peak Coffee Brew Lab & Roastery.,,rating_missing
+EV0E75BC6B9C,ST0E75BC6B9C,1118,1,Non-networked,Upper Hunter Automotive,,rating_missing
+EVC1AE08FACA,STC1AE08FACA,1119,1,Non-networked,Flynns on Surf Beach Villas,,rating_missing
+EV4A3DD19987,ST4A3DD19987,1120,1,Non-networked,Mid Coast Council,,rating_missing
+EVBC351395D8,STBC351395D8,1121,1,Non-networked,Skimstone Wines,,rating_missing
+EVE695FC5239,STE695FC5239,1122,1,Non-networked,Mudgee Meat,,rating_missing
+EV350466BA4E,ST350466BA4E,1123,1,Non-networked,ThumbPrint Wines,,rating_missing
+EV703353647F,ST703353647F,1124,1,Non-networked,SPS Solar Pumping Solutions,,rating_missing
+EV9606691566,ST9606691566,1125,1,Non-networked,Coles Huntlee,,rating_missing
+EV72F92F39D1,ST72F92F39D1,1126,1,Non-networked,McCaffrey's Estate Winery,,rating_missing
+EVDE72CA9BE1,STDE72CA9BE1,1127,1,Non-networked,Hunter Gleann - Hunter Valley Farm Stay Accommodation,,rating_missing
+EVAD6EE4EDF8,STAD6EE4EDF8,1128,1,Non-networked,Albatross Marina,,rating_missing
+EV6D5F14B8AA,ST6D5F14B8AA,1129,1,Non-networked,HIES Electrical Services,,rating_missing
+EVB66810A099,STB66810A099,1130,1,Non-networked,Zig Zag Railway,,rating_missing
+EV85E1E50504,ST85E1E50504,1131,1,Non-networked,The Remington Orange,,rating_missing
+EVC166C32D16,STC166C32D16,1132,1,Non-networked,Angullong Wines,,rating_missing
+EV8B09A4A2DF,ST8B09A4A2DF,1133,1,Non-networked,Landcare & Sustainable Living Centre,,rating_missing
+EV5E5B44965E,ST5E5B44965E,1134,1,Non-networked,Trading Post Laguna,,rating_missing
+EV8F2414147D,ST8F2414147D,1135,1,Non-networked,Hunter Wetlands Centre Australia,,rating_missing
+EVA6D418E0F8,STA6D418E0F8,1136,1,Non-networked,Kinda Kapers,,rating_missing
+EVA107CF0631,STA107CF0631,1137,1,Non-networked,Caves Coastal Bar and Bungalows,,rating_missing
+EV1AF11333D6,ST1AF11333D6,1138,1,Non-networked,Fenwick's Marina,,rating_missing
+EV49AF4627F1,ST49AF4627F1,1139,1,Non-networked,,,rating_missing;station_name_missing
+EVA0CEE99C2C,STA0CEE99C2C,1140,1,Non-networked,Mount Airlie,,rating_missing
+EVD9739D1B60,STD9739D1B60,1141,1,Non-networked,Queanbeyan Performing Arts Centre,,rating_missing
+EVB5D4DED1F5,STB5D4DED1F5,1142,1,Non-networked,Broulee Brewhouse,,rating_missing
+EVBA183507B9,STBA183507B9,1143,1,Non-networked,Mollymook Caravan Park,,rating_missing
+EV3D7D81FC57,ST3D7D81FC57,1144,1,Non-networked,Next Tech Group Albury,,rating_missing
+EV6CC773FD83,ST6CC773FD83,1145,1,Non-networked,Talbingo Caravan Park,,rating_missing
+EV3DA91E4C2E,ST3DA91E4C2E,1146,1,Non-networked,Rainer Kwast Building & Design,,rating_missing
+EV13C8D070BA,ST13C8D070BA,1147,1,Non-networked,Penrose Village General Store,,rating_missing
+EV028069C4AF,ST028069C4AF,1148,1,Non-networked,Kiama Community Charger,,rating_missing
+EVED3889AEF2,STED3889AEF2,1149,1,Non-networked,Top Shops Kiama,,rating_missing
+EV72467F4FED,ST72467F4FED,1150,1,Non-networked,Southern Highlands Visitor Information Centre,,rating_missing
+EV433BB4094C,ST433BB4094C,1151,1,Non-networked,The Argyle Inn,,rating_missing
+EV421E8E1D4C,ST26F5780F5F,1152,1,Non-networked,Figtree Grove Shopping Centre,,rating_missing
+EV46F493FC57,ST46F493FC57,1153,1,Non-networked,Woolworths Tahmoor,,rating_missing
+EVC8974BCF75,STC8974BCF75,1154,1,Non-networked,Bay Central,,rating_missing
+EV2BB95D2644,ST2BB95D2644,1155,1,Non-networked,Royal Motor Yacht Club Port Hacking,,rating_missing
+EV80C9FB1608,ST80C9FB1608,1156,1,Non-networked,Emerald Hills Shopping Village,,rating_missing
+EV41EB5C4258,ST41EB5C4258,1157,1,Non-networked,,,rating_missing;station_name_missing
+EV0806106A5E,ST0806106A5E,1158,1,Non-networked,Bombay Bloomers,,rating_missing
+EV195C15F036,ST195C15F036,1159,1,Non-networked,St Kilda Street,,rating_missing
+EV1CDBD81032,ST1CDBD81032,1160,1,Non-networked,Dutton Plaza,,rating_missing
+EVAF1C3E10CF,STAF1C3E10CF,1161,1,Non-networked,Beauty by Jackie,,rating_missing
+EV74AA89D590,ST74AA89D590,1162,1,Non-networked,InterPark Thomas Street,,rating_missing
+EV428B0EE236,ST428B0EE236,1163,1,Non-networked,Strathfield Square,,rating_missing
+EV5FA53978CB,ST5FA53978CB,1164,1,Non-networked,Bressington Park Dog Park,,rating_missing
+EVC612A5B3EA,STC612A5B3EA,1165,1,Non-networked,CIRCA 1928 Art Hotel,,rating_missing
+EV04E6268E33,ST04E6268E33,1167,1,Non-networked,Bridges on Meninya,,rating_missing
+EVD6BDC77437,STD6BDC77437,1168,1,Non-networked,Eddy’s of Canowindra,,rating_missing
+EVBDEF73137B,STBDEF73137B,1169,1,Non-networked,Transgrid Discovery Hub,,rating_missing
+EVBDE1603A23,STBDE1603A23,1170,1,Non-networked,Royal Hotel,,rating_missing
+EV948B42C906,ST948B42C906,1171,1,Non-networked,GT Tooling,,rating_missing
+EV5D39408023,ST5D39408023,1172,1,Non-networked,Blacktown Animal Rehoming Centre,,rating_missing
+EV4EBF253658,ST4EBF253658,1173,1,Non-networked,Granville Place,,rating_missing
+EVB0AC7ED300,STB0AC7ED300,1174,1,Non-networked,Tallawong Village Retail,,rating_missing;plugs_very_high_check
+EVFD833DAFBF,STFD833DAFBF,1175,1,Non-networked,Wenty Leagues,,rating_missing
+EV07369CE4C0,ST07369CE4C0,1176,1,Non-networked,Hartley Green Power,,rating_missing
+EV34ED34C46B,ST34ED34C46B,1177,1,Non-networked,Eastern Creek Quarter XL,,rating_missing
+EV74F31E2AC5,ST23A4BF9CD0,1178,1,Non-networked,Parramatta Station Car Park,,rating_missing
+EVDD15BE4932,STDD15BE4932,1179,1,Non-networked,The Quays Marina,,rating_missing
+EV1B26277C59,ST1B26277C59,1180,1,Non-networked,Collaroy Park and Ride,,rating_missing
+EVD1D7608004,STD1D7608004,1181,1,Non-networked,Alchemy Charge,,rating_missing
+EV30E63B428C,ST30E63B428C,1182,1,Non-networked,Blackmores Campus,,rating_missing
+EVBF86B6784B,STBF86B6784B,1183,1,Non-networked,KFC Frenchs Forest,,rating_missing
+EV3588832297,ST3588832297,1184,1,Non-networked,Col Crawford BMW,,rating_missing
+EV833771D669,ST833771D669,1185,1,Non-networked,Pullman Sydney Airport,,rating_missing
+EVAFBF0B66B0,STAFBF0B66B0,1186,1,Non-networked,TLE Electrical - Artarmon,,rating_missing
+EV1035FC8FEE,ST1035FC8FEE,1187,1,Non-networked,,,rating_missing;station_name_missing
+EVFF277274E7,STFF277274E7,1188,1,Non-networked,Top Ryde City Shopping Centre,,rating_missing
+EV4F984D41E2,ST44767FE73B,1189,1,Non-networked,Hume Street Park,,rating_missing
+EV9069A633D2,ST9069A633D2,1190,1,Non-networked,Chatswood Place,,rating_missing
+EVC620745267,STC620745267,1191,1,Non-networked,Sub Base Platypus,,rating_missing
+EVAEA8EFB183,STAEA8EFB183,1192,1,Non-networked,Sydney Opera House,,rating_missing
+EVDC69E20767,STDC69E20767,1193,1,Non-networked,Darling Square Car Park,,rating_missing
+EVB26600E630,STB26600E630,1194,1,Non-networked,Four Points by Sheraton Sydney,,rating_missing
+EV344BCEB611,ST344BCEB611,1195,1,Non-networked,Willows Motel Goulburn and Cultural Holiday Park,,rating_missing
+EVC02F16696F,STC02F16696F,1196,1,Non-networked,Zane Gray Caravan Park,,rating_missing
+EV2124DC4630,ST2124DC4630,1197,1,Non-networked,Gundagai Tourist Park,,rating_missing
+EV5206925281,ST5206925281,1198,1,Non-networked,Stone & Wood Brewery Byron Bay,,rating_missing
+EVC5BE79CD72,STC5BE79CD72,1199,1,Non-networked,Garden Motor Inn,,rating_missing
+EV3DBE83D7CE,ST3DBE83D7CE,1200,1,Non-networked,Valley House,,rating_missing
+EV5087BFC9F8,ST5087BFC9F8,1201,1,Non-networked,Sandbar Restaurant & Bar,,rating_missing
+EV9F13F1DE0D,ST9F13F1DE0D,1202,1,Non-networked,Waterview Motel,,rating_missing
+EVF0827AFA02,STF0827AFA02,1203,1,Non-networked,"Rosby Wines, Gallery & Sculpture Garden",,rating_missing
+EV56AA9779E3,ST56AA9779E3,1204,1,Non-networked,Reflections Coffs Harbour - Holiday Park,,rating_missing
+EVF5BA1F9706,STF5BA1F9706,1205,1,Non-networked,,,rating_missing;station_name_missing
+EV7652F10612,ST7652F10612,1206,1,Non-networked,Kyah Hotel,,rating_missing
+EV22C316F74D,ST22C316F74D,1207,1,Non-networked,Pet Medical,,rating_missing
+EVD3B0710A1A,STD3B0710A1A,1208,1,Non-networked,Nimmitavel Motel,,rating_missing
+EV241AFA0322,ST241AFA0322,1209,1,Non-networked,Nicholas Royal Motel,,rating_missing
+EV41130A3132,ST41130A3132,1210,1,Non-networked,Newell Motor Inn,,rating_missing
+EV8DF33C1B25,ST8DF33C1B25,1211,1,Non-networked,Palm View,,rating_missing
+EV05ED6B6B66,ST05ED6B6B66,1212,1,Non-networked,Hobby Sheep Farm,,rating_missing
+EVD986FFBF69,STD986FFBF69,1213,1,Non-networked,Heritage House Motel,,rating_missing
+EV0B1FC1B5E3,ST0B1FC1B5E3,1214,1,Non-networked,Reflections Evans Head - Holiday Park,,rating_missing
+EV829F4F91AF,ST829F4F91AF,1215,1,Non-networked,Sapphire Palms,,rating_missing
+EVCD8BF5BD97,STCD8BF5BD97,1216,1,Non-networked,Acacia Rose Motor Inn,,rating_missing
+EVA83F71FF2D,STA83F71FF2D,1217,1,Non-networked,Hunter Valley Lodge,,rating_missing
+EV91F4616586,ST91F4616586,1218,1,Non-networked,Twin Swans Motel,,rating_missing
+EV2393614EA3,ST2393614EA3,1219,1,Non-networked,Bega Motel,,rating_missing
+EV78DDE08927,ST78DDE08927,1220,1,Non-networked,,,rating_missing;station_name_missing
+EVB85CE2EB2F,STB85CE2EB2F,1221,1,Non-networked,Club McLean,,rating_missing
+EVD4C129D5B8,STD4C129D5B8,1222,1,Non-networked,Jervis Bay Mariners,,rating_missing
+EV921C2BD7C6,ST921C2BD7C6,1223,1,Non-networked,Palmers Lane Estate Hunter Valley,,rating_missing
+EVA454B60B4A,STA454B60B4A,1224,1,Non-networked,Quest Dubbo,,rating_missing
+EV33778572F7,ST33778572F7,1225,1,Non-networked,Griffith Golf Club,,rating_missing
+EV4DF8266338,ST4DF8266338,1226,1,Non-networked,Blackheath BnB,,rating_missing
+EV81977E4596,ST81977E4596,1227,1,Non-networked,Bay Escapes | Echoes @ Fingal Bay,,rating_missing
+EVC234D809C3,STC234D809C3,1228,1,Non-networked,Darlington Point Motel,,rating_missing
+EVBB8925E0BD,STBB8925E0BD,1229,1,Non-networked,Endeavour Restaurant,,rating_missing
+EV84D7D69B96,ST84D7D69B96,1230,1,Non-networked,Elbourne Wines,,rating_missing
+EV1A68C7B508,ST1A68C7B508,1231,1,Non-networked,"Holiday Rental, Hyams Beach",,rating_missing
+EVB92B8DB39F,STB92B8DB39F,1232,1,Non-networked,Summerhill Motor Inn,,rating_missing
+EV2CC18E721B,ST2CC18E721B,1233,1,Non-networked,Brewarrina RSL,,rating_missing
+EV4D9D126143,ST4D9D126143,1234,1,Non-networked,Pacific Palms,,rating_missing
+EVBA2FDC7E92,STBA2FDC7E92,1235,1,Non-networked,Golf Links Motel,,rating_missing
+EVF5EDE70C31,STF5EDE70C31,1236,1,Non-networked,Moby Dick Motel,,rating_missing
+EVE8A2BBEBD0,STE8A2BBEBD0,1237,1,Non-networked,Harrington Hotel,,rating_missing
+EV7D75BDA813,ST7D75BDA813,1238,1,Non-networked,Huskisson Beach Escape,,rating_missing
+EVC6D9ADE9F9,STC6D9ADE9F9,1239,1,Non-networked,El Motor Inn,,rating_missing
+EV9F24FEEFEC,ST9F24FEEFEC,1240,1,Non-networked,THYNK Cafe + Bar,,rating_missing
+EV465C8788A3,ST465C8788A3,1241,1,Non-networked,Sapphire City Motor Inn,,rating_missing
+EV04EF6F994D,ST04EF6F994D,1242,1,Non-networked,,,rating_missing;station_name_missing
+EV8B1D8C05FF,ST8B1D8C05FF,1243,1,Non-networked,Walcha Motel,,rating_missing
+EVE6E55493DD,STE6E55493DD,1244,1,Non-networked,Reflections Tuncurry - Holiday Park,,rating_missing
+EV338ED289B9,ST338ED289B9,1245,1,Non-networked,Port Macquarie Library,,rating_missing
+EV5CC533AD5E,ST5CC533AD5E,1246,1,Non-networked,Fairway Views Motor Inn,,rating_missing
+EV81591913BF,ST81591913BF,1247,1,Non-networked,,,rating_missing;station_name_missing
+EV4E3FC97623,ST4E3FC97623,1248,1,Non-networked,Federation Motel,,rating_missing
+EVD6C324A81E,STD6C324A81E,1249,1,Non-networked,Cotswold Gardens,,rating_missing
+EV37510B303C,ST37510B303C,1250,1,Non-networked,Allegiance Wines,,rating_missing
+EVD02691B86D,STD02691B86D,1251,1,Non-networked,Adelaide Hotel,,rating_missing
+EV40C95D09D5,ST40C95D09D5,1252,1,Non-networked,,,rating_missing;station_name_missing
+EVBC135E3EF4,STBC135E3EF4,1253,1,Non-networked,,,rating_missing;station_name_missing
+EVAA1047C5FF,STAA1047C5FF,1254,1,Non-networked,Melaleuca Cottage and Retreat,,rating_missing
+EV23C6865342,ST23C6865342,1255,1,Non-networked,Oyster Catcher Huskisson,,rating_missing
+EV797D882551,ST797D882551,1256,1,Non-networked,CRU Lake Mac Camp and Conference Centre,,rating_missing
+EV984137F372,ST984137F372,1257,1,Non-networked,Scone Equine Hospital,,rating_missing
+EV1352145ABD,ST1352145ABD,1258,1,Non-networked,Bellingen Farmstay,,rating_missing
+EVAA0334C858,STAA0334C858,1259,1,Non-networked,Cedar Lodge Cabins,,rating_missing
+EVE0E80D250D,STE0E80D250D,1260,1,Non-networked,Clock Tower Motor Inn,,rating_missing
+EV54E25882B8,ST54E25882B8,1261,1,Non-networked,Golf View Motel,,rating_missing
+EV07826034F0,ST07826034F0,1262,1,Non-networked,Snowbound,,rating_missing
+EV4A37C96E8D,ST4A37C96E8D,1263,1,Non-networked,Valley View,,rating_missing
+EVEDD4B20420,STEDD4B20420,1264,1,Non-networked,Wombat Crossing Vineyard,,rating_missing
+EV8A060D1793,ST8A060D1793,1265,1,Non-networked,Glenella Heritage House,,rating_missing
+EV69A5595472,ST69A5595472,1266,1,Non-networked,Rip Curl North Wollongong,,rating_missing
+EV42F0603974,ST42F0603974,1267,1,Non-networked,Cedars Mount View,,rating_missing
+EVAB614BA20D,STAB614BA20D,1268,1,Non-networked,The Barn,,rating_missing
+EV08C8A23E67,ST08C8A23E67,1269,1,Non-networked,The Albury Regent Motel,,rating_missing
+EV1C77FE96B0,ST1C77FE96B0,1270,1,Non-networked,Tumut Farrington Motel,,rating_missing
+EVACFB9EC457,STACFB9EC457,1271,1,Non-networked,de Russie Boutique Hotel Orange,,rating_missing
+EV8FF561C3A4,ST8FF561C3A4,1272,1,Non-networked,Serenity Diamond Beach,,rating_missing
+EV4CAB717F03,ST4CAB717F03,1273,1,Non-networked,Lake Macquarie Motor Inn,,rating_missing
+EV6CE57CF2B1,ST6CE57CF2B1,1274,1,Non-networked,Cobb Inlander Motel,,rating_missing
+EV4404C31ADC,ST4404C31ADC,1275,1,Non-networked,Common People Brewing Co,,rating_missing
+EV902C47C5BB,ST902C47C5BB,1276,1,Non-networked,The Old Convent Guesthouse,,rating_missing
+EV0D6BE6F071,ST0D6BE6F071,1277,1,Non-networked,The Midge Tallong,,rating_missing
+EV9F13F20BC7,ST9F13F20BC7,1278,1,Non-networked,Greenacres Motel,,rating_missing
+EV6348D74092,ST6348D74092,1279,1,Non-networked,Lyrebird's Nest Campground,,rating_missing
+EV4C6895CFC8,ST4C6895CFC8,1280,1,Non-networked,Hunter Moon Country House,,rating_missing
+EVBD03038214,STBD03038214,1281,1,Non-networked,Reflections Bonny Hills - Holiday Park,,rating_missing
+EV8CD29A93AF,ST8CD29A93AF,1282,1,Non-networked,Mercure Orange,,rating_missing
+EV3B90E6F834,ST3B90E6F834,1283,1,Non-networked,Reflections Eden,,rating_missing
+EV9CD3108A1D,ST9CD3108A1D,1284,1,Non-networked,Mollymook Motel,,rating_missing
+EV9384B1805C,ST9384B1805C,1285,1,Non-networked,Reflections Lennox Head,,rating_missing
+EV67265BB888,ST67265BB888,1286,1,Non-networked,Oberon Military Museum,,rating_missing
+EV90B41B8FEE,ST90B41B8FEE,1287,1,Non-networked,,,rating_missing;station_name_missing
+EV59D6500936,ST59D6500936,1288,1,Non-networked,,,rating_missing;station_name_missing
+EV397FA368CA,ST397FA368CA,1289,1,Non-networked,,,rating_missing;station_name_missing
+EV10493438DA,ST10493438DA,1290,1,Non-networked,,,rating_missing;station_name_missing
+EV1ECDB220A6,ST1ECDB220A6,1291,1,Non-networked,,,rating_missing;station_name_missing
+EV760EF55030,ST760EF55030,1292,1,Non-networked,Kurrara Guest House,,rating_missing
+EV7D391D1DCF,ST7D391D1DCF,1293,1,PLUS ES,,7.0,station_name_missing
+EVB2E17173A8,STB2E17173A8,1294,1,Exploren,Tathra Beach House Apartments,,rating_missing
+EVADE1D90B47,STADE1D90B47,1295,1,PLUS ES,,22.0,station_name_missing
+EVE5314EA106,STE5314EA106,1296,1,ChargePost,,22.0,station_name_missing
+EV8BA8D2D1CC,ST8BA8D2D1CC,1297,1,PLUS ES,,7.0,station_name_missing
+EV928FC01FFF,ST928FC01FFF,1298,1,Smart Charge,Thrive Medical,,rating_missing
+EV5C07DCCD64,ST5C07DCCD64,1299,1,EVX,,22.0,station_name_missing
+EV3897007E03,ST3897007E03,1300,1,Tesla,,175.0,station_name_missing
+EV552915CE94,ST552915CE94,1301,1,Exploren,Adelong Motel,,rating_missing
+EVDB6C83B029,STDB6C83B029,1302,1,Exploren,Hillston Township - Library Carpark,,rating_missing
+EV320B519479,ST320B519479,1303,1,PLUS ES,,22.0,station_name_missing
+EVECA201B716,ST18DC6182D7,1304,1,PLUS ES,,22.0,station_name_missing
+EV2F576C49B4,ST2F576C49B4,1305,1,EVX,,22.0,station_name_missing
+EV51D66378DD,ST51D66378DD,605;1306,2,Exploren,Albion Park Bowling CLub,22.0,merged_duplicates
+EV4CEA4CCA23,ST4CEA4CCA23,1307,1,Chargefox,,22.0,station_name_missing
+EV0B7C89B009,ST0B7C89B009,223;1308,2,Exploren,Gillards Road,22.0,merged_duplicates
+EV356571CE0A,ST356571CE0A,1309,1,Tesla,,175.0,station_name_missing
+EV39C11D40F1,ST39C11D40F1,1310,1,EVX,,22.0,station_name_missing
+EV6C6B75B5B6,ST6C6B75B5B6,1311,1,EVX,,22.0,station_name_missing
+EV095149BE44,ST095149BE44,1312,1,EVUp,Sydney Ski Club,,rating_missing
+EVE439983936,STE439983936,1313,1,Everty,Echo Point Discovery Motel,,rating_missing
+EV63C89537B7,ST63C89537B7,1314,1,EVX,,22.0,station_name_missing
+EVD4B3352A05,STD4B3352A05,1315,1,EVUp,Pelican Motor Inn,,rating_missing
+EV88F0488238,ST88F0488238,1316,1,EVX,,22.0,station_name_missing
+EV18DC6182D7,ST18DC6182D7,1096;1317,2,PLUS ES,,7.0,station_name_missing;merged_duplicates
+EV78589948AA,ST78589948AA,1318,1,360 EV Charge,Lake Conjola Bowling and Recreation Club,,rating_missing
+EVA7EF146C8B,STA7EF146C8B,1319,1,360 EV Charge,Blue Mountain Highway Motel,,rating_missing
+EV153ECEA8CC,ST153ECEA8CC,1320,1,PLUS ES,,22.0,station_name_missing
+EV7B8A26F5DF,ST7B8A26F5DF,1321,1,Smart Charge,Wagga Wagga City Council,,rating_missing
+EV55B8140517,ST55B8140517,1322,1,Exploren,Parkes International Motel,,rating_missing
+EV916E962C66,ST916E962C66,1323,1,Exploren,Tyrrell's Vineyards,,rating_missing
+EV15256B9709,ST15256B9709,1324,1,PLUS ES,,22.0,station_name_missing
+EVE0EF84A848,STE0EF84A848,1325,1,Charge Hub,Howlong Golf Resort,,rating_missing
+EV3FAB9D5DA6,ST3FAB9D5DA6,1326,1,EVX,,22.0,station_name_missing
+EV74051060AE,ST74051060AE,1327,1,Tesla,,175.0,station_name_missing
+EVDCFD18DCDC,STDCFD18DCDC,680;1328,2,Exploren,Kyogle Council,22.0,merged_duplicates
+EVA483FA2362,STA483FA2362,1329,1,PLUS ES,,22.0,station_name_missing
+EV80EDE3BED6,ST80EDE3BED6,1330,1,Chargefox,,22.0,station_name_missing
+EV0A3FBEF238,ST0A3FBEF238,1331,1,Exploren,,22.0,station_name_missing
+EV4EF56F3EF5,ST4EF56F3EF5,1332,1,EVNet,Victoria and Albert Guest House,,rating_missing
+EV2311C0ADF7,ST2311C0ADF7,1333,1,Elanga,Skylodge,,rating_missing
+EV70B89C2415,ST70B89C2415,1334,1,Exploren,Dungog Visitor Information Centre,,rating_missing
+EV084E880D8F,ST084E880D8F,1335,1,360 EV Charge,Best Western Plus All Settlers,,rating_missing
+EV3983CAE00D,ST3983CAE00D,254;1336,2,Exploren,Quirindi Library,22.0,merged_duplicates
+EV610780A01A,ST610780A01A,1337,1,EVX,,22.0,station_name_missing
+EVEE2886FEE3,STEE2886FEE3,1338,1,Chargefox,,22.0,station_name_missing
+EVD57ECE1765,STD57ECE1765,1339,1,PLUS ES,,22.0,station_name_missing
+EV1E9F3202A5,ST1E9F3202A5,1340,1,PLUS ES,,22.0,station_name_missing
+EV8AEC3444EF,ST8AEC3444EF,1341,1,Exploren,Tathra Beachfront Holiday Park,,rating_missing
+EV4F03726ADA,ST4F03726ADA,1342,1,Exploren,Yalawanyi Gunya,,rating_missing
+EVD49AD2B3DF,STD49AD2B3DF,1343,1,Elanga,Eden Motel,,rating_missing
+EV8664012300,ST8664012300,1344,1,Exploren,The Pavilion Kiama,,rating_missing
+EV066B4F3197,ST066B4F3197,1345,1,Tesla,,175.0,station_name_missing
+EVB13FF4D56B,STB13FF4D56B,1346,1,EVX,,22.0,station_name_missing
+EVC4BC9B7F74,STC4BC9B7F74,1347,1,Exploren,Parkes Shire Council Public Parking,,rating_missing
+EVF04628E71A,STF04628E71A,1349,1,Exploren,Cunningham Park,,rating_missing
+EV8BFCC9AF51,ST8BFCC9AF51,1350,1,EVE Australia,,22.0,station_name_missing
+EVB0DB2E3DA4,STB0DB2E3DA4,1351,1,PLUS ES,,22.0,station_name_missing
+EV553E50C0B8,ST553E50C0B8,1352,1,PLUS ES,,7.0,station_name_missing
+EV72005AC6A8,ST72005AC6A8,1353,1,Chargefox,,22.0,station_name_missing
+EVD0D52867EF,STD0D52867EF,1354,1,PLUS ES,,7.0,station_name_missing
+EVD85878173F,STD85878173F,1355,1,ChargePost,,22.0,station_name_missing
+EVE9A2630303,STE9A2630303,1356,1,EVX,,22.0,station_name_missing
+EV1FB3E3677C,ST1FB3E3677C,1357,1,PLUS ES,,22.0,station_name_missing
+EVB86C902576,STB86C902576,1358,1,EVX,,22.0,station_name_missing
+EV4FA60ED786,ST4FA60ED786,1359,1,Exploren,The Sebel Kiama,,rating_missing
+EV996A9A0692,ST996A9A0692,1360,1,Tesla,,175.0,station_name_missing
+EV6AE9212130,ST6AE9212130,1361,1,PLUS ES,,7.0,station_name_missing
+EV5B590BD163,ST5B590BD163,1362,1,PLUS ES,,22.0,station_name_missing
+EVE797966D24,STE797966D24,1363,1,Chargefox,The Surf Yamba,,rating_missing
+EVCC05962288,STCC05962288,1364,1,Chargefox,,22.0,station_name_missing
+EVB4DE452952,STB4DE452952,1365,1,Exploren,Merimbula Beach Holiday Resort,,rating_missing
+EV75B2BE7AD9,ST75B2BE7AD9,1366,1,Exploren,The Levee Central Maitland,,rating_missing
+EV1A547068B5,ST1A547068B5,1367,1,EVX,,22.0,station_name_missing
+EV81F11C1412,ST81F11C1412,1368,1,Exploren,Bridgeview Motel,,rating_missing
+EV01DFB29A16,ST01DFB29A16,1369,1,Exploren,Wallsend Diggers Car Park,,rating_missing
+EV8F9E3FED78,ST8F9E3FED78,1370,1,Exploren,Scenic World,,rating_missing
+EV47F1FB6381,ST47F1FB6381,1371,1,PLUS ES,,22.0,station_name_missing
+EV39C8C8180B,ST39C8C8180B,1372,1,Chargefox,Twin Towns Services Club,,rating_missing
+EVB862C59918,STB862C59918,1373,1,EVE Australia,,22.0,station_name_missing
+EV5D25071ABD,ST5D25071ABD,1374,1,PLUS ES,,22.0,station_name_missing
+EV7D598347FF,ST7D598347FF,1375,1,PLUS ES,,7.0,station_name_missing
+EV9BE0C8820F,ST9BE0C8820F,1376,1,Everty,Windale Hub,,rating_missing
+EVDBB9A99D18,STDBB9A99D18,1377,1,Noodoe,Wandana Brewing Co.,,rating_missing
+EV9848DF1229,ST9848DF1229,1378,1,Exploren,Ingenia Holiday Parks - Lake Macquarie,,rating_missing
+EVDC27A50BB2,STDC27A50BB2,1379,1,Noodoe,Ourimbah RSL Club Carpark,,rating_missing
+EV223CFD3669,ST223CFD3669,1380,1,Exploren,Wollongong Surf Leisure Resort,,rating_missing
+EV3B21C01E25,ST3B21C01E25,1381,1,Chargefox,,22.0,station_name_missing
+EVDABED1652A,STDABED1652A,1382,1,Exploren,Corrigans Cove Resort,,rating_missing
+EV5BF5337E3F,ST5BF5337E3F,1383,1,Chargefox,Printhie Wines,,rating_missing
+EV182BEA351A,ST182BEA351A,1384,1,Chargefox,Alloggio Hotel Thornton,,rating_missing
+EV1F65C849A7,ST1F65C849A7,1385,1,Exploren,Bay and Bush,,rating_missing
+EV00CB548D8F,ST00CB548D8F,1386,1,EVE Australia,,22.0,station_name_missing
+EV47AE587CD6,ST47AE587CD6,1387,1,PLUS ES,,7.0,station_name_missing
+EV284BCBE286,ST284BCBE286,1388,1,EVNet,Boathouse Resort,,rating_missing
+EV91266864B7,ST91266864B7,1389,1,Everty,Katoomba Town Centre Motel,,rating_missing
+EV326246B6BF,ST326246B6BF,1390,1,Zeus Renewables,,175.0,station_name_missing
+EV75747E875E,ST75747E875E,1391,1,EVX,,22.0,station_name_missing
+EV0A6B4B77CC,ST0A6B4B77CC,1392,1,EVSE,Orange Aquatic Centre,,rating_missing
+EVE0A4246B19,STE0A4246B19,1393,1,PLUS ES,,22.0,station_name_missing
+EV8DF783624F,ST8DF783624F,1394,1,EVX,,22.0,station_name_missing
+EV621CF32EE2,ST621CF32EE2,1395,1,Exploren,The Wallangulla Motel,,rating_missing
+EV47A6E36187,ST47A6E36187,1396,1,PLUS ES,,22.0,station_name_missing
+EVEB36E3DC90,STEB36E3DC90,1397,1,ChargePost,,7.0,station_name_missing
+EV2DE3B4FFD1,ST2DE3B4FFD1,937;1398,2,Exploren,Milton Ulladulla Ex Services Club,22.0,merged_duplicates
+EV9C21E4A734,ST9C21E4A734,1399,1,EVSE,Stockmans Motel Tamworth,,rating_missing
+EV1215D6C66B,ST1215D6C66B,1400,1,PLUS ES,,22.0,station_name_missing
+EV406325C2AE,ST406325C2AE,1401,1,EVX,,22.0,station_name_missing
+EV3F18839E77,ST3F18839E77,1402,1,PLUS ES,,22.0,station_name_missing
+EV3E18A0BB58,ST3E18A0BB58,1403,1,PLUS ES,,22.0,station_name_missing
+EVE91AB039E1,STE91AB039E1,1404,1,PLUS ES,,22.0,station_name_missing
+EV3EB8216AFD,ST3EB8216AFD,1405,1,Non-networked,,,rating_missing;station_name_missing
+EVBF6E5430BD,STBF6E5430BD,1406,1,Evie Networks,,75.0,station_name_missing
+EV81D43A22FE,ST81D43A22FE,1407,1,PLUS ES,,22.0,station_name_missing
+EVB076EBE0C1,STB076EBE0C1,1408,1,Exploren,Ingenia Holiday Park - Bonny Hills,,rating_missing
+EV6F34D57F32,ST6F34D57F32,1409,1,Everty,Evans Beach House,,rating_missing
+EVB6D124A2B6,STB6D124A2B6,1410,1,EVX,,22.0,station_name_missing
+EVAC64A58714,STAC64A58714,1411,1,Smart Charge,Budgewoi Bungelow,,rating_missing
+EV0677FEFF86,ST0677FEFF86,1412,1,Non-networked,Mandarin Motel Macksville,,rating_missing
+EV362C3AA91D,ST362C3AA91D,866;1413,2,Chargefox,Twin Towns Services Club,22.0,merged_duplicates
+EVF9D5C7103E,STF9D5C7103E,1414,1,EVNet,Hungerford Hill,,rating_missing
+EV5F8714157C,ST5F8714157C,1415,1,EVNet,Town Square Motel,,rating_missing
+EVFD64968329,STFD64968329,1416,1,Everty,Powerhouse Hotel Tamworth by Rydges,,rating_missing
+EV040C295EC0,ST040C295EC0,1417,1,Noodoe,Clancy's Cottage- Talbingo,,rating_missing
+EVFF083ACFD5,STFF083ACFD5,1418,1,Exploren,Mingara Recreation Club,,rating_missing
+EVCEFA4A7575,STCEFA4A7575,1419,1,Tesla,,175.0,station_name_missing
+EV20AC4274E3,ST20AC4274E3,1420,1,Non-networked,Heritage Motor Inn Corowa,,rating_missing
+EV012D012C76,ST012D012C76,1421,1,PLUS ES,,22.0,station_name_missing
+EV0680AA8652,ST0680AA8652,1422,1,Exploren,Bonn Abbey,,rating_missing
+EV023BECC56D,ST023BECC56D,1423,1,Exploren,Ingenia Holiday Parks - Old Bar Beach,,rating_missing
+EV2D760249FA,ST2D760249FA,1424,1,Exploren,Gillieston Heights Community Hub,,rating_missing
+EV4FCFDF8DA4,ST4FCFDF8DA4,1425,1,Chargefox,,,rating_missing;station_name_missing
+EV21DED14E49,ST21DED14E49,1426,1,Chargefox,NRMA Parks and Resorts,,rating_missing
+EV96E7545EDD,ST96E7545EDD,1427,1,Charge Hub,The Fitz Cafe & Bar,,rating_missing
+EVA9DDEE7881,STA9DDEE7881,1428,1,EVNet,Club Maitland City,,rating_missing
+EV4B6FED42D0,ST4B6FED42D0,1429,1,Exploren,Gosford RSL Club,,rating_missing
+EVE8ADA250A1,STE8ADA250A1,1430,1,Chargefox,,7.0,station_name_missing
+EV4FBAEBDC5B,ST4FBAEBDC5B,1431,1,PLUS ES,,22.0,station_name_missing
+EV920AF1B927,ST9069A633D2,1433,1,Tesla,,175.0,station_name_missing
+EVC5A54D7F7B,STC5A54D7F7B,1434,1,PLUS ES,,22.0,station_name_missing
+EVF374874AFA,STF374874AFA,1435,1,Exploren,Maitland Town Hall,,rating_missing
+EV8FB7C993C1,ST8FB7C993C1,1436,1,CasaCharge,RedGround Truffle Hunting Lodge,,rating_missing
+EVC5DC504FCF,STC5DC504FCF,1437,1,PLUS ES,,22.0,station_name_missing
+EV6A12D96EF1,ST6A12D96EF1,1438,1,PLUS ES,,7.0,station_name_missing
+EVD50A3F8B87,STD50A3F8B87,1439,1,PLUS ES,,7.0,station_name_missing
+EVE9F0439625,STE9F0439625,1440,1,EVX,,22.0,station_name_missing
+EV74A246FAE7,ST74A246FAE7,1441,1,PLUS ES,,22.0,station_name_missing
+EVE1085242A6,ST74A246FAE7,1442,1,PLUS ES,,22.0,station_name_missing
+EVFDD9D3A2DB,STFDD9D3A2DB,1443,1,PLUS ES,,7.0,station_name_missing
+EV21BBDE066C,ST21BBDE066C,1444,1,EVNet,Club Maitland City,,rating_missing
+EVD276CAB46E,STD276CAB46E,1445,1,Exploren,RIKARD Wines,,rating_missing
+EVFCBF3F87FF,STFCBF3F87FF,1446,1,Chargefox,,22.0,station_name_missing
+EVFCB595254B,STFCB595254B,1448,1,EVX,,22.0,station_name_missing
+EV645B7A2657,ST645B7A2657,1449,1,PLUS ES,,22.0,station_name_missing
+EV53C08EECC5,ST53C08EECC5,1450,1,Non-networked,Five Mile Hotel,,rating_missing
+EVD893A5E3DE,STD893A5E3DE,1451,1,Non-networked,Moruya Golf Club,,rating_missing
+EV8C378B2A8F,ST8C378B2A8F,1452,1,EVX,,22.0,station_name_missing
+EVD1A1BFD9E7,STD1A1BFD9E7,1453,1,PLUS ES,,7.0,station_name_missing
+EV8062E1D1EC,ST8062E1D1EC,1454,1,NRMA,,175.0,station_name_missing
+EV6CC8F3BE48,ST6CC8F3BE48,1455,1,EVUp,Sapphire Valley Caravan Park,,rating_missing
+EV0F18FC138D,ST0F18FC138D,1456,1,Exploren,Kyogle Council,,rating_missing
+EV464313B559,ST464313B559,407;1457,2,Charge Hub|ChargeHub,291 on King,22.0,merged_duplicates
+EV2CBA557049,ST2CBA557049,1458,1,Chargefox,Hanging Tree Wines,,rating_missing
+EV4A807F5404,ST4A807F5404,1459,1,EVX,,22.0,station_name_missing
+EV48822CCF57,ST48822CCF57,1460,1,PLUS ES,,22.0,station_name_missing
+EVA3522D4987,STA3522D4987,1461,1,PLUS ES,,22.0,station_name_missing
+EV64CDAE9E42,ST64CDAE9E42,1462,1,Everty,Redhead Beach Carpark,,rating_missing
+EV5A78EF7851,ST5A78EF7851,1463,1,EVSE,Club Lithgow,,rating_missing
+EV6C90EC5720,ST6C90EC5720,1464,1,Exploren,The Entrance Leagues Club,,rating_missing
+EVA8FCE23CC1,STA8FCE23CC1,1465,1,PLUS ES,,22.0,station_name_missing
+EVAA84978483,STAA84978483,1466,1,PLUS ES,,7.0,station_name_missing
+EV229F45B707,ST229F45B707,1467,1,PLUS ES,,22.0,station_name_missing
+EVAFDC14DC73,STAFDC14DC73,1468,1,PLUS ES,,7.0,station_name_missing
+EV4FC278B047,ST4FC278B047,1469,1,EVX,,22.0,station_name_missing
+EV683B080EC6,ST683B080EC6,1470,1,PLUS ES,,7.0,station_name_missing
+EV88EDA4AB4F,ST88EDA4AB4F,1471,1,Smart Charge,Muswellbrook Accommodation,,rating_missing
+EV8AC80FEA3A,ST8AC80FEA3A,1472,1,Elanga,Corowa RSL Club,,rating_missing
+EVFB9234A073,STFB9234A073,1473,1,Everty,Lake Macquarie Council,,rating_missing
+EVF91CC4EAF9,STF91CC4EAF9,1474,1,EVE Australia,,22.0,station_name_missing
+EVA129B66252,STA129B66252,1475,1,PLUS ES,,7.0,station_name_missing
+EV79F142D1B0,ST79F142D1B0,1477,1,EVX,,22.0,station_name_missing
+EV46A201253F,ST46A201253F,1478,1,Exploren,Orange Botanic Gardens,,rating_missing
+EVA43733DC63,STA43733DC63,1479,1,Exploren,Ingenia Holiday Park - Ulladulla,,rating_missing
+EV11D87A9B68,ST11D87A9B68,1480,1,Elanga,Antikvorem,,rating_missing
+EVC2FD5316DB,STC2FD5316DB,1481,1,PLUS ES,,7.0,station_name_missing
+EVD1F4E17626,STD1F4E17626,1482,1,Exploren,,,rating_missing;station_name_missing
+EVB5849F5EB5,STB5849F5EB5,1483,1,EVUp,The Mudgee Homestead Guesthouse,,rating_missing
+EVB27E25592E,STB27E25592E,1484,1,PLUS ES,,7.0,station_name_missing
+EVC915CEADF1,STC915CEADF1,1485,1,PLUS ES,,22.0,station_name_missing
+EV2820186849,ST2820186849,1486,1,PLUS ES,,7.0,station_name_missing
+EVEA55B9C964,STEA55B9C964,1487,1,Chargefox,,60.0,station_name_missing
+EV53376DD7F8,ST53376DD7F8,1488,1,Noodoe,Strikes,,rating_missing
+EV26A79E97D5,ST26A79E97D5,1489,1,Noodoe,CH Boutique Apartments The Ringers Road,,rating_missing
+EV610F9EE878,ST610F9EE878,1490,1,PLUS ES,,7.0,station_name_missing
+EVE4EA49A38B,STE4EA49A38B,1491,1,PLUS ES,,7.0,station_name_missing
+EV32541DB727,ST32541DB727,1492,1,EVX,,22.0,station_name_missing
+EVFCD57CF44C,STFCD57CF44C,1493,1,EVX,,22.0,station_name_missing
+EV83DE356A1D,ST83DE356A1D,1494,1,PLUS ES,,7.0,station_name_missing
+EV70D65FC619,ST70D65FC619,983;1495,2,EVSE|Non-networked,Narara Ecovillage,,rating_missing;merge_conflict_plugs;merged_duplicates
+EVD741BE36D1,STD741BE36D1,1496,1,EVSE,The Bay Hotel,,rating_missing
+EVEC0FF875C9,STEC0FF875C9,1497,1,Everty,Nimbo Fork Lodge,,rating_missing
+EV6F7C17EDE0,ST6F7C17EDE0,1498,1,Chargefox,Four Cats Coffee,,rating_missing
+EVD92A2DFBB1,STD92A2DFBB1,1499,1,PLUS ES,,7.0,station_name_missing
+EVE419DAE522,STE419DAE522,1500,1,EVE Australia,,22.0,station_name_missing
+EV45F2F1AE9E,ST45F2F1AE9E,1501,1,PLUS ES,,22.0,station_name_missing
+EVEA5276DAF7,STEA5276DAF7,1502,1,EVX,,22.0,station_name_missing
+EV31F4D03FCD,ST31F4D03FCD,1503,1,PLUS ES,,7.0,station_name_missing
+EVD0BB90BFC9,STD0BB90BFC9,1504,1,EVX,,22.0,station_name_missing
+EV884DB03895,ST884DB03895,1505,1,PLUS ES,,22.0,station_name_missing
+EV3FC370583F,ST3FC370583F,1506,1,PLUS ES,,22.0,station_name_missing
+EVE67B04323F,STE67B04323F,1507,1,EVSE,Bendalong (Manchester Lane Nashdale),,rating_missing
+EV4D9F82F652,ST4D9F82F652,1508,1,PLUS ES,,22.0,station_name_missing
+EV4C5E14FBCB,ST4C5E14FBCB,1509,1,EVUp,JETTY MOTEL THE ENTRANCE,,rating_missing
+EV213C64EC05,ST213C64EC05,1510,1,Chargefox,,22.0,station_name_missing
+EVF718A2E712,STF718A2E712,1511,1,Smart Charge,Gowing Bros,,rating_missing
+EVB47F5DFB53,STB47F5DFB53,1512,1,EVNet,Tamburlaine Organic Wines,,rating_missing
+EVB02715716B,STB02715716B,1513,1,EVX,,22.0,station_name_missing
+EVD9555476B3,STD9555476B3,1515,1,Exploren,Orange Waratah Sports Club,,rating_missing
+EV69909E9698,ST69909E9698,1516,1,Exploren,Rosevale,,rating_missing
+EVCA8F5A125A,STCA8F5A125A,1517,1,EVX,,22.0,station_name_missing
+EV98B546382B,ST98B546382B,1518,1,EVX,,22.0,station_name_missing
+EVFF48AC315E,STFF48AC315E,1519,1,Non-networked,Goulburn Health Hub,,rating_missing
+EVB1B77E2651,STB1B77E2651,1520,1,Evie Networks,,175.0,station_name_missing
+EV674FD949FE,ST674FD949FE,1521,1,Charge OS,Dunedoo Bowling Club Carpark,,rating_missing
+EVDF9C8A7F12,STDF9C8A7F12,1522,1,PLUS ES,,22.0,station_name_missing
+EV8B59D8DE4B,ST8B59D8DE4B,1523,1,EVX,,22.0,station_name_missing
+EVD4962C1E47,STD4962C1E47,1524,1,EVX,,22.0,station_name_missing
+EV1BF47F8D65,ST1BF47F8D65,1525,1,Tesla,,175.0,station_name_missing
+EV22C43DAEB4,ST22C43DAEB4,1526,1,PLUS ES,,22.0,station_name_missing
+EV80AC6B24ED,ST80AC6B24ED,1527,1,EVUp,Centrepoint Motel Deniliquin,,rating_missing
+EV9FAEE7B829,ST9FAEE7B829,1529,1,Chargefox,,7.0,station_name_missing
+EV99E99C237D,ST99E99C237D,1530,1,Exploren,Batemans Bay Soldiers Club,,rating_missing
+EV5E1A149594,ST5E1A149594,1531,1,Chargefox,,22.0,station_name_missing
+EVE778B07E24,STE778B07E24,1532,1,PLUS ES,,22.0,station_name_missing
+EV50A9F8061F,ST50A9F8061F,1533,1,Exploren,Ingenia Holiday Park - Hunter Valley,,rating_missing
+EV04974AA0D1,ST04974AA0D1,1534,1,PLUS ES,,22.0,station_name_missing
+EVF4AE1BF6C6,STF4AE1BF6C6,1535,1,EVE Australia,,22.0,station_name_missing
+EVB0ABCF6DB2,ST8BA872D0C0,1536,1,EVE Australia,,22.0,station_name_missing
+EVE4EC1EE4BD,STE4EC1EE4BD,1537,1,PLUS ES,,7.0,station_name_missing
+EV635C81610C,ST635C81610C,1538,1,EVSE,Harvest Lodge Motel,,rating_missing
+EVC834969EE8,STC834969EE8,1539,1,Exploren,Village Fair Maitland Plaza,,rating_missing
+EVAA1FB6AF40,STAA1FB6AF40,1540,1,EVE Australia,,22.0,station_name_missing
+EV75E0370C20,ST75E0370C20,1541,1,Chargefox,The Lane Retreat,,rating_missing
+EV57FF82BD49,ST57FF82BD49,1542,1,Everty,,,rating_missing;station_name_missing
+EV46C4D28276,ST46C4D28276,1543,1,PLUS ES,,7.0,station_name_missing
+EV4A9D463796,ST4A9D463796,1544,1,Chargefox,Siesta Unit Trust,,rating_missing
+EV50ED859716,ST50ED859716,1545,1,EVX,,22.0,station_name_missing
+EV2B4A452DA8,ST2B4A452DA8,1546,1,Smart Charge,Gowing Bros,,rating_missing
+EVC2B45F34AA,STC2B45F34AA,1548,1,Chargefox,,7.0,station_name_missing
+EV9C949268AF,ST9C949268AF,1549,1,NRMA,,175.0,station_name_missing
+EVB2BB15D37F,STB2BB15D37F,1550,1,Chargefox,Cabins in the Clouds,,rating_missing
+EVD09DD0E5FD,STD09DD0E5FD,1551,1,Exploren,Ingenia Holiday Parks - One Mile Beach,,rating_missing
+EVD8A65EBC45,STD8A65EBC45,1552,1,EVX,,22.0,station_name_missing
+EVE778FDD3CF,STE778FDD3CF,1166;1553,2,Non-networked|Smart Charge,Wagga Wagga City Council,,rating_missing;merge_conflict_name;merged_duplicates
+EV0E81AFE842,ST0E81AFE842,1554,1,Chargefox,Emma's Cottage,,rating_missing
+EV7622D2700A,ST7622D2700A,1555,1,EVX,,22.0,station_name_missing
+EVEA9245353B,STEA9245353B,1556,1,Non-networked,Ballina Beach Nature Resort,,rating_missing
+EV471EDC4049,ST471EDC4049,1557,1,Exploren,Eden Beachfront,,rating_missing
+EV98D32E2FA5,ST98D32E2FA5,1558,1,PLUS ES,,7.0,station_name_missing
+EV83E44F12EE,ST83E44F12EE,1559,1,Noodoe,Talbingo Tourist Park,,rating_missing
+EVE35442176A,STE35442176A,1560,1,Chargefox,Imperial Hotel,,rating_missing
+EVC63367B852,STC63367B852,1561,1,Chargefox,Young Services Club,,rating_missing
+EVDD1367B984,STDD1367B984,906;1562,2,Exploren,Ingenia Holiday Parks - Merry Beach,6.0,merged_duplicates
+EVEFE588449D,STEFE588449D,1563,1,Tesla,,175.0,station_name_missing
+EVE4682EDD88,STE4682EDD88,1564,1,EVX,,22.0,station_name_missing
+EV897975510F,ST897975510F,1566,1,Tesla,,175.0,station_name_missing
+EVBE548D19DF,STBE548D19DF,1567,1,EVUp,Federation of Community Sporting and Workers Clubs Limited,,rating_missing
+EV03C5DA2747,ST03C5DA2747,1568,1,CasaCharge,Oberon Visitor Information Centre,,rating_missing
+EVECAC68AB67,STECAC68AB67,1569,1,BP,,175.0,station_name_missing
+EVD17B8CCE26,STD17B8CCE26,1570,1,Exploren,Leisure Inn Pokolbin,,rating_missing
+EV3011015889,ST3011015889,1571,1,Chargefox,Talbingo Shopping Centre,,rating_missing
+EV6AF68FA9C7,ST6AF68FA9C7,1572,1,PLUS ES,,22.0,station_name_missing
+EVA7E288E165,STA7E288E165,1573,1,Chargefox,,22.0,station_name_missing
+EV2E5D70575E,ST2E5D70575E,1574,1,Exploren,Forster Visitor Information Centre,,rating_missing
+EV506D71AF74,ST506D71AF74,1575,1,EVX,,22.0,station_name_missing
+EV5CD12DF293,ST5CD12DF293,1576,1,EVNet,Bella Vista Motel,,rating_missing
+EVD8D73F24B2,STD8D73F24B2,1577,1,Everty,Cessnock Hospitality Group,,rating_missing
+EV276818F5CA,ST276818F5CA,1578,1,PLUS ES,,7.0,station_name_missing
+EV81033BB090,ST81033BB090,1579,1,Exploren,Club Charlestown,,rating_missing
+EVE0A07902A4,STE0A07902A4,1580,1,PLUS ES,,22.0,station_name_missing
+EVAEA6A701C3,STAEA6A701C3,1581,1,Chargefox,,22.0,station_name_missing
+EV4484D24EA2,ST4484D24EA2,1582,1,PLUS ES,,22.0,station_name_missing
+EV51D0F12FED,ST51D0F12FED,1583,1,EVX,,22.0,station_name_missing
+EVD35F4845BD,STD35F4845BD,1584,1,PLUS ES,,22.0,station_name_missing
+EVE93A8B9AB1,STE93A8B9AB1,1585,1,PLUS ES,,7.0,station_name_missing
+EV51FF18A280,ST51FF18A280,1586,1,Smart Charge,Wagga Wagga City Council,,rating_missing
+EVABB457B491,STABB457B491,1587,1,PLUS ES,,22.0,station_name_missing
+EVAE8AD599D8,STAE8AD599D8,1588,1,Chargefox,,22.0,station_name_missing
+EV42BED2A17B,ST42BED2A17B,1589,1,EVE Australia,,22.0,station_name_missing
+EV86BF54A374,ST86BF54A374,599;1590,2,Exploren,"Bathurst Street, Condobolin",22.0,merged_duplicates
+EV3FD6B5AC60,ST3FD6B5AC60,1591,1,Smart Charge,West Wallsend Workers club,,rating_missing
+EV39F8ED12CF,ST39F8ED12CF,1592,1,EVNet,Select Inn Gosford,,rating_missing
+EV2BDA5E29D2,ST2BDA5E29D2,1593,1,Exploren,Happy Hallidays,,rating_missing
+EVD8EACC1D7F,STD8EACC1D7F,1594,1,Noodoe,CH Boutique Hotel,,rating_missing
+EVFB3F35CD5C,STFB3F35CD5C,1595,1,PLUS ES,,22.0,station_name_missing
+EV9D1F84D3EE,ST9D1F84D3EE,1596,1,EVSE,Uralla Bowlo,,rating_missing
+EV18CDA1F019,ST18CDA1F019,1597,1,PLUS ES,,22.0,station_name_missing
+EV5299D4868F,ST5299D4868F,1598,1,Exploren,The Cottage Motor Inn,,rating_missing
+EVB16F578466,STB16F578466,1599,1,Chargefox,Mantra Albury Hotel,,rating_missing
+EV850DFB1D12,ST850DFB1D12,1600,1,Chargefox,Cobargo Co-operative Society,,rating_missing
+EVEFFBD47E13,STEFFBD47E13,1601,1,Chargefox,,22.0,station_name_missing
+EV6FD6C4C009,ST6FD6C4C009,1602,1,EVE Australia,,22.0,station_name_missing
+EVE147028C18,ST27669D765C,1603,1,Elanga,Cardiff Executive Apartments,,rating_missing
+EV6D6DA4058A,ST6D6DA4058A,984;1604,2,Non-networked|Noodoe,Quest Griffith,,rating_missing;merged_duplicates
+EV3EDB5015D7,ST3EDB5015D7,1605,1,Exploren,Hamilton's Queanbeyan Motel,,rating_missing
+EV18A7526380,ST18A7526380,1606,1,Chargefox,Arcadia Wilderness Retreat,,rating_missing
+EV5CF011FEAA,ST5CF011FEAA,1607,1,Exploren,Ingenia Holiday Parks - Byron Bay.,,rating_missing
+EV4850D56DE5,ST4850D56DE5,1608,1,EVX,,22.0,station_name_missing
+EVFB289C198B,STFB289C198B,1609,1,Chargefox,,22.0,station_name_missing
+EVBAD8DB3D0A,STBAD8DB3D0A,1610,1,PLUS ES,,22.0,station_name_missing
+EVDCDFDCF25F,STDCDFDCF25F,1611,1,EVX,,22.0,station_name_missing
+EV54E63D3C90,ST54E63D3C90,1612,1,Exploren,Ingenia Holiday Park - Middle Rock,,rating_missing
+EV8AD2730D5A,ST8AD2730D5A,1613,1,EVSE,Golden Age,,rating_missing
+EV753957EF88,ST753957EF88,1614,1,PLUS ES,,22.0,station_name_missing
+EVD4AB8ED0D2,STD4AB8ED0D2,1615,1,Exploren,Tallawudjah Dog,,rating_missing
+EVB8E656B8C7,STB8E656B8C7,1616,1,Chargefox,,7.0,station_name_missing
+EVAA79CB456E,STAA79CB456E,1617,1,PLUS ES,,7.0,station_name_missing
+EVD87CCAF857,STD87CCAF857,1618,1,Exploren,THE CARRINGTON INN,,rating_missing
+EVCA3502E92D,STCA3502E92D,1619,1,PLUS ES,,22.0,station_name_missing
+EV55D4336B62,ST55D4336B62,1620,1,Counties Energy,,22.0,station_name_missing
+EV73A52FF7F1,ST73A52FF7F1,1621,1,PLUS ES,,22.0,station_name_missing
+EV1B4B03B0D9,ST1B4B03B0D9,1622,1,PLUS ES,,7.0,station_name_missing
+EV6DC062AC32,ST6DC062AC32,1623,1,Evie Networks,,75.0,station_name_missing
+EV1DBF2D6D7F,ST1DBF2D6D7F,1624,1,PLUS ES,,22.0,station_name_missing
+EVEB5FBAB5C4,STEB5FBAB5C4,1625,1,Chargefox,NRMA Parks and Resorts,,rating_missing
+EV8DAC539673,ST8DAC539673,1626,1,Exploren,Broulee,,rating_missing
+EV1329F6EE6A,ST1329F6EE6A,1627,1,Chargefox,Buronga Midway Centre,,rating_missing
+EV743C7C3DE7,ST743C7C3DE7,1628,1,Charge Hub,Cooma Motor Lodge,,rating_missing
+EVABD680E59C,STABD680E59C,1630,1,PLUS ES,,22.0,station_name_missing
+EVD97D51ACE4,STD97D51ACE4,1631,1,Non-networked,The Builders Club,,rating_missing
+EV28AADA748E,ST28AADA748E,1632,1,EVE Australia,,22.0,station_name_missing
+EV84A40A2F32,ST84A40A2F32,1633,1,Chargefox,The Beach Rooms,,rating_missing
+EVF8D0E9C171,STF8D0E9C171,1634,1,Chargefox,Wentworth Civic Centre Carpark,,rating_missing
+EV10F87E2CF9,ST10F87E2CF9,1635,1,Tesla,,175.0,station_name_missing
+EV9521506C06,ST9521506C06,1636,1,360 EV Charge,Alexander Motor inn,,rating_missing
+EVF111506A2C,STF111506A2C,1637,1,Exploren,Dunghutti-Ngaku Aboriginal Art Gallery,,rating_missing
+EVFA11BF4121,STFA11BF4121,1638,1,PLUS ES,,22.0,station_name_missing
+EV58D8EEFDF6,ST58D8EEFDF6,1639,1,Charge Hub,Poet's Cottage,,rating_missing
+EV1F4C6CF755,ST1F4C6CF755,1640,1,Chargefox,,22.0,station_name_missing
+EV95EFF5136D,ST95EFF5136D,1641,1,PLUS ES,,22.0,station_name_missing
+EVE52430D13E,STE52430D13E,1642,1,Non-networked,The Convent Hunter Valley Hotel,,rating_missing
+EVE85E71F5D4,STE85E71F5D4,1643,1,PLUS ES,,7.0,station_name_missing
+EVC6D5F20267,STC6D5F20267,1644,1,PLUS ES,,22.0,station_name_missing
+EVEE9189F422,STEE9189F422,1645,1,PLUS ES,,7.0,station_name_missing
+EV746684D799,ST746684D799,1646,1,EVX,,22.0,station_name_missing
+EV51E43EA074,ST51E43EA074,1647,1,PLUS ES,,22.0,station_name_missing
+EVDF614B9A16,STDF614B9A16,1648,1,Evie Networks,,75.0,station_name_missing
+EVD37984BB08,STD37984BB08,1649,1,EVX,,22.0,station_name_missing
+EV48E29803B9,ST48E29803B9,1650,1,Exploren,The Commercial Hotel Wallerawang,,rating_missing
+EV9766C3296E,ST9766C3296E,1651,1,PLUS ES,,22.0,station_name_missing
+EV9BB20E57EF,ST9BB20E57EF,1652,1,PLUS ES,,22.0,station_name_missing
+EV51289E0CF7,ST51289E0CF7,1653,1,EVE Australia,,22.0,station_name_missing
+EVF9BA528CF5,STF9BA528CF5,1654,1,EVE Australia,,22.0,station_name_missing
+EV2FADB2CB66,ST2FADB2CB66,1656,1,EVUp,Woomargama Village Hotel Motel,,rating_missing
+EVD302F4B5C2,STD302F4B5C2,1657,1,EVUp,Deniliquin Country Club Motor Inn,,rating_missing
+EV0AD5713154,ST0AD5713154,1658,1,Tesla,,175.0,station_name_missing
+EV70BC41C0D1,ST70BC41C0D1,1659,1,Exploren,Maranda Country Estate,,rating_missing
+EVC03FFD7B61,STC03FFD7B61,1660,1,Chargefox,,22.0,station_name_missing
+EV62B2AD4D16,ST62B2AD4D16,1661,1,Everty,Glenworth Valley Outdoor Adventures,,rating_missing
+EV376EE0DE73,ST376EE0DE73,1662,1,PLUS ES,,22.0,station_name_missing
+EV7F68FAED32,ST7F68FAED32,1663,1,Exploren,Cael's Gate Wines,,rating_missing
+EV34F7611D40,ST34F7611D40,1664,1,Exploren,Park Proxi Gibraltar Bowral,,rating_missing
+EV9D3E2AEF6B,ST9D3E2AEF6B,1665,1,Chargefox,,22.0,station_name_missing
+EVF502B1BC2A,ST7D391D1DCF,1666,1,PLUS ES,,22.0,station_name_missing
+EVA757B0D700,STA757B0D700,1667,1,PLUS ES,,22.0,station_name_missing
+EV52846DC37B,ST52846DC37B,1668,1,Everty,Wanderers Retreat,,rating_missing
+EV67834E81BA,ST67834E81BA,1669,1,EVNet,Gosford Palms Motor Inn,,rating_missing
+EVA310BA6067,STA310BA6067,1670,1,BP,,175.0,station_name_missing
+EV071E13EE27,ST071E13EE27,1671,1,Chargefox,,,rating_missing;station_name_missing
+EVEF8637ED9C,STEF8637ED9C,1672,1,Everty,ZIG ZAG MOTEL,,rating_missing
+EVEEBAE746EE,STEEBAE746EE,1673,1,EVX,,22.0,station_name_missing
+EV37F028025D,ST37F028025D,1674,1,Chargefox,Byron Shire Council Administration Building Public Carpark,,rating_missing
+EV84C5535EB9,ST84C5535EB9,1675,1,EVNet,Gartelmann Wines,,rating_missing
+EVF8CA8C1FCE,STF8CA8C1FCE,1676,1,Smart Charge,,,rating_missing;station_name_missing
+EVAED3878F95,STAED3878F95,1677,1,Smart Charge,Deniliquin RSL Club Ltd,,rating_missing
+EV9BD7684389,ST9BD7684389,1678,1,Exploren,Hall St Carpark - Warialda,,rating_missing
+EVA8E6CA7102,STA8E6CA7102,1679,1,Tesla,,175.0,station_name_missing
+EVE1B216660B,STE1B216660B,1680,1,Chargefox,,22.0,station_name_missing
+EV47478EFA6F,ST47478EFA6F,1681,1,EVX,,22.0,station_name_missing
+EV2AC42BC703,ST2AC42BC703,1682,1,Smart Charge,Mid-Western Regional Council,,rating_missing
+EVEAB14394DC,STEAB14394DC,1683,1,Chargefox,Bermagui Fishermen's Co-Operative,,rating_missing
+EV6E77338443,ST6E77338443,1684,1,PLUS ES,,22.0,station_name_missing
+EVC2A861347F,STC2A861347F,1685,1,EVX,,22.0,station_name_missing
+EV09DC9CF91B,ST09DC9CF91B,1686,1,Chargefox,Tumut Riverina Highlands Building Public Car Park,,rating_missing
+EVF76425F1F7,STF76425F1F7,1687,1,Exploren,Coolamon Shire Council,,rating_missing
+EVA373A647AA,STA373A647AA,1688,1,Everty,Palms Oasis Motel Coopernook,,rating_missing
+EV9E80A25346,ST9E80A25346,1689,1,BP,,175.0,station_name_missing
+EV3F31CE3F8D,ST3F31CE3F8D,1691,1,CasaCharge,Highlands Motor Inn,,rating_missing
+EV275A35C064,ST275A35C064,1692,1,Exploren,Jervis Bay Holiday Park,,rating_missing
+EV94420D388A,ST94420D388A,1693,1,Chargefox,Esca Bimbadgen,,rating_missing
+EVE21BC12559,STE21BC12559,1694,1,PLUS ES,,22.0,station_name_missing
+EVD647C6E00A,STD647C6E00A,1695,1,Chargefox,,22.0,station_name_missing
+EVD8B049F2FC,STD7565099B8,1696,1,EVE Australia,,60.0,station_name_missing
+EVAC9E820D01,STAC9E820D01,1697,1,Chargefox,,7.0,station_name_missing
+EVBBB610E300,STBBB610E300,1698,1,ChargePost,,22.0,plugs_very_high_check;station_name_missing
+EV0DB2C4BCBD,ST0DB2C4BCBD,1699,1,Exploren,Acacia Snowy Motel,,rating_missing
+EV5240AD4AEF,ST5240AD4AEF,1700,1,NRMA,,175.0,station_name_missing
+EV4F0EA03243,ST4F0EA03243,1701,1,EVE Australia,,22.0,station_name_missing
+EVFFF886FE33,STFFF886FE33,1702,1,Charge OS,Camellia Motel,,rating_missing
+EVD45D603D32,STD45D603D32,1704,1,Exploren,Vacy Rest Stop,,rating_missing
+EV0324F94856,ST0324F94856,1705,1,Chargefox,,7.0,station_name_missing
+EVE6AD43827B,STE6AD43827B,1706,1,Exploren,Cootamundra Library Car Park,,rating_missing
+EV6ACD011ABE,ST6ACD011ABE,1707,1,Chargefox,,,rating_missing;station_name_missing
+EVD3CB467984,STD3CB467984,1708,1,Exploren,Singleton Diggers - Alroy Park Club,,rating_missing
+EVE546E34D38,STE546E34D38,1709,1,Tesla,,175.0,station_name_missing
+EV5D7A4DE5BB,ST5D7A4DE5BB,1710,1,Noodoe,The Charles Boutique Hotel & Dining,,rating_missing
+EVD2FAED4FA0,STD2FAED4FA0,1711,1,Tesla,,175.0,station_name_missing
+EV67FF9796EC,ST67FF9796EC,1712,1,Exploren,The Civic,,rating_missing
+EVB56CDB0816,STB56CDB0816,1713,1,Exploren,Mingara Recreation Club,,rating_missing
+EV611440FCA5,ST611440FCA5,1714,1,Exploren,Albury Showground,,rating_missing
+EV1CF140F111,ST1CF140F111,1715,1,PLUS ES,,22.0,station_name_missing
+EVEDCAAD1F3B,STEDCAAD1F3B,1716,1,Exploren,Lovedale Wedding Chapel and Reception,,rating_missing
+EV83A6D3FAA3,ST83A6D3FAA3,1717,1,EVX,,22.0,station_name_missing
+EVB8E9E35433,STB8E9E35433,1718,1,PLUS ES,,22.0,station_name_missing
+EV50792887FA,ST50792887FA,1719,1,Evie Networks,,175.0,station_name_missing
+EV7122111FB6,ST7122111FB6,1720,1,Evie Networks,,175.0,station_name_missing
+EVDBF14165C9,STDBF14165C9,1721,1,Exploren,Sponars Chalet,,rating_missing
+EV0A12208166,ST0A12208166,1722,1,PLUS ES,,7.0,station_name_missing
+EV1E898342EC,ST1E898342EC,1723,1,Exploren,Lake Canobolas,,rating_missing
+EV7E6A13BE58,ST7E6A13BE58,1724,1,Evie Networks,,75.0,station_name_missing
+EVD333DD0365,STD333DD0365,1725,1,PLUS ES,,22.0,station_name_missing
+EV0FBF10B2B2,ST0FBF10B2B2,1726,1,PLUS ES,,22.0,station_name_missing
+EVAAE881F036,STAAE881F036,1727,1,Chargefox,,7.0,station_name_missing
+EV99C8BAE9CA,ST99C8BAE9CA,1728,1,EVX,,22.0,station_name_missing
+EV420B092D0C,ST420B092D0C,1729,1,NRMA,,20.0,station_name_missing
+EV0E032AC9CC,ST0E032AC9CC,1730,1,PLUS ES,,22.0,station_name_missing
+EVEE3F4D46C2,STEE3F4D46C2,1731,1,Chargefox,Mantra on Salt Beach,,rating_missing
+EV353DE90690,ST353DE90690,1732,1,CasaCharge,Toronto Workers Club,,rating_missing
+EV303A024FE3,ST303A024FE3,1733,1,PLUS ES,,7.0,station_name_missing
+EVA8D77E5142,STA8D77E5142,1734,1,EVUp,Tura Garden Centre,,rating_missing
+EVE72069B768,STE72069B768,1735,1,Evie Networks,,75.0,station_name_missing
+EV0ECDBAC1BC,ST0ECDBAC1BC,1736,1,PLUS ES,,22.0,station_name_missing
+EV19ECC46CE7,ST19ECC46CE7,1737,1,Smart Charge,Mid-Western Regional Council,,rating_missing
+EV837E8B6AB0,ST837E8B6AB0,1738,1,PLUS ES,,7.0,station_name_missing
+EV21179FE037,ST21179FE037,1739,1,PLUS ES,,22.0,station_name_missing
+EVAB0BFD1AB6,STAB0BFD1AB6,1740,1,EVUp,Cousins Motor Inn,,rating_missing
+EV9839F41B8E,ST9839F41B8E,1741,1,EVX,,22.0,station_name_missing
+EV0129AC3933,ST0129AC3933,1742,1,Tesla,,175.0,station_name_missing
+EVD3D366C801,STD3D366C801,1743,1,Evie Networks,,75.0,station_name_missing
+EV4917B00502,ST4917B00502,1744,1,Exploren,Ingenia Holiday Parks - Wagga Wagga,,rating_missing
+EV660527D5E5,ST660527D5E5,1745,1,PLUS ES,,22.0,station_name_missing
+EV141F41E526,ST141F41E526,1746,1,EVUp,Ulan Village Green,,rating_missing
+EV52C5864DFF,ST52C5864DFF,1747,1,Exploren,Osborn House,,rating_missing
+EV189C32D37E,ST189C32D37E,1748,1,PLUS ES,,22.0,station_name_missing
+EV7DDD21EC71,ST7DDD21EC71,1749,1,PLUS ES,,22.0,station_name_missing
+EVDDA81231ED,STDDA81231ED,1750,1,Exploren,Hermitage Road,,rating_missing
+EV537807965F,ST537807965F,1751,1,Chargefox,Pioneer Country,,rating_missing
+EV676868988A,ST676868988A,894;1752,2,Everty,Hotel Metropole,11.0,merge_conflict_plugs;merged_duplicates
+EVEC6E18E432,STEC6E18E432,1753,1,PLUS ES,,7.0,station_name_missing
+EV490FB426EF,ST490FB426EF,1754,1,Exploren,Dungowan,,rating_missing
+EV667042EA87,ST667042EA87,1755,1,Smart Charge,Dubbo Regional Council,,rating_missing
+EV18A7F7C1AC,ST18A7F7C1AC,1756,1,EVSE,Eastcoast Beverages,,rating_missing
+EVD7AB0DC292,STD7AB0DC292,1757,1,Exploren,EAST MAITLAND BOWLING CLUB.,,rating_missing
+EV70D2840B1E,ST70D2840B1E,1758,1,Porsche Smart Mobility,,22.0,station_name_missing
+EV02A634489D,ST02A634489D,1759,1,Chargefox,NRMA Parks and Resorts,,rating_missing
+EV74D6CD5B97,ST74D6CD5B97,1760,1,Evie Networks,,75.0,station_name_missing
+EV6E4B0B0B1F,ST6E4B0B0B1F,1761,1,Chargefox,Murrumbidgee Council,,rating_missing
+EVEF17D05E7F,STEF17D05E7F,1762,1,Exploren,Bathurst Regional Council,,rating_missing
+EVA2BAA64F1A,STA2BAA64F1A,1763,1,Exploren,"War Memorial Hall, Tottenham",,rating_missing
+EV502AB7EF95,ST502AB7EF95,1764,1,Non-networked,Berrigan Shire,,rating_missing;postcode_not_2xxx
+EV401D67A1FF,ST401D67A1FF,1765,1,NRMA,,175.0,station_name_missing
+EVD0CC0F64DD,STD0CC0F64DD,1766,1,Smart Charge,Dubbo Regional Council,,rating_missing
+EVB33BD6E0FA,STB33BD6E0FA,1767,1,Exploren,Kyogle Council,,rating_missing
+EV56824836D9,ST56824836D9,1768,1,BP,,175.0,station_name_missing
+EVBC2A8A2036,STBC2A8A2036,1769,1,Exploren,Goolgowi Caravan Park,,rating_missing
+EVD0E259BCC4,STD0E259BCC4,1770,1,NRMA,,50.0,station_name_missing
+EVBFDA69413D,STBFDA69413D,1771,1,Tesla,,175.0,station_name_missing
+EVDA1B3E1F11,STDA1B3E1F11,1772,1,NRMA,,175.0,station_name_missing
+EVD4CB8D3F68,STD4CB8D3F68,1773,1,Exploren,Edward River Council,,rating_missing
+EV912144332F,ST912144332F,1774,1,Exploren,Wallendbeen Park Farm,,rating_missing
+EV5D244CE5CD,ST5D244CE5CD,1775,1,Chargefox,Shellharbour City Council,,rating_missing
+EV01791CF89C,ST01791CF89C,1776,1,Exploren,Currabubula Recreation Grounds,,rating_missing
+EVE08827C687,ST5D1C92E011,1777,1,Chargefox,Early Start Discovery Space,,rating_missing
+EVE74EB90917,STE74EB90917,1778,1,PLUS ES,,22.0,station_name_missing
+EVEBBC6AEFF7,STEBBC6AEFF7,1779,1,Exploren,Weddin Shire Council,,rating_missing
+EVB30678D3C8,STB30678D3C8,1780,1,NRMA,,175.0,station_name_missing
+EV4D8950A360,ST4D8950A360,1781,1,EVSE,Port Kembla Golf Club,,rating_missing
+EV4B2AEE21A5,ST4B2AEE21A5,1782,1,Exploren,Ingenia Holiday Parks - South West Rocks.,,rating_missing
+EV1592143B25,ST1592143B25,1783,1,Exploren,Club Lemon Tree,,rating_missing
+EVEA22DB5F47,STEA22DB5F47,1784,1,Evie Networks,,75.0,station_name_missing
+EVAEDB6149F1,STAEDB6149F1,1785,1,Exploren,Ripples on the Creek,,rating_missing
+EV459FD8C3D7,ST459FD8C3D7,1786,1,Exploren,Lockhart Shire Council,,rating_missing
+EVB34F0E0994,STB34F0E0994,1787,1,Exploren,Wests Illawarra,,rating_missing
+EV70277D96A8,ST70277D96A8,1788,1,EVUp,Muswellbrook Shire Council,,rating_missing
+EVFBD0969EF0,STFBD0969EF0,1789,1,Tesla,,175.0,station_name_missing
+EV44C90DA52D,ST44C90DA52D,1790,1,Tesla,,175.0,station_name_missing
+EV13AFC05266,ST13AFC05266,1791,1,Chargefox,Twin Towns Services Club Limited,,rating_missing
+EVB6B002703E,STB6B002703E,1792,1,Exploren,Coolamon Shire Council,,rating_missing
+EV8FF6A16C13,ST8FF6A16C13,1793,1,Smart Charge,Moree and District Services Club,,rating_missing
+EVD41F9476F3,STD41F9476F3,1794,1,EVSE,Gerringong Bowlo,,rating_missing
+EV3C0069C895,ST3C0069C895,1795,1,Everty,Lake Macquarie Council,,rating_missing
+EVE39F549A88,STE39F549A88,1796,1,Noodoe,Wagga Wagga Country Club,,rating_missing
+EV775B6879A9,ST775B6879A9,1797,1,Evie Networks,,75.0,station_name_missing
+EV947B52347D,ST947B52347D,1798,1,Elanga,Riverglade Caravan Park,,rating_missing
+EVED69188DC7,STED69188DC7,1799,1,Chargefox,UOW Science Space,,rating_missing
+EVA3434CA50E,STA3434CA50E,1800,1,Exploren,Thornton Library,,rating_missing
+EV18EE9B0C83,ST18EE9B0C83,1801,1,Smart Charge,Rich River Golf Club,,rating_missing
+EVBF0FA7F5CC,STBF0FA7F5CC,1802,1,Chargefox,Tumbarumba Overnight Camper Parking,,rating_missing
+EV132E414431,ST132E414431,1804,1,Exploren,The Old Bakery Guesthouse,,rating_missing
+EVCEA34CC961,STCEA34CC961,1805,1,Chargefox,NRMA Parks and Resorts,,rating_missing
+EV7CA2327D8E,ST7CA2327D8E,1806,1,Exploren,Lockhart Shire Council,,rating_missing
+EV763C59CCB1,ST763C59CCB1,1807,1,Chargefox,,6.0,station_name_missing
+EVEF145310F5,STEDD15D4D23,1808,1,EVSE,Bridges Hill Park,,rating_missing
+EV9570076D16,ST9570076D16,964;1809,2,Chargefox,Tathra Beach Country Club,22.0,merged_duplicates
+EV555C40277D,ST555C40277D,1810,1,Chargefox,NRMA Parks and Resorts,,rating_missing
+EV515ACB6811,ST515ACB6811,1811,1,EVSE,Narooma Golf Club,,rating_missing
+EV4E35CF1421,ST4E35CF1421,1812,1,Chargefox,NRMA Parks and Resorts,,rating_missing
+EV061B6CA57F,ST061B6CA57F,1813,1,Smart Charge,Moama Riverside & Tourist Holiday Park,,rating_missing
+EVC5EE5CDF28,STC5EE5CDF28,1814,1,EVSE,Barham Bridge Motor Inn,,rating_missing
+EV31B374C7D0,ST31B374C7D0,1815,1,EVX,,22.0,station_name_missing
+EVB6E2E7C809,STB6E2E7C809,1816,1,EVX,,22.0,station_name_missing
+EV9D02DB8147,ST9D02DB8147,1817,1,Everty,Lake Macquarie Council,,rating_missing
+EV62BC31D9F5,ST62BC31D9F5,1818,1,PLUS ES,,22.0,station_name_missing
+EV2E06E403A8,ST2E06E403A8,1819,1,Exploren,"Visitor Information Centre, Lake Cargelligo",,rating_missing
+EV26BD7067A6,ST26BD7067A6,20;1820,2,Chargefox,Deni Golf Resort,22.0,merged_duplicates
+EV91CAFF3241,ST91CAFF3241,1821,1,Noodoe,Yarrawonga Mulwala Golf Club Resort,,rating_missing
+EV805E4481A9,ST805E4481A9,1822,1,EVX,,22.0,station_name_missing
+EV5BB3670DD0,ST5BB3670DD0,1823,1,Chargefox,"'""Lawson Street North"" Public Carpark - Byron Bay",,rating_missing
+EV38B2D27504,ST38B2D27504,1824,1,Tesla,,130.0,station_name_missing
+EVFCB25E5137,ST38B2D27504,1825,1,NRMA,,50.0,station_name_missing
+EV10E8E48691,ST10E8E48691,1826,1,EVX,,22.0,station_name_missing
+EV0A61E9D713,ST0A61E9D713,1827,1,Chargefox,NRMA Parks and Resorts,,rating_missing
+EV2F4B1A32A6,ST2F4B1A32A6,1828,1,EVUp,Motel Miramar,,rating_missing
+EV1F266527BA,ST1F266527BA,1829,1,Exploren,Alpine Resort Motel,,rating_missing
+EV074EBF6002,ST074EBF6002,1830,1,Exploren,Ingenia Holiday Parks - Lake Conjola,,rating_missing
+EV395CB8048F,ST395CB8048F,1831,1,Chargefox,,6.0,station_name_missing
+EVCF2146CC23,STCF2146CC23,1832,1,Exploren,,,rating_missing;station_name_missing
+EV73F8A58BDC,ST73F8A58BDC,1833,1,Charge Hub,Archys on the Lake,,rating_missing
+EVEBC7814234,STEBC7814234,1834,1,EVX,,22.0,station_name_missing
+EV33B4B793EB,ST33B4B793EB,1835,1,EVX,,22.0,station_name_missing
+EV51923388D3,ST51923388D3,1836,1,Smart Charge,The Arabella North Coast,,rating_missing
+EVD2ED4BE262,STD2ED4BE262,1837,1,EVE Australia,,22.0,station_name_missing
+EV9D3C962E6B,ST9D3C962E6B,1838,1,Smart Charge,Club Catalina,,rating_missing
+EVFF0667EA49,STFF0667EA49,1839,1,Exploren,Clairfield Hotel,,rating_missing
+EV9574B20EF0,ST9574B20EF0,1840,1,BP,,175.0,station_name_missing
+EV5543504E84,ST5543504E84,1841,1,EVNet,Nelson Bay Breeze Holiday Apartments,,rating_missing
+EV6855CF272F,ST6855CF272F,1842,1,Exploren,Kyogle Council,,rating_missing
+EV447ADC2052,ST447ADC2052,1843,1,PLUS ES,,22.0,station_name_missing
+EV4C62599A21,ST4C62599A21,1844,1,Tesla,,175.0,station_name_missing
+EV96D74771D2,ST96D74771D2,1845,1,PLUS ES,,7.0,station_name_missing
+EVC38653BBDD,STC38653BBDD,1846,1,Chargefox,,22.0,station_name_missing
+EVD6BC1BA30F,STD6BC1BA30F,1847,1,Smart Charge,Wagga Wagga City Council,,rating_missing
+EV6B55207F7B,ST6B55207F7B,1848,1,EVUp,Holbrook Motel,,rating_missing
+EV362577CF80,ST362577CF80,1849,1,PLUS ES,,7.0,station_name_missing
+EVA7F7D2962C,STA7F7D2962C,1850,1,Non-networked,Winning Post Hotel,,rating_missing
+EV950C965EB7,ST950C965EB7,1851,1,Chargefox,NRMA Parks and Resorts,,rating_missing
+EV82106548F3,ST82106548F3,1852,1,PLUS ES,,7.0,station_name_missing
+EVCD61487017,STCD61487017,1853,1,PLUS ES,,7.0,station_name_missing
+EV9E823CF8DF,ST9E823CF8DF,1854,1,Alchemy Charge,Cantrill Organics,,rating_missing
+EVE54B82E1A8,STE54B82E1A8,1855,1,EVSE,Cadman Motor Inn and Apartments,,rating_missing
+EVC4C0CDF17B,STC4C0CDF17B,1856,1,PLUS ES,,22.0,station_name_missing
+EV0FA88ED2A2,ST0FA88ED2A2,1857,1,PLUS ES,,22.0,station_name_missing
+EV08816F5EB1,ST08816F5EB1,1858,1,PLUS ES,,22.0,station_name_missing
+EV051D4611BF,ST051D4611BF,1859,1,EVE Australia,,25.0,station_name_missing
+EV34F55571F6,ST34F55571F6,1860,1,Chargefox,Pender Lea Chalets,,rating_missing
+EVCC82F9FAEB,STCC82F9FAEB,1862,1,Everty,The Sampson - Orange,,rating_missing
+EVF93238F3AE,STF93238F3AE,1863,1,Chargefox,Cargo Road Wines,,rating_missing
+EV76CDE988B8,ST76CDE988B8,1864,1,Smart Charge,Mid-Western Regional Council,,rating_missing
+EVC87EBCBBB3,STC87EBCBBB3,1865,1,Exploren,Lockhart Shire Council,,rating_missing
+EV82653C672D,ST82653C672D,1866,1,Chargefox,Young Federation Motor Inn,,rating_missing
+EV2FF959C935,ST2FF959C935,1867,1,PLUS ES,,22.0,station_name_missing
+EV04B5409097,ST04B5409097,1868,1,PLUS ES,,22.0,station_name_missing
+EVA09896B45D,STA09896B45D,1869,1,EVE Australia,,22.0,station_name_missing
+EV8E7387816A,ST8E7387816A,1870,1,EVNet,Mollymook Shores Hotel,,rating_missing
+EV8244814856,ST8244814856,1871,1,Chargefox,Matador Motor Inn,,rating_missing
+EV4ED9C7A24D,ST4ED9C7A24D,1872,1,EVNet,Hotel Etico Australia,,rating_missing
+EVA3B5CCEE51,STA3B5CCEE51,1873,1,Exploren,Liverpool Plains Visitor Information Centre,,rating_missing
+EVEC53996BA3,STEC53996BA3,1874,1,EVSE,Pro Shop Car Park,,rating_missing
+EV5B9500D1DD,ST5B9500D1DD,1875,1,PLUS ES,,22.0,station_name_missing
+EV78555FE075,ST78555FE075,1876,1,EVX,,22.0,station_name_missing
+EVAD1BBE4FFB,STAD1BBE4FFB,1877,1,Charge Hub,Starline Alpacas Farmstay,,rating_missing
+EV1AFF62EBEB,ST1AFF62EBEB,1878,1,EVNet,Basalt Orange,,rating_missing
+EVA584836B50,STA584836B50,1879,1,PLUS ES,,22.0,station_name_missing
+EV8DB310E6F8,ST8DB310E6F8,1880,1,Exploren,Solomon Inn,,rating_missing
+EV4CE3149FE6,ST4CE3149FE6,1881,1,CasaCharge,Titania Motel,,rating_missing
+EV9302D78C20,ST9302D78C20,1882,1,Everty,Metropole Guest House,,rating_missing
+EVB1065AFF6F,STB1065AFF6F,1883,1,Exploren,South Tamworth Bowling Club,,rating_missing
+EV008C7CCE0E,ST008C7CCE0E,1884,1,EVX,,22.0,station_name_missing
+EV7DC0908D06,ST7DC0908D06,1885,1,Exploren,Bega Showground,,rating_missing
+EV30899C71FB,ST30899C71FB,1886,1,Tesla,,175.0,station_name_missing
+EVF9C364CD84,STF9C364CD84,1887,1,PLUS ES,,22.0,station_name_missing
+EVA2D35A708F,STA2D35A708F,1888,1,Chargefox,,22.0,station_name_missing
+EVE17378EDF8,STE17378EDF8,1889,1,Everty,Jack McLaughlin Oval - Edgeworth Sporting Complex,,rating_missing
+EVE3863E9085,STE3863E9085,1890,1,Exploren,Small Acres Cyder,,rating_missing
+EVD292A29F99,STD292A29F99,1891,1,EVX,,22.0,station_name_missing
+EV9ABF7610B7,ST9ABF7610B7,1892,1,PLUS ES,,7.0,station_name_missing
+EV1A036E5D33,ST1A036E5D33,1893,1,EVX,,22.0,station_name_missing
+EVC9EE97C3DB,STC9EE97C3DB,1894,1,ChargePost,,22.0,station_name_missing
+EVCD96B64FCE,STCD96B64FCE,1895,1,Exploren,Mingara Recreation Club,,rating_missing
+EV26B2066B1D,ST26B2066B1D,1896,1,Chargefox,,7.0,station_name_missing
+EVD778946943,STD778946943,1897,1,PLUS ES,,22.0,station_name_missing
+EV74DCC4068B,ST74DCC4068B,1898,1,PLUS ES,,22.0,station_name_missing
+EV802673B552,ST802673B552,1899,1,EVE Australia,,22.0,station_name_missing
+EV4ACD571787,ST4ACD571787,1900,1,Evie Networks,,75.0,station_name_missing
+EV28D8C7ED09,ST28D8C7ED09,1901,1,Chargefox,The Wool Store,,rating_missing
+EV7BEE9456CC,ST7BEE9456CC,1902,1,Exploren,Ingenia Holiday Parks - Soldiers Point.,,rating_missing
+EV77F12D6566,ST77F12D6566,1903,1,BP,,175.0,station_name_missing
+EV2A710E9957,ST2A710E9957,1904,1,BP,,175.0,station_name_missing
+EVDD06F5879A,STDD06F5879A,1905,1,EVX,,22.0,station_name_missing
+EVA1F87E872A,STA1F87E872A,1906,1,Smart Charge,Museum of Riverina-Botanic Garden Sites,,rating_missing
+EV43A93B2720,ST43A93B2720,1907,1,PLUS ES,,7.0,station_name_missing
+EVD4F5B73BB3,STD4F5B73BB3,1908,1,EVX,,22.0,station_name_missing
+EV4E02316222,ST012D012C76,1909,1,PLUS ES,,22.0,station_name_missing
+EVFFC6149D7C,STFFC6149D7C,1910,1,PLUS ES,,22.0,station_name_missing
+EVF20205442F,STF20205442F,1911,1,BP,,175.0,station_name_missing
+EVF878146636,STF878146636,1912,1,PLUS ES,,22.0,station_name_missing
+EV8ECFF59CC7,ST8ECFF59CC7,1913,1,Exploren,SHOALHAVEN EX-SERVICEMEN'S CLUB LTD,,rating_missing
+EV2D20C29E82,ST2D20C29E82,1914,1,Chargefox,,7.0,station_name_missing
+EVFFE657721B,STFFE657721B,1915,1,PLUS ES,,22.0,station_name_missing
+EVED9B9C75FB,STED9B9C75FB,1916,1,EVNet,Club Maitland City,,rating_missing
+EV5BE33717B8,ST5BE33717B8,1917,1,Noodoe,,,rating_missing;station_name_missing
+EVC8994F4C41,STC8994F4C41,1918,1,Non-networked,Armidale Pines Motel,,rating_missing
+EV25E5209E55,ST25E5209E55,159;1919,2,Chargefox,Willow Bend Caravan Park,22.0,merged_duplicates
+EVFC850587D4,ST4D2AB8C121,1920,1,Chargefox,,50.0,station_name_missing
+EV5D1A5B961E,ST5D1A5B961E,1921,1,Non-networked,Ibis Styles Orange,,rating_missing
+EV2D993787F3,ST2D993787F3,1922,1,Exploren,Comfort Inn City Centre Armidale,,rating_missing
+EVC67EF0D313,STC67EF0D313,1923,1,EVX,,22.0,station_name_missing
+EVEF72A25116,STEF72A25116,1924,1,EVX,,22.0,station_name_missing
+EV63951C1A81,ST63951C1A81,1925,1,EVUp,Country Plaza Motel Queanbeyan,,rating_missing
+EV75C0F78651,ST75C0F78651,1926,1,EVX,,22.0,station_name_missing
+EV494AE3C801,ST494AE3C801,1927,1,EVX,,22.0,station_name_missing
+EV98DF0FA01B,ST98DF0FA01B,1928,1,PLUS ES,,7.0,station_name_missing
+EV096601FE84,ST096601FE84,1929,1,PLUS ES,,22.0,station_name_missing
+EVB563394B5D,STB563394B5D,1930,1,EVSE,Orange Visitor Information Centre,,rating_missing
+EV39990E823A,ST39990E823A,1931,1,PLUS ES,,7.0,station_name_missing
+EV7E457A52CF,ST7E457A52CF,1932,1,Tesla,,175.0,station_name_missing
+EV3EC5B173DB,ST1DEA9B7C9A,1933,1,Smart Charge,Mulwala Water Ski Club,,rating_missing
+EVB64CAE4972,STB64CAE4972,1934,1,Chargefox,,7.0,station_name_missing
+EV46D5B552DA,ST46D5B552DA,1935,1,Chargefox,,7.0,station_name_missing
+EVC8B30691F6,STC8B30691F6,1936,1,EVX,,22.0,station_name_missing
+EV1F63884CD2,ST1F63884CD2,1937,1,PLUS ES,,22.0,station_name_missing
+EV806D2CD032,ST806D2CD032,1938,1,PLUS ES,,22.0,station_name_missing
+EVF3E6A23072,STF3E6A23072,1939,1,PLUS ES,,22.0,station_name_missing
+EVA20D1D465F,STA20D1D465F,1940,1,EVE Australia,,22.0,station_name_missing
+EVDB511D6424,STDB511D6424,1941,1,PLUS ES,,7.0,station_name_missing
+EVC6D8D07DA9,STC6D8D07DA9,1942,1,Exploren,Tallowood Cottages,,rating_missing
+EVF03E1D7C8D,STF03E1D7C8D,1943,1,Non-networked,De iuliis Wines,,rating_missing
+EV00F5007B7B,ST00F5007B7B,1944,1,EVUp,,22.0,station_name_missing
+EV191841E8DD,ST191841E8DD,1945,1,Tesla,,175.0,station_name_missing
+EV98D4E678C8,ST39990E823A,1946,1,PLUS ES,,7.0,station_name_missing
+EVB881DB2959,STB881DB2959,1947,1,PLUS ES,,7.0,station_name_missing
+EVC6DBB22B4C,STC6DBB22B4C,1948,1,Exploren,Fisherman's Paradise In Australia,,rating_missing
+EV108F93CF65,ST108F93CF65,1949,1,Noodoe,Elizabeth Motor Inn Adamstown,,rating_missing
+EV11690B671B,ST11690B671B,1950,1,PLUS ES,,7.0,station_name_missing
+EVC39A7095B6,STC39A7095B6,1951,1,Exploren,Angourie,,rating_missing
+EV20DADE068B,ST20DADE068B,1952,1,EVX,,22.0,station_name_missing
+EV15301DCE1D,ST15301DCE1D,1953,1,PLUS ES,,22.0,station_name_missing
+EVC8EA7F80F2,STC8EA7F80F2,1954,1,PLUS ES,,22.0,station_name_missing
+EV617A7C558E,ST617A7C558E,1955,1,PLUS ES,,7.0,station_name_missing
+EV3FE3FB6992,ST3FE3FB6992,1956,1,EVX,,22.0,station_name_missing
+EV145A19DEA8,ST145A19DEA8,1957,1,PLUS ES,,7.0,station_name_missing
+EV05D1D69E31,ST05D1D69E31,1958,1,PLUS ES,,22.0,station_name_missing
+EV0BD34B581B,ST0BD34B581B,1959,1,Chargefox,Teneco Hospitality,,rating_missing

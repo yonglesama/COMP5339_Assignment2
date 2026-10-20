@@ -1,0 +1,10 @@
+# Python 3.10+ dependencies for the merged Member A + B + C + D package.
+# Member A and C use the standard library for HTTP retrieval. Cleaning and
+# augmentation use the dataframe, Parquet and geospatial dependencies below.
+pandas>=2.0
+numpy>=1.24
+pyarrow>=14.0
+geopandas>=1.0
+
+# Required by Member D's database stage and the final validation stage.
+duckdb>=1.0

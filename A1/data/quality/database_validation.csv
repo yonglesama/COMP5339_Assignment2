@@ -1,0 +1,31 @@
+check,status,actual,expected,details
+spatial_extension_loaded,PASS,"installed=True, loaded=True","installed=True, loaded=True",extension_version=eb1e57c
+row_count_regions,PASS,28,28,database was closed and reopened before this query
+row_count_stations,PASS,1772,1772,database was closed and reopened before this query
+row_count_operators,PASS,38,38,database was closed and reopened before this query
+row_count_charger_locations,PASS,1799,1799,database was closed and reopened before this query
+row_count_chargers,PASS,1803,1803,database was closed and reopened before this query
+row_count_charger_characteristics,PASS,1803,1803,database was closed and reopened before this query
+row_count_charger_enrichment,PASS,419,419,database was closed and reopened before this query
+pk_unique_regions,PASS,0,0,duplicate or null values for regions.sa4_code
+pk_unique_stations,PASS,0,0,duplicate or null values for stations.station_id
+pk_unique_operators,PASS,0,0,duplicate or null values for operators.operator_id
+pk_unique_charger_locations,PASS,0,0,duplicate or null values for charger_locations.location_id
+pk_unique_chargers,PASS,0,0,duplicate or null values for chargers.charger_id
+pk_unique_charger_characteristics,PASS,0,0,duplicate or null values for charger_characteristics.charger_id
+pk_unique_charger_enrichment,PASS,0,0,duplicate or null values for charger_enrichment.charger_id
+fk_stations_regions,PASS,0,0,child rows without a matching parent
+fk_chargers_stations,PASS,0,0,child rows without a matching parent
+fk_chargers_operators,PASS,0,0,child rows without a matching parent
+fk_chargers_locations,PASS,0,0,child rows without a matching parent
+fk_characteristics_chargers,PASS,0,0,child rows without a matching parent
+fk_enrichment_chargers,PASS,0,0,child rows without a matching parent
+enrichment_join_preserves_chargers,PASS,1803,1803,a one-to-one left join must not multiply charger rows
+coordinates_not_null,PASS,0,0,null latitude or longitude values
+sa4_available_for_all_chargers,PASS,0,0,chargers without a valid assigned SA4 region
+point_geometry_matches_coordinates,PASS,0,0,invalid point type or X/Y differs from longitude/latitude
+point_geometry_query,PASS,1799,1799,ST_GeometryType successfully queried stored charger geometry
+region_geometry_query,PASS,28,28,stored SA4 geometries are polygons or multipolygons
+enrichment_dc_only,PASS,0,0,AC chargers with enrichment rows
+spatial_intersection_query,PASS,1802,> 0,ST_Intersects on charger points and assigned SA4 polygons
+database_reopen_query,PASS,1803,1803,read-only query after closing the build connection and reopening the file

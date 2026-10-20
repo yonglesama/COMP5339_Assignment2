@@ -1,0 +1,8 @@
+{
+  "stages": [
+    {"name": "cleaning", "owner": "B", "script": "src/cleaning/run.py", "inputs": ["data/raw/nsw/ev_20251216.csv", "data/raw/abs/SA4_2026_AUST_SHP_GDA2020/SA4_2026_AUST_GDA2020.shp"], "outputs": ["data/processed/chargers_clean.parquet", "data/processed/chargers_clean.csv", "data/processed/dc_candidates.parquet", "data/processed/dc_candidates.csv", "data/quality/cleaning_summary.csv", "data/quality/excluded_records.csv", "data/quality/duplicate_review.csv", "data/quality/chargers_clean_audit.csv"]},
+    {"name": "augmentation", "owner": "C", "script": "src/augmentation/run.py", "inputs": ["data/processed/dc_candidates.parquet"], "outputs": ["data/raw/augmentation/osm_nsw_charging_stations.json", "data/raw/augmentation/osm_nsw_charging_stations.csv", "data/raw/augmentation/source_metadata.json", "data/processed/charger_enrichment.parquet", "data/quality/augmentation_coverage.csv", "data/quality/matching_review.csv"]},
+    {"name": "database", "owner": "D", "script": "src/database/run.py", "inputs": ["data/processed/chargers_clean.parquet", "data/processed/charger_enrichment.parquet", "data/quality/chargers_clean_audit.csv", "data/raw/abs/SA4_2026_AUST_SHP_GDA2020/SA4_2026_AUST_GDA2020.shp", "sql/schema.sql"], "outputs": ["data/final/ev_chargers.duckdb", "data/quality/database_validation.csv"]},
+    {"name": "validate", "owner": "D", "script": "validate_pipeline.py", "inputs": ["data/final/ev_chargers.duckdb", "data/processed/chargers_clean.parquet", "data/processed/charger_enrichment.parquet"], "outputs": ["data/quality/final_quality_report.csv"]}
+  ]
+}

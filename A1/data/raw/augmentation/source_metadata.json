@@ -1,0 +1,20 @@
+{
+  "source_name": "OpenStreetMap charging stations via Overpass API",
+  "endpoint": "https://overpass-api.de/api/interpreter",
+  "query": "[out:json][timeout:120];\nnwr[\"amenity\"=\"charging_station\"](-37.6,140.9,-28.0,153.7);\nout center tags;\n",
+  "bbox_south_west_north_east": [
+    -37.6,
+    140.9,
+    -28.0,
+    153.7
+  ],
+  "retrieved_at_utc": "2026-09-20T06:33:28Z",
+  "osm_data_timestamp_utc": "2026-09-20T06:31:36Z",
+  "record_count": 692,
+  "attribution": "© OpenStreetMap contributors",
+  "licence": "Open Data Commons Open Database License (ODbL)",
+  "copyright_url": "https://www.openstreetmap.org/copyright",
+  "api_documentation_url": "https://wiki.openstreetmap.org/wiki/Overpass_API",
+  "cache_policy": "Reuse local JSON unless --refresh is supplied.",
+  "cache_used": false
+}

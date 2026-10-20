@@ -1,0 +1,420 @@
+charger_id,station_id,station_name,address,operator_name,number_of_plugs,rating_text,rating_kw,latitude,longitude,lga_name,postcode,source_program,sa4_region
+EV0129AC3933,ST0129AC3933,,"9-17 Short St, Parkes NSW 2870",Tesla,4,175 kW,175.0,-33.1413775,148.1740685,Parkes Shire Council,2870,Fast Charging R1,Central West
+EV02E616F33C,ST02E616F33C,,"33 Moate St, Newcastle, 2298",Chargefox,2,60 kW,60.0,-32.90870375,151.7304655,Newcastle City Council,2298,Existing Fast Chargers,Newcastle and Lake Macquarie
+EV0346CC2CBD,ST0346CC2CBD,,"1 Wharf St, Tweed Heads, 2485",Tesla,6,250 kW,250.0,-28.17378983,153.5445165,Tweed Shire Council,2485,Existing Fast Chargers,Richmond - Tweed
+EV03B93084A5,ST03B93084A5,,"164 Mona Vale Rd, St Ives, NSW, 2075",Ampol,2,125 kW,125.0,-33.7307758,151.1570112,Ku-ring-gai Council,2075,ARENA - Driving the Nation,Sydney - North Sydney and Hornsby
+EV051D4611BF,ST051D4611BF,,"105-107 Alt St, Ashfield NSW 2131",EVE Australia,2,25 kW,25.0,-33.8803158,151.1299199,Inner West Council,2131,Kerbside Charging R1,Sydney - Inner West
+EV05DAAC80F8,ST05DAAC80F8,,"1 Park St, Sydney, 2103",JOLT,2,25 kW,25.0,-33.67613618,151.3039429,Northern Beaches Council,2103,Existing Fast Chargers,Sydney - Northern Beaches
+EV5A47541FB2,ST05DDA2CD4C,,"3-5 Underwood Rd, Homebush NSW 2140",Engie,2,150 kW,150.0,-33.8556219,151.0767955,Strathfield Municipal Council,2140,ARENA - Driving the Nation,Sydney - Inner West
+EV066B4F3197,ST066B4F3197,,2 Bridge Rd Griffith NSW 2680,Tesla,6,175 kW,175.0,-34.2922641,146.0507015,Griffith City Council,2680,Fast Charging R1,Riverina
+EV0727EE2757,ST0727EE2757,,"Kable Ave, Tamworth, 2340",NRMA,2,50 kW,50.0,-31.0903554,150.9274134,Tamworth Regional Council,2340,Existing Fast Chargers,New England and North West
+EV07C7D547AC,ST07C7D547AC,,"Lake Haven Dr, Lake Haven NSW 2263",Engie,2,150 kW,150.0,-33.2445959,151.498974,Camden Council,2263,ARENA - Driving the Nation,Central Coast
+EV08C6285772,ST08C6285772,,"345 Victoria Ave, Sydney, 2067",Chargefox,2,150 kW,150.0,-33.79304309,151.1865576,Willoughby City Council,2067,Existing Fast Chargers,Sydney - North Sydney and Hornsby
+EV096AF2A793,ST096AF2A793,,"773 Old South Head Rd, Sydney, 2030",Chargefox,2,40 kW,40.0,-33.85700205,151.2828038,Woollahra Municipal Council,2030,Existing Fast Chargers,Sydney - Eastern Suburbs
+EV09E1E11D17,ST09E1E11D17,,"917-923 Old Northern Rd, Dural, NSW, 2158",Ampol,2,125 kW,125.0,-33.6828871,151.0284517,"Hornsby, The Council of the Shire of",2158,ARENA - Driving the Nation,Sydney - Baulkham Hills and Hawkesbury
+EV0A20B81CC9,ST0A20B81CC9,,"M4 Motorway Westbound, Sydney, 2766",Ampol,10,400 kW,400.0,-33.80214519,150.8802132,Blacktown City Council,2766,Existing Fast Chargers,Sydney - Blacktown
+EV0AD5713154,ST0AD5713154,,"68 Lead St, Yass NSW 2582",Tesla,12,175 kW,175.0,-34.8436036,148.9142289,Yass Valley Council,2582,Fast Charging R1,Capital Region
+EV0B606275AB,ST0B606275AB,,"66 Princes Hwy, Wollongong, 2519",Chargefox,4,47 kW,47.0,-34.39180785,150.8945806,Wollongong City Council,2519,Existing Fast Chargers,Illawarra
+EV0B6A93FE61,ST0B6A93FE61,,"76 Wingewarra St, Dubbo, 2830",Tesla,8,130 kW,130.0,-32.24995,148.6091822,Dubbo Regional Council,2830,Existing Fast Chargers,Far West and Orana
+EV0B814D19E3,ST0B814D19E3,,"20 Owen St, Sydney, 2761",Chargefox,2,47 kW,47.0,-33.75074779,150.8580751,Blacktown City Council,2761,Existing Fast Chargers,Sydney - Blacktown
+EV0BF1AE849C,ST0BF1AE849C,,"4-6 Niangala Cl, Belrose NSW 2085",Evie,4,50 kW,50.0,-33.703313,151.213158,Northern Beaches Council,2085,ARENA - Driving the Nation,Sydney - Northern Beaches
+EV0DD26F6F07,ST0DD26F6F07,,"Wyong Rd, Central Coast, 2261",BP,2,75 kW,75.0,-33.36284489,151.4442893,Central Coast Council,2261,Existing Fast Chargers,Central Coast
+EV0E61D239C8,ST0E61D239C8,,"29-55 Twynam St, Narrandera, 2700",NRMA,2,50 kW,50.0,-34.74651756,146.548011,Narrandera Shire Council,2700,Existing Fast Chargers,Riverina
+EV0F1781CBCE,ST0F1781CBCE,,"22 Cook Ln, Sydney, 2223",JOLT,2,25 kW,25.0,-33.9701502,151.0801331,Georges River Council,2223,Existing Fast Chargers,Sydney - Inner South West
+EV10F87E2CF9,ST10F87E2CF9,,618 Dean St Albury NSW 2640,Tesla,16,175 kW,175.0,-36.0796606,146.9138899,Albury City Council,2640,Fast Charging R1,Murray
+EV126B06D309,ST126B06D309,,"151 Beauchamp Rd, Sydney, 2036",JOLT,2,25 kW,25.0,-33.95633138,151.2265986,Randwick City Council,2036,Existing Fast Chargers,Sydney - Eastern Suburbs
+EV12C7CA9995,ST12C7CA9995,,"620-658 Terrigal Dr, Central Coast, 2250",Evie,4,75 kW,75.0,-33.43668073,151.3943884,Central Coast Council,2250,Existing Fast Chargers,Central Coast
+EV12DA6FDB70,ST12DA6FDB70,,"Waddells Ave, Singleton, 2330",Everty,2,50 kW,50.0,-32.57698603,151.1842142,Singleton Council,2330,Existing Fast Chargers,Hunter Valley exc Newcastle
+EV147087C3AD,ST147087C3AD,,"220 Taren Point Rd, Caringbah NSW 2229",Evie,4,75 kW,75.0,-34.02927306,151.1220736,Sutherland Shire Council,2229,ARENA - Driving the Nation,Sydney - Sutherland
+EV153A2910C0,ST153A2910C0,,"240 Hillsborough Rd, Warners Bay NSW 2282",Evie,4,150 kW,150.0,-32.96354505,151.6617414,Lake Macquarie City Council,2282,ARENA - Driving the Nation,Newcastle and Lake Macquarie
+EV15E1EBCF84,ST15E1EBCF84,,"198 Great Western Highway, Hazelbrook, NSW, 2779",Ampol,2,125 kW,125.0,-33.7211325,150.4521067,Blue Mountains City Council,2779,ARENA - Driving the Nation,Sydney - Outer West and Blue Mountains
+EV184BA5FD12,ST184BA5FD12,,"330 Pennant Hills Rd, Pennant Hills NSW 2120",Evie,2,50 kW,50.0,-33.7366211,151.0743388,"Hornsby, The Council of the Shire of",2120,ARENA - Driving the Nation,Sydney - Ryde
+EV191841E8DD,ST191841E8DD,,"162 Rouse St, Tenterfield NSW 2372",Tesla,4,175 kW,175.0,-29.0565237,152.0181884,Tenterfield Shire Council,2372,Fast Charging R1,New England and North West
+EV194D86CC10,ST194D86CC10,,"11 Scott St, Sydney, 2170",JOLT,2,25 kW,25.0,-33.92522427,150.9265836,Liverpool City Council,2170,Existing Fast Chargers,Sydney - South West
+EV1A14ED4000,ST1A14ED4000,,"316 Victoria Rd, Sydney, 2116",Exploren,2,120 kW,120.0,-33.81024029,151.0342402,"Parramatta, Council of the City of",2116,Existing Fast Chargers,Sydney - Parramatta
+EV1AA44679AD,ST1AA44679AD,,"85/91 Commissioner St, Cooma, 2630",Tesla,8,150 kW,150.0,-36.23552257,149.1267948,Snowy Monaro Regional Council,2630,Existing Fast Chargers,Capital Region
+EV1ADFE5BC87,ST1ADFE5BC87,,"1 Bay St, Sydney, 2037",Tesla,16,130 kW,130.0,-33.88350355,151.1944334,"Sydney, Council of the City of",2037,Existing Fast Chargers,Sydney - City and Inner South
+EV1AECE38B2F,ST1AECE38B2F,,"Sunset Blvd, Soldiers Point, 2317",Chargefox,2,24 kW,24.0,-32.70138843,152.0626466,Port Stephens Council,2317,Existing Fast Chargers,Hunter Valley exc Newcastle
+EV1AFAD07D9C,ST1AFAD07D9C,,"Mortimer St, Mudgee, 2850",NRMA,2,50 kW,50.0,-32.59368073,149.5862633,Mid-Western Regional Council,2850,Existing Fast Chargers,Central West
+EV1BF47F8D65,ST1BF47F8D65,,"392 Manns Road, West Gosford NSW 2250",Tesla,12,175 kW,175.0,-33.4258966,151.3205356,Central Coast Council,2250,Fast Charging R1,Central Coast
+EV1DEA9B7C9A,ST1DEA9B7C9A,,"156 Melbourne St, Mulwala, 2647",Wevolt,4,80 kW,80.0,-35.99499104,146.001983,Federation Council,2647,Existing Fast Chargers,Murray
+EV1E28E30049,ST1E28E30049,,"82A O'Connell St, Sydney, 2747",Evie,2,50 kW,50.0,-33.76927632,150.7354595,Penrith City Council,2747,Existing Fast Chargers,Sydney - Outer West and Blue Mountains
+EV1EAC0EA57C,ST1EAC0EA57C,,"260A Liverpool Rd, Ashfield NSW 2131",Evie,4,50 kW,50.0,-33.889564,151.123599,Inner West Council,2131,ARENA - Driving the Nation,Sydney - Inner West
+EV1FDC8AF4B0,ST1FDC8AF4B0,,"Koonya Cct, Sydney, 2229",Exploren,2,50 kW,50.0,-34.0278569,151.1217848,Sutherland Shire Council,2229,Existing Fast Chargers,Sydney - Sutherland
+EV1FFFFA6C9C,ST1FFFFA6C9C,,"Hassall Street & James Rouse Drive, Sydney, 2142",BP,4,150 kW,150.0,-33.81968873,151.0213023,"Parramatta, Council of the City of",2142,Existing Fast Chargers,Sydney - Parramatta
+EVEC05AA6210,ST1FFFFA6C9C,,"Hassall St, Sydney, 2142",BP,4,150 kW,150.0,-33.81961366,151.0213463,"Parramatta, Council of the City of",2142,Existing Fast Chargers,Sydney - Parramatta
+EV20A5B9BB55,ST20A5B9BB55,,"30 Dowling St, Sydney, 2096",JOLT,2,25 kW,25.0,-33.77897702,151.2838899,Northern Beaches Council,2096,Existing Fast Chargers,Sydney - Northern Beaches
+EV21DEA7FEDF,ST21DEA7FEDF,,"224 Prospect Hwy, Seven Hills NSW 2147",Evie,4,150 kW,150.0,-33.77578997,150.9330864,Cumberland Council,2147,ARENA - Driving the Nation,Sydney - Blacktown
+EV22B590B1E8,ST22B590B1E8,,"8 Kosciuszko Rd, Jindabyne, 2627",BP,4,75 kW,75.0,-36.4147548,148.6177838,Snowy Monaro Regional Council,2627,Existing Fast Chargers,Capital Region
+EV231C036628,ST231C036628,,"Penrith Railway Station, Jane St, Penrith, NSW 2750",JOLT,1,25 kW,25.0,-33.750304,150.694089,Penrith City Council,2750,TfNSW Commuter Car Parks,Sydney - Outer West and Blue Mountains
+EV2334E92A11,ST2334E92A11,,"405 Pacific Hwy, Sydney, 2064",Chargefox,2,50 kW,50.0,-33.81391396,151.1777027,Willoughby City Council,2064,Existing Fast Chargers,Sydney - North Sydney and Hornsby
+EV236C542E7F,ST236C542E7F,,"56 Morpeth St, Harwood, 2465",Tesla,8,130 kW,130.0,-29.42699904,153.2391471,Clarence Valley Council,2465,Existing Fast Chargers,Coffs Harbour - Grafton
+EV237C1D7C02,ST237C1D7C02,,"26 Neilly St, Walgett, NSW 2832",NRMA,2,75 kW,75.0,-28.8659158,153.0485564,Walgett Shire Council,2832,TfNSW Regional,Richmond - Tweed
+EV238C4CA02C,ST238C4CA02C,,"149 Alison Rd, Sydney, 2031",JOLT,2,50 kW,50.0,-33.91307612,151.2387948,Randwick City Council,2031,Existing Fast Chargers,Sydney - Eastern Suburbs
+EV23CAA632A9,ST23CAA632A9,,"18 Victoria Avenue, Castle Hill NSW 2154",Evie,4,50 kW,50.0,-33.727803,150.976049,The Hills Shire Council,2154,ARENA - Driving the Nation,Sydney - Baulkham Hills and Hawkesbury
+EV24720CA35E,ST24720CA35E,,"40 Panmure St, Sydney, 2155",JOLT,2,25 kW,25.0,-33.68328033,150.9165856,The Hills Shire Council,2155,Existing Fast Chargers,Sydney - Baulkham Hills and Hawkesbury
+EV24FEB1BEA0,ST24FEB1BEA0,,"3A Cowell St, Sydney, 2111",Evie,2,75 kW,75.0,-33.83281286,151.1277918,"Hunters Hill, The Council of the Municipality of",2111,Existing Fast Chargers,Sydney - Ryde
+EV25463274E7,ST25463274E7,,"Stuart St, Wagga Wagga, 2650",Everty,2,25 kW,25.0,-35.12347852,147.3992282,Wagga Wagga City Council,2650,Existing Fast Chargers,Riverina
+EV25EDD43F2F,ST25EDD43F2F,,"25 Frenchs Forest Rd E, Frenchs Forest NSW 2086",Evie,4,150 kW,150.0,-33.75133669,151.2434692,Northern Beaches Council,2086,ARENA - Driving the Nation,Sydney - Northern Beaches
+EV26607DE450,ST26607DE450,,"1067 Oxley Hwy, Thrumster, 2444",Chargefox,4,180 kW,180.0,-31.46394199,152.8219499,Port Macquarie-Hastings Council,2444,Existing Fast Chargers,Mid North Coast
+EV26F5780F5F,ST26F5780F5F,,"19 Princes Hwy, Figtree NSW 2525",Tesla,6,175 kW,175.0,-34.4366153,150.8632982,Wollongong City Council,2525,Fast Charging R1,Illawarra
+EV27B3008466,ST27B3008466,,"3 Bungendore Rd, Queanbeyan NSW 2620",Evie,4,75 kW,75.0,-35.34739722,149.2454031,Queanbeyan-Palerang Regional Council,2620,ARENA - Driving the Nation,Capital Region
+EV281414F2A1,ST281414F2A1,,"211 Lake Entrance Rd, Shellharbour City Centre, 2529",Ampol,10,150 kW,150.0,-34.56639944,150.8394074,Shellharbour City Council,2529,Existing Fast Chargers,Illawarra
+EV2896DB38AD,ST2896DB38AD,,"26 Bent St, Sydney, 2137",Evie,2,75 kW,75.0,-33.85437842,151.103997,"Canada Bay Council, City of",2137,Existing Fast Chargers,Sydney - Inner West
+EV29CB19C736,ST29CB19C736,,"345 Victoria Ave, Chatswood NSW 2067",Engie,2,150 kW,150.0,-33.7945647,151.18613,Willoughby City Council,2067,ARENA - Driving the Nation,Sydney - North Sydney and Hornsby
+EV29FCB18170,ST29FCB18170,,"9-49 Chapel Rd, Bankstown NSW 2200",Evie,4,50 kW,50.0,-33.931975,151.030127,Canterbury Bankstown Council,2200,ARENA - Driving the Nation,Sydney - Inner South West
+EV2A57160C78,ST2A57160C78,,"152 Pacific Hwy, 36 Josephson St, Swansea NSW 2281",Evie,4,50 kW,50.0,-33.088721,151.637587,Lake Macquarie City Council,2281,ARENA - Driving the Nation,Newcastle and Lake Macquarie
+EV2A710E9957,ST2A710E9957,,"1234 Princes Hwy, Engadine NSW 2233",BP,4,175 kW,175.0,-34.0774032,151.0112053,Sutherland Shire Council,2233,Fast Charging R1,Sydney - Sutherland
+EV2C709357C9,ST2C709357C9,,"15 Ridge St, Sydney, 2060",Evie,4,75 kW,75.0,-33.83274979,151.2064264,North Sydney Council,2060,Existing Fast Chargers,Sydney - North Sydney and Hornsby
+EV2E553C08A5,ST2E553C08A5,,"John Renshaw Dr, Beresfield, 2322",BP,2,75 kW,75.0,-32.81193998,151.6394685,Newcastle City Council,2322,Existing Fast Chargers,Newcastle and Lake Macquarie
+EV2FA62D8119,ST2FA62D8119,,"1 Dalgal Way, Sydney, 2037",Tesla,4,250 kW,250.0,-33.87650055,151.178,"Sydney, Council of the City of",2037,Existing Fast Chargers,Sydney - City and Inner South
+EV2FB2CF3D1C,ST2FB2CF3D1C,,"Bellambi Ln, Wollongong, 2518",Exploren,2,120 kW,120.0,-34.36218023,150.907982,Wollongong City Council,2518,Existing Fast Chargers,Illawarra
+EV2FBE2B5437,ST2FBE2B5437,,"38 Abbott Rd, Seven Hills NSW 2147",Ampol,2,125 kW,125.0,-33.7668115,150.9549656,Blacktown City Council,2147,ARENA - Driving the Nation,Sydney - Blacktown
+EV30899C71FB,ST30899C71FB,,117 Tibbereena St Narrabri NSW 2390,Tesla,4,175 kW,175.0,-30.3226373,149.7801888,Narrabri Shire Council,2390,Fast Charging R1,New England and North West
+EV311BBB92B4,ST311BBB92B4,,"224 Princes Hwy, Wollongong, 2519",BP,2,75 kW,75.0,-34.40332537,150.8914635,Wollongong City Council,2519,Existing Fast Chargers,Illawarra
+EV31469F0755,ST31469F0755,,"Car park, Little Hoskins St, Temora, NSW 2666",NRMA,2,50 kW,50.0,-30.9827002,151.5928644,Temora Shire Council,2666,TfNSW Regional,New England and North West
+EV31B3DC9F63,ST31B3DC9F63,,"200 Crown St, Wollongong NSW 2500",Evie,4,50 kW,50.0,-34.423975,150.892316,Wollongong City Council,2500,ARENA - Driving the Nation,Illawarra
+EV326246B6BF,ST326246B6BF,,"218 Katoomba St, Katoomba NSW 2780",Zeus Renewables,4,175 kW,175.0,-33.7177016,150.3112897,Blue Mountains City Council,2780,Fast Charging R1,Sydney - Outer West and Blue Mountains
+EV32BCAB2956,ST32BCAB2956,,"302-312 Parramatta Rd, Sydney, 2134",JOLT,2,25 kW,25.0,-33.86942247,151.108024,Burwood Council,2134,Existing Fast Chargers,Sydney - Inner West
+EV3380B85F95,ST3380B85F95,,"2 Hercules Street, Murrumbateman, 2582",Evie,2,50 kW,50.0,-34.96936041,149.03,Yass Valley Council,2582,Existing Fast Chargers,Capital Region
+EV340A7C7F4E,ST340A7C7F4E,,"Pittwater Road, Sydney, 2101",JOLT,2,25 kW,25.0,-33.71376381,151.2971421,Northern Beaches Council,2101,Existing Fast Chargers,Sydney - Northern Beaches
+EV34E4FDB9DD,ST34E4FDB9DD,,"18 Dandaloo St, Nyngan, NSW 2825",NRMA,4,75 kW,75.0,-32.0506213,150.8667598,Bogan Shire Council,2825,TfNSW Regional,Hunter Valley exc Newcastle
+EV356571CE0A,ST356571CE0A,,"179-183 Hume St, Goulburn NSW 2580",Tesla,20,175 kW,175.0,-34.7720602,149.6923766,Goulburn Mulwaree Council,2580,Fast Charging R1,Capital Region
+EV3617E15282,ST3617E15282,,"328 Main Rd, Newcastle, 2285",BP,4,150 kW,150.0,-32.93782987,151.6567367,Lake Macquarie City Council,2285,Existing Fast Chargers,Newcastle and Lake Macquarie
+EV37CAEFEDCA,ST37CAEFEDCA,,"2 Stewart St, Lithgow, 2790",Evie,4,150 kW,150.0,-33.48184889,150.1361812,"Lithgow Council, City of",2790,Existing Fast Chargers,Central West
+EV386FF29FC7,ST386FF29FC7,,"Shire St, West Wyalong, 2671",NRMA,2,50 kW,50.0,-33.92382187,147.2033794,Bland Shire Council,2671,Existing Fast Chargers,Central West
+EV388857D7BC,ST388857D7BC,,"7 Pemell Street, Toronto, 2283",Exploren,2,40 kW,40.0,-33.01454359,151.5961952,Lake Macquarie City Council,2283,Existing Fast Chargers,Newcastle and Lake Macquarie
+EV3897007E03,ST3897007E03,,"173 Canterbury Road, Bankstown NSW 2200",Tesla,6,175 kW,175.0,-33.9336017,151.0299345,Canterbury Bankstown Council,2200,Fast Charging R1,Sydney - Inner South West
+EV38B2D27504,ST38B2D27504,,"1 Kendall Ave, Bathurst, 2795",Tesla,12,130 kW,130.0,-33.41901006,149.5867568,Bathurst Regional Council,2795,Existing Fast Chargers,Central West
+EVFCB25E5137,ST38B2D27504,,"1 Kendall Ave, Bathurst, 2795",NRMA,2,50 kW,50.0,-33.41910215,149.5867528,Bathurst Regional Council,2795,Existing Fast Chargers,Central West
+EV38D58B1A24,ST38D58B1A24,,"17 Smith St, Sydney, 2067",Chargefox,6,47 kW,47.0,-33.78601306,151.1980831,Willoughby City Council,2067,Existing Fast Chargers,Sydney - North Sydney and Hornsby
+EV39F1026210,ST39F1026210,,"Gipps St, Bega, 2550",NRMA,2,50 kW,50.0,-36.67324729,149.843047,Bega Valley Shire Council,2550,Existing Fast Chargers,Capital Region
+EV3AE02278A2,ST3AE02278A2,,"47-49A Cleary St, Newcastle, 2303",Chargefox,2,60 kW,60.0,-32.92120425,151.747975,Newcastle City Council,2303,Existing Fast Chargers,Newcastle and Lake Macquarie
+EV3B1FB45CAB,ST3B1FB45CAB,,"5 Willowdale Dr, Denham Court NSW 2565",Evie,4,75 kW,75.0,-33.97585397,150.811619,Campbelltown City Council,2565,ARENA - Driving the Nation,Sydney - Outer South West
+EV3B5AFE0068,ST3B5AFE0068,,"1-3 Dural St, Hornsby NSW 2077",Evie,4,50 kW,50.0,-33.70276181,151.0964792,"Hornsby, The Council of the Shire of",2077,ARENA - Driving the Nation,Sydney - North Sydney and Hornsby
+EV3BA6AAB9AA,ST3BA6AAB9AA,,"10 Brookfield Rd, Minto NSW 2566",Evie,4,75 kW,75.0,-34.03094307,150.8490285,Campbelltown City Council,2566,ARENA - Driving the Nation,Sydney - Outer South West
+EV3C711314F7,ST3C711314F7,,"44 Bangalow Rd, Ballina, 2478",Chargefox,4,120 kW,120.0,-28.85743948,153.5614054,Ballina Shire Council,2478,Existing Fast Chargers,Richmond - Tweed
+EV3EB896E10F,ST3EB896E10F,,"38 Swift St, Holbrook, 2644",Tesla,9,250 kW,250.0,-35.72254759,147.3175105,Greater Hume Shire Council,2644,Existing Fast Chargers,Murray
+EV3ECB13B36C,ST3ECB13B36C,,"88-90 Houston Rd, Sydney, 2032",Evie,2,50 kW,50.0,-33.92407212,151.2266947,Randwick City Council,2032,Existing Fast Chargers,Sydney - Eastern Suburbs
+EV3FDB7CEDB2,ST3FDB7CEDB2,,"253 Pacific Hwy, Coffs Harbour, 2450",Tesla,12,130 kW,130.0,-30.28143948,153.1316667,Coffs Harbour City Council,2450,Existing Fast Chargers,Coffs Harbour - Grafton
+EV401D67A1FF,ST401D67A1FF,,"Cabarita Beach Bowls and Sports Club, Cabarita Beach NSW 2488",NRMA,4,175 kW,175.0,-28.332159,153.5641479,Tweed Shire Council,2488,Fast Charging R1,Richmond - Tweed
+EV406D79B91A,ST406D79B91A,,"119 Stenhouse Drive, Cameron Park, 2285",Evie,8,350 kW,350.0,-32.89647352,151.5977107,Lake Macquarie City Council,2285,Existing Fast Chargers,Newcastle and Lake Macquarie
+EV41399DAECC,ST41399DAECC,,"1 Little Walker St, Casino, NSW 2470",NRMA,4,50 kW,50.0,-35.442745,149.7913305,Richmond Valley Council,2470,TfNSW Regional,Capital Region
+EV4139F106EA,ST4139F106EA,,"Rogan Ln, Young, 2594",NRMA,2,50 kW,50.0,-34.31177382,148.2950991,Hilltops Council,2594,Existing Fast Chargers,Capital Region
+EV4187EB42B9,ST4187EB42B9,,"1 Greenbridge Dr, Wilton, 2571",Chargefox,2,160 kW,160.0,-34.22847652,150.6841562,Wollondilly Shire Council,2571,Existing Fast Chargers,Sydney - Outer South West
+EV4198F08050,ST4198F08050,,"60 Glenwood Park Dr, Glenwood NSW 2768",Evie,4,75 kW,75.0,-33.73460909,150.928265,Blacktown City Council,2768,ARENA - Driving the Nation,Sydney - Blacktown
+EV421D761C16,ST421D761C16,,"169 Willoughby Rd, Sydney, 2065",BP,2,75 kW,75.0,-33.8201522,151.2011902,Willoughby City Council,2065,Existing Fast Chargers,Sydney - North Sydney and Hornsby
+EV427A13A788,ST427A13A788,,"126 Mackay Ave, Yoogali, 2680",Chargefox,1,24 kW,24.0,-34.30172777,146.0826426,Griffith City Council,2680,Existing Fast Chargers,Riverina
+EV43906AD776,ST43906AD776,,"528 John Oxley Dr, Thrumster, 2444",NRMA,2,50 kW,50.0,-31.45803208,152.8274244,Port Macquarie-Hastings Council,2444,Existing Fast Chargers,Mid North Coast
+EV44767FE73B,ST44767FE73B,,"Pole Ln, Sydney, 2065",Evie,4,75 kW,75.0,-33.82462167,151.1997668,North Sydney Council,2065,Existing Fast Chargers,Sydney - North Sydney and Hornsby
+EV44A618EC0B,ST44A618EC0B,,"134-136 Grafton St, Coffs Harbour, 2450",BP,2,75 kW,75.0,-30.29156861,153.1183714,Coffs Harbour City Council,2450,Existing Fast Chargers,Coffs Harbour - Grafton
+EV44C90DA52D,ST44C90DA52D,,"Jessie St, Armidale NSW 2350",Tesla,4,175 kW,175.0,-30.5132305,151.6633637,Armidale Regional Council,2350,Fast Charging R1,New England and North West
+EV44D47C6BFF,ST44D47C6BFF,,"133 Wyndham St Cnr Mcevoy St, Alexandria, NSW, 2015",Ampol,2,150 kW,150.0,-33.9020166,151.2000104,Bayside Council,2015,ARENA - Driving the Nation,Sydney - City and Inner South
+EV45098AF930,ST45098AF930,,"2 Riddell St, Sydney, 2023",Chargefox,2,40 kW,40.0,-33.88578883,151.2573263,Woollahra Municipal Council,2023,Existing Fast Chargers,Sydney - Eastern Suburbs
+EV459B6F0957,ST459B6F0957,,"Murray Rose Ave, Sydney, 2127",NRMA,2,50 kW,50.0,-33.84603808,151.0698058,"Parramatta, Council of the City of",2127,Existing Fast Chargers,Sydney - Parramatta
+EV45A6737D86,ST45A6737D86,,"Short St, Mudgee, 2850",NRMA,4,125 kW,125.0,-32.58960965,149.5857578,Mid-Western Regional Council,2850,Existing Fast Chargers,Central West
+EV4612BCD466,ST4612BCD466,,"Harbour Boulevard, Shell Cove, 2529",Chargefox,2,350 kW,350.0,-34.58859964,150.8661131,Shellharbour City Council,2529,Existing Fast Chargers,Illawarra
+EV473298901F,ST473298901F,,"59-61 Pacific Hwy Cnr Unwin Rd, Waitara, NSW, 2077",Ampol,2,125 kW,125.0,-33.7105301,151.1024488,"Hornsby, The Council of the Shire of",2077,ARENA - Driving the Nation,Sydney - North Sydney and Hornsby
+EV48C1384A87,ST48C1384A87,,"134 Lachlan St, Hay, 2711",NRMA,4,180 kW,180.0,-34.50890395,144.8427858,Hay Shire Council,2711,Existing Fast Chargers,Murray
+EV4999DF92EC,ST4999DF92EC,,"96 Mackay Ave, Yoogali, 2680",Chargefox,2,50 kW,50.0,-34.29922127,146.0782252,Griffith City Council,2680,Existing Fast Chargers,Riverina
+EV49AD4B1877,ST49AD4B1877,,"3 Broomfield St, Cobar, NSW 2835",NRMA,2,50 kW,50.0,-30.08825,145.9351051,Cobar Shire Council,2835,TfNSW Regional,Far West and Orana
+EV49C715CE1C,ST49C715CE1C,,"9 Lagoon St, Sydney, 2101",JOLT,2,25 kW,25.0,-33.7136587,151.2982913,Northern Beaches Council,2101,Existing Fast Chargers,Sydney - Northern Beaches
+EV4A2D210D5E,ST4A2D210D5E,,"Cnr Elara Bvd &, Northbourne Dr, Sydney, 2765",Evie,4,150 kW,150.0,-33.69514919,150.8213664,Blacktown City Council,2765,Existing Fast Chargers,Sydney - Blacktown
+EV4AA0905265,ST4AA0905265,,"89 Barwan St, Narrabri, NSW 2390, Australia",NRMA,4,50 kW,50.0,-29.0572067,152.0186837,Narrabri Shire Council,2372,TfNSW Regional,New England and North West
+EV4AC67AD159,ST4AC67AD159,,"247 Belmore Rd, Riverwood NSW 2210",Evie,4,75 kW,75.0,-33.952562,151.05103,Georges River Council,2210,ARENA - Driving the Nation,Sydney - Inner South West
+EV4ACD571787,ST4ACD571787,,"1215 Anzac Pde, Matraville, NSW, 2036",Evie,4,75 kW,75.0,-33.9626402,151.245869,Randwick City Council,2036,Kerbside Charging R1,Sydney - Eastern Suburbs
+EV4AFD859BA3,ST4AFD859BA3,,"487 Sydney Rd, Sydney, 2093",BP,2,75 kW,75.0,-33.7953594,151.255969,Northern Beaches Council,2093,Existing Fast Chargers,Sydney - Northern Beaches
+EV4B6A748109,ST4B6A748109,,"1183-1187 The Horsley Dr, Sydney, 2164",Chargefox,2,150 kW,150.0,-33.84986891,150.8978248,Fairfield City Council,2164,Existing Fast Chargers,Sydney - South West
+EV4C62599A21,ST4C62599A21,,"1/118 Bourke Rd, Alexandria NSW 2015",Tesla,6,175 kW,175.0,-33.9132474,151.1935823,"Sydney, Council of the City of",2015,Fast Charging R1,Sydney - City and Inner South
+EV4D056616A3,ST4D056616A3,,"73 Belmore Road, Randwick NSW 2031",Evie,4,50 kW,50.0,-33.915171,151.241129,Randwick City Council,2031,ARENA - Driving the Nation,Sydney - Eastern Suburbs
+EVFC850587D4,ST4D2AB8C121,,"144 Bayshore Dr, Byron Bay, 2481",Chargefox,2,50 kW,50.0,-28.62590795,153.586978,Byron Shire Council,2481,Existing Fast Chargers,Richmond - Tweed
+EV4DE140AB05,ST4DE140AB05,,"2 Corkwood Rd, Valla, 2448",BP,2,75 kW,75.0,-30.6267528,152.9724735,Nambucca Valley Council,2448,Existing Fast Chargers,Mid North Coast
+EV4E2EAB789C,ST4E2EAB789C,,"731-741 Military Rd, Sydney, 2088",Chargefox,2,47 kW,47.0,-33.82852457,151.2439029,Mosman Municipal Council,2088,Existing Fast Chargers,Sydney - North Sydney and Hornsby
+EV4EDD8F0852,ST4EDD8F0852,,"1 Frederick St, Sydney, 2064",Evie,6,150 kW,150.0,-33.81707912,151.1889369,Willoughby City Council,2064,Existing Fast Chargers,Sydney - North Sydney and Hornsby
+EV4EFEA94180,ST4EFEA94180,,"54-76 Captain Cook Dr, Caringbah NSW 2229",Evie,4,75 kW,75.0,-34.0329857,151.1250638,Wollondilly Shire Council,2229,ARENA - Driving the Nation,Sydney - Sutherland
+EV4FAAECEF85,ST4FAAECEF85,,"516 Punchbowl Rd Cnr Wangee Rd, Lakemba, NSW, 2195",Ampol,2,125 kW,125.0,-33.911492,151.0732469,Canterbury Bankstown Council,2195,ARENA - Driving the Nation,Sydney - Inner South West
+EV4FB48F70CF,ST4FB48F70CF,,"417-439 Bunnerong Rd, Sydney, 2035",Chargefox,8,25 kW,25.0,-33.95139644,151.232049,Randwick City Council,2035,Existing Fast Chargers,Sydney - Eastern Suburbs
+EV50792887FA,ST50792887FA,,"85 South St, Ulladulla NSW 2539",Evie,4,175 kW,175.0,-35.3595567,150.4754013,Shoalhaven City Council,2539,Fast Charging R1,Southern Highlands and Shoalhaven
+EV507E8DCD73,ST507E8DCD73,,"14 Everton Rd, Sydney, 2135",JOLT,2,25 kW,25.0,-33.87204909,151.0954464,Burwood Council,2135,Existing Fast Chargers,Sydney - Inner West
+EV720BEEA18B,ST5206925281,,"96-100 Centennial Cct, Byron Bay, 2481",Chargefox,1,80 kW,80.0,-28.6372513,153.5806587,Byron Shire Council,2481,Existing Fast Chargers,Richmond - Tweed
+EV5240AD4AEF,ST5240AD4AEF,,"8 Stanley St, Bathurst, NSW, 2795",NRMA,4,175 kW,175.0,-33.413357,149.5853256,Bathurst Regional Council,2795,Fast Charging R1,Central West
+EV52538EA518,ST52538EA518,,"375-383 Windsor Rd, Sydney, 2153",Tesla,4,250 kW,250.0,-33.75869074,150.9914705,The Hills Shire Council,2153,Existing Fast Chargers,Sydney - Baulkham Hills and Hawkesbury
+EV52605703AF,ST52605703AF,,"1183-1187 The Horsley Dr, Wetherill Park NSW 2164",Engie,2,150 kW,150.0,-33.8505352,150.8988605,Fairfield City Council,2164,ARENA - Driving the Nation,Sydney - South West
+EV52E8250F8D,ST52E8250F8D,,"15 Chancellors Dr, Thrumster, 2444",Tesla,12,250 kW,250.0,-31.4577518,152.8267908,Port Macquarie-Hastings Council,2444,Existing Fast Chargers,Mid North Coast
+EV537C2F64D2,ST537C2F64D2,,"69-71 Central Coast Hwy, Gosford West, NSW, 2250",Ampol,2,125 kW,125.0,-33.4267831,151.321995,Central Coast Council,2250,ARENA - Driving the Nation,Central Coast
+EV53D82CCAB3,ST53D82CCAB3,,"Cnr Miller & Amherst St, Cammeray NSW 2062",Evie,4,75 kW,75.0,-33.82301829,151.2093468,North Sydney Council,2062,ARENA - Driving the Nation,Sydney - North Sydney and Hornsby
+EV54D7155177,ST54D7155177,,"594 Anzac Pde, Sydney, 2032",Evie,4,75 kW,75.0,-33.92659564,151.2313293,Randwick City Council,2032,Existing Fast Chargers,Sydney - Eastern Suburbs
+EV55CB9A0257,ST55CB9A0257,,"741 George St, Windsor, 2756",Ampol,4,150 kW,150.0,-33.63860965,150.7837227,Hawkesbury City Council,2756,Existing Fast Chargers,Sydney - Outer West and Blue Mountains
+EV55F427F37D,ST55F427F37D,,"109 Beecroft Rd, Sydney, 2119",JOLT,2,25 kW,25.0,-33.75051656,151.0650831,"Hornsby, The Council of the Shire of",2119,Existing Fast Chargers,Sydney - Ryde
+EV563BE2AB76,ST563BE2AB76,,"Vesper St, Batemans Bay, 2536",NRMA,4,75 kW,75.0,-35.7095526,150.173983,Eurobodalla Shire Council,2536,Existing Fast Chargers,Capital Region
+EV56824836D9,ST56824836D9,,"Cnr Cumberland Hwy & Cabramatta Rd W, Cabramatta NSW 2166",BP,4,175 kW,175.0,-33.8993725,150.9191077,Fairfield City Council,2166,Fast Charging R1,Sydney - South West
+EV652673210E,ST56DA21A9B2,,"2 Rosenthal Ave, Lane Cove NSW 2066",Evie,4,50 kW,50.0,-33.813936,151.169298,Lane Cove Municipal Council,2066,ARENA - Driving the Nation,Sydney - North Sydney and Hornsby
+EV58E43CE0FF,ST58E43CE0FF,,"24 Sallys Corner Rd, Exeter, 2579",Tesla,6,250 kW,250.0,-34.60929234,150.2297688,Wingecarribee Shire Council,2579,Existing Fast Chargers,Southern Highlands and Shoalhaven
+EV594664C6A4,ST594664C6A4,,"22-24 Park Ave, Sydney, 2134",JOLT,2,25 kW,25.0,-33.87384989,151.1019449,Burwood Council,2134,Existing Fast Chargers,Sydney - Inner West
+EV5A3B8A6816,ST5A3B8A6816,,"15 Victory St, Braidwood, NSW 2622",NRMA,4,50 kW,50.0,-31.4988197,145.8375768,Queanbeyan-Palerang Regional Council,2622,TfNSW Regional,Far West and Orana
+EV5AD90DFA56,ST5AD90DFA56,,"875 Richmond Rd, Marsden Park, NSW, 2765",Ampol,2,125 kW,125.0,-33.716109,150.8453094,Blacktown City Council,2765,ARENA - Driving the Nation,Sydney - Blacktown
+EV5B5788BA2A,ST5B5788BA2A,,"6 Castlereagh St Gilgandra, NSW 2827",NRMA,4,75 kW,75.0,-30.0205758,148.1181013,Gilgandra Shire Council,2827,TfNSW Regional,Far West and Orana
+EV5B7E788037,ST5B7E788037,,"16-20 Goodhope St, Sydney, 2021",Chargefox,2,30 kW,30.0,-33.88181186,151.2283183,Woollahra Municipal Council,2021,Existing Fast Chargers,Sydney - Eastern Suburbs
+EV5BFD44E20B,ST5BFD44E20B,,"28 Lawson St, Byron Bay, 2481",EVUp,2,100 kW,100.0,-28.64327432,153.6158749,Byron Shire Council,2481,Existing Fast Chargers,Richmond - Tweed
+EV5C9105D3E2,ST5C9105D3E2,,"Camden Valley Way &, Somerset Ave, Narellan NSW 2567",Evie,4,150 kW,150.0,-34.0397301,150.7385139,Camden Council,2567,ARENA - Driving the Nation,Sydney - Outer South West
+EV5D0828355A,ST5D0828355A,,"William St, Sydney, 2046",Evie,2,75 kW,75.0,-33.86864269,151.1185836,"Canada Bay Council, City of",2046,Existing Fast Chargers,Sydney - Inner West
+EV5D1C92E011,ST5D1C92E011,,"University of Wollongong, Northfields Avenue, Wollongong NSW 2522",Chargefox,6,175 kW,175.0,-34.4079569,150.877135,Wollongong City Council,2522,Fast Charging R2,Illawarra
+EV5E04D8F310,ST5E04D8F310,,"12 Lord St, Botany NSW 2019",Evie,4,75 kW,75.0,-33.939429,151.1970375,Bayside Council,2019,ARENA - Driving the Nation,Sydney - City and Inner South
+EV5EA74026B6,ST5EA74026B6,,"106 Parraween St, Sydney, 2090",Evie,4,75 kW,75.0,-33.8273504,151.2303373,North Sydney Council,2090,Existing Fast Chargers,Sydney - North Sydney and Hornsby
+EV5EB2B30B8C,ST5EB2B30B8C,,"Corner of Snowy River Avenue and Kalkite St, Jindabyne, 2627",NRMA,4,50 kW,50.0,-36.415952,148.6198038,Snowy Monaro Regional Council,2627,Existing Fast Chargers,Capital Region
+EV5F44EBDB6F,ST5F44EBDB6F,,"116 Liverpool St, Scone, NSW 2337",NRMA,2,50 kW,50.0,-31.9598511,141.4601038,Upper Hunter Shire Council,2337,TfNSW Regional,Far West and Orana
+EV5FDEDD1FC0,ST5FDEDD1FC0,,"f 419 Hinterland Wy, Knockrow, 2479",Tesla,12,130 kW,130.0,-28.74953958,153.5347227,Ballina Shire Council,2479,Existing Fast Chargers,Richmond - Tweed
+EV5FE92EAD38,ST5FE92EAD38,,"NARELLAN RD CNR MAXWELL PL, Sydney, 2567",Ampol,4,150 kW,150.0,-34.04010015,150.7435405,Camden Council,2567,Existing Fast Chargers,Sydney - Outer South West
+EV609F1AE79B,ST609F1AE79B,,"772 Anzac Pde, Sydney, 2035",Evie,4,75 kW,75.0,-33.93800905,151.2385195,Randwick City Council,2035,Existing Fast Chargers,Sydney - Eastern Suburbs
+EV627FAD958F,ST627FAD958F,,"Rosevillle Railway Station, Hill Street, Roseville, NSW 2069",JOLT,1,25 kW,25.0,-33.782904,151.175213,Ku-ring-gai Council,2069,TfNSW Commuter Car Parks,Sydney - North Sydney and Hornsby
+EV628FC82CDD,ST628FC82CDD,,"140 Denison St, Sydney, 2036",Exploren,2,120 kW,120.0,-33.94916821,151.2247958,Bayside Council,2036,Existing Fast Chargers,Sydney - City and Inner South
+EV633332EA35,ST633332EA35,,"228-234 Pacific Hwy, Swansea NSW, 2281",Everty,2,25 kW,25.0,-33.09176581,151.6374214,Lake Macquarie City Council,2281,Existing Fast Chargers,Newcastle and Lake Macquarie
+EV656E1B24EC,ST656E1B24EC,,"403 Tarean Rd, Karuah, 2324",Chargefox,6,185 kW,185.0,-32.6538509,151.9625806,Port Stephens Council,2324,Existing Fast Chargers,Hunter Valley exc Newcastle
+EV66728066D0,ST66728066D0,,"127 Conadilly St, Gunnedah, 2380",Chargefox,4,47 kW,47.0,-30.97681086,150.2501652,Gunnedah Shire Council,2380,Existing Fast Chargers,New England and North West
+EV685DDF291E,ST685DDF291E,,"2260 Camden Valley Way, Sydney, 2170",JOLT,2,25 kW,25.0,-33.95800605,150.8864635,Liverpool City Council,2170,Existing Fast Chargers,Sydney - South West
+EVF3E4AA9C49,ST685DDF291E,,"2260 Camden Valley Way, Sydney, 2170",JOLT,2,25 kW,25.0,-33.9581552,150.8866296,Liverpool City Council,2170,Existing Fast Chargers,Sydney - South West
+EV6898B70F57,ST6898B70F57,,"25-47 Ocean St, Sydney, 2101",JOLT,2,25 kW,25.0,-33.71943448,151.2986617,Northern Beaches Council,2101,Existing Fast Chargers,Sydney - Northern Beaches
+EV691EBEF695,ST691EBEF695,,"2A Beach Rd, Batemans Bay, 2536",NRMA,2,50 kW,50.0,-35.70851156,150.1753874,Eurobodalla Shire Council,2536,Existing Fast Chargers,Capital Region
+EV69335ED76A,ST69335ED76A,,"29-55 Twynam St, Narrandera, 2700",NRMA,4,180 kW,180.0,-34.74649754,146.5500761,Narrandera Shire Council,2700,Existing Fast Chargers,Riverina
+EV699EF8AD73,ST699EF8AD73,,"1985 Camden Valley Way, Prestons NSW 2170",Evie,4,150 kW,150.0,-33.95224765,150.8557529,Liverpool City Council,2170,ARENA - Driving the Nation,Sydney - South West
+EV6B45B2EB69,ST6B45B2EB69,,"2398 Pacific Hwy, Heatherbrae, 2324",BP,2,75 kW,75.0,-32.78334139,151.7370591,Port Stephens Council,2324,Existing Fast Chargers,Hunter Valley exc Newcastle
+EV6BA4831DAC,ST6BA4831DAC,,"10W Apsley St, Walcha NSW 2354",NRMA,4,50 kW,50.0,-29.960127,146.8578887,Walcha Council,2354,TfNSW Regional,Far West and Orana
+EV6C37C346B8,ST6C37C346B8,,"1 Bells Blvd, Kingscliff, 2487",Evie,4,75 kW,75.0,-28.27690295,153.5770781,Tweed Shire Council,2487,Existing Fast Chargers,Richmond - Tweed
+EV6DA75D652D,ST6DA75D652D,,"01 Wallgrove Road, Sydney, 2766",BP,4,150 kW,150.0,-33.81100405,150.8495966,Blacktown City Council,2766,Existing Fast Chargers,Sydney - Blacktown
+EV6DC062AC32,ST6DC062AC32,,"592 Anzac Pde, Kingsford NSW 2032",Evie,4,75 kW,75.0,-33.9260318,151.2312658,Randwick City Council,2032,Kerbside Charging R1,Sydney - Eastern Suburbs
+EV6DD39E9838,ST6DD39E9838,,"1 Perry St, Batemans Bay, 2536",Evie,4,75 kW,75.0,-35.70737242,150.1761672,Eurobodalla Shire Council,2536,Existing Fast Chargers,Capital Region
+EV6ECFCAA9F1,ST6ECFCAA9F1,,"1 - 7 Ross St, Wilcannia NSW 2836",NRMA,4,50 kW,50.0,-30.5118739,151.669395,Central Darling Shire Council,2836,TfNSW Regional,New England and North West
+EV6FE71959F0,ST6FE71959F0,,"7-9 Irvine Pl, Sydney, 2153",Chargefox,4,125 kW,125.0,-33.73886191,150.9475235,The Hills Shire Council,2153,Existing Fast Chargers,Sydney - Baulkham Hills and Hawkesbury
+EV7016B11482,ST7016B11482,,"230 Arden St, Sydney, 2034",JOLT,2,50 kW,50.0,-33.92159464,151.2565566,Randwick City Council,2034,Existing Fast Chargers,Sydney - Eastern Suburbs
+EV7052DEC7E9,ST7052DEC7E9,,"67 Roberts Rd, Sydney, 2190",Exploren,2,120 kW,120.0,-33.90204809,151.0655796,Strathfield,2190,Existing Fast Chargers,Sydney - Inner South West
+EV7122111FB6,ST7122111FB6,,"850 Woodville Rd, Villawood 2163, NSW",Evie,4,175 kW,175.0,-33.8791212,150.9776442,Canterbury Bankstown Council,2163,Fast Charging R2,Sydney - Parramatta
+EV71DF6FCE09,ST71DF6FCE09,,"12 Jacksons Rd, Warriewood NSW 2102",Engie,2,150 kW,150.0,-33.6971741,151.2956935,Northern Beaches Council,2102,ARENA - Driving the Nation,Sydney - Northern Beaches
+EV7256A41F77,ST7256A41F77,,20-22 Camden Rd Campbelltown NSW 2560,Tesla,12,2x350 kW & 2x175 kW,350.0,-34.0722029,150.8068155,,2560,,Sydney - Outer South West
+EV729D0ACA9E,ST729D0ACA9E,,"58 Phillip St, West Tamworth, 2340",Tesla,8,130 kW,130.0,-31.10164969,150.9171261,Tamworth Regional Council,2340,Existing Fast Chargers,New England and North West
+EV7347BE403F,ST7347BE403F,,"580 Parramatta Rd, Sydney, 2132",BP,4,75 kW,75.0,-33.87410415,151.1267628,Inner West Council,2132,Existing Fast Chargers,Sydney - Inner West
+EV73A79DE21F,ST73A79DE21F,,"140 Queen St, Berry, 2535",NRMA,2,50 kW,50.0,-34.77559464,150.7010871,Shoalhaven City Council,2535,Existing Fast Chargers,Southern Highlands and Shoalhaven
+EV73E4AD34E6,ST73E4AD34E6,,"Lauder St, Tumbarumba, 2653",Chargefox,2,100 kW,100.0,-35.7735596,148.0094114,Snowy Valleys Council,2653,Existing Fast Chargers,Riverina
+EV740497A957,ST740497A957,,"185 Princes Hwy, Narooma, 2546",Tesla,8,130 kW,130.0,-36.22313618,150.1283463,Eurobodalla Shire Council,2546,Existing Fast Chargers,Capital Region
+EV74051060AE,ST74051060AE,,188 Fernleigh Rd Glenfield Park NSW 2650,Tesla,6,175 kW,175.0,-35.1317745,147.3398455,Wagga Wagga City Council,2650,Fast Charging R1,Riverina
+EV745C80FB4A,ST745C80FB4A,,"Parramatta Rd 214, Sydney, 2134",Everty,2,60 kW,60.0,-33.86979084,151.1106677,Burwood Council,2134,Existing Fast Chargers,Sydney - Inner West
+EV74D6CD5B97,ST74D6CD5B97,,"Brewer St, Concord NSW 2137",Evie,4,75 kW,75.0,-33.8538342,151.1054057,City Of Canada Bay Council,2137,Kerbside Charging R1,Sydney - Inner West
+EV759E885DBD,ST759E885DBD,,"121 Princes Hwy, Wollongong, 2519",Exploren,2,60 kW,60.0,-34.40192697,150.8906517,Wollongong City Council,2519,Existing Fast Chargers,Illawarra
+EV7632174270,ST7632174270,,"1/9 Railway Parade, Kogarah NSW 2217",Evie,4,150 kW,150.0,-33.9624686,151.1324696,Georges River Council,2217,ARENA - Driving the Nation,Sydney - Inner South West
+EV775B6879A9,ST775B6879A9,,"Queens Rd, Five Dock NSW 2046",Evie,4,75 kW,75.0,-33.8696308,151.1223747,City Of Canada Bay Council,2046,Kerbside Charging R1,Sydney - Inner West
+EV77F12D6566,ST77F12D6566,,"1233 Victoria Rd, West Ryde NSW 2114",BP,4,175 kW,175.0,-33.8067305,151.0708812,"Ryde, Council of the City of",2114,Fast Charging R1,Sydney - Ryde
+EV78D4CD10FA,ST78D4CD10FA,,"Western Motorway, Sydney, 2766",Ampol,15,240 kW,240.0,-33.80154859,150.886,Blacktown City Council,2766,Existing Fast Chargers,Sydney - Blacktown
+EV797B9956F1,ST797B9956F1,,"481 Princes Hwy, Sydney, 2232",Ampol,2,150 kW,150.0,-34.02936741,151.0807237,Sutherland Shire Council,2232,Existing Fast Chargers,Sydney - Sutherland
+EV7AE87BBA07,ST7AE87BBA07,,"Cnr Herring & Waterloo Rd, North Ryde NSW 2113",Evie,4,50 kW,50.0,-33.776893,151.122247,"Ryde, Council of the City of",2113,ARENA - Driving the Nation,Sydney - Ryde
+EV7B11F34D93,ST7B11F34D93,,"North Ter, Sydney, 2200",Chargefox,4,200 kW,200.0,-33.91649454,151.0402563,Canterbury Bankstown Council,2200,Existing Fast Chargers,Sydney - Inner South West
+EV7CAA1FF981,ST7CAA1FF981,,"157 Rouse Street, Tenterfield, NSW 2372",NRMA,2,50 kW,50.0,-31.5645996,147.1969355,Tenterfield Shire Council,2372,TfNSW Regional,Far West and Orana
+EV7D034B6ACF,ST7D034B6ACF,,"888 Pittwater Rd, Sydney, 2099",Tesla,4,250 kW,250.0,-33.75321026,151.2873604,Northern Beaches Council,2099,Existing Fast Chargers,Sydney - Northern Beaches
+EV7E41D2E648,ST7E41D2E648,,"Riverside Dr, Jugiong, 2726",NRMA,2,50 kW,50.0,-34.82342947,148.3257027,Hilltops Council,2726,Existing Fast Chargers,Capital Region
+EV7E457A52CF,ST7E457A52CF,,"154 Beach Rd, Batemans Bay NSW 2536",Tesla,6,175 kW,175.0,-35.7196933,150.1897432,Eurobodalla Shire Council,2536,Fast Charging R1,Capital Region
+EV7E6A13BE58,ST7E6A13BE58,,"872 Anzac Pde, Maroubra, NSW, 2035",Evie,4,75 kW,75.0,-33.9406054,151.2395169,Randwick City Council,2035,Kerbside Charging R1,Sydney - Eastern Suburbs
+EV7ED876DF72,ST7ED876DF72,,"11 Ewingsdale Rd, Ewingsdale, 2481",NRMA,4,75 kW,75.0,-28.63612817,153.5534605,Byron Shire Council,2481,Existing Fast Chargers,Richmond - Tweed
+EV8062E1D1EC,ST8062E1D1EC,,"29 Perry St, Euston NSW 2737",NRMA,4,175 kW,175.0,-34.5765963,142.7428195,Balranald Shire Council,2737,Fast Charging R1,Murray
+EV8271A137E1,ST8271A137E1,,"Anderson St, Sydney, 2067",Exploren,2,50 kW,50.0,-33.79641046,151.1836096,Willoughby City Council,2067,Existing Fast Chargers,Sydney - North Sydney and Hornsby
+EV85FA1907F5,ST85FA1907F5,,"30A Richland St, Sydney, 2208",Exploren,2,120 kW,120.0,-33.93524029,151.0986717,Canterbury Bankstown Council,2208,Existing Fast Chargers,Sydney - Inner South West
+EV867E2DD7AE,ST867E2DD7AE,,"9 Eastern Valley Way, Northbridge NSW 2063",Evie,4,50 kW,50.0,-33.809326,151.208848,North Sydney Council,2063,ARENA - Driving the Nation,Sydney - North Sydney and Hornsby
+EV86D07ACAD4,ST86D07ACAD4,,"26 Aspect Dr, Coffs Harbour, 2450",Tesla,4,60 kW,60.0,-30.27522227,153.1319389,Coffs Harbour City Council,2450,Existing Fast Chargers,Coffs Harbour - Grafton
+EV87CD8DF1D7,ST87CD8DF1D7,,"11-37 Alexandria Pde, Sydney, 2077",JOLT,2,25 kW,25.0,-33.70973178,151.1045866,"Hornsby, The Council of the Shire of",2077,Existing Fast Chargers,Sydney - North Sydney and Hornsby
+EV89220F5ABB,ST89220F5ABB,,"44 Broadarrow Rd, Sydney, 2209",JOLT,2,25 kW,25.0,-33.94841746,151.0710831,Georges River Council,2209,Existing Fast Chargers,Sydney - Inner South West
+EV894BA5FCFD,ST894BA5FCFD,,"10 Elizabeth St, Bathurst, 2795",Evie,4,150 kW,150.0,-33.41417222,149.5833564,Bathurst Regional Council,2795,Existing Fast Chargers,Central West
+EV897975510F,ST897975510F,,477 Coolac Rd Coolac NSW 2727,Tesla,12,175 kW,175.0,-34.9244264,148.1654233,Cootamundra-gundagai Regional Council,2727,Fast Charging R1,Riverina
+EV897F6AF8BD,ST897F6AF8BD,,"Prospect St, Holbrook, 2644",NRMA,2,50 kW,50.0,-35.7181522,147.316019,Greater Hume Shire Council,2644,Existing Fast Chargers,Murray
+EV898D6EBFE7,ST898D6EBFE7,,"634-726 Princes Hwy, Tempe NSW 2044",Evie,4,150 kW,150.0,-33.92288364,151.1652088,Inner West Council,2044,ARENA - Driving the Nation,Sydney - City and Inner South
+EV8A599550F3,ST8A599550F3,,"2 Premier St, Sydney, 2217",JOLT,2,25 kW,25.0,-33.96242247,151.1343213,Georges River Council,2217,Existing Fast Chargers,Sydney - Inner South West
+EV8A6A5CC51F,ST8A6A5CC51F,,"Gardeners Rd, Sydney, 2020",JOLT,2,25 kW,25.0,-33.92059364,151.1914745,"Sydney, Council of the City of",2020,Existing Fast Chargers,Sydney - City and Inner South
+EV8BC3F1DF4D,ST8BC3F1DF4D,,"Jersey St, Sydney, 2077",BP,2,75 kW,75.0,-33.68997402,151.1061692,"Hornsby, The Council of the Shire of",2077,Existing Fast Chargers,Sydney - North Sydney and Hornsby
+EV8CC50B04E4,ST8CC50B04E4,,"15 Merriville Rd, Sydney, 2155",JOLT,2,25 kW,25.0,-33.70051756,150.9281081,Blacktown City Council,2155,Existing Fast Chargers,Sydney - Blacktown
+EVB2FD60D387,ST8CC50B04E4,,"15 Merriville Rd, Sydney, 2155",JOLT,2,25 kW,25.0,-33.70040345,150.9283123,Blacktown City Council,2155,Existing Fast Chargers,Sydney - Blacktown
+EV8D123E6622,ST8D123E6622,,"134 Lachlan St, Hay, 2711",NRMA,2,50 kW,50.0,-34.50908013,144.8410701,Hay Shire Council,2711,Existing Fast Chargers,Murray
+EV8D6EEA7B8D,ST8D6EEA7B8D,,"15620 Hume Hwy, Marulan, 2579",BP,2,75 kW,75.0,-34.71852257,150.0003884,Goulburn Mulwaree Council,2579,Existing Fast Chargers,Capital Region
+EV8F40DAC0DA,ST8F40DAC0DA,,"10 Winery Dr, Port Macquarie, 2444",Tesla,12,130 kW,130.0,-31.43610015,152.8235826,Port Macquarie-Hastings Council,2444,Existing Fast Chargers,Mid North Coast
+EV9057426A6A,ST9057426A6A,,"Hastings St, Wauchope, 2446",NRMA,4,60 kW,60.0,-31.4561542,152.7327227,Port Macquarie-Hastings Council,2446,Existing Fast Chargers,Mid North Coast
+EV920AF1B927,ST9069A633D2,,"260 Victoria Avenue, Chatswood, NSW 2067",Tesla,8,175 kW,175.0,-33.7949453,151.188291,Willoughby City Council,2067,Fast Charging R1,Sydney - North Sydney and Hornsby
+EV90F77BEB8D,ST90F77BEB8D,,"930 Old Northern Rd, Glenorie NSW 2157",Evie,4,75 kW,75.0,-33.60191393,151.0082442,The Hills Shire Council,2157,ARENA - Driving the Nation,Sydney - Baulkham Hills and Hawkesbury
+EV9214319BCE,ST9214319BCE,,"Walton Ln, Picton, 2571",NRMA,2,50 kW,50.0,-34.16828833,150.6109429,Wollondilly Shire Council,2571,Existing Fast Chargers,Sydney - Outer South West
+EV922648E675,ST922648E675,,"105 Station Rd, Sydney, 2147",Ampol,2,150 kW,150.0,-33.77436041,150.9448809,Blacktown City Council,2147,Existing Fast Chargers,Sydney - Blacktown
+EV923F43E950,ST923F43E950,,"19 Richmond Rd, Sydney, 2140",JOLT,2,25 kW,25.0,-33.86603808,151.0644525,Strathfield,2140,Existing Fast Chargers,Sydney - Inner West
+EV93CD350F61,ST93CD350F61,,"3483 Jerrys Plains Rd, Jerrys Plains, 2330",Tesla,12,130 kW,130.0,-32.44806211,150.8316627,Muswellbrook Shire Council,2330,Existing Fast Chargers,Hunter Valley exc Newcastle
+EV9574B20EF0,ST9574B20EF0,,"1 Tasman Rd, Gumly Gumly NSW 2652",BP,6,175 kW,175.0,-35.1262128,147.4209242,Wagga Wagga City Council,2652,Fast Charging R1,Riverina
+EV95EF40360A,ST95EF40360A,,"1-9 Railway Parade, Kogarah NSW 2217",Evie,4,150 kW,150.0,-33.96168115,151.1325903,Georges River Council,2217,ARENA - Driving the Nation,Sydney - Inner South West
+EV97D8570F95,ST97D8570F95,,"472 Pacific Hwy, Sydney, 2066",JOLT,2,25 kW,25.0,-33.80837842,151.1785636,Lane Cove Municipal Council,2066,Existing Fast Chargers,Sydney - North Sydney and Hornsby
+EV98372D29E5,ST98372D29E5,,"44 Molesworth St, Lismore, 2480",Chargefox,2,75 kW,75.0,-28.80654859,153.2786376,Lismore City Council,2480,Existing Fast Chargers,Richmond - Tweed
+EV98A247C6AD,ST98A247C6AD,,"Pacific Hwy, Boambee, 2450",Chargefox,2,270 kW,270.0,-30.31793098,153.0897227,Coffs Harbour City Council,2450,Existing Fast Chargers,Coffs Harbour - Grafton
+EV996A9A0692,ST996A9A0692,,2 Moonee Beach Rd Moonee Beach NSW 2450,Tesla,15,175 kW,175.0,-30.204973,153.1501028,Coffs Harbour City Council,2450,Fast Charging R1,Coffs Harbour - Grafton
+EV9AA00FB00A,ST9AA00FB00A,,"Orchard Ct, Bathurst, 2795",Exploren,2,120 kW,120.0,-33.42979584,149.560006,Bathurst Regional Council,2795,Existing Fast Chargers,Central West
+EV9AE676140F,ST9AE676140F,,"Shop 2140, Newcastle, 2289",Exploren,4,60 kW,60.0,-32.94079384,151.7105495,Newcastle City Council,2289,Existing Fast Chargers,Newcastle and Lake Macquarie
+EV9AF2AA69DE,ST9AF2AA69DE,,"50 O'Sullivan Rd, Sydney, 2029",Chargefox,2,40 kW,40.0,-33.87899704,151.2623363,Woollahra Municipal Council,2029,Existing Fast Chargers,Sydney - Eastern Suburbs
+EV9AF47B90A6,ST9AF47B90A6,,"Sommerlad Ln, Glen Innes, 2370",NRMA,2,50 kW,50.0,-29.73846351,151.7363083,Glen Innes Severn Council,2370,Existing Fast Chargers,New England and North West
+EV9B814C7A4F,ST9B814C7A4F,,"28 Auburn Street, Moree, NSW 2400",NRMA,2,50 kW,50.0,-35.3548636,145.725081,Moree Plains Shire Council,2400,TfNSW Regional,Murray
+EV9C949268AF,ST9C949268AF,,"424 Hoxton Park Rd, Prestons, NSW, 2170",NRMA,4,175 kW,175.0,-33.9304674,150.8750193,Liverpool City Council,2170,Fast Charging R1,Sydney - South West
+EV9CACBAC518,ST9CACBAC518,,"Wingewarra St, Dubbo, 2830",NRMA,2,50 kW,50.0,-32.24936341,148.6091872,Dubbo Regional Council,2830,Existing Fast Chargers,Far West and Orana
+EV9CDFC9F835,ST9CDFC9F835,,"2090 Broke Rd, Pokolbin, 2320",NRMA,4,75 kW,75.0,-32.77342947,151.2982713,Cessnock City Council,2320,Existing Fast Chargers,Hunter Valley exc Newcastle
+EV9E5160F1DA,ST9E5160F1DA,,"16 Oaks Ave, Sydney, 2099",JOLT,2,25 kW,25.0,-33.75370175,151.287,Northern Beaches Council,2099,Existing Fast Chargers,Sydney - Northern Beaches
+EV9E80A25346,ST9E80A25346,,"76 Glossop St, North St Marys NSW 2760",BP,4,175 kW,175.0,-33.7601979,150.7816339,Penrith City Council,2760,Fast Charging R1,Sydney - Outer West and Blue Mountains
+EV9EE7207D71,ST9EE7207D71,,"17 Stewart St, Wollongong NSW 2500",NRMA,4,75 kW,75.0,-29.7756503,151.1151033,Wollongong City Council,2500,TfNSW Regional,New England and North West
+EV9F6F91A6F8,ST9F6F91A6F8,,"19 Windsor Rd, Sydney, 2155",BP,2,75 kW,75.0,-33.71274679,150.9591602,The Hills Shire Council,2155,Existing Fast Chargers,Sydney - Baulkham Hills and Hawkesbury
+EVA25BAF9356,STA25BAF9356,,"Dalton St, Parkes, 2870",NRMA,2,75 kW,75.0,-33.13720725,148.1726176,Parkes Shire Council,2870,Existing Fast Chargers,Central West
+EVA2B59F3892,STA2B59F3892,,"342 Kanahooka Rd, Brownsville, NSW, 2530",Ampol,2,125 kW,125.0,-34.4859664,150.8064594,Wollongong City Council,2530,ARENA - Driving the Nation,Illawarra
+EVA2F35B872B,STA2F35B872B,,"15c Mitchell St, Bourke, NSW 2840",NRMA,4,75 kW,75.0,-30.3383734,152.7125414,Bourke Shire Council,2840,TfNSW Regional,Coffs Harbour - Grafton
+EVA310BA6067,STA310BA6067,,"7 Northwood Rd, Longueville NSW 2066",BP,4,175 kW,175.0,-33.8245399,151.172579,Lane Cove Municipal Council,2066,Fast Charging R1,Sydney - North Sydney and Hornsby
+EVA357E9487F,STA357E9487F,,"201 Manning River Drive, Taree, 2430",Evie,4,150 kW,150.0,-31.94333438,152.4706146,Mid-Coast Council,2430,Existing Fast Chargers,Mid North Coast
+EVA462A8D42D,STA462A8D42D,,"153 Coreen Ave Cnr Castlereagh Rd, Penrith, NSW, 2750",Ampol,2,125 kW,125.0,-33.7428103,150.6929292,Penrith City Council,2750,ARENA - Driving the Nation,Sydney - Outer West and Blue Mountains
+EVA4D84F39E5,STA4D84F39E5,,"133 Liverpool Rd, Sydney, 2134",JOLT,2,25 kW,25.0,-33.88724929,151.0993353,Burwood Council,2134,Existing Fast Chargers,Sydney - Inner West
+EVA4F76FC2EE,STA4F76FC2EE,,"77 Darling St, Cowra, 2794",NRMA,2,50 kW,50.0,-33.83451056,148.6935365,Cowra Shire Council,2794,Existing Fast Chargers,Central West
+EVA5A2CFCA2A,STA5A2CFCA2A,,"34 Annie Pyers Dr, Gundagai, 2722",Tesla,12,130 kW,130.0,-35.00212117,148.1098549,Cootamundra-gundagai Regional Council,2722,Existing Fast Chargers,Riverina
+EVA666F45F83,STA666F45F83,,"3 Leisure Dr, Tweed Heads, 2486",Evie,4,75 kW,75.0,-28.21510115,153.5404384,Tweed Shire Council,2486,Existing Fast Chargers,Richmond - Tweed
+EVA8049C662A,STA8049C662A,,"Berowra Railway Station, Pacific Highway, Berowra, NSW 2081",JOLT,1,25 kW,25.0,-33.623906,151.151802,"Hornsby, The Council of the Shire of",2081,TfNSW Commuter Car Parks,Sydney - North Sydney and Hornsby
+EVA8E6CA7102,STA8E6CA7102,,72 Lachlan St Hay NSW 2711,Tesla,6,175 kW,175.0,-34.5115082,144.8422816,Hay Shire Council,2711,Fast Charging R1,Murray
+EVA973FD186A,STA973FD186A,,"303 Henry Parry Dr, Central Coast, 2250",Chargefox,2,60 kW,60.0,-33.40941346,151.3507447,Central Coast Council,2250,Existing Fast Chargers,Central Coast
+EVAA98D80E77,STAA98D80E77,,"24 Cooper St, Macksville, 2447",Evie,4,350 kW,350.0,-30.71023028,152.9197698,Nambucca Valley Council,2447,Existing Fast Chargers,Mid North Coast
+EVAB60418D77,STAB60418D77,,"15666 Hume Hwy, Marulan, 2579",BP,2,75 kW,75.0,-34.71922127,149.9953273,Goulburn Mulwaree Council,2579,Existing Fast Chargers,Capital Region
+EVAC43335E86,STAC43335E86,,"29 Windsor Rd, Sydney, 2155",JOLT,2,25 kW,25.0,-33.71252457,150.9583413,The Hills Shire Council,2155,Existing Fast Chargers,Sydney - Baulkham Hills and Hawkesbury
+EVAC47FEBF4D,STAC47FEBF4D,,"1068 Pittwater Rd, Sydney, 2097",JOLT,2,25 kW,25.0,-33.73111016,151.301011,Northern Beaches Council,2097,Existing Fast Chargers,Sydney - Northern Beaches
+EVAD345ECD63,STAD345ECD63,,"41 Yobarnie Ave, Richmond, 2754",Exploren,2,180 kW,180.0,-33.58328633,150.7009239,Hawkesbury City Council,2754,Existing Fast Chargers,Sydney - Outer West and Blue Mountains
+EVAD6EF94B5E,STAD6EF94B5E,,"91 Spring St, Sydney, 2022",Evie,4,75 kW,75.0,-33.89264569,151.2481672,Waverley Council,2022,Existing Fast Chargers,Sydney - Eastern Suburbs
+EVAE3032338F,STAE3032338F,,"110 Anzac Pde, Sydney, 2033",JOLT,2,25 kW,25.0,-33.90717322,151.2239409,Randwick City Council,2033,Existing Fast Chargers,Sydney - Eastern Suburbs
+EVAE840FC90E,STAE840FC90E,,"1 Ingham Dr, Casula NSW 2170",Evie,4,50 kW,50.0,-33.948829,150.90027,Liverpool City Council,2170,ARENA - Driving the Nation,Sydney - South West
+EVAF1068D081,STAF1068D081,,"5 Ray St, Sydney, 2074",Exploren,2,40 kW,40.0,-33.73201706,151.1273493,Ku-ring-gai Council,2074,Existing Fast Chargers,Sydney - North Sydney and Hornsby
+EVAFAB6880ED,STAFAB6880ED,,"7 Tank St, Lithgow, 2790",NRMA,4,50 kW,50.0,-33.47800605,150.1611241,"Lithgow Council, City of",2790,Existing Fast Chargers,Central West
+EVB042D04EE5,STB042D04EE5,,"Oatley Railway Station, Oatley Pde, Oatley, NSW 2223",JOLT,1,25 kW,25.0,-33.981453,151.079434,Georges River Council,2223,TfNSW Commuter Car Parks,Sydney - Inner South West
+EVB05F4FBF34,STB05F4FBF34,,20-22 Camden Rd Campbelltown NSW 2560,Tesla,12,175 kW,175.0,-34.0725934,150.8078816,Campbelltown City Council,2560,Fast Charging R1,Sydney - Outer South West
+EVB0B999DD28,STB0B999DD28,,"9 Vickery Ave, Sydney, 2029",Evie,4,75 kW,75.0,-33.87136141,151.2644124,Woollahra Municipal Council,2029,Existing Fast Chargers,Sydney - Eastern Suburbs
+EVB0DC397E74,STB0DC397E74,,"2 Coast Hospital Rd, Sydney, 2036",Evie,2,75 kW,75.0,-33.98102507,151.2497087,Randwick City Council,2036,Existing Fast Chargers,Sydney - Eastern Suburbs
+EVB16013B798,STB16013B798,,"59 The Centre, Sydney, 2087",JOLT,2,25 kW,25.0,-33.76210915,151.2142012,Northern Beaches Council,2087,Existing Fast Chargers,Sydney - Northern Beaches
+EVB1B77E2651,STB1B77E2651,,"374 Peel St, Tamworth NSW 2340",Evie,4,175 kW,175.0,-31.0900932,150.9304748,Tamworth Regional Council,2340,Fast Charging R1,New England and North West
+EVB2C5360357,STB2C5360357,,197-215 Condamine St Balgowlah NSW 2093,Tesla,6,175 kW,175.0,-33.7930342,151.2641426,Northern Beaches Council,2093,Fast Charging R3,Sydney - Northern Beaches
+EVB30678D3C8,STB30678D3C8,,"Gasworks Ln, Molong, NSW, 2866",NRMA,4,175 kW,175.0,-33.0912006,148.8706612,Cabonne Council,2866,Fast Charging R1,Central West
+EVB400F1DD37,STB400F1DD37,,"6 Boundary St, Sydney, 2081",Chargefox,2,75 kW,75.0,-33.62137942,151.1494484,"Hornsby, The Council of the Shire of",2081,Existing Fast Chargers,Sydney - North Sydney and Hornsby
+EVB44E4DAF27,STB44E4DAF27,,"Car park, 51 Evans St (Victoria Park), Inverell, NSW 2360",NRMA,2,75 kW,75.0,-35.1086448,147.3732036,Inverell Shire Council,2360,TfNSW Regional,Riverina
+EVB52976209C,STB52976209C,,"87-91 Roberts Rd Cnr Moondo St, Greenacre, NSW, 2190",Ampol,2,125 kW,125.0,-33.9047231,151.0645884,Strathfield Municipal Council,2190,ARENA - Driving the Nation,Sydney - Inner South West
+EVB556A64C71,STB556A64C71,,"40 Gouldsbury St, Sydney, 2088",Evie,2,75 kW,75.0,-33.82807512,151.2434454,Mosman Municipal Council,2088,Existing Fast Chargers,Sydney - North Sydney and Hornsby
+EVB5D6BF3132,STB5D6BF3132,,"4 Tindall St, Sydney, 2560",Evie,4,150 kW,150.0,-34.07206311,150.8051261,Campbelltown City Council,2560,Existing Fast Chargers,Sydney - Outer South West
+EVB7424BCC1F,STB7424BCC1F,,"Cronulla Railway Station, Tonkin Street, Cronulla, NSW 2230",JOLT,1,25 kW,25.0,-34.05771,151.151975,Sutherland Shire Council,2230,TfNSW Commuter Car Parks,Sydney - Sutherland
+EVB7CCE43BC0,STB7CCE43BC0,,"40 Jersey Rd, Sydney, 2770",Chargefox,2,160 kW,160.0,-33.74376581,150.809028,Blacktown City Council,2770,Existing Fast Chargers,Sydney - Blacktown
+EVB8AFB44DB8,STB8AFB44DB8,,"132 Pound Street, Grafton, 2460",NRMA,2,50 kW,50.0,-29.68846451,152.933015,Clarence Valley Council,2460,Existing Fast Chargers,Coffs Harbour - Grafton
+EVB94A05E3D2,STB94A05E3D2,,"Holborn Ct, Sydney, 2557",Exploren,4,150 kW,150.0,-34.02030235,150.7634565,Camden Council,2557,Existing Fast Chargers,Sydney - South West
+EVB9B1184AFD,STB9B1184AFD,,"Central Ave 2, Sydney, 2015",Ampol,6,150 kW,150.0,-33.89561066,151.1961411,"Sydney, Council of the City of",2015,Existing Fast Chargers,Sydney - City and Inner South
+EVBA143AB749,STBA143AB749,,"872 Anzac Pde, Sydney, 2035",Evie,2,75 kW,75.0,-33.94314819,151.2396466,Randwick City Council,2035,Existing Fast Chargers,Sydney - Eastern Suburbs
+EVBA37DB2A0D,STBA37DB2A0D,,"320 Princes Hwy, Bomaderry, 2541",Chargefox,4,47 kW,47.0,-34.84356861,150.5955365,Shoalhaven City Council,2541,Existing Fast Chargers,Southern Highlands and Shoalhaven
+EVBAD1290551,STBAD1290551,,"Bunnerong Rd, Sydney, 2036",Chargefox,2,40 kW,40.0,-33.97296101,151.2365656,Randwick City Council,2036,Existing Fast Chargers,Sydney - Eastern Suburbs
+EVBAE0EC5E9D,STBAE0EC5E9D,,"Car Park behind the Civic Centre, Orange, 2800",NRMA,2,50 kW,50.0,-33.28142647,149.1027898,Orange City Council,2800,Existing Fast Chargers,Central West
+EVBB524D323C,STBB524D323C,,"12 Hume Hwy, Pheasants Nest, 2574",Ampol,9,150 kW,150.0,-34.28222427,150.6366026,Wollondilly Shire Council,2574,Existing Fast Chargers,Sydney - Outer South West
+EVBB668B3ADB,STBB668B3ADB,,"2 Hannabus Pl, Windsor, 2756",Exploren,2,60 kW,60.0,-33.62676281,150.8353483,Hawkesbury City Council,2756,Existing Fast Chargers,Sydney - Baulkham Hills and Hawkesbury
+EVBBA5430900,STBBA5430900,,"93 Byamee St, Dapto NSW 2530",Evie,4,50 kW,50.0,-34.494604,150.795725,Wollongong City Council,2530,ARENA - Driving the Nation,Illawarra
+EVBBC75750B8,STBBC75750B8,,"8 Euston Rd, Sydney, 2015",Exploren,2,120 kW,120.0,-33.90533738,151.1936567,"Sydney, Council of the City of",2015,Existing Fast Chargers,Sydney - City and Inner South
+EVBCF712867F,STBCF712867F,,"141 Roselands Ave, Roselands NSW 2196",Engie,2,120 kW,120.0,-33.9354417,151.0685253,Georges River Council,2196,ARENA - Driving the Nation,Sydney - Inner South West
+EVBD24A2FCE4,STBD24A2FCE4,,"2-8 Turramurra Ave, Sydney, 2074",Evie,4,75 kW,75.0,-33.7323514,151.1307097,Ku-ring-gai Council,2074,Existing Fast Chargers,Sydney - North Sydney and Hornsby
+EVBD97902CC5,STBD97902CC5,,"293 Belmore Rd, Sydney, 2210",JOLT,2,25 kW,25.0,-33.95077182,151.051971,Georges River Council,2210,Existing Fast Chargers,Sydney - Inner South West
+EVBE13BFF9C9,STBE13BFF9C9,,"54 Minjungbal Dr, Tweed Heads, 2486",Evie,4,150 kW,150.0,-28.19898503,153.545985,Tweed Shire Council,2486,Existing Fast Chargers,Richmond - Tweed
+EVBF6E5430BD,STBF6E5430BD,,"234 Miller St, North Sydney NSW 2060",Evie,4,75 kW,75.0,-33.833276,151.2071934,North Sydney Council,2060,Kerbside Charging R1,Sydney - North Sydney and Hornsby
+EVBFB2A74DA3,STBFB2A74DA3,,"725 Pittwater Rd, Sydney, 2099",JOLT,2,25 kW,25.0,-33.7523594,151.2865606,Northern Beaches Council,2099,Existing Fast Chargers,Sydney - Northern Beaches
+EVBFDA69413D,STBFDA69413D,,Corner Sturgeon St & Glenelg St Raymond Terrace NSW 2324,Tesla,12,175 kW,175.0,-32.7645423,151.7425233,Port Stephens Council,2324,Fast Charging R1,Hunter Valley exc Newcastle
+EVC26AEC031B,STC26AEC031B,,"461 Victoria Rd, Sydney, 2111",Exploren,2,120 kW,120.0,-33.8208589,151.121011,"Ryde, Council of the City of",2111,Existing Fast Chargers,Sydney - Ryde
+EVC2CB47E918,STC2CB47E918,,"329-339 Princes Hwy, Sydney, 2044",BP,2,75 kW,75.0,-33.91611516,151.1728939,Inner West Council,2044,Existing Fast Chargers,Sydney - City and Inner South
+EVC2CC8738AE,STC2CC8738AE,,"76 Cowper St, Wallsend, 2287",NRMA,4,50 kW,50.0,-32.90272177,151.6697678,Newcastle City Council,2287,Existing Fast Chargers,Newcastle and Lake Macquarie
+EVC3823FB2B8,STC3823FB2B8,,"31 Treacy St, Sydney, 2220",JOLT,2,25 kW,25.0,-33.96786191,151.1060561,Georges River Council,2220,Existing Fast Chargers,Sydney - Inner South West
+EVC3FCDB11CA,STC3FCDB11CA,,"1509-1511 Pittwater Rd, Sydney, 2101",Ampol,2,150 kW,150.0,-33.70444949,151.2968509,Northern Beaches Council,2101,Existing Fast Chargers,Sydney - Northern Beaches
+EVC600F82B3D,STC600F82B3D,,"260 Jersey Rd, Plumpton NSW 2761",Evie,4,75 kW,75.0,-33.7459827,150.8357299,Blacktown City Council,2761,ARENA - Driving the Nation,Sydney - Blacktown
+EVC6D04204E2,STC6D04204E2,,"98-100 Windsor Rd Cnr Lombard Rd, Northmead, NSW, 2152",Ampol,2,125 kW,125.0,-33.7878745,150.9946557,"Parramatta, Council of the City of",2152,ARENA - Driving the Nation,Sydney - Parramatta
+EVC822A1C496,STC822A1C496,,"Skillman's Lane, Coonamble, NSW 2829",NRMA,4,50 kW,50.0,-34.8411047,148.912197,Coonamble Shire Council,2829,TfNSW Regional,Capital Region
+EVC8B2BB7995,STC8B2BB7995,,"401 Cabramatta Rd W, Cabramatta NSW 2166",Evie,4,50 kW,50.0,-33.898778,150.919791,Fairfield City Council,2166,ARENA - Driving the Nation,Sydney - South West
+EVC93DF6DDE8,STC93DF6DDE8,,"670 Richmond Rd, Sydney, 2761",JOLT,4,25 kW,25.0,-33.73553158,150.8513123,Blacktown City Council,2761,Existing Fast Chargers,Sydney - Blacktown
+EVCA407A51E2,STCA407A51E2,,"88 Christie St, St Leonards NSW 2065",Evie,4,50 kW,50.0,-33.82378797,151.1951941,North Sydney Council,2065,ARENA - Driving the Nation,Sydney - North Sydney and Hornsby
+EVCA7FBEF86B,STCA7FBEF86B,,"Avenue Rd, Sydney, 2088",BP,2,75 kW,75.0,-33.83197602,151.2373874,Mosman Municipal Council,2088,Existing Fast Chargers,Sydney - North Sydney and Hornsby
+EVCA9D9505C4,STCA9D9505C4,,"20 Smidmore St, Marrickville NSW 2204",Evie,4,50 kW,50.0,-33.907982,151.170899,Inner West Council,2204,ARENA - Driving the Nation,Sydney - City and Inner South
+EVCB57DAE0F9,STCB57DAE0F9,,"Eskbank St, Lithgow, 2790",NRMA,4,180 kW,180.0,-33.48123828,150.1588018,"Lithgow Council, City of",2790,Existing Fast Chargers,Central West
+EVCC53985EFE,STCC53985EFE,,"16 Berry St, Nowra, 2541",NRMA,4,160 kW,160.0,-34.87360065,150.6005345,Shoalhaven City Council,2541,Existing Fast Chargers,Southern Highlands and Shoalhaven
+EVCC7340E6AD,STCC7340E6AD,,"3 Corkhill Pl, Bega, 2550",Chargefox,2,42 kW,42.0,-36.6972593,149.8418629,Bega Valley Shire Council,2550,Existing Fast Chargers,Capital Region
+EVCCAB4C89A4,STCCAB4C89A4,,"173 The Vineyards Rd, Lake George, 2581",Exploren,2,60 kW,60.0,-34.99682987,149.3848398,Yass Valley Council,2581,Existing Fast Chargers,Capital Region
+EVCD4D841029,STCD4D841029,,"322 Woodville Rd, Guildford NSW 2161",Evie,4,50 kW,50.0,-33.8521028,150.9955836,Cumberland Council,2161,ARENA - Driving the Nation,Sydney - Parramatta
+EVCD63A0154F,STCD63A0154F,,"7 Bungan St, Sydney, 2103",JOLT,2,25 kW,25.0,-33.6760501,151.3031301,Northern Beaches Council,2103,Existing Fast Chargers,Sydney - Northern Beaches
+EVCDA04DF557,STCDA04DF557,,"38 Flora St, Sydney, 2232",Chargefox,4,47 kW,47.0,-34.03434039,151.0726517,Sutherland Shire Council,2232,Existing Fast Chargers,Sydney - Sutherland
+EVCDF03ABCDD,STCDF03ABCDD,,"Kintore Headframe Car Park, 51 Bromide St, Broken Hill, NSW 2880",NRMA,2,50 kW,50.0,-31.557857,143.3855021,Broken Hill City Council,2880,TfNSW Regional,Far West and Orana
+EVCE0F79F5FF,STCE0F79F5FF,,"Bryant Dr, Central Coast, 2259",Tesla,12,130 kW,130.0,-33.31010015,151.4206827,Central Coast Council,2259,Existing Fast Chargers,Central Coast
+EVCEABBDFD60,STCEABBDFD60,,"205 Old Hume Hwy, Mittagong, 2575",Evie,4,150 kW,150.0,-34.44672777,150.436991,Wingecarribee Shire Council,2575,Existing Fast Chargers,Southern Highlands and Shoalhaven
+EVCEFA4A7575,STCEFA4A7575,,25 Danks St Waterloo NSW 2017,Tesla,8,175 kW,175.0,-33.898174,151.2117721,"Sydney, Council of the City of",2017,Fast Charging R1,Sydney - City and Inner South
+EVCF02773DB5,STCF02773DB5,,"221 Wolseley St, Jamisontown NSW 2750",Evie,4,350 kW,350.0,-33.770295,150.673823,Penrith City Council,2750,ARENA - Driving the Nation,Sydney - Outer West and Blue Mountains
+EVD0E259BCC4,STD0E259BCC4,,"Coonabarabran Visitor Cntr, Coonabarabran, 2357",NRMA,2,50 kW,50.0,-31.27879984,149.2792432,Warrumbungle Shire Council,2357,Existing Fast Chargers,Far West and Orana
+EVD1AB3918BE,STD1AB3918BE,,"2 Ocean Dr, Kew, 2439",Tesla,8,250 kW,250.0,-31.63426031,152.7250501,Port Macquarie-Hastings Council,2439,Existing Fast Chargers,Mid North Coast
+EVD2628264DA,STD2628264DA,,"B640 Princes Hwy, Berry, 2535",Tesla,12,130 kW,130.0,-34.80794299,150.637044,Shoalhaven City Council,2535,Existing Fast Chargers,Southern Highlands and Shoalhaven
+EVD2F0CC8139,STD2F0CC8139,,"93 Princes Hwy, Ulladulla, 2539",ChargeHub,2,25 kW,25.0,-35.3576507,150.4733804,Shoalhaven City Council,2539,Existing Fast Chargers,Southern Highlands and Shoalhaven
+EVD2FAED4FA0,STD2FAED4FA0,,"8275 Pacific Hwy, New Italy NSW 2472",Tesla,12,175 kW,175.0,-30.8015492,152.8689544,Richmond Valley Council,2472,Fast Charging R1,Mid North Coast
+EVD3D366C801,STD3D366C801,,"924 Anzac Pde, Maroubra NSW 2035",Evie,2,75 kW,75.0,-33.9427694,151.2401202,Randwick City Council,2035,Kerbside Charging R1,Sydney - Eastern Suburbs
+EVD4B7F6FC78,STD4B7F6FC78,,"455 George St, Sydney, 2000",Exploren,2,60 kW,60.0,-33.87152357,151.2067017,"Sydney, Council of the City of",2000,Existing Fast Chargers,Sydney - City and Inner South
+EVD7565099B8,STD7565099B8,,"8 Federation Rd, Sydney, 2050",Exploren,2,50 kW,50.0,-33.89360765,151.1783463,Inner West Council,2050,Existing Fast Chargers,Sydney - City and Inner South
+EVD8B049F2FC,STD7565099B8,,"8 Federation Rd, Camperdown NSW 2050",EVE Australia,2,60 kW,60.0,-33.8934749,151.178294,Inner West Council,2050,Kerbside Charging R1,Sydney - City and Inner South
+EVD7A5F1885A,STD7A5F1885A,,"Innovation Way, Wollongong, 2500",Chargefox,3,180 kW,180.0,-34.40008513,150.8996306,Wollongong City Council,2500,Existing Fast Chargers,Illawarra
+EVD838C2FAAC,STD838C2FAAC,,"89 Williamson Rd, Sydney, 2565",BP,4,150 kW,150.0,-33.98851456,150.8593694,Campbelltown City Council,2565,Existing Fast Chargers,Sydney - Outer South West
+EVD965419BEF,STD965419BEF,,"9 Flinders St, Wollongong North, NSW, 2500",Ampol,2,125 kW,125.0,-34.4151195,150.8931953,Wollongong City Council,2500,ARENA - Driving the Nation,Illawarra
+EVD9B7E22C79,STD9B7E22C79,,"Franklin St, Sydney, 2036",Evie,2,75 kW,75.0,-33.96116721,151.2488509,Randwick City Council,2036,Existing Fast Chargers,Sydney - Eastern Suburbs
+EVDA1B3E1F11,STDA1B3E1F11,,Council Car Park Lot 4 / DP251076 between 46 Lowe Street Queanbeyan NSW 2620,NRMA,4,175 kW,175.0,-35.3549827,149.2329145,Queanbeyan-Palerang Regional Council,2620,Fast Charging R1,Capital Region
+EVDA59F51173,STDA59F51173,,"78 Great Western Hwy Cnr Ross St, Glenbrook, NSW, 2773",Ampol,2,125 kW,125.0,-33.7653881,150.6214758,Blue Mountains City Council,2773,ARENA - Driving the Nation,Sydney - Outer West and Blue Mountains
+EVDA74736E22,STDA74736E22,,"81 Meehan St, Yass NSW 2582",NRMA,2,50 kW,50.0,-34.428348,150.9001506,Yass Valley Council,2582,TfNSW Regional,Illawarra
+EVDA899137BA,STDA899137BA,,"27-33 Oaks Ave, Dee Why NSW 2099",Evie,4,150 kW,150.0,-33.75442135,151.2873331,Northern Beaches Council,2099,ARENA - Driving the Nation,Sydney - Northern Beaches
+EVDBC66AB66D,STDBC66AB66D,,"82 Marsh St, Armidale, NSW 2350",NRMA,2,50 kW,50.0,-34.4476103,147.5348555,Armidale Regional Council,2350,TfNSW Regional,Riverina
+EVDBD6A40C82,STDBD6A40C82,,"819-827 Anzac Pde, Sydney, 2035",JOLT,2,25 kW,25.0,-33.94349854,151.2397227,Randwick City Council,2035,Existing Fast Chargers,Sydney - Eastern Suburbs
+EVDC1859D647,STDC1859D647,,"895 South Dowling St, Sydney, 2017",Chargefox,3,165 kW,165.0,-33.90701506,151.213019,"Sydney, Council of the City of",2017,Existing Fast Chargers,Sydney - City and Inner South
+EVDE8D93E558,STDE8D93E558,,"4-6 New St, Lawson NSW 2783",Evie,4,50 kW,50.0,-33.720695,150.429727,Blue Mountains City Council,2783,ARENA - Driving the Nation,Sydney - Outer West and Blue Mountains
+EVDEFBEC4935,STDEFBEC4935,,"128 Flood Street, Leichhardt NSW 2040",Evie,4,75 kW,75.0,-33.88518,151.148629,Inner West Council,2040,ARENA - Driving the Nation,Sydney - Inner West
+EVDF614B9A16,STDF614B9A16,,"65 Hume St, Crows Nest NSW 2065",Evie,4,75 kW,75.0,-33.8243185,151.2002301,North Sydney Council,2065,Kerbside Charging R1,Sydney - North Sydney and Hornsby
+EVDFB6A2B4F8,STDFB6A2B4F8,,"4 Defries Ave, Sydney, 2017",Ampol,6,150 kW,150.0,-33.90556061,151.2126807,"Sydney, Council of the City of",2017,Existing Fast Chargers,Sydney - City and Inner South
+EVDFBA56FDA6,STDFBA56FDA6,,"Newbridge Road 216, Sydney, 2170",Ampol,2,150 kW,150.0,-33.92932037,150.9551001,Liverpool City Council,2170,Existing Fast Chargers,Sydney - South West
+EVE0D3BD1DA6,STE0D3BD1DA6,,"250 Comur St, Yass, 2582",Chargefox,4,47 kW,47.0,-34.84551056,148.9151892,Yass Valley Council,2582,Existing Fast Chargers,Capital Region
+EVE10186EFEF,STE10186EFEF,,"30-36 Sharp St, Cooma, 2630",Tesla,10,250 kW,250.0,-36.23294099,149.1322903,Snowy Monaro Regional Council,2630,Existing Fast Chargers,Capital Region
+EVE15F2A1CB5,STE15F2A1CB5,,"Dorhauer Ln, Sydney, 2025",Evie,2,75 kW,75.0,-33.88851356,151.2376316,Woollahra Municipal Council,2025,Existing Fast Chargers,Sydney - Eastern Suburbs
+EVE161FD0F3F,STE161FD0F3F,,"42 Camden Rd, Sydney, 2560",Chargefox,4,200 kW,200.0,-34.07161666,150.8059289,Campbelltown City Council,2560,Existing Fast Chargers,Sydney - Outer South West
+EVE292E37379,STE292E37379,,"8/24 Cross St, Wagga Wagga, NSW 2650",NRMA,2,50 kW,50.0,-31.7223908,148.6571378,Wagga Wagga City Council,2650,TfNSW Regional,Far West and Orana
+EVE2CB846A43,STE2CB846A43,,"Pacific Hwy Cnr, 13-15 Costa Ave, Charmhaven NSW 2263",Ampol,4,125 kW,125.0,-33.2179895,151.5103011,Maitland City Council,2263,ARENA - Driving the Nation,Central Coast
+EVE2E309A143,STE2E309A143,,"60-62 Amherst St, Sydney, 2062",Evie,4,50 kW,50.0,-33.82299004,151.2108829,North Sydney Council,2062,Existing Fast Chargers,Sydney - North Sydney and Hornsby
+EVE3DEB08A19,STE3DEB08A19,,"37 Nabiac St, Nabiac, 2312",NRMA,2,50 kW,50.0,-32.09907112,152.3815746,Mid-Coast Council,2312,Existing Fast Chargers,Mid North Coast
+EVE3E8F66CFC,STE3E8F66CFC,,"2 Sentry Dr, Sydney, 2768",Chargefox,4,40 kW,40.0,-33.71984389,150.918979,Blacktown City Council,2768,Existing Fast Chargers,Sydney - Blacktown
+EVE46B351903,STE46B351903,,"24-42 King Georges Rd, Sydney, 2195",BP,2,75 kW,75.0,-33.91960065,151.0668519,Canterbury Bankstown Council,2195,Existing Fast Chargers,Sydney - Inner South West
+EVE546E34D38,STE546E34D38,,82 Summer St Orange NSW 2800,Tesla,6,175 kW,175.0,-33.2833264,149.0944601,Orange City Council,2800,Fast Charging R1,Central West
+EVE72069B768,STE72069B768,,"9 Vickery Ave, Rose Bay NSW 2029",Evie,4,75 kW,75.0,-33.8703543,151.2642569,Woollahra Municipal Council,2029,Kerbside Charging R1,Sydney - Eastern Suburbs
+EVE72102017B,STE72102017B,,"12 Hume Hwy, Pheasants Nest, 2574",Ampol,9,150 kW,150.0,-34.28138543,150.640016,Wollondilly Shire Council,2574,Existing Fast Chargers,Illawarra
+EVE7FCB77453,STE7FCB77453,,"6 Myahgah Rd, Sydney, 2088",Evie,2,50 kW,50.0,-33.82554959,151.2414274,Mosman Municipal Council,2088,Existing Fast Chargers,Sydney - North Sydney and Hornsby
+EVE8EF313748,STE8EF313748,,"89 Market St, Balranald, 2715",NRMA,2,50 kW,50.0,-34.63954159,143.5647087,Balranald Shire Council,2715,Existing Fast Chargers,Murray
+EVEA22DB5F47,STEA22DB5F47,,"Gouldsbury St, Mosman NSW 2088",Evie,2,75 kW,75.0,-33.8276585,151.2423815,Mosman Municipal Council,2088,Kerbside Charging R1,Sydney - North Sydney and Hornsby
+EVEA55B9C964,STEA55B9C964,,"31 Moate St, Georgetown NSW 2298",Chargefox,2,60 kW,60.0,-32.90876,151.7296847,Newcastle City Council,2298,Kerbside Charging R1,Newcastle and Lake Macquarie
+EVEADAADE97F,STEADAADE97F,,"53A Orient St, Batemans Bay, 2536",Evie,2,50 kW,50.0,-35.71073278,150.1776366,Eurobodalla Shire Council,2536,Existing Fast Chargers,Capital Region
+EVEB0232696E,STEB0232696E,,"2285 Pacific Hwy, Heatherbrae, 2324",Tesla,12,130 kW,130.0,-32.78729434,151.7283534,Port Stephens Council,2324,Existing Fast Chargers,Hunter Valley exc Newcastle
+EVEB6BAF2B52,STEB6BAF2B52,,"Gardeners Rd, Sydney, 2020",JOLT,2,25 kW,25.0,-33.92049354,151.1907497,"Sydney, Council of the City of",2020,Existing Fast Chargers,Sydney - City and Inner South
+EVEB7F15F4AE,STEB7F15F4AE,,"1 Plunkett St, Sydney, 2065",Exploren,2,50 kW,50.0,-33.8215586,151.1964124,Willoughby City Council,2065,Existing Fast Chargers,Sydney - North Sydney and Hornsby
+EVEBD978554C,STEBD978554C,,"Prince of Wales Dr, Sydney, 2073",Exploren,2,60 kW,60.0,-33.76357562,151.1336246,Ku-ring-gai Council,2073,Existing Fast Chargers,Sydney - North Sydney and Hornsby
+EVECAC68AB67,STECAC68AB67,,"481 Pacific Hwy, Wyoming NSW 2250",BP,6,175 kW,175.0,-33.4082245,151.3511059,Central Coast Council,2250,Fast Charging R1,Central Coast
+EVECFD19C1CA,STECFD19C1CA,,"368 Anzac Pde, Sydney, 2032",BP,2,75 kW,75.0,-33.91983588,151.226974,Randwick City Council,2032,Existing Fast Chargers,Sydney - Eastern Suburbs
+EVED42EAAC51,STED42EAAC51,,"Valder Way, Charles Sturt University, 2678",Exploren,2,120 kW,120.0,-35.05693398,147.3512593,Wagga Wagga City Council,2678,Existing Fast Chargers,Riverina
+EVEE68D6E5F3,STEE68D6E5F3,,"97R Brook St, Sydney, 2034",Chargefox,2,42 kW,42.0,-33.91910615,151.2547838,Randwick City Council,2034,Existing Fast Chargers,Sydney - Eastern Suburbs
+EVEF6006A520,STEF6006A520,,"17 Stanley St, Sydney, 2210",JOLT,2,25 kW,25.0,-33.96212217,151.0635736,Georges River Council,2210,Existing Fast Chargers,Sydney - Inner South West
+EVEFC07A96DF,STEFC07A96DF,,"53 Sydney Rd, Goulburn, 2580",Chargefox,2,50 kW,50.0,-34.74796201,149.7496456,Goulburn Mulwaree Council,2580,Existing Fast Chargers,Capital Region
+EVEFE588449D,STEFE588449D,,"46 Wynter St, Taree NSW 2430",Tesla,12,175 kW,175.0,-31.9091185,152.4602815,Mid-Coast Council,2430,Fast Charging R1,Mid North Coast
+EVF07AE9B289,STF07AE9B289,,"2072 Camden Valley Way, Edmondson Park, NSW, 2174",Ampol,2,125 kW,125.0,-33.9558559,150.8648944,Liverpool City Council,2174,ARENA - Driving the Nation,Sydney - South West
+EVF13A7F36DC,STF13A7F36DC,,"Cnr Trafalgar St & Pembroke St, Sydney, 2024",Chargefox,2,50 kW,50.0,-33.90722527,151.2647708,Waverley Council,2024,Existing Fast Chargers,Sydney - Eastern Suburbs
+EVF16C67DAE4,STF16C67DAE4,,"2848 Pacific Hwy, Tyndale NSW, 2464",Evie,4,350 kW,350.0,-29.56122927,153.1492773,Clarence Valley Council,2464,Existing Fast Chargers,Coffs Harbour - Grafton
+EVF19B1989CD,STF19B1989CD,,"80 Little Barber St, Gunnedah, 2380",NRMA,2,50 kW,50.0,-30.97803908,150.2508509,Gunnedah Shire Council,2380,Existing Fast Chargers,New England and North West
+EVF1BEA87DB0,STF1BEA87DB0,,"241 Waterworth Dr, Mount Annan NSW 2567",Viva Energy Australia,4,175 kW,175.0,-34.049425,150.7603383,Camden Council,2567,Fast Charging R2,Sydney - Outer South West
+EVF20205442F,STF20205442F,,"13 Southey St, Jerilderie NSW 2716",BP,6,175 kW,175.0,-35.3608978,145.7194667,Murrumbidgee Council,2716,Fast Charging R1,Murray
+EVF3E460DB8D,STF3E460DB8D,,"54 Brighton St, Sydney, 2132",JOLT,2,25 kW,25.0,-33.89474579,151.1096857,Burwood Council,2132,Existing Fast Chargers,Sydney - Inner West
+EVF4018F1A79,STF4018F1A79,,"550 Bunnerong Rd, Sydney, 2036",JOLT,2,25 kW,25.0,-33.9610561,151.2309449,Randwick City Council,2036,Existing Fast Chargers,Sydney - Eastern Suburbs
+EVF470191248,STF470191248,,"188 Raglan St, Sydney, 2088",Evie,4,50 kW,50.0,-33.83108413,151.2436587,Mosman Municipal Council,2088,Existing Fast Chargers,Sydney - North Sydney and Hornsby
+EVF6B270B87C,STF6B270B87C,,"Kiewa St, Albury, 2640",NRMA,2,50 kW,50.0,-36.08379184,146.9148338,Albury City Council,2640,Existing Fast Chargers,Murray
+EVF732D3E23F,STF732D3E23F,,"141 Morgan St, Sydney, 2209",JOLT,2,25 kW,25.0,-33.9492503,151.0812503,Georges River Council,2209,Existing Fast Chargers,Sydney - Inner South West
+EVF7EB857CDE,STF7EB857CDE,,"13125 Hume Hwy, Sutton Forest, 2577",Evie,8,350 kW,350.0,-34.60721926,150.2251632,Wingecarribee Shire Council,2577,Existing Fast Chargers,Southern Highlands and Shoalhaven
+EVF8CB7C7A97,STF8CB7C7A97,,"227 Railway Terrace, Schofields NSW 2762",Evie,4,50 kW,50.0,-33.705677,150.876075,Blacktown City Council,2762,ARENA - Driving the Nation,Sydney - Blacktown
+EVF8E46ED9EC,STF8E46ED9EC,,"41 Bruxner Hwy, Ballina, 2478",BP,2,75 kW,75.0,-28.86161666,153.5169069,Ballina Shire Council,2478,Existing Fast Chargers,Richmond - Tweed
+EVF9E22D5C31,STF9E22D5C31,,"201 Sloane St, Goulburn, 2580",Tesla,16,130 kW,130.0,-34.75552357,149.720998,Goulburn Mulwaree Council,2580,Existing Fast Chargers,Capital Region
+EVFA4A7E9689,STFA4A7E9689,,"87 Winbourne Rd, Sydney, 2100",JOLT,2,25 kW,25.0,-33.76207512,151.2724464,Northern Beaches Council,2100,Existing Fast Chargers,Sydney - Northern Beaches
+EVFA5E08A129,STFA5E08A129,,"50 Bathurst St, Brewarrina, NSW 2839",NRMA,4,75 kW,75.0,-30.3247856,149.784033,Brewarrina Shire Council,2839,TfNSW Regional,New England and North West
+EVFA6F72CACD,STFA6F72CACD,,"Cnr Dunheved Rd & Henry Lawson Dr, Werrington, NSW, 2747",Ampol,2,125 kW,125.0,-33.7463077,150.7413197,Penrith City Council,2747,ARENA - Driving the Nation,Sydney - Outer West and Blue Mountains
+EVFBD0969EF0,STFBD0969EF0,,"Hope St, Blaxland NSW 2774",Tesla,6,175 kW,175.0,-33.7452292,150.6101288,Blue Mountains City Council,2774,Fast Charging R1,Sydney - Outer West and Blue Mountains
+EVFBDBD7D489,STFBDBD7D489,,"3 George St, North Strathfield NSW 2137",Evie,4,75 kW,75.0,-33.86390159,151.0894518,Strathfield Municipal Council,2137,ARENA - Driving the Nation,Sydney - Inner West
+EVFCBB2670E1,STFCBB2670E1,,"18 Silver St, Sydney, 2031",Chargefox,2,42 kW,42.0,-33.91374579,151.2390611,Randwick City Council,2031,Existing Fast Chargers,Sydney - Eastern Suburbs
+EVFE3406DA6C,STFE3406DA6C,,"580 Princes Hwy, Sydney, 2232",Tesla,6,250 kW,250.0,-34.03339744,151.0731502,Sutherland Shire Council,2232,Existing Fast Chargers,Sydney - Sutherland
+EVFEDC079D0B,STFEDC079D0B,,"Cnr Herring Rd & Waterloo Rd, Sydney, 2113",Tesla,20,130 kW,130.0,-33.77721726,151.1208809,"Ryde, Council of the City of",2113,Existing Fast Chargers,Sydney - Ryde
+EVFF252B736A,STFF252B736A,,"32 Sydney St, Tarcutta, 2652",Evie,4,350 kW,350.0,-35.2771512,147.7360881,Wagga Wagga City Council,2652,Existing Fast Chargers,Riverina
+EVFF5D23CEDA,STFF5D23CEDA,,"1106 Barrenjoey Rd, Sydney, 2108",JOLT,2,25 kW,25.0,-33.59707712,151.320022,Northern Beaches Council,2108,Existing Fast Chargers,Sydney - Northern Beaches
+EVFFC92E5896,STFFC92E5896,,"81 Hickory St, Dorrigo, NSW 2453",NRMA,4,75 kW,75.0,-30.9529988,148.3875852,Bellingen Shire Council,2453,TfNSW Regional,Far West and Orana
+EVFFE05F9F25,STFFE05F9F25,,"13-17 Princes Hwy, Albion Park Rail NSW 2527",Evie,2,50 kW,50.0,-34.5504346,150.7877814,Shellharbour City Council,2527,ARENA - Driving the Nation,Illawarra

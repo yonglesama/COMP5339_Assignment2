@@ -1,0 +1,38 @@
+section,check,status,actual,expected,details
+inputs,nonempty_clean_parquet,PASS,147938,> 0 bytes,data/processed/chargers_clean.parquet
+inputs,nonempty_enrichment_parquet,PASS,45145,> 0 bytes,data/processed/charger_enrichment.parquet
+inputs,nonempty_duckdb_database,PASS,18624512,> 0 bytes,data/final/ev_chargers.duckdb
+source_data,clean_charger_id_unique,PASS,1803,1803,
+source_data,enrichment_charger_id_unique,PASS,419,419,
+source_data,enrichment_ids_equal_clean_dc_ids,PASS,419,419,"orphans=0, missing_dc=0"
+spatial,spatial_extension_loaded,PASS,"installed=True, loaded=True","installed=True, loaded=True",extension_version=eb1e57c
+schema,expected_tables_present,PASS,charger_characteristics;charger_enrichment;charger_locations;chargers;operators;regions;stations,charger_characteristics;charger_enrichment;charger_locations;chargers;operators;regions;stations,missing=[]
+row_counts,row_count_chargers,PASS,1803,1803,
+row_counts,row_count_charger_characteristics,PASS,1803,1803,
+row_counts,row_count_charger_enrichment,PASS,419,419,
+row_counts,row_count_charger_locations,PASS,1799,1799,
+row_counts,row_count_stations,PASS,1772,1772,
+row_counts,row_count_operators,PASS,38,38,
+row_counts,row_count_regions,PASS,28,28,
+primary_keys,pk_unique_regions,PASS,0,0,key=regions.sa4_code
+primary_keys,pk_unique_stations,PASS,0,0,key=stations.station_id
+primary_keys,pk_unique_operators,PASS,0,0,key=operators.operator_id
+primary_keys,pk_unique_charger_locations,PASS,0,0,key=charger_locations.location_id
+primary_keys,pk_unique_chargers,PASS,0,0,key=chargers.charger_id
+primary_keys,pk_unique_charger_characteristics,PASS,0,0,key=charger_characteristics.charger_id
+primary_keys,pk_unique_charger_enrichment,PASS,0,0,key=charger_enrichment.charger_id
+foreign_keys,fk_stations_regions,PASS,0,0,child rows without a matching parent
+foreign_keys,fk_chargers_stations,PASS,0,0,child rows without a matching parent
+foreign_keys,fk_chargers_operators,PASS,0,0,child rows without a matching parent
+foreign_keys,fk_chargers_locations,PASS,0,0,child rows without a matching parent
+foreign_keys,fk_characteristics_chargers,PASS,0,0,child rows without a matching parent
+foreign_keys,fk_enrichment_chargers,PASS,0,0,child rows without a matching parent
+enrichment,join_preserves_charger_count,PASS,1803,1803,
+enrichment,ac_has_no_enrichment,PASS,0,0,
+completeness,coordinates_not_null,PASS,0,0,
+completeness,sa4_available,PASS,0,0,
+reconciliation,clean_parquet_equals_database,PASS,"source_only=0, database_only=0","source_only=0, database_only=0",
+reconciliation,enrichment_parquet_equals_database,PASS,"source_only=0, database_only=0","source_only=0, database_only=0",
+spatial,point_geometry_matches_coordinates,PASS,0,0,
+spatial,spatial_intersection_query,PASS,1802,> 0,one documented coastal fallback lies outside its polygon
+reopen,closed_database_reopens,PASS,1803,1803,read-only reopen plus spatial query
