@@ -1,0 +1,5 @@
+# Shared pipeline and A2 event storage.
+duckdb>=1.0
+paho-mqtt>=2.0
+
+# Add the selected dashboard framework here after the team records its choice.

@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "event_id": "evt_example_meter_001",
+  "sequence_number": 3,
+  "event_type": "meter",
+  "event_time": "2026-10-01T10:06:00",
+  "event_timezone": "Australia/Sydney",
+  "station_id": "ST0129AC3933",
+  "payload": {
+    "session_id": "ST0129AC3933-1-202610011005",
+    "connector_id": 1,
+    "voltage_v": 402.5,
+    "current_a": 123.4,
+    "power_kw": 49.67,
+    "energy_kwh": 0.828,
+    "soc_pct": 41.2
+  }
+}

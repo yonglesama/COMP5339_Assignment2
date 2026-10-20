@@ -1,0 +1,12 @@
+{
+  "host": "localhost",
+  "port": 1883,
+  "keepalive_seconds": 60,
+  "qos": 1,
+  "topic_prefix": "comp5339/ev",
+  "publish_delay_seconds": 0.1,
+  "client_ids": {
+    "publisher": "comp5339-a2-publisher",
+    "subscriber": "comp5339-a2-subscriber"
+  }
+}

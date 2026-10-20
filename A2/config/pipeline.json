@@ -1,0 +1,99 @@
+{
+  "batch_stages": [
+    {
+      "name": "validate-a1",
+      "owner": "shared",
+      "description": "Validate the read-only Assignment 1 database contract.",
+      "script": "A2/src/integration/validate_a1.py",
+      "inputs": ["A1/data/final/ev_chargers.duckdb"],
+      "outputs": ["A2/data/quality/a1_validation.csv"]
+    },
+    {
+      "name": "station-export",
+      "owner": "A",
+      "description": "Export the assessed A1 DC station set for the generator.",
+      "script": "A2/src/generation/export_stations.py",
+      "args": ["--profile", "assessment"],
+      "inputs": ["A1/data/final/ev_chargers.duckdb", "A2/config/generator.assessment.json"],
+      "outputs": ["A2/data/input/generator_stations.csv", "A2/data/quality/station_export_summary.csv"]
+    },
+    {
+      "name": "synthetic-generation",
+      "owner": "A",
+      "description": "Run the professor-provided generator with the exported A1 stations.",
+      "script": "A2/src/generation/run.py",
+      "args": ["--profile", "assessment"],
+      "inputs": ["A2/external/data_generator/generate_dataset.py", "A2/data/input/generator_stations.csv", "A2/data/quality/station_export_summary.csv", "A2/config/generator.assessment.json"],
+      "outputs": ["A2/data/generated/stations.csv", "A2/data/generated/prices_hourly.csv", "A2/data/generated/sessions.csv", "A2/data/generated/session_metering.csv", "A2/data/quality/generation_summary.csv"]
+    },
+    {
+      "name": "station-export-dev",
+      "owner": "A",
+      "description": "Export a small deterministic DC station subset for parallel development.",
+      "script": "A2/src/generation/export_stations.py",
+      "args": ["--profile", "dev"],
+      "inputs": ["A1/data/final/ev_chargers.duckdb", "A2/config/generator.dev.json"],
+      "outputs": ["A2/data/input/generator_stations.csv", "A2/data/quality/station_export_summary.csv"]
+    },
+    {
+      "name": "synthetic-generation-dev",
+      "owner": "A",
+      "description": "Run a one-day static-price generator profile for fast integration tests.",
+      "script": "A2/src/generation/run.py",
+      "args": ["--profile", "dev"],
+      "inputs": ["A2/external/data_generator/generate_dataset.py", "A2/data/input/generator_stations.csv", "A2/data/quality/station_export_summary.csv", "A2/config/generator.dev.json"],
+      "outputs": ["A2/data/generated/stations.csv", "A2/data/generated/prices_hourly.csv", "A2/data/generated/sessions.csv", "A2/data/generated/session_metering.csv", "A2/data/quality/generation_summary.csv"]
+    },
+    {
+      "name": "event-preparation",
+      "owner": "A",
+      "description": "Convert generator CSVs into one ordered, versioned MQTT event stream.",
+      "script": "A2/src/events/prepare.py",
+      "inputs": ["A2/data/generated/prices_hourly.csv", "A2/data/generated/sessions.csv", "A2/data/generated/session_metering.csv"],
+      "outputs": ["A2/data/events/event_stream.jsonl", "A2/data/quality/event_preparation_summary.csv"]
+    },
+    {
+      "name": "database",
+      "owner": "C",
+      "description": "Create an A2 database copy and add the streaming-event schema.",
+      "script": "A2/src/database/initialise.py",
+      "inputs": ["A1/data/final/ev_chargers.duckdb", "A2/sql/a2_schema.sql"],
+      "outputs": ["A2/data/final/ev_chargers_a2.duckdb", "A2/data/quality/database_initialisation.csv"]
+    },
+    {
+      "name": "validate",
+      "owner": "C/shared",
+      "description": "Reconcile prepared, received and normalised events after a complete replay.",
+      "script": "A2/validate_pipeline.py",
+      "inputs": ["A2/data/events/event_stream.jsonl", "A2/data/final/ev_chargers_a2.duckdb"],
+      "outputs": ["A2/data/quality/final_validation.csv"]
+    }
+  ],
+  "services": [
+    {
+      "name": "subscriber",
+      "owner": "B",
+      "description": "Run B's headless subscription/state service using C's repository interface.",
+      "script": "A2/src/subscription/run.py",
+      "inputs": ["A2/config/mqtt.json", "A2/data/final/ev_chargers_a2.duckdb"]
+    },
+    {
+      "name": "dashboard",
+      "owner": "D",
+      "description": "Run D's assessed UI, composing B's consumer/state and C's repository.",
+      "script": "A2/src/dashboard/run.py",
+      "inputs": ["A2/config/mqtt.json", "A2/data/final/ev_chargers_a2.duckdb"]
+    },
+    {
+      "name": "publisher",
+      "owner": "A",
+      "description": "Publish the ordered JSONL stream with at least 0.1 seconds between messages.",
+      "script": "A2/src/publishing/run.py",
+      "inputs": ["A2/config/mqtt.json", "A2/data/events/event_stream.jsonl"]
+    }
+  ],
+  "aliases": {
+    "prepare": ["validate-a1", "station-export", "synthetic-generation", "event-preparation", "database"],
+    "prepare-dev": ["validate-a1", "station-export-dev", "synthetic-generation-dev", "event-preparation", "database"]
+  }
+}
