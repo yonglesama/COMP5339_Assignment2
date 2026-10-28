@@ -1,0 +1,5 @@
+metric,value,note
+tests_run,17,standard library unittest
+failures,0,must be zero
+errors,0,must be zero
+passed,True,unit regression suite

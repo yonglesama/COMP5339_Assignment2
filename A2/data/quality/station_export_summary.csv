@@ -1,0 +1,9 @@
+metric,value,note
+profile,assessment,Generator profile used for station selection
+eligible_dc_stations,414,A1 stations with rated DC chargers
+exported_stations,414,Sorted A1 station_id; no identifiers invented
+exported_connectors,1610,Sum of eligible DC number_of_plugs
+urban_stations,265,Configured SA4 proxy
+heterogeneous_power_stations,2,Maximum DC rating used for every connector
+a1_database_sha256,ea62a5c34e700b5e619e95240da9137ad7f48a30c139d45a1a8c9538c1b1b203,Read-only source fingerprint
+station_csv_sha256,a19a011a0d5005e587824912ecf0ed298b1d8bb1fa3d711f4ec27fae753645f4,Checked by generator wrapper

@@ -1,0 +1,11 @@
+metric,value,note
+profile,assessment,Effective overrides recorded in generation_manifest.json
+start,2026-10-01,Supplied generator's simulated timestamp labels
+days,14,Session starts in window; ends can extend beyond it
+seed,5339,Unmodified supplied generator
+static_prices,False,True is development only
+wholesale_hours_validated,336,12 distinct five-minute samples per hour
+stations_rows,414,stations.csv
+prices_hourly_rows,139104,prices_hourly.csv
+sessions_rows,73860,sessions.csv
+session_metering_rows,2234930,session_metering.csv

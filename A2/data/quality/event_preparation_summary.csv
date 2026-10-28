@@ -1,0 +1,13 @@
+metric,value,note
+stations,414,A1 station_id join key
+sessions,73860,One start and one end per session
+input_price_rows,139104,Includes unchanged hourly prices
+unchanged_prices_suppressed,42642,"Compare retail tariff, not wholesale"
+price_update_events,96462,Validated events
+session_start_events,73860,Validated events
+meter_events,2234930,Validated events
+session_end_events,73860,Validated events
+total_events,2479112,Strict sequence_number from 1
+minimum_full_replay_hours,68.864,Excludes MQTT overhead
+stream_sha256,aebd904dc14e4c26f06cb04ad67de3103bb979be5741caaabb0e6e9bfbf75027,Deterministic content fingerprint
+validation_passed,True,"Ordering, identifiers, prices, session lifetime, occupancy and telemetry checked"

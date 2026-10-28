@@ -1,0 +1,8 @@
+metric,value,note
+required_tables_present,True,all present
+charger_count,1803,A1 charger records
+station_count,1772,A1 station records
+dc_station_count,414,eligible fast-charger stations
+orphan_chargers,0,must be zero
+invalid_coordinates,0,must be zero
+validation_passed,True,all checks passed

@@ -1,0 +1,7 @@
+metric,value,note
+status,published,MQTT publisher run
+selected_events,32,MQTT publisher run
+published_messages,32,MQTT publisher run
+delay_seconds,0.1,MQTT publisher run
+elapsed_seconds,3.391,MQTT publisher run
+minimum_send_gap_seconds,0.10899999993853271,MQTT publisher run
