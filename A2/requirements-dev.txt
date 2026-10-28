@@ -1,0 +1,3 @@
+-r requirements.txt
+# Optional loopback-only broker used by Member A's real MQTT smoke test.
+amqtt==0.11.4

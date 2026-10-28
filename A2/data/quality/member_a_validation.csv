@@ -1,0 +1,13 @@
+metric,value,note
+validation_passed,True,Independent complete-file reconciliation; not an MQTT full replay
+full_a1_station_coverage,414,All eligible DC station IDs and plug counts match
+source_fingerprints_unchanged,True,"A1 database, professor generator and generated CSVs"
+total_events,2479112,"Checked every event's ID, sequence, time/type order and references"
+price_update,96462,Reconciled event count
+session_start,73860,Reconciled event count
+meter,2234930,Reconciled event count
+session_end,73860,Reconciled event count
+completed_sessions,73860,No unmatched starts or ends
+active_sessions_at_end,0,All generated sessions include their end events
+first_event_time,2026-10-01T00:00:00,Supplied generator's simulated timestamp labels
+last_event_time,2026-10-15T01:16:27,Sessions can extend beyond the last start date
