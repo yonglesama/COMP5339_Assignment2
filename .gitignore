@@ -5,5 +5,8 @@ __pycache__/
 # A2 generated datasets are reproducible and include files larger than GitHub's limit.
 A2/data/dev/
 A2/data/events/
-A2/data/generated/
+A2/data/generated/*
+!A2/data/generated/aemo_cache/
+A2/data/generated/aemo_cache/*
+!A2/data/generated/aemo_cache/PRICE_AND_DEMAND_202610_NSW1.csv
 A2/data/quality/*.log

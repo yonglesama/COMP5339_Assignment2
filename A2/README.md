@@ -252,13 +252,19 @@ for an ordinary GitHub workflow. In the current assessment run, the ordered JSON
 is approximately 973 MiB and `session_metering.csv` is approximately 211 MiB before
 compression.
 
-The following paths are therefore excluded by `.gitignore`:
+The following generated output paths are therefore excluded by `.gitignore`:
 
 ```text
-A2/data/generated/
+A2/data/generated/*
 A2/data/events/
 A2/data/dev/
 ```
+
+The small source cache
+`A2/data/generated/aemo_cache/PRICE_AND_DEMAND_202610_NSW1.csv` is the only exception
+under `A2/data/generated/`. It is tracked so that every group member uses the same AEMO
+price input and can reproduce the same assessment CSV and JSONL outputs without a new
+download. The generator automatically reuses this file when it is present.
 
 Small integration fixtures, connector mappings, quality summaries and the initialised
 A2 DuckDB remain tracked. If the full generated dataset or populated DuckDB is required
