@@ -1,0 +1,311 @@
+COMP5339 Assignment 2 - Member C handoff
+========================================
+
+Last updated: 2026-10-29
+
+1. Current status
+-----------------
+
+Member C's independent implementation is complete:
+
+- A2/sql/a2_schema.sql
+  - Five A2 tables: station_connector_mapping, mqtt_events, price_events,
+    charging_sessions and meter_events.
+  - Primary keys, uniqueness checks, foreign keys and query indexes.
+  - Five views for latest prices, active sessions, latest meter samples,
+    current metrics and historical metrics.
+
+- A2/src/database/initialise.py
+  - Rebuilds the A2 database from a copy of the read-only A1 DuckDB.
+  - Imports and validates all 1,610 station connector mappings.
+  - Uses a temporary database and atomic replacement so a failed rebuild does
+    not damage an existing A2 database.
+  - Confirms that the A1 SHA-256 fingerprint is unchanged.
+
+- A2/src/database/repository.py
+  - Implements idempotent and transactional MQTT event storage.
+  - Implements all six database query methods required by the dashboard.
+  - Supports read-only query access and idempotent close().
+
+- A2/validate_pipeline.py
+  - Reconciles the prepared JSONL stream with raw and normalised database rows.
+  - Checks event counts, duplicates, unknown references, session completion,
+    final energy/cost values, analytical views and dashboard queries.
+  - Writes A2/data/quality/final_validation.csv on both success and logical
+    validation failure.
+
+- A2/tests/test_database_repository.py
+  - Covers initialisation, storage, rollback, duplicates, read-only access,
+    dashboard queries and successful/failed final validation.
+
+The formal initialised database currently exists at:
+
+  A2/data/final/ev_chargers_a2.duckdb
+
+Its initialisation report is:
+
+  A2/data/quality/database_initialisation.csv
+
+The current database is an INITIALISED EMPTY EVENT DATABASE. It contains the
+A1 tables, connector mapping, A2 schema and views, but currently has:
+
+  mqtt_events       = 0
+  price_events      = 0
+  charging_sessions = 0
+  meter_events      = 0
+
+This is expected until B receives messages and calls EventRepository.
+
+
+2. Work that is not yet complete
+--------------------------------
+
+The following work depends on other team members or the final integration run:
+
+1) B subscriber integration
+
+   B must inject one EventRepository instance into EventProcessor and use:
+
+     repository.has_event(event_id)
+     repository.store_event(topic, event)
+
+   A valid event must be committed to DuckDB before B updates StateStore.
+   Duplicate event IDs must update neither DuckDB nor StateStore.
+
+2) D dashboard integration
+
+   D must consume the repository query methods documented below. D should not
+   copy SQL into the dashboard module.
+
+3) Complete MQTT replay
+
+   The full prepared stream has 2,479,112 events. At the required minimum
+   0.1-second publishing interval, replay requires at least 68.864 hours before
+   MQTT/network overhead. Only the 32-event demo has been tested end to end.
+
+4) Final validation report
+
+   A2/data/quality/final_validation.csv cannot be produced as a successful
+   formal result until the selected event stream has been completely replayed.
+
+5) Member C report section
+
+   The final report still needs a concise explanation of schema design,
+   physical keys/indexes, A1 copy protection, idempotency, transaction rollback,
+   analytical metrics, test evidence and replay limitations.
+
+
+3. Contract for Member B
+------------------------
+
+Database creation must happen first:
+
+  python A2/run_pipeline.py --stage database
+
+Create the repository with the formal A2 database path:
+
+  A2/data/final/ev_chargers_a2.duckdb
+
+Expected event flow:
+
+  MQTT callback
+    -> B validates topic and JSON/event transition
+    -> C store_event(topic, event)
+    -> if store_event returns True: B applies the event to StateStore
+    -> if store_event returns False: B ignores the duplicate
+
+store_event() behaviour:
+
+- Returns True when a new event is committed successfully.
+- Returns False when event_id already exists.
+- Raises an exception when the topic, session relationship, chronology or
+  normalised data is invalid.
+- Stores mqtt_events and the normalised table change in one transaction.
+- Rolls back the raw mqtt_events row if normalisation fails.
+
+Important B integration rules:
+
+- Topic must be exactly:
+
+    comp5339/ev/{station_id}/{event_type}
+
+- Do not update StateStore before store_event() returns True.
+- Do not create SQL inside src/subscription.
+- Meter timestamps must strictly increase within a session.
+- Meter energy and SoC must not regress.
+- A session_end must use the price locked by session_start.
+- A session must have meter telemetry before it can end.
+- Same-connector sessions can hand over in the same second. Always identify the
+  session being ended by session_id rather than deleting by connector alone.
+- Call repository.close() when the subscriber/runtime stops.
+
+Thread/process note:
+
+EventRepository serialises access to its DuckDB connection with a lock. The
+subscriber and dashboard runtime should share the intended repository instance
+inside the owning process. Do not run the standalone subscriber and dashboard
+against the same writable database at the same time.
+
+
+4. Contract for Member D
+------------------------
+
+get_dashboard_stations()
+
+Returns one dictionary per mapped station, ordered by station_id, with:
+
+  station_id
+  representative_charger_id
+  station_name
+  address
+  latitude
+  longitude
+  postcode
+  sa4_name
+  operator_names
+  plug_types
+  connector_count
+  charger_count
+  max_rating_kw
+
+get_latest_prices()
+
+Returns one dictionary per station that has received a price event:
+
+  event_id
+  station_id
+  event_time
+  price_per_kwh
+  wholesale_per_kwh
+  currency
+
+get_active_sessions()
+
+Returns active sessions with their latest meter sample:
+
+  session_id
+  station_id
+  connector_id
+  start_time
+  site_type
+  vehicle_model
+  price_per_kwh
+  latest_meter_time
+  voltage_v
+  current_a
+  power_kw
+  energy_kwh
+  soc_pct
+
+Sessions without a meter sample have NULL meter fields.
+
+get_session_meter_events(session_id)
+
+Returns the full curve ordered by event_time and event_id:
+
+  event_id
+  session_id
+  station_id
+  connector_id
+  event_time
+  voltage_v
+  current_a
+  power_kw
+  energy_kwh
+  soc_pct
+
+An unknown session_id returns an empty list. An empty/non-string session_id is
+invalid and raises ValueError.
+
+get_current_metrics()
+
+Returns one dictionary:
+
+  active_session_count
+  active_station_count
+  current_power_kw
+
+get_historical_metrics()
+
+Returns one dictionary:
+
+  completed_session_count
+  serviced_station_count
+  total_energy_kwh
+  total_revenue_aud
+  average_charge_minutes
+  maximum_peak_kw
+
+DuckDB TIMESTAMP values are returned to Python as datetime objects. D should
+format them for display rather than assuming they are already JSON strings.
+
+The dashboard process is expected to own the MQTT background loop and database
+connection. Per the team contract, do not run the standalone subscriber at the
+same time as the dashboard runtime.
+
+
+5. Commands for integration and verification
+--------------------------------------------
+
+Rebuild the initialised A2 database:
+
+  python A2/run_pipeline.py --stage database
+
+Run all current automated tests:
+
+  python -m unittest discover -s A2/tests -v
+
+Run the 32-event publisher after B/D has started a subscriber:
+
+  python A2/src/publishing/run.py --project-root . --stream A2/data/demo/event_stream.jsonl --delay 1
+
+Run final validation only after the database contains every event in the event
+stream selected at A2/data/events/event_stream.jsonl:
+
+  python A2/run_pipeline.py --stage validate
+
+If the database contains only the 32-event demo while event_stream.jsonl contains
+the full 2,479,112-event stream, final validation will correctly fail.
+
+
+6. Database size and GitHub warning
+-----------------------------------
+
+The initialised database is currently about 20 MB because the event tables are
+empty. A full replay stores approximately:
+
+  2,479,112 raw MQTT events
+     96,462 price events
+     73,860 charging sessions
+  2,234,930 meter events
+
+The populated DuckDB may become too large for an ordinary GitHub file upload.
+Before committing a fully populated database, check its size and agree on one of:
+
+- Git LFS;
+- submission through the course/LMS package;
+- committing only the reproducible initial database, scripts and quality report;
+- a smaller justified assessed replay scope.
+
+Do not silently remove generated evidence or replace the full database with a
+demo database without recording that decision in the final report.
+
+
+7. Files owned by Member C
+--------------------------
+
+  A2/sql/a2_schema.sql
+  A2/src/database/initialise.py
+  A2/src/database/repository.py
+  A2/validate_pipeline.py
+  A2/tests/test_database_repository.py
+
+Generated C outputs:
+
+  A2/data/final/ev_chargers_a2.duckdb
+  A2/data/quality/database_initialisation.csv
+  A2/data/quality/final_validation.csv
+
+The original database must remain unchanged:
+
+  A1/data/final/ev_chargers.duckdb
