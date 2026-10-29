@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "transport": "real loopback MQTT QoS 1",
+  "new_events_stored": 32,
+  "duplicate_events_ignored": 32,
+  "malformed_messages_rejected": 1,
+  "restored_curve_points": 7,
+  "final_active_sessions": 0,
+  "historical_metrics": {
+    "completed_session_count": 1,
+    "serviced_station_count": 1,
+    "total_energy_kwh": 26.39,
+    "total_revenue_aud": 17.15,
+    "average_charge_minutes": 28.0,
+    "maximum_peak_kw": 61.2
+  },
+  "minimum_send_gap_seconds": 0.10120591698796488,
+  "scope": "32-event demo, temporary DuckDB; not full assessment replay"
+}
