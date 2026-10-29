@@ -1,0 +1,13 @@
+# MQTT Subscription and Event Processing
+
+The subscriber connects to the configured MQTT broker and subscribes to `comp5339/ev/#` with the configured QoS (default 1). It decodes the four JSON event types and checks the shared schema and exact agreement between the topic, station identifier and event type. The processor serialises ingestion and uses the DuckDB repository's event ID lookup and transactional write interface to suppress duplicates. It updates the live state only after a successful database commit. Database access is delegated to Member C; the subscriber contains no SQL.
+
+A thread-safe StateStore maintains latest station prices, active sessions, connector occupancy and active-session meter curves. Cumulative energy readings replace previous readings rather than being summed. Sessions are keyed by session ID, allowing multiple connectors at a station and same-second handovers without the old session's end clearing the new session. Snapshot methods return independent dictionaries/lists to the dashboard. Completed-session curves remain queryable through the database rather than accumulating indefinitely in memory.
+
+Before subscribing, the service restores latest prices, active sessions and their curves from the repository. It requests a persistent MQTT session, resubscribes on reconnect and acknowledges QoS messages after processing. Malformed envelopes are logged and counted; repository or state failures stop ingestion without acknowledging the failed message. Broker persistence is still required for durable delivery during outages.
+
+Twelve B tests passed against disposable database copies and C's real repository. A separate real MQTT demo stored all 32 events, restored seven curve points after a mid-session subscriber restart, ignored 32 duplicate deliveries and rejected one malformed message. The final state had no active sessions and one completed session with 26.39 kWh and AUD 17.15. The full assessment replay and broker-outage recovery were not performed in this validation. The dashboard must share one repository/subscriber process and follow A's documented simulation-time convention.
+
+## Contribution statement draft
+
+Member B implemented MQTT subscription, schema/topic validation, duplicate handling, thread-safe station/session state and live curves, restart recovery through Member C's repository, and integration interfaces for Member D. Member B added unit and real MQTT integration tests and documented operation and limitations. The student should verify this statement against their actual participation and include the assistance in the group's AI usage report.
