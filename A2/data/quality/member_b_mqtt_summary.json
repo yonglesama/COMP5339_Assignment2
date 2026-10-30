@@ -14,6 +14,6 @@
     "average_charge_minutes": 32.0,
     "maximum_peak_kw": 49.8
   },
-  "minimum_send_gap_seconds": 0.10069490000023507,
+  "minimum_send_gap_seconds": 0.10064289999718312,
   "scope": "36-event demo, temporary DuckDB; not full assessment replay"
 }

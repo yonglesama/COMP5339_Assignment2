@@ -30,8 +30,13 @@ def wait_until(predicate, timeout=10):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--project-root', type=Path, default=ROOT)
     parser.add_argument('--report', type=Path)
     args = parser.parse_args()
+    root = args.project_root.resolve()
+    report_path = args.report
+    if report_path is not None and not report_path.is_absolute():
+        report_path = root / report_path
     with tempfile.TemporaryDirectory() as directory:
         work = Path(directory)
         source_database = work / 'A1/data/final/ev_chargers.duckdb'
@@ -40,15 +45,15 @@ def main():
         source_database.parent.mkdir(parents=True)
         schema.parent.mkdir(parents=True)
         mapping.parent.mkdir(parents=True)
-        shutil.copy2(ROOT / 'A1/data/final/ev_chargers.duckdb', source_database)
-        shutil.copy2(ROOT / 'A2/sql/a2_schema.sql', schema)
-        shutil.copy2(ROOT / 'A2/data/input/station_connector_mapping.csv', mapping)
+        shutil.copy2(root / 'A1/data/final/ev_chargers.duckdb', source_database)
+        shutil.copy2(root / 'A2/sql/a2_schema.sql', schema)
+        shutil.copy2(root / 'A2/data/input/station_connector_mapping.csv', mapping)
         database = initialise_database(work)
         with socket.socket() as probe:
             probe.bind(('127.0.0.1', 0))
             port = probe.getsockname()[1]
         log = (work / 'broker.log').open('w')
-        broker = subprocess.Popen([sys.executable, str(ROOT / 'A2/src/publishing/local_broker.py'),
+        broker = subprocess.Popen([sys.executable, str(root / 'A2/src/publishing/local_broker.py'),
                                    '--port', str(port)], stdout=log, stderr=subprocess.STDOUT)
         repository = subscriber = publisher = None
         try:
@@ -61,12 +66,12 @@ def main():
                 except OSError:
                     return False
             wait_until(listening)
-            config = json.loads((ROOT / 'A2/config/mqtt.json').read_text())
+            config = json.loads((root / 'A2/config/mqtt.json').read_text())
             config.update(host='127.0.0.1', port=port)
             config['client_ids']['subscriber'] = 'member-b-integration'
             repository = EventRepository(database)
             assert repository.get_historical_metrics()['completed_session_count'] == 0
-            events = [json.loads(s) for s in (ROOT / 'A2/data/demo/event_stream.jsonl').read_text().splitlines()]
+            events = [json.loads(s) for s in (root / 'A2/data/demo/event_stream.jsonl').read_text().splitlines()]
             subscriber = SubscriptionService(config, repository)
             subscriber.start()
             publisher = mqtt.Client(mqtt.CallbackAPIVersion.VERSION2, client_id='member-b-test-publisher')
@@ -106,9 +111,9 @@ def main():
                       'minimum_send_gap_seconds': min(first['minimum_send_gap_seconds'], second['minimum_send_gap_seconds']),
                       'scope': f'{len(events)}-event demo, temporary DuckDB; not full assessment replay'}
             print(json.dumps(report, indent=2))
-            if args.report:
-                args.report.parent.mkdir(parents=True, exist_ok=True)
-                args.report.write_text(json.dumps(report, indent=2)+'\n')
+            if report_path:
+                report_path.parent.mkdir(parents=True, exist_ok=True)
+                report_path.write_text(json.dumps(report, indent=2)+'\n')
         finally:
             if subscriber:
                 subscriber.stop()

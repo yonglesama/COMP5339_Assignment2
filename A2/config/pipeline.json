@@ -24,7 +24,7 @@
       "script": "A2/src/generation/run.py",
       "args": ["--profile", "assessment"],
       "inputs": ["A2/external/data_generator/generate_dataset.py", "A2/data/input/generator_stations.csv", "A2/data/quality/station_export_summary.csv", "A2/config/generator.assessment.json"],
-      "outputs": ["A2/data/generated/stations.csv", "A2/data/generated/prices_hourly.csv", "A2/data/generated/sessions.csv", "A2/data/generated/session_metering.csv", "A2/data/quality/generation_summary.csv"]
+      "outputs": ["A2/data/generated/stations.csv", "A2/data/generated/prices_hourly.csv", "A2/data/generated/sessions.csv", "A2/data/generated/session_metering.csv", "A2/data/quality/generation_summary.csv", "A2/data/quality/generation_checksums.csv"]
     },
     {
       "name": "station-export-dev",
@@ -42,7 +42,7 @@
       "script": "A2/src/generation/run.py",
       "args": ["--profile", "dev"],
       "inputs": ["A2/external/data_generator/generate_dataset.py", "A2/data/input/generator_stations.csv", "A2/data/quality/station_export_summary.csv", "A2/config/generator.dev.json"],
-      "outputs": ["A2/data/generated/stations.csv", "A2/data/generated/prices_hourly.csv", "A2/data/generated/sessions.csv", "A2/data/generated/session_metering.csv", "A2/data/quality/generation_summary.csv"]
+      "outputs": ["A2/data/generated/stations.csv", "A2/data/generated/prices_hourly.csv", "A2/data/generated/sessions.csv", "A2/data/generated/session_metering.csv", "A2/data/quality/generation_summary.csv", "A2/data/quality/generation_checksums.csv"]
     },
     {
       "name": "event-preparation",
@@ -51,6 +51,14 @@
       "script": "A2/src/events/prepare.py",
       "inputs": ["A2/data/generated/prices_hourly.csv", "A2/data/generated/sessions.csv", "A2/data/generated/session_metering.csv"],
       "outputs": ["A2/data/events/event_stream.jsonl", "A2/data/quality/event_preparation_summary.csv"]
+    },
+    {
+      "name": "demo-preparation",
+      "owner": "A",
+      "description": "Project one complete generated session for real MQTT integration testing.",
+      "script": "A2/src/events/make_demo.py",
+      "inputs": ["A2/data/generated/prices_hourly.csv", "A2/data/generated/sessions.csv", "A2/data/events/event_stream.jsonl"],
+      "outputs": ["A2/data/demo/event_stream.jsonl", "A2/data/quality/demo_summary.csv"]
     },
     {
       "name": "database",
@@ -75,6 +83,15 @@
       "script": "A2/validate_pipeline.py",
       "inputs": ["A2/data/events/event_stream.jsonl", "A2/data/final/ev_chargers_a2.duckdb"],
       "outputs": ["A2/data/quality/final_validation.csv"]
+    },
+    {
+      "name": "mqtt-integration",
+      "owner": "A/B/C",
+      "description": "Verify publisher, subscriber, restart recovery and C persistence over real loopback MQTT.",
+      "script": "A2/tests/mqtt_member_b.py",
+      "args": ["--report", "A2/data/quality/member_b_mqtt_summary.json"],
+      "inputs": ["A1/data/final/ev_chargers.duckdb", "A2/sql/a2_schema.sql", "A2/data/input/station_connector_mapping.csv", "A2/data/demo/event_stream.jsonl", "A2/config/mqtt.json"],
+      "outputs": ["A2/data/quality/member_b_mqtt_summary.json"]
     }
   ],
   "services": [
@@ -101,7 +118,8 @@
     }
   ],
   "aliases": {
-    "prepare": ["validate-a1", "station-export", "synthetic-generation", "event-preparation", "database", "database-import"],
-    "prepare-dev": ["validate-a1", "station-export-dev", "synthetic-generation-dev", "event-preparation", "database", "database-import"]
+    "prepare": ["validate-a1", "station-export", "synthetic-generation", "event-preparation", "demo-preparation", "database", "database-import", "validate"],
+    "prepare-dev": ["validate-a1", "station-export-dev", "synthetic-generation-dev", "event-preparation", "demo-preparation", "database", "database-import", "validate"],
+    "verify-abc": ["validate", "mqtt-integration"]
   }
 }

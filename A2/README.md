@@ -63,8 +63,11 @@ A2/data/generated/prices_hourly.csv
 A2/data/generated/sessions.csv
 A2/data/generated/session_metering.csv
 A2/data/events/event_stream.jsonl
+A2/data/demo/event_stream.jsonl
 A2/data/quality/generation_summary.csv
+A2/data/quality/generation_checksums.csv
 A2/data/quality/event_preparation_summary.csv
+A2/data/quality/demo_summary.csv
 ```
 
 ### Member B — MQTT subscription and live state
@@ -200,8 +203,26 @@ The assessment preparation pipeline is:
 python A2/run_pipeline.py --stage prepare
 ```
 
-The A/C batch stages used by these aliases are implemented. MQTT publisher, subscriber
-and dashboard are long-running services and are started separately.
+`prepare` regenerates A's assessment CSV, full JSONL and representative MQTT demo,
+rebuilds and populates C's DuckDB, and finishes with full reconciliation. It is destructive
+to the existing A2 DuckDB because the `database` stage intentionally rebuilds it from the
+read-only A1 source. The equivalent `prepare-dev` alias uses the development profile.
+It writes to the same working output paths and final A2 database, so rerun `prepare`
+before submission after using `prepare-dev`.
+
+After `prepare`, run the A+B+C transport verification with the development requirements
+installed:
+
+```powershell
+python A2/run_pipeline.py --stage verify-abc
+```
+
+This first validates the populated assessment database, then runs the representative demo
+through A's real QoS 1 publisher, B's subscriber/restart state and C's repository using an
+isolated temporary DuckDB. The complete 172,803-event stream is not paced over MQTT because
+the required 0.1-second delay would take at least 4.8 hours. The standalone publisher,
+subscriber and dashboard remain long-running services and are started separately for live
+operation.
 
 ## Member entry points
 
@@ -211,6 +232,7 @@ and dashboard are long-running services and are started separately.
 python A2/run_pipeline.py --stage station-export-dev
 python A2/run_pipeline.py --stage synthetic-generation-dev
 python A2/run_pipeline.py --stage event-preparation
+python A2/run_pipeline.py --stage demo-preparation
 python A2/run_pipeline.py --stage publisher
 ```
 
@@ -229,7 +251,7 @@ Verify B without modifying the tracked assessment database:
 
 ```powershell
 python -m unittest discover -s A2/tests -p "test_member_b.py" -v
-python A2/tests/mqtt_member_b.py
+python A2/run_pipeline.py --stage mqtt-integration
 ```
 
 All 12 B tests and all 40 current A/B/C tests pass. The real loopback MQTT demo

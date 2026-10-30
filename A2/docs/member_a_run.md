@@ -54,6 +54,7 @@ python A2/run_member_a.py
 python A2/run_pipeline.py --stage station-export
 python A2/run_pipeline.py --stage synthetic-generation
 python A2/run_pipeline.py --stage event-preparation
+python A2/run_pipeline.py --stage demo-preparation
 ```
 
 ## 测试
