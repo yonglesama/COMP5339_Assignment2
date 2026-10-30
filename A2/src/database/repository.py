@@ -290,7 +290,10 @@ class EventRepository:
             raise ValueError(f"Session ended without meter telemetry: {payload['session_id']}")
         if latest_meter[0] > charge_end_time:
             raise ValueError(f"Meter event occurs after charging ended: {payload['session_id']}")
-        if payload["energy_kwh"] < latest_meter[1]:
+        # The supplied generator rounds meter energy to three decimals and the
+        # session summary to two decimals. Match A's preparation/validation
+        # tolerance so a legitimate final sample is not rejected by rounding.
+        if latest_meter[1] > payload["energy_kwh"] + 0.011:
             raise ValueError(f"Session end energy is below latest meter: {payload['session_id']}")
 
         connection.execute(

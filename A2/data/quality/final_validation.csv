@@ -1,0 +1,27 @@
+metric,value,note
+validation_passed,True,all checks passed
+prepared_events,172803,JSONL event count
+raw_events,172803,Unique stored MQTT events
+duplicate_event_ids,0,Must be zero
+duplicate_sequence_numbers,0,Must be zero
+price_update_prepared_vs_raw,7038:7038,Counts must match
+session_start_prepared_vs_raw,5084:5084,Counts must match
+meter_prepared_vs_raw,155597:155597,Counts must match
+session_end_prepared_vs_raw,5084:5084,Counts must match
+price_events,7038,Must match price_update
+charging_sessions,5084,Must match session_start
+completed_sessions,5084,Must match session_end
+meter_events,155597,Must match meter
+unknown_station_events,0,Must be zero
+orphan_meter_events,0,Must be zero
+active_sessions_at_end,0,Must be zero
+price_value_mismatches,0,Must be zero
+session_start_mismatches,0,Must be zero
+session_end_mismatches,0,Must be zero
+meter_identity_mismatches,0,Must be zero
+analysis_views_queryable,True,All five analytical views executed
+dashboard_station_rows,414,Repository map query
+repository_latest_price_rows,414,Repository latest-price query
+repository_sample_curve_rows,36,One completed session curve
+prepared_first_event_time,2026-10-01T00:00:00,First JSONL event
+prepared_last_event_time,2026-10-02T01:23:55,Last JSONL event

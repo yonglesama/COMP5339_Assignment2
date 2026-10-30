@@ -1,5 +1,5 @@
 metric,value,note
-station_id,STD7565099B8,Actual A1 station
-session_id,STD7565099B8-3-202610010100,Complete session projected from the full assessed stream
-events,32,Original event_id and sequence_number retained; sequence may have gaps
-minimum_replay_seconds,3.1,Other station sessions intentionally excluded
+station_id,ST4D056616A3,Actual A1 station
+session_id,ST4D056616A3-4-202610010201,Complete session projected from the full assessed stream
+events,36,Original event_id and sequence_number retained; sequence may have gaps
+minimum_replay_seconds,3.5,Other station sessions intentionally excluded

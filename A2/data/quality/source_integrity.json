@@ -1,5 +1,6 @@
 {
   "baseline_archive": "COMP5339_Assignment2.zip",
+  "audit_scope": "Historical Member A baseline audit before merged B/C work and the team-approved one-day assessment profile; not a current-worktree manifest",
   "read_only_A1_unchanged": true,
   "professor_generator_unchanged": true,
   "shared_contracts_and_BCD_unchanged": true,

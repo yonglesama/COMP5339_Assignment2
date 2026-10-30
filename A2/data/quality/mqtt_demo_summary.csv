@@ -1,8 +1,8 @@
 metric,value,note
 transport,MQTT 3.1.1 / QoS 1,Actual TCP on isolated loopback port
-expected_messages,32,event_stream.jsonl
-received_messages,32,Independent paho-mqtt subscriber
+expected_messages,36,event_stream.jsonl
+received_messages,36,Independent paho-mqtt subscriber
 identical_payloads_and_order,True,Compared all JSON values and MQTT topics
-minimum_publisher_gap_seconds,0.10899999993853271,Monotonic send-call boundary
-minimum_observed_receive_gap_seconds,0.10899999993853271,Receiver timing includes network/thread scheduling
+minimum_publisher_gap_seconds,0.10067739999794867,Monotonic send-call boundary
+minimum_observed_receive_gap_seconds,0.1005109999969136,Receiver timing includes network/thread scheduling
 passed,True,Temporary broker and subscriber shut down after test

@@ -61,6 +61,14 @@
       "outputs": ["A2/data/final/ev_chargers_a2.duckdb", "A2/data/quality/database_initialisation.csv"]
     },
     {
+      "name": "database-import",
+      "owner": "C",
+      "description": "Load the complete prepared stream through C's validated repository interface.",
+      "script": "A2/src/database/import_events.py",
+      "inputs": ["A2/data/events/event_stream.jsonl", "A2/data/final/ev_chargers_a2.duckdb"],
+      "outputs": ["A2/data/quality/database_import.csv"]
+    },
+    {
       "name": "validate",
       "owner": "C/shared",
       "description": "Reconcile prepared, received and normalised events after a complete replay.",
@@ -93,7 +101,7 @@
     }
   ],
   "aliases": {
-    "prepare": ["validate-a1", "station-export", "synthetic-generation", "event-preparation", "database"],
-    "prepare-dev": ["validate-a1", "station-export-dev", "synthetic-generation-dev", "event-preparation", "database"]
+    "prepare": ["validate-a1", "station-export", "synthetic-generation", "event-preparation", "database", "database-import"],
+    "prepare-dev": ["validate-a1", "station-export-dev", "synthetic-generation-dev", "event-preparation", "database", "database-import"]
   }
 }

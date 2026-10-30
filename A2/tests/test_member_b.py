@@ -12,6 +12,7 @@ from unittest.mock import Mock
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / 'A2/src'))
 from database.repository import EventRepository
+from database.initialise import initialise_database
 from subscription.event_processor import EventProcessor, InvalidMessage
 from subscription.state_store import StateStore
 from subscription.run import SubscriptionService
@@ -22,18 +23,41 @@ def topic(event):
 
 
 class MemberBTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.fixture = tempfile.TemporaryDirectory()
+        root = Path(cls.fixture.name)
+        source_database = root / 'A1/data/final/ev_chargers.duckdb'
+        schema = root / 'A2/sql/a2_schema.sql'
+        mapping = root / 'A2/data/input/station_connector_mapping.csv'
+        source_database.parent.mkdir(parents=True)
+        schema.parent.mkdir(parents=True)
+        mapping.parent.mkdir(parents=True)
+        shutil.copy2(ROOT / 'A1/data/final/ev_chargers.duckdb', source_database)
+        shutil.copy2(ROOT / 'A2/sql/a2_schema.sql', schema)
+        shutil.copy2(ROOT / 'A2/data/input/station_connector_mapping.csv', mapping)
+        initialised = initialise_database(root)
+        cls.pristine_database = root / 'pristine.duckdb'
+        shutil.copy2(initialised, cls.pristine_database)
+
+    @classmethod
+    def tearDownClass(cls):
+        cls.fixture.cleanup()
+
     def setUp(self):
         self.temp = tempfile.TemporaryDirectory()
         self.path = Path(self.temp.name) / 'test.duckdb'
-        shutil.copy2(ROOT / 'A2/data/final/ev_chargers_a2.duckdb', self.path)
+        shutil.copy2(self.pristine_database, self.path)
         self.repo = EventRepository(self.path)
-        # The tracked database is an initialised empty event store.
+        # Tests always use a newly initialised empty event store.
         self.assertEqual(self.repo.get_historical_metrics()['completed_session_count'], 0)
         self.state = StateStore()
         self.processor = EventProcessor('comp5339/ev', self.state, self.repo)
         self.events = [json.loads(s) for s in (ROOT / 'A2/data/demo/event_stream.jsonl').read_text().splitlines()]
         self.sid = next(e['payload']['session_id'] for e in self.events if e['event_type'] == 'session_start')
         self.station = self.events[0]['station_id']
+        self.latest_price = [e for e in self.events if e['event_type'] == 'price_update'][-1]['payload']['price_per_kwh']
+        self.meter_count = sum(e['event_type'] == 'meter' for e in self.events)
 
     def tearDown(self):
         self.repo.close()
@@ -46,9 +70,9 @@ class MemberBTests(unittest.TestCase):
     def test_demo_prices_curve_end_and_history(self):
         self.feed(self.events[:-1])
         state = self.state.get_station_state(self.station)
-        self.assertEqual(state['price_per_kwh'], .65)
+        self.assertEqual(state['price_per_kwh'], self.latest_price)
         self.assertEqual(state['active_session_count'], 1)
-        self.assertEqual(len(self.state.get_session_curve(self.sid)), 28)
+        self.assertEqual(len(self.state.get_session_curve(self.sid)), self.meter_count)
         self.assertAlmostEqual(self.state.get_active_sessions()[0]['energy_kwh'],
                                self.events[-2]['payload']['energy_kwh'])
         self.feed(self.events[-1:])
@@ -62,7 +86,7 @@ class MemberBTests(unittest.TestCase):
         result = self.processor.process(topic(self.events[-2]), self.events[-2])
         self.assertFalse(result.stored)
         self.assertEqual(self.state.get_session_curve(self.sid), before)
-        self.assertEqual(len(self.repo.get_session_meter_events(self.sid)), 28)
+        self.assertEqual(len(self.repo.get_session_meter_events(self.sid)), self.meter_count)
 
     def test_storage_failure_does_not_update_memory(self):
         sink = Mock()

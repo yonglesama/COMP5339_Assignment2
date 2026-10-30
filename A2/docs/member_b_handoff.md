@@ -1,6 +1,9 @@
 # Member B: subscription and live state
 
-Implemented against main snapshot 7bb38f2 (2026-10-29). B changes only subscription code, B tests, this documentation and B test evidence. A/C/D implementations and assessment databases are unchanged.
+Originally implemented against main snapshot 7bb38f2 (2026-10-29). The B implementation
+and tests were refreshed for the team-approved one-day stream and populated C database;
+B tests and MQTT evidence continue to use disposable databases and do not change the
+assessment database.
 
 ## Setup and standalone run
 
@@ -59,6 +62,6 @@ python -m unittest discover -s A2/tests -v
 python A2/tests/mqtt_member_b.py --report A2/data/quality/member_b_mqtt_summary.json
 ```
 
-B's 12 tests use disposable copies of the tracked initialised empty database and the real C repository. They cover complete demo processing, duplicates/races, malformed messages, topic mismatch, write failure, orphan-meter rollback, restarts, copied snapshots, multiple connectors, same-second handover and ACK behaviour.
+B's 12 tests create a fresh initialised database in a temporary directory and use the real C repository. They cover complete demo processing, duplicates/races, malformed messages, topic mismatch, write failure, orphan-meter rollback, restarts, copied snapshots, multiple connectors, same-second handover and ACK behaviour. The populated assessment database is never changed by these tests.
 
-The separate real loopback MQTT test stores 32 events, restarts mid-session and restores 7 curve points, ignores 32 redeliveries, rejects one malformed message and verifies one completed historical session (26.39 kWh, AUD 17.15), with zero final active sessions. Tests do not populate the tracked assessment database. This is demo integration evidence, not the full 2,479,112-event assessment replay. Broker outage recovery and sustained full-scale throughput are not covered by this test.
+The separate real loopback MQTT test stores 36 events, restarts mid-session and restores 7 curve points, ignores 36 redeliveries, rejects one malformed message and verifies one completed historical session (22.60 kWh, AUD 16.72), with zero final active sessions. Tests use disposable database copies. The complete 172,803-event one-day stream is imported separately through C's repository and reconciled with the final database; broker outage recovery and sustained full-scale throughput are not covered by the MQTT demo.

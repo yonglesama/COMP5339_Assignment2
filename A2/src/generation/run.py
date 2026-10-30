@@ -125,6 +125,16 @@ def generate(root: Path, profile: str, data_root: Path | None = None,
         ("wholesale_hours_validated", coverage["hours"], "12 distinct five-minute samples per hour"),
         *[(name.removesuffix(".csv") + "_rows", count, name) for name, count in counts.items()],
     ])
+    checksum_rows = [
+        ("generator", provenance["generator_sha256"], str(script.relative_to(root))),
+        ("station_input", provenance["station_csv_sha256"], str(station_path.relative_to(root))),
+        *[(f"aemo_{source['file']}", source["sha256"], source["url"])
+          for source in sources],
+        *[(f"output_{filename}", provenance["outputs"][filename],
+           str((generated / filename).relative_to(root)))
+          for filename in OUTPUT_FILES],
+    ]
+    write_metric_csv(data_root / "quality/generation_checksums.csv", checksum_rows)
     return provenance
 
 

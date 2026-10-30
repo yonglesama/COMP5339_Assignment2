@@ -1,7 +1,7 @@
 COMP5339 Assignment 2 - Member C handoff
 ========================================
 
-Last updated: 2026-10-29
+Last updated: 2026-10-30
 
 1. Current status
 -----------------
@@ -24,8 +24,20 @@ Member C's independent implementation is complete:
 
 - A2/src/database/repository.py
   - Implements idempotent and transactional MQTT event storage.
+  - Accepts the supplied generator's documented 0.011 kWh rounding tolerance
+    between the final meter sample and two-decimal session summary.
   - Implements all six database query methods required by the dashboard.
   - Supports read-only query access and idempotent close().
+
+- A2/src/database/import_events.py
+  - Imports the complete prepared stream through EventRepository without MQTT
+    pacing while retaining the same validation, transaction and deduplication
+    boundary used by B.
+  - Can be rerun safely after interruption; committed event IDs are skipped.
+  - Rewrites the transaction-heavy file into a verified compact copy and
+    atomically replaces the source only after table, relation and index checks.
+  - Writes A2/data/quality/database_import.csv with counts, throughput, size and
+    SHA-256 evidence.
 
 - A2/validate_pipeline.py
   - Reconciles the prepared JSONL stream with raw and normalised database rows.
@@ -36,7 +48,8 @@ Member C's independent implementation is complete:
 
 - A2/tests/test_database_repository.py
   - Covers initialisation, storage, rollback, duplicates, read-only access,
-    dashboard queries and successful/failed final validation.
+    generator rounding, idempotent full-stream import, dashboard queries and
+    successful/failed final validation.
 
 The formal initialised database currently exists at:
 
@@ -46,53 +59,43 @@ Its initialisation report is:
 
   A2/data/quality/database_initialisation.csv
 
-The current database is an INITIALISED EMPTY EVENT DATABASE. It contains the
-A1 tables, connector mapping, A2 schema and views, but currently has:
+The current database is the POPULATED ONE-DAY ASSESSMENT DATABASE. It contains
+the A1 tables, connector mapping, A2 schema and views plus:
 
-  mqtt_events       = 0
-  price_events      = 0
-  charging_sessions = 0
-  meter_events      = 0
+  mqtt_events       = 172,803
+  price_events      =   7,038
+  charging_sessions =   5,084
+  meter_events      = 155,597
 
-This is expected until B receives messages and calls EventRepository.
+All 5,084 sessions are complete, no active sessions remain, and the final
+validation report passes. The compacted database is 147,075,072 bytes with
+SHA-256 699f1bc59dccc9b0885d830f8bddb76a7fab7be4dcb9458803f8869d716f421f.
 
 
 2. Work that is not yet complete
 --------------------------------
 
-The following work depends on other team members or the final integration run:
+The following work depends on Member D or the final group demonstration:
 
-1) B subscriber integration
-
-   B must inject one EventRepository instance into EventProcessor and use:
-
-     repository.has_event(event_id)
-     repository.store_event(topic, event)
-
-   A valid event must be committed to DuckDB before B updates StateStore.
-   Duplicate event IDs must update neither DuckDB nor StateStore.
-
-2) D dashboard integration
+1) D dashboard integration
 
    D must consume the repository query methods documented below. D should not
    copy SQL into the dashboard module.
 
-3) Complete MQTT replay
+2) Live dashboard demonstration
 
-   The full prepared stream has 2,479,112 events. At the required minimum
-   0.1-second publishing interval, replay requires at least 68.864 hours before
-   MQTT/network overhead. Only the 32-event demo has been tested end to end.
+   B/C integration is complete. The 36-event real MQTT demo verifies broker,
+   publisher, subscriber, restart recovery, deduplication and persistence using
+   a disposable database. D still needs to compose the same B and C interfaces
+   and capture the required dashboard screenshot.
 
-4) Final validation report
+3) Paced complete MQTT replay (not required for database reconciliation)
 
-   A2/data/quality/final_validation.csv cannot be produced as a successful
-   formal result until the selected event stream has been completely replayed.
-
-5) Member C report section
-
-   The final report still needs a concise explanation of schema design,
-   physical keys/indexes, A1 copy protection, idempotency, transaction rollback,
-   analytical metrics, test evidence and replay limitations.
+   The complete one-day stream has 172,803 events and would require at least
+   4.8 hours at 0.1 seconds per message. The final DuckDB instead imports every
+   event through EventRepository and passes full reconciliation; real MQTT is
+   separately evidenced by the representative demo. Broker-outage recovery and
+   sustained long-running throughput remain documented limitations.
 
 
 3. Contract for Member B
@@ -251,41 +254,43 @@ Rebuild the initialised A2 database:
 
   python A2/run_pipeline.py --stage database
 
+Import the complete prepared stream through EventRepository:
+
+  python A2/run_pipeline.py --stage database-import
+
 Run all current automated tests:
 
   python -m unittest discover -s A2/tests -v
 
-Run the 32-event publisher after B/D has started a subscriber:
+Run the 36-event publisher after B/D has started a subscriber:
 
   python A2/src/publishing/run.py --project-root . --stream A2/data/demo/event_stream.jsonl --delay 1
 
-Run final validation only after the database contains every event in the event
-stream selected at A2/data/events/event_stream.jsonl:
+Run final validation after database-import has completed:
 
   python A2/run_pipeline.py --stage validate
 
-If the database contains only the 32-event demo while event_stream.jsonl contains
-the full 2,479,112-event stream, final validation will correctly fail.
+If the database contains only the 36-event demo while event_stream.jsonl contains
+the complete 172,803-event stream, final validation will correctly fail.
 
 
 6. Database size and GitHub warning
 -----------------------------------
 
-The initialised database is currently about 20 MB because the event tables are
-empty. A full replay stores approximately:
+The populated compacted database is about 140.3 MiB and stores:
 
-  2,479,112 raw MQTT events
-     96,462 price events
-     73,860 charging sessions
-  2,234,930 meter events
+    172,803 raw MQTT events
+      7,038 price events
+      5,084 charging sessions
+    155,597 meter events
 
-The populated DuckDB may become too large for an ordinary GitHub file upload.
-Before committing a fully populated database, check its size and agree on one of:
+The populated DuckDB is too large for an ordinary single-file Git workflow.
+Use one of:
 
 - Git LFS;
 - submission through the course/LMS package;
-- committing only the reproducible initial database, scripts and quality report;
-- a smaller justified assessed replay scope.
+- packaging the populated database in the final Canvas submission while keeping
+  only reproducible code and quality reports in ordinary Git history.
 
 Do not silently remove generated evidence or replace the full database with a
 demo database without recording that decision in the final report.
@@ -296,6 +301,7 @@ demo database without recording that decision in the final report.
 
   A2/sql/a2_schema.sql
   A2/src/database/initialise.py
+  A2/src/database/import_events.py
   A2/src/database/repository.py
   A2/validate_pipeline.py
   A2/tests/test_database_repository.py
@@ -304,6 +310,7 @@ Generated C outputs:
 
   A2/data/final/ev_chargers_a2.duckdb
   A2/data/quality/database_initialisation.csv
+  A2/data/quality/database_import.csv
   A2/data/quality/final_validation.csv
 
 The original database must remain unchanged:

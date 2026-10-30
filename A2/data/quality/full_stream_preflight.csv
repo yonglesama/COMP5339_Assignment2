@@ -1,5 +1,5 @@
 metric,value,note
 status,validated_only,Preflight only; no network messages sent
-selected_events,2479112,Preflight only; no network messages sent
+selected_events,172803,Preflight only; no network messages sent
 published_messages,0,Preflight only; no network messages sent
 delay_seconds,0.1,Preflight only; no network messages sent

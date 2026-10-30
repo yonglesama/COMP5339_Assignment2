@@ -15,6 +15,7 @@ ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / 'A2/src'))
 import paho.mqtt.client as mqtt
 from database.repository import EventRepository
+from database.initialise import initialise_database
 from publishing.run import publish_events
 from subscription.run import SubscriptionService
 
@@ -33,8 +34,16 @@ def main():
     args = parser.parse_args()
     with tempfile.TemporaryDirectory() as directory:
         work = Path(directory)
-        database = work / 'events.duckdb'
-        shutil.copy2(ROOT / 'A2/data/final/ev_chargers_a2.duckdb', database)
+        source_database = work / 'A1/data/final/ev_chargers.duckdb'
+        schema = work / 'A2/sql/a2_schema.sql'
+        mapping = work / 'A2/data/input/station_connector_mapping.csv'
+        source_database.parent.mkdir(parents=True)
+        schema.parent.mkdir(parents=True)
+        mapping.parent.mkdir(parents=True)
+        shutil.copy2(ROOT / 'A1/data/final/ev_chargers.duckdb', source_database)
+        shutil.copy2(ROOT / 'A2/sql/a2_schema.sql', schema)
+        shutil.copy2(ROOT / 'A2/data/input/station_connector_mapping.csv', mapping)
+        database = initialise_database(work)
         with socket.socket() as probe:
             probe.bind(('127.0.0.1', 0))
             port = probe.getsockname()[1]
@@ -95,7 +104,7 @@ def main():
                       'final_active_sessions': subscriber.state_store.get_current_metrics()['active_session_count'],
                       'historical_metrics': repository.get_historical_metrics(),
                       'minimum_send_gap_seconds': min(first['minimum_send_gap_seconds'], second['minimum_send_gap_seconds']),
-                      'scope': '32-event demo, temporary DuckDB; not full assessment replay'}
+                      'scope': f'{len(events)}-event demo, temporary DuckDB; not full assessment replay'}
             print(json.dumps(report, indent=2))
             if args.report:
                 args.report.parent.mkdir(parents=True, exist_ok=True)

@@ -6,7 +6,7 @@ A thread-safe StateStore maintains latest station prices, active sessions, conne
 
 Before subscribing, the service restores latest prices, active sessions and their curves from the repository. It requests a persistent MQTT session, resubscribes on reconnect and acknowledges QoS messages after processing. Malformed envelopes are logged and counted; repository or state failures stop ingestion without acknowledging the failed message. Broker persistence is still required for durable delivery during outages.
 
-Twelve B tests passed against disposable database copies and C's real repository. A separate real MQTT demo stored all 32 events, restored seven curve points after a mid-session subscriber restart, ignored 32 duplicate deliveries and rejected one malformed message. The final state had no active sessions and one completed session with 26.39 kWh and AUD 17.15. The full assessment replay and broker-outage recovery were not performed in this validation. The dashboard must share one repository/subscriber process and follow A's documented simulation-time convention.
+Twelve B tests passed against disposable database copies and C's real repository. A separate real MQTT demo stored all 36 events, restored seven curve points after a mid-session subscriber restart, ignored 36 duplicate deliveries and rejected one malformed message. The final state had no active sessions and one completed session with 22.60 kWh and AUD 16.72. The complete one-day stream is loaded and reconciled offline; the paced 4.8-hour MQTT replay and broker-outage recovery were not performed. The dashboard must share one repository/subscriber process and follow A's documented simulation-time convention.
 
 ## Contribution statement draft
 

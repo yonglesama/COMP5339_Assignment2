@@ -140,11 +140,11 @@ class GeneratorTests(unittest.TestCase):
             cache = data / "generated/aemo_cache/PRICE_AND_DEMAND_202610_NSW1.csv"
             csv_file(cache, [{"REGION": "NSW1",
                 "SETTLEMENTDATE": (start + timedelta(minutes=5 * i)).strftime("%Y/%m/%d %H:%M:%S"),
-                "RRP": 50} for i in range(1, 14 * 24 * 12 + 1)])
+                "RRP": 50} for i in range(1, 24 * 12 + 1)])
             manifest = generate(root, "assessment")
             self.assertEqual(manifest["effective_config"]["start"], "2026-10-01")
-            self.assertEqual(manifest["effective_config"]["days"], 14)
-            self.assertEqual(manifest["row_counts"]["prices_hourly.csv"], 336)
+            self.assertEqual(manifest["effective_config"]["days"], 1)
+            self.assertEqual(manifest["row_counts"]["prices_hourly.csv"], 24)
             result = prepare(root)
             counts = inspect_stream(data / "events/event_stream.jsonl")
             self.assertEqual(sum(counts.values()), result["total_events"])
