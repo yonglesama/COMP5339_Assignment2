@@ -7,8 +7,8 @@
 | 文件 | 内容 |
 |---|---|
 | `A2/data/examples/` | 四类 JSON 消息样例 |
-| `A2/data/demo/event_stream.jsonl` | 32 条消息，包含价格变化和一个完整充电会话，用于订阅及状态处理测试 |
-| `A2/data/events/event_stream.jsonl` | 2,479,112 条全量消息，已按事件时间排序 |
+| `A2/data/demo/event_stream.jsonl` | 36 条消息，包含价格变化和一个完整充电会话，用于订阅及状态处理测试 |
+| `A2/data/events/event_stream.jsonl` | 172,803 条一日完整消息，已按事件时间排序 |
 
 ## MQTT 连接
 
@@ -29,18 +29,18 @@ event_time 为 ISO 时间字符串，event_timezone=Australia/Sydney。生成器
 
 演示流的 sequence_number 不连续，按文件顺序处理。event_id 用于重复消息去重；重复播放前清空测试状态，才能重新看到完整状态变化。同一插头前后会话可能在同秒交接，结束时按 session_id 移除旧会话。
 
-## 32 条演示消息的预期结果
+## 36 条演示消息的预期结果
 
 从空的订阅状态开始，先订阅，再发布 `A2/data/demo/event_stream.jsonl`。
 
 | 项目 | 预期值 |
 |---|---|
-| 站点 / 会话 | STD7565099B8 / STD7565099B8-3-202610010100 |
-| 消息数 | 32：2 条 price_update、1 条 session_start、28 条 meter、1 条 session_end |
-| 最新价格 | 0.66 → 0.65 AUD/kWh |
+| 站点 / 会话 | ST4D056616A3 / ST4D056616A3-4-202610010201 |
+| 消息数 | 36：2 条 price_update、1 条 session_start、32 条 meter、1 条 session_end |
+| 最新价格 | 0.75 → 0.74 AUD/kWh |
 | 活跃会话数 | 0 → 1 → 0 |
-| 会话电表数据 | 按时间收到 28 个采样点 |
-| 结束消息中的电量 / 费用 | 26.39 kWh / AUD 17.15 |
+| 会话电表数据 | 按时间收到 32 个采样点 |
+| 结束消息中的电量 / 费用 | 22.60 kWh / AUD 16.72 |
 
 ## C 使用的关联键
 

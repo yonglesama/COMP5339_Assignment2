@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from collections import Counter
 from copy import deepcopy
 import json
 from pathlib import Path
@@ -17,6 +18,7 @@ if str(A2_ROOT) not in sys.path:
     sys.path.insert(0, str(A2_ROOT))
 
 from database.initialise import initialise_database
+from database.import_events import import_event_stream
 from database.repository import EventRepository
 from validate_pipeline import validate_pipeline
 
@@ -47,6 +49,16 @@ class EventRepositoryTests(unittest.TestCase):
             .splitlines()
             if line
         ]
+        cls.demo_counts = Counter(event["event_type"] for event in cls.demo_events)
+        cls.demo_end = next(
+            event for event in reversed(cls.demo_events)
+            if event["event_type"] == "session_end"
+        )
+        cls.demo_session_id = next(
+            event["payload"]["session_id"] for event in cls.demo_events
+            if event["event_type"] == "session_start"
+        )
+        cls.demo_station_id = cls.demo_events[0]["station_id"]
 
     @classmethod
     def tearDownClass(cls) -> None:
@@ -86,7 +98,15 @@ class EventRepositoryTests(unittest.TestCase):
                    (SELECT COUNT(*) FROM charging_sessions),
                    (SELECT COUNT(*) FROM meter_events)"""
         ).fetchone()
-        self.assertEqual(counts, (32, 2, 1, 28))
+        self.assertEqual(
+            counts,
+            (
+                len(self.demo_events),
+                self.demo_counts["price_update"],
+                self.demo_counts["session_start"],
+                self.demo_counts["meter"],
+            ),
+        )
         self.assertEqual(
             connection.execute("SELECT * FROM current_charging_metrics").fetchone(),
             (0, 0, 0.0),
@@ -95,15 +115,15 @@ class EventRepositoryTests(unittest.TestCase):
             "SELECT * FROM historical_charging_metrics"
         ).fetchone()
         self.assertEqual(historical[:2], (1, 1))
-        self.assertAlmostEqual(historical[2], 26.39)
-        self.assertAlmostEqual(historical[3], 17.15)
+        self.assertAlmostEqual(historical[2], self.demo_end["payload"]["energy_kwh"])
+        self.assertAlmostEqual(historical[3], self.demo_end["payload"]["cost_aud"])
 
     def test_dashboard_station_catalog_has_one_row_per_generated_station(self) -> None:
         stations = self.repository.get_dashboard_stations()
         self.assertEqual(len(stations), 414)
         self.assertEqual(len({row["station_id"] for row in stations}), 414)
         demo_station = next(
-            row for row in stations if row["station_id"] == "STD7565099B8"
+            row for row in stations if row["station_id"] == self.demo_station_id
         )
         self.assertGreater(demo_station["connector_count"], 0)
         self.assertGreater(demo_station["max_rating_kw"], 0)
@@ -115,26 +135,35 @@ class EventRepositoryTests(unittest.TestCase):
         for event in self.demo_events[:5]:
             self.repository.store_event(self.topic(event), event)
 
+        first_events = self.demo_events[:5]
+        latest_price = [
+            event for event in first_events if event["event_type"] == "price_update"
+        ][-1]
+        meter_events = [
+            event for event in first_events if event["event_type"] == "meter"
+        ]
         prices = self.repository.get_latest_prices()
         self.assertEqual(len(prices), 1)
-        self.assertEqual(prices[0]["station_id"], "STD7565099B8")
-        self.assertAlmostEqual(prices[0]["price_per_kwh"], 0.65)
+        self.assertEqual(prices[0]["station_id"], self.demo_station_id)
+        self.assertAlmostEqual(
+            prices[0]["price_per_kwh"], latest_price["payload"]["price_per_kwh"]
+        )
 
         active = self.repository.get_active_sessions()
         self.assertEqual(len(active), 1)
-        self.assertEqual(active[0]["session_id"], "STD7565099B8-3-202610010100")
-        self.assertAlmostEqual(active[0]["power_kw"], 41.3)
-        self.assertAlmostEqual(active[0]["energy_kwh"], 1.085)
+        self.assertEqual(active[0]["session_id"], self.demo_session_id)
+        self.assertAlmostEqual(active[0]["power_kw"], meter_events[-1]["payload"]["power_kw"])
+        self.assertAlmostEqual(active[0]["energy_kwh"], meter_events[-1]["payload"]["energy_kwh"])
 
         curve = self.repository.get_session_meter_events(active[0]["session_id"])
-        self.assertEqual(len(curve), 2)
+        self.assertEqual(len(curve), len(meter_events))
         self.assertLess(curve[0]["event_time"], curve[1]["event_time"])
-        self.assertAlmostEqual(curve[-1]["soc_pct"], 37.9)
+        self.assertAlmostEqual(curve[-1]["soc_pct"], meter_events[-1]["payload"]["soc_pct"])
 
         current = self.repository.get_current_metrics()
         self.assertEqual(current["active_session_count"], 1)
         self.assertEqual(current["active_station_count"], 1)
-        self.assertAlmostEqual(current["current_power_kw"], 41.3)
+        self.assertAlmostEqual(current["current_power_kw"], meter_events[-1]["payload"]["power_kw"])
 
         empty_history = self.repository.get_historical_metrics()
         self.assertEqual(empty_history["completed_session_count"], 0)
@@ -145,8 +174,44 @@ class EventRepositoryTests(unittest.TestCase):
         self.assertEqual(self.repository.get_active_sessions(), [])
         completed = self.repository.get_historical_metrics()
         self.assertEqual(completed["completed_session_count"], 1)
-        self.assertAlmostEqual(completed["total_energy_kwh"], 26.39)
-        self.assertAlmostEqual(completed["total_revenue_aud"], 17.15)
+        self.assertAlmostEqual(
+            completed["total_energy_kwh"], self.demo_end["payload"]["energy_kwh"]
+        )
+        self.assertAlmostEqual(
+            completed["total_revenue_aud"], self.demo_end["payload"]["cost_aud"]
+        )
+
+    def test_session_end_allows_generator_rounding_tolerance(self) -> None:
+        for event in self.demo_events[:-1]:
+            self.repository.store_event(self.topic(event), event)
+        rounded_end = deepcopy(self.demo_events[-1])
+        rounded_end["event_id"] = "evt_session_end_rounding_tolerance"
+        latest_meter_energy = self.demo_events[-2]["payload"]["energy_kwh"]
+        rounded_end["payload"]["energy_kwh"] = latest_meter_energy - 0.001
+
+        self.assertTrue(self.repository.store_event(self.topic(rounded_end), rounded_end))
+
+    def test_complete_stream_import_is_idempotent(self) -> None:
+        self.repository.close()
+        stream = self.test_root / "complete_import.jsonl"
+        report = self.test_root / "complete_import.csv"
+        stream.write_text(
+            "".join(json.dumps(event) + "\n" for event in self.demo_events),
+            encoding="utf-8",
+        )
+
+        first = import_event_stream(stream, self.database, report, progress_every=1000)
+        second = import_event_stream(stream, self.database, report, progress_every=1000)
+
+        self.assertEqual(first["stored_events_this_run"], len(self.demo_events))
+        self.assertEqual(first["duplicate_events_this_run"], 0)
+        self.assertLessEqual(
+            first["database_size_bytes"], first["uncompacted_database_size_bytes"]
+        )
+        self.assertEqual(second["stored_events_this_run"], 0)
+        self.assertEqual(second["duplicate_events_this_run"], len(self.demo_events))
+        self.assertEqual(second["raw_events"], len(self.demo_events))
+        self.assertTrue(report.is_file())
 
     def test_final_pipeline_validation_reconciles_demo_stream(self) -> None:
         for event in self.demo_events:
@@ -160,8 +225,8 @@ class EventRepositoryTests(unittest.TestCase):
         result = validate_pipeline(self.test_root)
 
         self.assertTrue(result["validation_passed"])
-        self.assertEqual(result["prepared_events"], 32)
-        self.assertEqual(result["raw_events"], 32)
+        self.assertEqual(result["prepared_events"], len(self.demo_events))
+        self.assertEqual(result["raw_events"], len(self.demo_events))
         self.assertEqual(result["completed_sessions"], 1)
         report = self.test_root / "A2/data/quality/final_validation.csv"
         self.assertTrue(report.is_file())

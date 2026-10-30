@@ -132,11 +132,11 @@ No member needs to wait for a full generator or broker run to begin development.
 ## Configuration profiles
 
 - `generator.dev.json`: 10 stations, one day, static prices, two-minute meters.
-- `generator.assessment.json`: full configured scope, 14 days, AEMO prices, one-minute meters.
+- `generator.assessment.json`: full configured station scope, one day, AEMO prices, one-minute meters.
 
-The full export currently has 414 stations and 1,610 connectors. It may produce roughly
-two million meter messages and require more than 60 hours at 0.1 seconds per message.
-The group must confirm whether the assessed run uses all stations or a justified subset.
+The full export currently has 414 stations and 1,610 connectors. The team selected a
+one-day assessment window so that the complete stream can be replayed and validated in a
+practical time while retaining every eligible station and connector.
 
 ## Decisions still requiring the whole group
 

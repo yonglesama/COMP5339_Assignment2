@@ -2,7 +2,7 @@ metric,value,note
 initialisation_passed,True,"Schema, mapping and relationships validated"
 a1_database_sha256,ea62a5c34e700b5e619e95240da9137ad7f48a30c139d45a1a8c9538c1b1b203,Read-only source fingerprint
 a1_database_unchanged,True,SHA-256 checked before and after
-a2_database_sha256,afa385dd679a9933045d39c780ada6053db271e2b83dd857a1c977511334d5e0,Initialised database fingerprint
+a2_database_sha256,5424d71d055f488500b842ef7e123db128ae3e8d15eab74d1002654495090eeb,Initialised empty database fingerprint before event import
 station_count,1772,Copied A1 stations
 charger_count,1803,Copied A1 chargers
 mapping_rows,1610,Imported station connectors

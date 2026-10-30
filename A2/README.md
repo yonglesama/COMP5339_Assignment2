@@ -1,21 +1,17 @@
-# COMP5339 Assignment 2 pipeline scaffold
+# COMP5339 Assignment 2 pipeline
 
-This directory is a collaboration scaffold modelled on Assignment 1. It defines stages,
-ownership, paths and cross-member interfaces without supplying the four members'
-assignment implementations. The A1 database remains read-only.
+This directory contains the shared Assignment 2 pipeline modelled on Assignment 1. The
+A, B and C implementations are merged; D's dashboard integration remains in progress.
+The A1 database remains read-only.
 
 ## What is provided
 
-- a configuration-driven runner and declared stage inputs/outputs;
+- a configuration-driven runner with declared stage inputs and outputs;
 - the professor-provided generator, retained unchanged;
-- development and assessment configuration profiles;
-- versioned JSON message examples for parallel work;
-- CLI stubs for every team-owned stage;
-- B/C/D interface signatures, without implementation logic;
-- team contracts and expected test ownership.
-
-The stubs deliberately return a non-zero exit status until their owner implements them.
-This prevents an unimplemented stage from appearing successful.
+- A's deterministic generation, event preparation and MQTT publishing pipeline;
+- B's MQTT subscription, validation, recoverable live state and D-facing interface;
+- C's DuckDB schema, event repository, analytical queries and validation;
+- development and assessment profiles, fixtures, tests and team contracts.
 
 ## Ownership and structure
 
@@ -24,27 +20,27 @@ A2/
   config/                  Pipeline, generator profiles and MQTT settings
   external/data_generator/ Professor-provided files
   data/examples/            Shared message-contract fixtures
-  src/generation/           A: station export and generator wrapper TODOs
-  src/events/               A: ordered event preparation TODO
-  src/publishing/           A: MQTT publisher TODO
-  src/subscription/         B: subscriber/state interface and TODO
-  src/database/             C: repository interface and database TODO
-  sql/a2_schema.sql         C: documented DDL placeholder, no solution SQL
+  src/generation/           A: station export and generator wrapper
+  src/events/               A: ordered event preparation
+  src/publishing/           A: MQTT publisher
+  src/subscription/         B: subscriber and recoverable live state
+  src/database/             C: event repository, full-stream import and analytical queries
+  sql/a2_schema.sql         C: A2 event tables, indexes and analytical views
   src/dashboard/            D: dashboard/runtime interfaces and TODO
-  tests/                    Per-owner test checklist
+  tests/                    Unit and integration tests
   docs/team_contracts.md    Stable hand-off contracts
   run_pipeline.py           Working shared orchestrator
-  validate_pipeline.py      C/shared validation CLI stub
+  validate_pipeline.py      C/shared final reconciliation CLI
 ```
 
 The authoritative task split and method signatures are in
 `docs/team_contracts.md`.
 
-## Files each member should implement
+## Member responsibilities and implementation status
 
 ### Member A — data generation and MQTT publishing
 
-Member A should modify:
+Member A's implementation is complete and owns:
 
 ```text
 A2/src/generation/export_stations.py
@@ -53,7 +49,7 @@ A2/src/events/prepare.py
 A2/src/publishing/run.py
 ```
 
-Member A may add generation/publishing tests under `A2/tests/` and maintains the JSON
+Member A maintains generation/publishing tests under `A2/tests/` and the JSON
 fixtures in `A2/data/examples/` when the whole group approves a message-contract change.
 Member A may propose changes to the generator profiles, but should not edit the
 professor-provided files under `A2/external/data_generator/`.
@@ -73,7 +69,7 @@ A2/data/quality/event_preparation_summary.csv
 
 ### Member B — MQTT subscription and live state
 
-Member B should modify:
+Member B's implementation is complete and merged. It owns:
 
 ```text
 A2/src/subscription/run.py
@@ -81,23 +77,25 @@ A2/src/subscription/event_processor.py
 A2/src/subscription/state_store.py
 ```
 
-Member B may add subscriber/state tests under `A2/tests/`. B should use C's
-`EventRepository` interface and must not place DuckDB SQL inside the subscription
-module. B owns message validation, price/session state transitions, occupancy and the
-live meter-curve data supplied to D.
+B validates JSON envelopes and MQTT topics, persists each new event through C's
+`EventRepository`, and only then updates its thread-safe live projection. The projection
+provides latest prices, active sessions, connector occupancy, restart recovery and active
+session meter curves to D. The subscription module contains no DuckDB SQL. Operational
+details and the D integration contract are recorded in `docs/member_b_handoff.md`.
 
 ### Member C — DuckDB storage and analytics
 
-Member C should modify:
+Member C's implementation is complete and owns:
 
 ```text
 A2/src/database/initialise.py
+A2/src/database/import_events.py
 A2/src/database/repository.py
 A2/sql/a2_schema.sql
 A2/validate_pipeline.py
 ```
 
-Member C may add storage/analytics tests under `A2/tests/`. C owns the final integrated
+Member C maintains storage/analytics tests under `A2/tests/`. C owns the final integrated
 DuckDB, DDL, idempotent event-write interface, current/historical queries and final
 reconciliation report. C must create a separate A2 database and must not write to the
 A1 database.
@@ -107,6 +105,7 @@ Expected outputs:
 ```text
 A2/data/final/ev_chargers_a2.duckdb
 A2/data/quality/database_initialisation.csv
+A2/data/quality/database_import.csv
 A2/data/quality/final_validation.csv
 ```
 
@@ -151,13 +150,31 @@ member-owned A2 directories instead of editing either source.
 
 ## Setup
 
-From the repository root with Python 3.10 or newer:
+From the repository root with Python 3.11 to 3.13 recommended:
 
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install -r A1/requirements.txt
 python -m pip install -r A2/requirements.txt
+```
+
+For the optional local MQTT broker and real transport tests, install the development
+requirements instead (these include the shared A2 requirements):
+
+```powershell
+python -m pip install -r A2/requirements-dev.txt
+```
+
+Python 3.14 cannot currently install the pinned `amqtt`/`PyYAML` development combination
+from a pre-built Windows wheel; use Python 3.11 to 3.13 for the broker test environment.
+
+The populated A2 DuckDB is tracked with Git LFS. Install Git LFS before cloning or run
+the following after installation to replace the pointer with the actual database file:
+
+```powershell
+git lfs install
+git lfs pull
 ```
 
 Each member must add any dependency introduced by their implementation. Member A owns
@@ -177,14 +194,14 @@ The intended development pipeline is:
 python A2/run_pipeline.py --stage prepare-dev
 ```
 
-It will become runnable as A and C complete the declared stages. The intended assessment
-pipeline is:
+The assessment preparation pipeline is:
 
 ```powershell
 python A2/run_pipeline.py --stage prepare
 ```
 
-Both aliases currently stop at the first team-owned TODO, by design.
+The A/C batch stages used by these aliases are implemented. MQTT publisher, subscriber
+and dashboard are long-running services and are started separately.
 
 ## Member entry points
 
@@ -203,17 +220,44 @@ python A2/run_pipeline.py --stage publisher
 python A2/run_pipeline.py --stage subscriber
 ```
 
-Implement the signatures in `subscription/state_store.py` and
-`subscription/event_processor.py` without embedding C's SQL.
+The subscriber runs in the foreground until Ctrl+C or a fatal repository error. Start a
+broker first and do not run the standalone subscriber while D owns the same writable
+DuckDB. B's implementation restores latest prices, active sessions and meter curves from
+C before subscribing.
+
+Verify B without modifying the tracked assessment database:
+
+```powershell
+python -m unittest discover -s A2/tests -p "test_member_b.py" -v
+python A2/tests/mqtt_member_b.py
+```
+
+All 12 B tests and all 40 current A/B/C tests pass. The real loopback MQTT demo
+stores 36 new events, ignores 36 duplicate deliveries, rejects one malformed message, restores an
+active curve after subscriber restart and completes one historical session. Evidence is
+recorded in `data/quality/member_b_mqtt_summary.json` and `docs/member_b_report.md`.
+
+The complete one-day stream contains 172,803 events. A paced MQTT replay would require at
+least 4.8 hours, so the full stream is imported through the same validated C repository
+boundary while MQTT transport is verified with the representative demo. Broker-outage recovery
+and sustained long-running throughput are also outside the demo validation scope. The
+complete stream is validated offline, while the representative demo covers the end-to-end
+MQTT, B state and C persistence path. D dashboard composition remains the only pending B
+integration activity.
 
 ### C — DuckDB storage and analytics
 
 ```powershell
 python A2/run_pipeline.py --stage database
+python A2/run_pipeline.py --stage database-import
 python A2/run_pipeline.py --stage validate
 ```
 
-Implement `database/repository.py`, `sql/a2_schema.sql` and validation. Keep A1 unchanged.
+The database stage rebuilds an empty A2 schema from A1 and therefore clears event history.
+The import stage is idempotent and loads the complete prepared stream through
+`EventRepository`, then verifies and atomically installs a physically compacted copy; the
+validation stage reconciles the stream, raw receipts, normalised tables, views and
+queries. Keep A1 unchanged.
 
 ### D — map dashboard and live curve
 
@@ -238,19 +282,19 @@ generation or MQTT deployment.
 ## Configuration profiles
 
 - `generator.dev.json`: proposed small offline settings for integration development.
-- `generator.assessment.json`: proposed full settings requiring AEMO input/cache.
+- `generator.assessment.json`: all 414 eligible DC stations, one day, AEMO prices and
+  one-minute meters.
 
-The group must confirm the assessed station scope and runtime before producing final
-data. Full-scale generation may result in millions of meter messages, while publishing
-must retain at least a 0.1-second delay.
+The one-day assessment scope was selected by the group because the assignment does not
+mandate the generator's 14-day example. It retains the full eligible A1 station/connector
+scope while keeping the complete database and submission package practical.
 
 ## Large generated files intentionally not tracked
 
 The repository does not track the full generated assessment dataset. These files are
-derived outputs, are reproducible from the committed code and inputs, and are too large
-for an ordinary GitHub workflow. In the current assessment run, the ordered JSONL stream
-is approximately 973 MiB and `session_metering.csv` is approximately 211 MiB before
-compression.
+derived outputs and are reproducible from the committed code and inputs. In the current
+one-day assessment run, the ordered JSONL stream is approximately 67.6 MiB and
+`session_metering.csv` is approximately 14.7 MiB before compression.
 
 The following generated output paths are therefore excluded by `.gitignore`:
 
@@ -266,10 +310,13 @@ under `A2/data/generated/`. It is tracked so that every group member uses the sa
 price input and can reproduce the same assessment CSV and JSONL outputs without a new
 download. The generator automatically reuses this file when it is present.
 
-Small integration fixtures, connector mappings, quality summaries and the initialised
-A2 DuckDB remain tracked. If the full generated dataset or populated DuckDB is required
-for final assessment, package it separately through the course submission system or Git
-LFS and record its SHA-256 digest. Do not add these large files to ordinary Git history.
+Small integration fixtures, connector mappings and quality summaries remain in ordinary
+Git; the 140.3 MiB populated A2 DuckDB is tracked with Git LFS. The generated CSV and
+complete event stream must be included in the final course submission package even though
+they remain outside Git history. Their reproducibility hashes are recorded in the tracked
+`A2/data/quality/generation_checksums.csv`; the ignored
+`A2/data/generated/generation_manifest.json` contains the same output hashes together with
+the complete effective generator configuration.
 
 ### Regenerating the assessment JSONL stream
 
