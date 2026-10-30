@@ -59,7 +59,7 @@ Only active-session curves live in memory. An ended session's curve becomes `[]`
 
 ```bash
 python -m unittest discover -s A2/tests -v
-python A2/tests/mqtt_member_b.py --report A2/data/quality/member_b_mqtt_summary.json
+python A2/run_pipeline.py --stage verify-abc
 ```
 
 B's 12 tests create a fresh initialised database in a temporary directory and use the real C repository. They cover complete demo processing, duplicates/races, malformed messages, topic mismatch, write failure, orphan-meter rollback, restarts, copied snapshots, multiple connectors, same-second handover and ACK behaviour. The populated assessment database is never changed by these tests.

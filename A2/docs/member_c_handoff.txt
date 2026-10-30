@@ -68,8 +68,11 @@ the A1 tables, connector mapping, A2 schema and views plus:
   meter_events      = 155,597
 
 All 5,084 sessions are complete, no active sessions remain, and the final
-validation report passes. The compacted database is 147,075,072 bytes with
-SHA-256 699f1bc59dccc9b0885d830f8bddb76a7fab7be4dcb9458803f8869d716f421f.
+validation report passes. The compacted database is 147,075,072 bytes. Its
+current SHA-256 is recorded by each build in
+A2/data/quality/database_import.csv; the physical DuckDB fingerprint can change
+after a logically identical rebuild, so row counts and final reconciliation are
+the reproducibility checks for database content.
 
 
 2. Work that is not yet complete
@@ -250,25 +253,23 @@ same time as the dashboard runtime.
 5. Commands for integration and verification
 --------------------------------------------
 
-Rebuild the initialised A2 database:
+Regenerate A, rebuild and populate C, and run final reconciliation:
+
+  python A2/run_pipeline.py --stage prepare
+
+Verify the current database plus the real A+B+C MQTT demo:
+
+  python A2/run_pipeline.py --stage verify-abc
+
+The equivalent individual C commands are:
 
   python A2/run_pipeline.py --stage database
-
-Import the complete prepared stream through EventRepository:
-
   python A2/run_pipeline.py --stage database-import
+  python A2/run_pipeline.py --stage validate
 
 Run all current automated tests:
 
-  python -m unittest discover -s A2/tests -v
-
-Run the 36-event publisher after B/D has started a subscriber:
-
-  python A2/src/publishing/run.py --project-root . --stream A2/data/demo/event_stream.jsonl --delay 1
-
-Run final validation after database-import has completed:
-
-  python A2/run_pipeline.py --stage validate
+  python -m unittest discover -s A2/tests -p "test_*.py" -v
 
 If the database contains only the 36-event demo while event_stream.jsonl contains
 the complete 172,803-event stream, final validation will correctly fail.
