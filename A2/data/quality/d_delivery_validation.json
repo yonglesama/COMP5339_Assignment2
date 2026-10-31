@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "recommended_windows_entry": "Start_Dashboard.cmd",
+  "windows_mode": "unified",
+  "source": "A2/data/final/ev_chargers_a2.duckdb",
+  "source_is_modified": false,
+  "source_sha256_before": "f49cf15178cdcbcbdad5f94a674c6f06ef33d3eef058e94be2fd43ff50e82838",
+  "source_sha256_after": "f49cf15178cdcbcbdad5f94a674c6f06ef33d3eef058e94be2fd43ff50e82838",
+  "initial_completed_sessions": 5081,
+  "final_completed_sessions": 5084,
+  "replay_events": 87,
+  "replay_stations": 3,
+  "all_tests": 57,
+  "all_tests_passed": true,
+  "station_history_curves_verified": 414,
+  "history_session_selector": true,
+  "browser_acceptance_passed": true,
+  "manual_fixture_files_removed_from_project": true,
+  "scope": "C history with three selected sessions held out in a private copy and restored by unchanged A MQTT events; not full-stream paced MQTT",
+  "history_only_entry": "python A2/src/dashboard/run.py --project-root . --mode history --port 8052 --open-browser"
+}

@@ -1,2 +1,6 @@
 # The populated A2 DuckDB exceeds the ordinary Git blob size limit.
 A2/data/final/ev_chargers_a2.duckdb filter=lfs diff=lfs merge=lfs -text
+A2/data/demo/a_generated_empty.duckdb filter=lfs diff=lfs merge=lfs -text
+
+# D's report contains compressed binary streams.
+*.pdf binary

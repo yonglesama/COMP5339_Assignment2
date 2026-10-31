@@ -10,3 +10,6 @@ A2/data/generated/*
 A2/data/generated/aemo_cache/*
 !A2/data/generated/aemo_cache/PRICE_AND_DEMAND_202610_NSW1.csv
 A2/data/quality/*.log
+
+# D creates UUID-owned writable database copies and broker logs here.
+A2/data/runtime/

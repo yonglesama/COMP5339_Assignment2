@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Charge Atlas | NSW charging live</title>
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/vendor/leaflet.css">
+  <link rel="stylesheet" href="/assets/dashboard.css">
+  <script defer src="/assets/vendor/leaflet.js"></script>
+  <script defer src="/assets/dashboard.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/" aria-label="Charge Atlas home"><span class="brand-icon" aria-hidden="true">ϟ</span><span>Charge<span class="brand-light">Atlas</span></span></a>
+    <span class="region-label">NEW SOUTH WALES <span>AU</span></span>
+    <div class="connection" id="connection" role="status"><span class="status-dot"></span><span id="connection-text">Connecting</span></div>
+  </header>
+  <main>
+    <section class="page-heading">
+      <div><div class="eyebrow">EV CHARGING OBSERVATORY</div><h1>A clearer view of charging.</h1><p>Explore stations, follow live sessions, and understand usage across NSW.</p></div>
+      <div class="demo-controls" id="demo-controls" hidden><button class="button secondary" id="reset-demo"><span aria-hidden="true">↺</span> Reset demo</button><button class="button primary" id="run-demo"><span aria-hidden="true">▶</span> Run demo</button></div>
+    </section>
+    <p id="replay-context" class="muted" hidden></p>
+    <div class="notice" id="notice" hidden role="alert"></div>
+    <section class="metrics" aria-label="Network metrics">
+      <article class="metric"><div class="metric-top"><span>Active sessions</span><span class="metric-icon green">ϟ</span></div><div class="metric-value" id="metric-active">—</div><div class="metric-caption"><span class="tiny-dot"></span><span id="metric-active-sub">Waiting for data</span></div></article>
+      <article class="metric"><div class="metric-top"><span>Completed sessions</span><span class="metric-icon">✓</span></div><div class="metric-value" id="metric-completed">—</div><div class="metric-caption">Historical · completed charging</div></article>
+      <article class="metric"><div class="metric-top"><span>Energy delivered</span><span class="metric-icon">↗</span></div><div class="metric-value"><span id="metric-energy">—</span><span class="metric-unit">kWh</span></div><div class="metric-caption">Historical · completed sessions</div></article>
+      <article class="metric"><div class="metric-top"><span>Charging revenue</span><span class="metric-icon">$</span></div><div class="metric-value"><span class="currency-symbol">$</span><span id="metric-revenue">—</span></div><div class="metric-caption">AUD · completed sessions</div></article>
+    </section>
+    <section class="workspace" aria-label="Station explorer">
+      <div class="map-column">
+        <section class="card map-card">
+          <div class="card-heading"><div><h2>Find your connection</h2><p><span id="station-count">—</span> DC stations · click a marker to explore</p></div><button class="text-button" id="fit-stations" title="Fit all matching stations">All NSW <span aria-hidden="true">↗</span></button></div>
+          <div class="filters">
+            <label class="search-wrap"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m16 16 4.5 4.5"></path></svg><input id="station-search" type="search" placeholder="Search address, network or station…" aria-label="Search stations"></label>
+            <select id="operator-filter" aria-label="Filter by operator"><option value="">All networks</option></select>
+            <label class="active-filter"><input type="checkbox" id="active-only"><span>In use</span></label>
+          </div>
+          <div class="map-wrap"><div id="map" role="region" aria-label="Interactive map of charging stations in New South Wales"></div><div class="map-overlay" id="tile-notice" hidden>Base map unavailable · station locations remain visible</div><button class="focus-button" id="focus-active" title="Focus on an active charging station"><span aria-hidden="true">◎</span> Active station</button><div class="map-empty" id="map-empty" hidden>No matching stations. Try another search.</div></div>
+          <div class="map-footer"><div class="legend"><span><i class="legend-dot available"></i>Available</span><span><i class="legend-dot occupied"></i>In use</span><span><i class="legend-dot unknown"></i>No price</span></div><span id="shown-count">Loading stations</span></div>
+        </section>
+        <section class="activity-card card"><div><span class="section-kicker">CHARGING NOW</span><h2>Sessions in motion</h2></div><div id="active-stations" class="active-stations"><span class="muted">Waiting for live state…</span></div></section>
+      </div>
+      <aside class="detail-column" aria-label="Selected station">
+        <section class="card station-card">
+          <div class="station-top"><span id="station-network" class="network-badge">STATION DETAILS</span><span class="availability" id="station-availability">Select a marker</span></div>
+          <h2 id="station-title">Explore a charging station</h2><p id="station-address" class="station-address" hidden></p><p id="station-id" class="station-id">Select a map marker to see details</p>
+          <div class="station-price"><div><span class="field-label">LATEST PRICE</span><div><span id="station-price">—</span><span class="price-unit"> / kWh</span></div></div><span class="aud-badge">AUD</span></div>
+          <dl class="station-specs"><div><dt>Plug types</dt><dd id="station-plugs">—</dd></div><div><dt>Connectors in use</dt><dd id="station-connectors">—</dd></div><div><dt>Maximum rating</dt><dd id="station-power">—</dd></div><div><dt>Region</dt><dd id="station-region">—</dd></div></dl>
+        </section>
+        <section class="card curve-card">
+          <div class="curve-heading"><h2>Charging progress</h2><span id="curve-status" class="curve-status">—</span></div>
+          <label class="session-label" for="session-select">Session</label><select id="session-select" aria-label="Select charging session"><option value="">No active session</option></select>
+          <p id="curve-explanation" class="muted">Select a station to view its live or historical charging session.</p>
+          <div class="curve-tabs" role="group" aria-label="Charging chart measurement"><button class="active" data-measure="energy_kwh" aria-pressed="true">Energy</button><button data-measure="power_kw" aria-pressed="false">Power</button><button data-measure="soc_pct" aria-pressed="false">Battery</button></div>
+          <div class="curve-summary"><span id="curve-value">—</span><span id="curve-unit">kWh delivered</span></div>
+          <div id="curve-chart" class="curve-chart"><p class="chart-empty">A live curve appears when a session starts.</p></div>
+          <div class="curve-foot"><span id="curve-points">0 meter readings</span><span id="curve-time">—</span></div>
+        </section>
+      </aside>
+    </section>
+    <footer class="page-footer"><span><span class="tiny-dot"></span> <span id="data-label">Loading data</span><span class="footer-divider">/</span>Updates every second</span><span>COMP5339 · Assignment 2<span class="footer-divider">/</span><span id="last-update">—</span></span></footer>
+  </main>
+  <div class="toast" id="toast" role="status" hidden></div>
+</body>
+</html>

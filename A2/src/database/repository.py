@@ -441,6 +441,21 @@ class EventRepository:
                    ORDER BY s.start_time, s.session_id""",
             )
 
+    def get_station_sessions(self, station_id: str) -> list[dict[str, Any]]:
+        """List this station's real sessions; active first, then newest history."""
+        if not isinstance(station_id, str) or not station_id:
+            raise ValueError("station_id must be a non-empty string")
+        with self._lock:
+            return self._fetch_dicts(
+                self._require_connection(),
+                """SELECT session_id, station_id, connector_id, start_time, end_time,
+                          end_event_id IS NULL AS is_active, energy_kwh, cost_aud
+                   FROM charging_sessions
+                   WHERE station_id = ?
+                   ORDER BY (end_event_id IS NULL) DESC, start_time DESC, session_id DESC""",
+                [station_id],
+            )
+
     def get_session_meter_events(self, session_id: str) -> list[dict[str, Any]]:
         if not isinstance(session_id, str) or not session_id:
             raise ValueError("session_id must be a non-empty string")

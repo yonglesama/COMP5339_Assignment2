@@ -1,0 +1,131 @@
+{
+  "passed": true,
+  "real_mqtt": true,
+  "mode": "unified",
+  "sample_events": 87,
+  "provenance": {
+    "source_database": "A2/data/final/ev_chargers_a2.duckdb",
+    "source_sha256": "f49cf15178cdcbcbdad5f94a674c6f06ef33d3eef058e94be2fd43ff50e82838",
+    "source_stream": "A2/data/events/event_stream.jsonl",
+    "selected_session_count": 3,
+    "station_ids": [
+      "ST6DC062AC32",
+      "ST1A14ED4000",
+      "STFFE05F9F25"
+    ],
+    "session_ids": [
+      "ST6DC062AC32-4-202610012358",
+      "ST1A14ED4000-2-202610012358",
+      "STFFE05F9F25-1-202610012357"
+    ],
+    "event_count": 87,
+    "event_types": {
+      "price_update": 3,
+      "session_start": 3,
+      "meter": 78,
+      "session_end": 3
+    },
+    "meter_counts": {
+      "ST6DC062AC32-4-202610012358": 22,
+      "ST1A14ED4000-2-202610012358": 17,
+      "STFFE05F9F25-1-202610012357": 39
+    },
+    "baseline_historical_metrics": {
+      "completed_session_count": 5081,
+      "serviced_station_count": 414,
+      "total_energy_kwh": 129355.93999999997,
+      "total_revenue_aud": 88866.08999999988,
+      "average_charge_minutes": 30.60795119071049,
+      "maximum_peak_kw": 183.4
+    },
+    "target_historical_metrics": {
+      "completed_session_count": 5084,
+      "serviced_station_count": 414,
+      "total_energy_kwh": 129422.19999999998,
+      "total_revenue_aud": 88908.68999999987,
+      "average_charge_minutes": 30.605232100708104,
+      "maximum_peak_kw": 183.4
+    },
+    "description": "C history minus selected sessions; unchanged A events restore them once through MQTT"
+  },
+  "initial_historical": {
+    "completed_session_count": 5081,
+    "serviced_station_count": 414,
+    "total_energy_kwh": 129355.93999999997,
+    "total_revenue_aud": 88866.08999999988,
+    "average_charge_minutes": 30.60795119071049,
+    "maximum_peak_kw": 183.4
+  },
+  "stations_observed_live": [
+    {
+      "station_id": "ST6DC062AC32",
+      "session_id": "ST6DC062AC32-4-202610012358",
+      "curve_points": 3
+    },
+    {
+      "station_id": "ST1A14ED4000",
+      "session_id": "ST1A14ED4000-2-202610012358",
+      "curve_points": 4
+    },
+    {
+      "station_id": "STFFE05F9F25",
+      "session_id": "STFFE05F9F25-1-202610012357",
+      "curve_points": 4
+    }
+  ],
+  "non_replay_stations_with_history": [
+    {
+      "station_id": "ST0129AC3933",
+      "selected_session_id": "ST0129AC3933-2-202610010846",
+      "meter_points": 17
+    },
+    {
+      "station_id": "ST02E616F33C",
+      "selected_session_id": "ST02E616F33C-2-202610010110",
+      "meter_points": 34
+    },
+    {
+      "station_id": "ST0346CC2CBD",
+      "selected_session_id": "ST0346CC2CBD-4-202610010610",
+      "meter_points": 77
+    }
+  ],
+  "manual_history_selection_persists": true,
+  "history_switches_automatically_to_new_live_session": true,
+  "final_historical": {
+    "completed_session_count": 5084,
+    "serviced_station_count": 414,
+    "total_energy_kwh": 129422.19999999998,
+    "total_revenue_aud": 88908.68999999989,
+    "average_charge_minutes": 30.605232100708104,
+    "maximum_peak_kw": 183.4
+  },
+  "final_current": {
+    "active_session_count": 0,
+    "active_station_count": 0,
+    "current_power_kw": 0
+  },
+  "final_replay": {
+    "running": false,
+    "finished": true,
+    "published_messages": 87,
+    "selected_events": 87,
+    "error": null,
+    "status": "published",
+    "delay_seconds": 0.5,
+    "elapsed_seconds": 43.141,
+    "minimum_send_gap_seconds": 0.5
+  },
+  "reset_historical": {
+    "completed_session_count": 5081,
+    "serviced_station_count": 414,
+    "total_energy_kwh": 129355.93999999997,
+    "total_revenue_aud": 88866.08999999988,
+    "average_charge_minutes": 30.60795119071049,
+    "maximum_peak_kw": 183.4
+  },
+  "page_errors": [],
+  "scope": "Three unchanged A sessions at three stations; C baseline and live replay in one page. Not a full-stream paced MQTT run.",
+  "formal_database_hash_before": "f49cf15178cdcbcbdad5f94a674c6f06ef33d3eef058e94be2fd43ff50e82838",
+  "formal_database_hash_after": "f49cf15178cdcbcbdad5f94a674c6f06ef33d3eef058e94be2fd43ff50e82838"
+}
