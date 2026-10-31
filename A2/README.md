@@ -1,7 +1,8 @@
 # COMP5339 Assignment 2 pipeline
 
 This directory contains the shared Assignment 2 pipeline modelled on Assignment 1. The
-A, B and C implementations are merged; D's dashboard integration remains in progress.
+A, B, C and D implementations are integrated. D's Flask/Leaflet dashboard has
+private-copy demo/MQTT modes and read-only historical browsing.
 The A1 database remains read-only.
 
 ## What is provided
@@ -11,6 +12,7 @@ The A1 database remains read-only.
 - A's deterministic generation, event preparation and MQTT publishing pipeline;
 - B's MQTT subscription, validation, recoverable live state and D-facing interface;
 - C's DuckDB schema, event repository, analytical queries and validation;
+- D's Flask/Leaflet map, history browser and live MQTT charging curves;
 - development and assessment profiles, fixtures, tests and team contracts.
 
 ## Ownership and structure
@@ -26,7 +28,7 @@ A2/
   src/subscription/         B: subscriber and recoverable live state
   src/database/             C: event repository, full-stream import and analytical queries
   sql/a2_schema.sql         C: A2 event tables, indexes and analytical views
-  src/dashboard/            D: dashboard/runtime interfaces and TODO
+  src/dashboard/            D: Flask API/runtime and Leaflet presentation
   tests/                    Unit and integration tests
   docs/team_contracts.md    Stable hand-off contracts
   run_pipeline.py           Working shared orchestrator
@@ -114,17 +116,21 @@ A2/data/quality/final_validation.csv
 
 ### Member D — map dashboard and live curve
 
-Member D should modify:
+Member D's implementation is complete and owns:
 
 ```text
 A2/src/dashboard/runtime.py
 A2/src/dashboard/run.py
-A2/requirements.txt              # add the selected dashboard framework
+A2/src/dashboard/assets/
+A2/src/database/replay_snapshot.py
+A2/tests/test_member_d.py
+A2/tests/test_station_history_dashboard.py
+A2/tests/test_unified_dashboard.py
 ```
 
-Member D may add dashboard tests and static UI assets under `A2/tests/` and a new
-`A2/src/dashboard/assets/` directory. D should consume B's `StateStore` methods and C's
-`EventRepository` queries instead of duplicating message parsing or SQL.
+D composes B's `StateStore` and subscription service with C's repository. History mode
+opens the formal database read-only; demo, unified and external MQTT modes write only to
+UUID-owned private copies under `A2/data/runtime/`.
 
 ### Shared files — change only after group agreement
 
@@ -254,7 +260,7 @@ python -m unittest discover -s A2/tests -p "test_member_b.py" -v
 python A2/run_pipeline.py --stage mqtt-integration
 ```
 
-All 12 B tests and all 40 current A/B/C tests pass. The real loopback MQTT demo
+All 40 A/B/C tests and all 17 D tests pass. The real loopback MQTT demo
 stores 36 new events, ignores 36 duplicate deliveries, rejects one malformed message, restores an
 active curve after subscriber restart and completes one historical session. Evidence is
 recorded in `data/quality/member_b_mqtt_summary.json` and `docs/member_b_report.md`.
@@ -264,8 +270,8 @@ least 4.8 hours, so the full stream is imported through the same validated C rep
 boundary while MQTT transport is verified with the representative demo. Broker-outage recovery
 and sustained long-running throughput are also outside the demo validation scope. The
 complete stream is validated offline, while the representative demo covers the end-to-end
-MQTT, B state and C persistence path. D dashboard composition remains the only pending B
-integration activity.
+MQTT, B state and C persistence path. D uses the same interfaces for map state, station
+history and live curves.
 
 ### C — DuckDB storage and analytics
 
@@ -287,8 +293,39 @@ queries. Keep A1 unchanged.
 python A2/run_pipeline.py --stage dashboard
 ```
 
-Select a Python framework, implement `dashboard/runtime.py` and `dashboard/run.py`, and
-consume B's state interface plus C's repository interface.
+The recommended Windows entry is `Start_Dashboard.cmd`, which opens one unified
+history/live page at http://127.0.0.1:8050. It reads C's formal database, creates a
+private working copy, holds out three completed sessions, and restores their 87 unchanged
+A events through A's publisher, B's subscriber and C's repository. The baseline moves
+from 5,081 to the original 5,084 completed sessions without modifying the source database.
+
+The unified replay requires the complete local
+`A2/data/events/event_stream.jsonl`. It is included in the final submission package but
+ignored by Git; after a Git-only clone, regenerate it with `python A2/run_member_a.py`
+before starting the unified dashboard.
+
+```powershell
+python -m pip install -r A2/requirements-dev.txt
+python A2/src/dashboard/run.py --project-root . --mode unified --replay-delay 0.5 --open-browser
+```
+
+The pipeline command and a bare `run.py` default to read-only history. To open all 5,084
+completed sessions without replay/reset controls:
+
+```powershell
+python A2/src/dashboard/run.py --project-root . --mode history --port 8052 --open-browser
+```
+
+The optional single-session demo uses C's empty reference database and A's unchanged
+36-event demo stream:
+
+```powershell
+python A2/src/dashboard/run.py --project-root . --mode demo --initial-station ST4D056616A3 --port 8051 --open-browser
+```
+
+For an external MQTT broker, explicitly select `--mode mqtt --database PATH`. See
+`docs/member_d_handoff.md` and the root `D_QUICKSTART_中文.md` for the full operating and
+data-protection contract.
 
 ## Shared fixture
 

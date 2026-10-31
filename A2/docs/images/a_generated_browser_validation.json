@@ -1,0 +1,73 @@
+{
+  "passed": true,
+  "source": "Unmodified Member A generated event_stream.jsonl",
+  "sample_events": 36,
+  "real_mqtt": true,
+  "during_current": {
+    "active_session_count": 1,
+    "active_station_count": 1,
+    "current_power_kw": 49.62
+  },
+  "during_historical": {
+    "completed_session_count": 0,
+    "serviced_station_count": 0,
+    "total_energy_kwh": 0,
+    "total_revenue_aud": 0,
+    "average_charge_minutes": 0,
+    "maximum_peak_kw": 0
+  },
+  "during_curve_points": 9,
+  "final_current": {
+    "active_session_count": 0,
+    "active_station_count": 0,
+    "current_power_kw": 0
+  },
+  "final_historical": {
+    "completed_session_count": 1,
+    "serviced_station_count": 1,
+    "total_energy_kwh": 22.6,
+    "total_revenue_aud": 16.72,
+    "average_charge_minutes": 32,
+    "maximum_peak_kw": 49.8
+  },
+  "final_replay": {
+    "running": false,
+    "finished": true,
+    "published_messages": 36,
+    "selected_events": 36,
+    "error": null,
+    "status": "published",
+    "delay_seconds": 1,
+    "elapsed_seconds": 35.047,
+    "minimum_send_gap_seconds": 1
+  },
+  "final_curve_points": 32,
+  "reset_current": {
+    "active_session_count": 0,
+    "active_station_count": 0,
+    "current_power_kw": 0
+  },
+  "reset_historical": {
+    "completed_session_count": 0,
+    "serviced_station_count": 0,
+    "total_energy_kwh": 0,
+    "total_revenue_aud": 0,
+    "average_charge_minutes": 0,
+    "maximum_peak_kw": 0
+  },
+  "formal_current": {
+    "active_session_count": 0,
+    "active_station_count": 0,
+    "current_power_kw": 0
+  },
+  "formal_historical": {
+    "completed_session_count": 5084,
+    "serviced_station_count": 414,
+    "total_energy_kwh": 129422.19999999987,
+    "total_revenue_aud": 88908.68999999978,
+    "average_charge_minutes": 30.605232100708104,
+    "maximum_peak_kw": 183.4
+  },
+  "page_errors": [],
+  "scope": "36-event real MQTT/UI replay plus full-database read-only view; not full-stream paced MQTT replay"
+}

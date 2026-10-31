@@ -1,0 +1,122 @@
+{
+  "passed": true,
+  "source": "Unmodified Member A generated event_stream.jsonl",
+  "sample_events": 36,
+  "real_mqtt": true,
+  "during_current": {
+    "active_session_count": 1,
+    "active_station_count": 1,
+    "current_power_kw": 49.62
+  },
+  "during_historical": {
+    "completed_session_count": 0,
+    "serviced_station_count": 0,
+    "total_energy_kwh": 0,
+    "total_revenue_aud": 0,
+    "average_charge_minutes": 0,
+    "maximum_peak_kw": 0
+  },
+  "during_curve_points": 9,
+  "final_current": {
+    "active_session_count": 0,
+    "active_station_count": 0,
+    "current_power_kw": 0
+  },
+  "final_historical": {
+    "completed_session_count": 1,
+    "serviced_station_count": 1,
+    "total_energy_kwh": 22.6,
+    "total_revenue_aud": 16.72,
+    "average_charge_minutes": 32,
+    "maximum_peak_kw": 49.8
+  },
+  "final_replay": {
+    "running": false,
+    "finished": true,
+    "published_messages": 36,
+    "selected_events": 36,
+    "error": null,
+    "status": "published",
+    "delay_seconds": 1,
+    "elapsed_seconds": 35.047,
+    "minimum_send_gap_seconds": 1
+  },
+  "final_curve_points": 32,
+  "reset_current": {
+    "active_session_count": 0,
+    "active_station_count": 0,
+    "current_power_kw": 0
+  },
+  "reset_historical": {
+    "completed_session_count": 0,
+    "serviced_station_count": 0,
+    "total_energy_kwh": 0,
+    "total_revenue_aud": 0,
+    "average_charge_minutes": 0,
+    "maximum_peak_kw": 0
+  },
+  "formal_current": {
+    "active_session_count": 0,
+    "active_station_count": 0,
+    "current_power_kw": 0
+  },
+  "formal_historical": {
+    "completed_session_count": 5084,
+    "serviced_station_count": 414,
+    "total_energy_kwh": 129422.19999999987,
+    "total_revenue_aud": 88908.68999999978,
+    "average_charge_minutes": 30.605232100708104,
+    "maximum_peak_kw": 183.4
+  },
+  "page_errors": [],
+  "scope": "36-event real MQTT/UI replay plus full-database read-only view; not full-stream paced MQTT replay",
+  "protected_database_hashes_before": {
+    "A1\\data\\final\\ev_chargers.duckdb": "ea62a5c34e700b5e619e95240da9137ad7f48a30c139d45a1a8c9538c1b1b203",
+    "A2\\data\\final\\ev_chargers_a2.duckdb": "f49cf15178cdcbcbdad5f94a674c6f06ef33d3eef058e94be2fd43ff50e82838",
+    "A2\\data\\demo\\a_generated_empty.duckdb": "ccbb190c6863767a94d421f022d09625ffcabbacadf884d666f78685a6db1ef2"
+  },
+  "protected_database_hashes_after": {
+    "A1\\data\\final\\ev_chargers.duckdb": "ea62a5c34e700b5e619e95240da9137ad7f48a30c139d45a1a8c9538c1b1b203",
+    "A2\\data\\final\\ev_chargers_a2.duckdb": "f49cf15178cdcbcbdad5f94a674c6f06ef33d3eef058e94be2fd43ff50e82838",
+    "A2\\data\\demo\\a_generated_empty.duckdb": "ccbb190c6863767a94d421f022d09625ffcabbacadf884d666f78685a6db1ef2"
+  },
+  "provenance": {
+    "source_commit": "5a102808d982e7c8d66231c1719adee4e74c4f15",
+    "sample_events": 36,
+    "sample_matches_full_stream": true,
+    "station": {
+      "station_id": "ST4D056616A3",
+      "representative_charger_id": "EV4D056616A3",
+      "station_name": null,
+      "address": "73 Belmore Road, Randwick NSW 2031",
+      "latitude": -33.915171,
+      "longitude": 151.241129,
+      "postcode": "2031",
+      "sa4_name": "Sydney - Eastern Suburbs",
+      "operator_names": "Evie",
+      "plug_types": null,
+      "connector_count": 4,
+      "charger_count": 1,
+      "max_rating_kw": 50.0
+    },
+    "session_id": "ST4D056616A3-4-202610010201",
+    "formal_current": {
+      "active_session_count": 0,
+      "active_station_count": 0,
+      "current_power_kw": 0.0
+    },
+    "formal_history": {
+      "completed_session_count": 5084,
+      "serviced_station_count": 414,
+      "total_energy_kwh": 129422.19999999998,
+      "total_revenue_aud": 88908.68999999989,
+      "average_charge_minutes": 30.605232100708104,
+      "maximum_peak_kw": 183.4
+    },
+    "formal_database_sha256": "f49cf15178cdcbcbdad5f94a674c6f06ef33d3eef058e94be2fd43ff50e82838",
+    "a1_database_sha256": "ea62a5c34e700b5e619e95240da9137ad7f48a30c139d45a1a8c9538c1b1b203",
+    "empty_seed_sha256": "ccbb190c6863767a94d421f022d09625ffcabbacadf884d666f78685a6db1ef2",
+    "sample_sha256": "89f4937b29da4a6a2284edde5cfb1420ac0cba5e083adf96995edc715bc911a7",
+    "full_stream_sha256": "d41f88d513da50293de646533105a10557273b175df3cd67c42b4cda751d67c8"
+  }
+}
