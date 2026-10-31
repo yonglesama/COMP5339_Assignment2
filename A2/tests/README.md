@@ -9,7 +9,10 @@ python A2/tests/mqtt_smoke.py
 python A2/tests/mqtt_smoke.py --stream A2/data/demo/event_stream.jsonl --report-prefix mqtt_demo
 ```
 
-The unit tests cover event preparation, validation and publisher timing. The full-file validator checks A1 references, event order and session histories. MQTT tests require `A2/requirements-dev.txt`; they start a temporary broker and compare received messages with the source stream. Results are written to `A2/data/quality/`.
+The unit tests cover event preparation, validation and publisher timing. The full-file
+validator checks A1 references, event order and session histories. Install the root
+`requirements.txt` before running MQTT tests; they start a temporary broker and compare
+received messages with the source stream. Results are written to `A2/data/quality/`.
 
 B/C tests and D's dashboard tests are included. Run all 57 tests with:
 

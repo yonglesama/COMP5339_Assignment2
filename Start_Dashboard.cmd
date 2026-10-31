@@ -5,9 +5,9 @@ if not exist ".venv\Scripts\python.exe" (
   python -m venv .venv
   if errorlevel 1 goto failed
 )
-.venv\Scripts\python.exe -c "import flask,amqtt,duckdb,paho.mqtt.client" >nul 2>&1
+.venv\Scripts\python.exe -c "import flask,amqtt,duckdb,paho.mqtt.client,pandas,numpy,pyarrow,geopandas" >nul 2>&1
 if errorlevel 1 (
-  .venv\Scripts\python.exe -m pip install -r A2\requirements-dev.txt
+  .venv\Scripts\python.exe -m pip install -r requirements.txt
   if errorlevel 1 goto failed
 )
 echo Starting C history and A MQTT replay in one dashboard.

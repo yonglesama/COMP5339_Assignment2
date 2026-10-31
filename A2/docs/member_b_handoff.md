@@ -7,7 +7,9 @@ assessment database.
 
 ## Setup and standalone run
 
-From the repository root, use Python 3.11+ and install `A2/requirements.txt`. The optional local broker and transport test also require `A2/requirements-dev.txt`.
+From the repository root, use Python 3.11, 3.12 or 3.13 and install the complete
+environment with `python -m pip install -r requirements.txt`. This includes the local
+broker and real transport-test dependencies.
 
 1. Ensure C's initialised database exists at `A2/data/final/ev_chargers_a2.duckdb`. If it does not, use `python A2/run_pipeline.py --stage database`. **That command rebuilds the database and removes existing event history; do not use it to resume.**
 2. Terminal 1: `python A2/src/publishing/local_broker.py`
