@@ -324,7 +324,7 @@ python A2/src/dashboard/run.py --project-root . --mode demo --initial-station ST
 ```
 
 For an external MQTT broker, explicitly select `--mode mqtt --database PATH`. See
-`docs/member_d_handoff.md` and the root `D_QUICKSTART_中文.md` for the full operating and
+`docs/member_d_handoff.md` and the root `D_QUICKSTART.md` for the full operating and
 data-protection contract.
 
 ## Shared fixture
