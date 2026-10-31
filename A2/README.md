@@ -178,8 +178,9 @@ python -m pip install -r A2/requirements-dev.txt
 Python 3.14 cannot currently install the pinned `amqtt`/`PyYAML` development combination
 from a pre-built Windows wheel; use Python 3.11 to 3.13 for the broker test environment.
 
-The populated A2 DuckDB is tracked with Git LFS. Install Git LFS before cloning or run
-the following after installation to replace the pointer with the actual database file:
+The populated A2 DuckDB, empty replay seed and complete one-day event stream are tracked
+with Git LFS. Install Git LFS before cloning or run the following after installation to
+replace the pointers with the actual runtime data files:
 
 ```powershell
 git lfs install
@@ -299,10 +300,9 @@ private working copy, holds out three completed sessions, and restores their 87 
 A events through A's publisher, B's subscriber and C's repository. The baseline moves
 from 5,081 to the original 5,084 completed sessions without modifying the source database.
 
-The unified replay requires the complete local
-`A2/data/events/event_stream.jsonl`. It is included in the final submission package but
-ignored by Git; after a Git-only clone, regenerate it with `python A2/run_member_a.py`
-before starting the unified dashboard.
+The unified replay requires `A2/data/events/event_stream.jsonl`. The complete stream is
+tracked with Git LFS together with the formal databases. After a clone, run `git lfs pull`
+once; the unified dashboard can then start without regenerating the assessment dataset.
 
 ```powershell
 python -m pip install -r A2/requirements-dev.txt
@@ -348,18 +348,18 @@ The one-day assessment scope was selected by the group because the assignment do
 mandate the generator's 14-day example. It retains the full eligible A1 station/connector
 scope while keeping the complete database and submission package practical.
 
-## Large generated files intentionally not tracked
+## Generated files and Git LFS delivery
 
-The repository does not track the full generated assessment dataset. These files are
-derived outputs and are reproducible from the committed code and inputs. In the current
-one-day assessment run, the ordered JSONL stream is approximately 67.6 MiB and
-`session_metering.csv` is approximately 14.7 MiB before compression.
+The repository does not track the generated assessment CSV files. They are derived outputs
+and are reproducible from the committed code and inputs. In the current one-day assessment
+run, `session_metering.csv` is approximately 14.7 MiB before compression. The ordered
+67.6 MiB JSONL stream is a direct dashboard input, so it is delivered through Git LFS.
 
 The following generated output paths are therefore excluded by `.gitignore`:
 
 ```text
 A2/data/generated/*
-A2/data/events/
+A2/data/events/* except event_stream.jsonl
 A2/data/dev/
 ```
 
@@ -370,12 +370,13 @@ price input and can reproduce the same assessment CSV and JSONL outputs without 
 download. The generator automatically reuses this file when it is present.
 
 Small integration fixtures, connector mappings and quality summaries remain in ordinary
-Git; the 140.3 MiB populated A2 DuckDB is tracked with Git LFS. The generated CSV and
-complete event stream must be included in the final course submission package even though
-they remain outside Git history. Their reproducibility hashes are recorded in the tracked
-`A2/data/quality/generation_checksums.csv`; the ignored
-`A2/data/generated/generation_manifest.json` contains the same output hashes together with
-the complete effective generator configuration.
+Git. The 140.3 MiB populated A2 DuckDB, empty replay seed and complete event stream are
+tracked with Git LFS. The generated CSV files must still be included in the final course
+submission package. Their reproducibility hashes are recorded in
+`A2/data/quality/generation_checksums.csv`; the event-stream hash is recorded in
+`A2/data/quality/event_preparation_summary.csv`. The ignored
+`A2/data/generated/generation_manifest.json` contains the effective generator configuration
+and the generated-output hashes.
 
 ### Regenerating the assessment JSONL stream
 
