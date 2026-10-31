@@ -6,14 +6,10 @@ Use Python 3.11 and run the following command from the project root containing
 `A1/` and `A2/`:
 
 ```powershell
-python -m pip install -r A2/requirements.txt
+python -m pip install -r requirements.txt
 ```
 
-The local broker and MQTT tests require the development dependencies:
-
-```powershell
-python -m pip install -r A2/requirements-dev.txt
-```
+The unified root file includes the local broker and MQTT test dependencies.
 
 ## Local replay
 

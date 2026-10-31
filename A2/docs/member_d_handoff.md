@@ -45,7 +45,7 @@ Use Python 3.11 to 3.13. Double-click `Start_Dashboard.cmd` on Windows, or:
 
 ```powershell
 python -m venv .venv
-.venv\Scripts\python.exe -m pip install -r A2/requirements-dev.txt
+.venv\Scripts\python.exe -m pip install -r requirements.txt
 .venv\Scripts\python.exe A2/src/dashboard/run.py --project-root . --mode unified --replay-delay 0.5 --open-browser
 ```
 
@@ -74,7 +74,7 @@ Reset restores empty event history and cannot clear C's formal database.
 Do not run a separate B subscriber against D's writable runtime copy.
 
 ```powershell
-python -m pip install -r A2/requirements-dev.txt
+python -m pip install -r requirements.txt
 python A2/src/dashboard/run.py --project-root . --mode demo --initial-station ST4D056616A3 --port 8051 --open-browser
 ```
 

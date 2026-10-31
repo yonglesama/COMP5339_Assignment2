@@ -106,7 +106,7 @@ class DashboardRuntime:
         deadline = time.monotonic() + 15
         while time.monotonic() < deadline:
             if self._broker.poll() is not None:
-                raise RuntimeError("Local broker failed; install A2/requirements-dev.txt and inspect the runtime broker.log")
+                raise RuntimeError("Local broker failed; install the root requirements.txt and inspect the runtime broker.log")
             try:
                 with socket.create_connection(("127.0.0.1", port), timeout=.2):
                     return

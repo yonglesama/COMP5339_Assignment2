@@ -164,16 +164,11 @@ From the repository root with Python 3.11 to 3.13 recommended:
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
-python -m pip install -r A1/requirements.txt
-python -m pip install -r A2/requirements.txt
+python -m pip install -r requirements.txt
 ```
 
-For the optional local MQTT broker and real transport tests, install the development
-requirements instead (these include the shared A2 requirements):
-
-```powershell
-python -m pip install -r A2/requirements-dev.txt
-```
+The root requirements file contains the complete A1/A2 environment, including the local
+MQTT broker used by the unified dashboard and real transport tests.
 
 Python 3.14 cannot currently install the pinned `amqtt`/`PyYAML` development combination
 from a pre-built Windows wheel; use Python 3.11 to 3.13 for the broker test environment.
@@ -187,8 +182,8 @@ git lfs install
 git lfs pull
 ```
 
-Each member must add any dependency introduced by their implementation. Member A owns
-the final merged `requirements.txt` check.
+Each member must add any dependency introduced by their implementation to the root
+`requirements.txt`. Member A owns the final merged dependency check.
 
 ## Inspect the pipeline
 
@@ -305,7 +300,7 @@ tracked with Git LFS together with the formal databases. After a clone, run `git
 once; the unified dashboard can then start without regenerating the assessment dataset.
 
 ```powershell
-python -m pip install -r A2/requirements-dev.txt
+python -m pip install -r requirements.txt
 python A2/src/dashboard/run.py --project-root . --mode unified --replay-delay 0.5 --open-browser
 ```
 

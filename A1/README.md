@@ -69,27 +69,28 @@ docs/data_augmentation_methodology.md  Report-ready Member C method and limitati
 tests/                            Acquisition, cleaning and augmentation tests
 run_pipeline.py                   Shared command-line entry point
 validate_pipeline.py              Independent final cross-stage validation
-requirements.txt                  Project dependencies
+../requirements.txt               Unified A1/A2 project dependencies
 README.md                         Setup and usage instructions
 ```
 
 ## 2. Setup instructions
 
-Use Python 3.10 or later. From the project directory, install the dependencies:
+Use Python 3.11, 3.12 or 3.13. From the `A1` directory, create the shared
+environment at the repository root and install the unified dependencies:
 
 Create and activate a clean virtual environment first (Windows PowerShell):
 
 ```powershell
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
+python -m venv ..\.venv
+..\.venv\Scripts\Activate.ps1
 ```
 
-If activation is unavailable, use `.\.venv\Scripts\python.exe` in place of
+If activation is unavailable, use `..\.venv\Scripts\python.exe` in place of
 `python`. Member A's code uses the standard library. The requirements file also
-contains Member B's dataframe and Parquet dependencies.
+contains the A1 dataframe/geospatial stack and all A2 runtime dependencies.
 
 ```shell
-python -m pip install -r requirements.txt
+python -m pip install -r ..\requirements.txt
 ```
 
 ## 3. Execution instructions
