@@ -2,6 +2,9 @@
 
 ## Recommended: history metrics and live curves on one page
 
+After a Git clone, run `git lfs install` and `git lfs pull` once to retrieve the
+databases and complete event stream. This is not required again for later runs.
+
 Double-click `Start_Dashboard.cmd` in the project root. The dashboard opens at
 http://127.0.0.1:8050.
 
